@@ -1,0 +1,3107 @@
+Connecting to database specified by database.yml
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-08-01 18:10:21 +0300
+Served asset /rails.png - 200 OK (109ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-08-01 18:12:04 +0300
+Served asset /rails.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-08-01 18:12:49 +0300
+Served asset /rails.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-08-01 18:14:08 +0300
+Served asset /rails.png - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2013-08-01 18:18:11 +0300
+Served asset /rails.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-01 18:18:24 +0300
+
+ActionController::RoutingError (No route matches [GET] "/"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (46.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-01 18:25:48 +0300
+
+AbstractController::ActionNotFound (The action 'invoice' could not be found for FormsController):
+  actionpack (3.2.13) lib/abstract_controller/base.rb:116:in `process'
+  actionpack (3.2.13) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.13) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.13) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.13) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:612:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.13) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.13) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `_run__492832240__call__923756793__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-01 18:26:09 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 47ms
+
+ActionView::MissingTemplate (Missing template forms/invoice, application/invoice with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :coffee]}. Searched in:
+  * "D:/projects/pdf_forms/app/views"
+):
+  actionpack (3.2.13) lib/action_view/path_set.rb:58:in `find'
+  actionpack (3.2.13) lib/action_view/lookup_context.rb:109:in `find'
+  C:in `find_template'
+  actionpack (3.2.13) lib/action_view/renderer/template_renderer.rb:34:in `determine_template'
+  actionpack (3.2.13) lib/action_view/renderer/template_renderer.rb:10:in `render'
+  actionpack (3.2.13) lib/action_view/renderer/renderer.rb:36:in `render_template'
+  actionpack (3.2.13) lib/action_view/renderer/renderer.rb:17:in `render'
+  actionpack (3.2.13) lib/abstract_controller/rendering.rb:110:in `_render_template'
+  actionpack (3.2.13) lib/action_controller/metal/streaming.rb:225:in `_render_template'
+  actionpack (3.2.13) lib/abstract_controller/rendering.rb:103:in `render_to_body'
+  actionpack (3.2.13) lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+  actionpack (3.2.13) lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+  actionpack (3.2.13) lib/abstract_controller/rendering.rb:88:in `render'
+  actionpack (3.2.13) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+  activesupport (3.2.13) lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+  activesupport (3.2.13) lib/active_support/core_ext/benchmark.rb:5:in `ms'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+  activerecord (3.2.13) lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:39:in `render'
+  actionpack (3.2.13) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (3.2.13) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (3.2.13) lib/abstract_controller/base.rb:167:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (3.2.13) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:414:in `_run__610113729__process_action__266013329__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.13) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.13) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.13) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.13) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.13) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.13) lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+  activerecord (3.2.13) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.13) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.13) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.13) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.13) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.13) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:612:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.13) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.13) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `_run__492832240__call__923756793__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-01 18:36:40 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 0ms
+
+NameError (uninitialized constant Prawn):
+  app/models/invoice_form.rb:1:in `<top (required)>'
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (46.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-01 18:43:38 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 0ms
+
+NameError (uninitialized constant Prawn):
+  app/models/invoice_form.rb:1:in `<top (required)>'
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (62.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-01 18:43:41 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 16ms
+
+NameError (uninitialized constant Prawn):
+  app/models/invoice_form.rb:1:in `<top (required)>'
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-01 18:44:50 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (31.2ms)
+Completed 200 OK in 47ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-01 18:45:17 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 0ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-01 18:46:58 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 78ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-01 18:53:20 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 16ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-01 18:53:21 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 16ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-01 18:53:21 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 16ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-01 18:53:50 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 16ms
+
+Errno::ENOENT (No such file or directory - D:/projects/pdf_forms/app/assets/fonts/DejaVuSans.ttf):
+  app/models/invoice_form.rb:15:in `to_pdf'
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (46.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-01 18:54:51 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 141ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-01 18:57:19 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 125ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-01 18:58:02 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 94ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-01 18:59:38 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 94ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-01 18:59:58 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (15.6ms)
+Completed 200 OK in 141ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-01 19:00:16 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 94ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-01 19:00:20 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 125ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-01 19:00:22 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 125ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-01 19:00:53 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 141ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-01 19:01:19 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 156ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-01 19:01:58 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 109ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-01 19:03:27 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 62ms
+
+TypeError (can't convert Symbol into Integer):
+  app/models/invoice_form.rb:22:in `to_pdf'
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-01 19:03:38 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 109ms
+
+ArgumentError (:at is no longer a valid option with text.use draw_text or text_box instead):
+  app/models/invoice_form.rb:22:in `to_pdf'
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-01 19:03:48 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 156ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-01 19:04:02 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 109ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-01 19:04:11 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 109ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-01 19:04:17 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 109ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-01 19:04:21 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 109ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-01 19:05:03 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 156ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-01 19:06:26 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 156ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-01 19:06:34 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 156ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-01 19:06:50 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 156ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-01 19:06:55 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (15.6ms)
+Completed 200 OK in 109ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-01 19:07:01 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 109ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-01 19:07:06 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 109ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-01 19:07:21 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 109ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-01 19:07:27 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 94ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-01 19:07:38 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 234ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-01 19:07:56 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 281ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-01 19:11:01 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 297ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-01 19:11:28 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 297ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-01 19:12:27 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 266ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-01 19:13:09 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 406ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-01 19:13:32 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 250ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 11:04:07 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (125.0ms)
+Completed 200 OK in 562ms (Views: 125.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 11:14:11 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 297ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 11:14:24 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 328ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 11:14:51 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 312ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 11:16:12 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 266ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 11:16:56 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 281ms
+
+NameError (undefined local variable or method `t' for #<InvoiceForm:0x23227e0>):
+  app/models/invoice_form.rb:34:in `to_pdf'
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (62.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 11:18:04 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 297ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 11:18:24 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 359ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 11:21:16 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 312ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 11:21:45 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (46.9ms)
+Completed 200 OK in 359ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 11:23:22 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 266ms
+
+ArgumentError (wrong number of arguments (0 for 2)):
+  app/models/invoice_form.rb:30:in `new'
+  app/models/invoice_form.rb:30:in `to_pdf'
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (78.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 11:28:06 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 250ms
+
+ArgumentError (wrong number of arguments (0 for 2)):
+  app/models/invoice_form.rb:30:in `new'
+  app/models/invoice_form.rb:30:in `to_pdf'
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (62.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 11:32:19 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 266ms
+
+ArgumentError (wrong number of arguments (0 for 2)):
+  app/models/invoice_form.rb:30:in `new'
+  app/models/invoice_form.rb:30:in `to_pdf'
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 11:32:24 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 281ms
+
+ArgumentError (wrong number of arguments (0 for 2)):
+  app/models/invoice_form.rb:30:in `new'
+  app/models/invoice_form.rb:30:in `to_pdf'
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 11:32:55 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 297ms
+
+ArgumentError (wrong number of arguments (0 for 2)):
+  app/models/invoice_form.rb:30:in `new'
+  app/models/invoice_form.rb:30:in `to_pdf'
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 11:35:45 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 281ms
+
+ArgumentError (wrong number of arguments (0 for 2)):
+  app/models/invoice_form.rb:30:in `new'
+  app/models/invoice_form.rb:30:in `to_pdf'
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 11:35:59 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 297ms
+
+ArgumentError (wrong number of arguments (0 for 2)):
+  app/models/invoice_form.rb:30:in `new'
+  app/models/invoice_form.rb:30:in `to_pdf'
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 11:38:05 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 297ms
+
+ArgumentError (wrong number of arguments (0 for 2)):
+  app/models/invoice_form.rb:30:in `new'
+  app/models/invoice_form.rb:30:in `to_pdf'
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 11:45:46 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (15.6ms)
+Completed 200 OK in 250ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 11:46:17 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 0ms
+
+NameError (undefined local variable or method `render' for InvoiceForm:Class):
+  app/models/invoice_form.rb:31:in `<class:InvoiceForm>'
+  app/models/invoice_form.rb:3:in `<top (required)>'
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (31.2ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (62.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 11:46:41 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 312ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 11:49:35 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 297ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 11:49:48 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 250ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 11:51:13 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (15.6ms)
+Completed 200 OK in 297ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 11:54:09 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 234ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 11:54:21 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 250ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 11:54:32 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 344ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 11:54:49 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 297ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 11:55:00 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 297ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 11:55:12 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 297ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 11:55:22 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 266ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 11:56:35 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 281ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 11:59:34 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 344ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 12:01:13 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 250ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 12:02:04 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 250ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 12:04:16 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 266ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 12:04:40 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 297ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 12:04:59 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 297ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 12:05:37 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 297ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 12:05:57 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 297ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 12:06:22 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 312ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 12:06:44 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 312ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 12:08:14 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 297ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 12:08:32 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 297ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 12:09:11 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 297ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 12:12:04 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 94ms
+
+NoMethodError (undefined method `draw_table' for #<InvoiceForm:0x22810f8>):
+  app/models/invoice_form.rb:36:in `to_pdf'
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 12:13:53 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 344ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 12:20:14 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 16ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/invoice_form.rb:31: syntax error, unexpected tLABEL
+                     ["this is the second row"] ]), at: [0, 635]
+                                                       ^):
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 12:21:09 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 0ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/invoice_form.rb:32: syntax error, unexpected tLABEL, expecting '='
+    t.draw, at: [0, 635]
+               ^):
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 12:22:27 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 16ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/invoice_form.rb:30: syntax error, unexpected tLABEL
+    t = make_table, at: [0, 635], ([ ["this is the first row"],
+                       ^
+D:/projects/pdf_forms/app/models/invoice_form.rb:30: syntax error, unexpected ',', expecting keyword_end
+    t = make_table, at: [0, 635], ([ ["this is the first row"],
+                                 ^):
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 12:23:50 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 297ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 12:27:52 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 281ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 12:30:02 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (46.9ms)
+Completed 200 OK in 359ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 12:31:11 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 312ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 12:31:25 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (15.6ms)
+Completed 200 OK in 312ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 12:34:59 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (15.6ms)
+Completed 200 OK in 328ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 12:35:33 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 312ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 12:36:06 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 297ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 12:45:41 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 94ms
+
+NameError (undefined local variable or method `data' for #<InvoiceForm:0x2321bf8>):
+  app/models/invoice_form.rb:31:in `to_pdf'
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 12:46:07 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 125ms
+
+Prawn::Errors::UnrecognizedTableContent (Prawn::Errors::UnrecognizedTableContent):
+  app/models/invoice_form.rb:31:in `to_pdf'
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (46.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 12:46:32 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 0ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/invoice_form.rb:31: syntax error, unexpected '\n', expecting tASSOC):
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 12:47:00 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 16ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/invoice_form.rb:31: syntax error, unexpected tLABEL
+    t = make_table:column_widths => [100, 200, 2...
+                   ^
+D:/projects/pdf_forms/app/models/invoice_form.rb:31: syntax error, unexpected ',', expecting keyword_end
+...lumn_widths => [100, 200, 240], ([ ["№", "Товар", "К...
+...                               ^):
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 12:47:20 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 0ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/invoice_form.rb:31: syntax error, unexpected tLABEL
+    t = make_table: :column_widths => [100, 200,...
+                   ^
+D:/projects/pdf_forms/app/models/invoice_form.rb:31: syntax error, unexpected ',', expecting keyword_end
+...lumn_widths => [100, 200, 240], ([ ["№", "Товар", "К...
+...                               ^):
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 12:48:19 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 0ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/invoice_form.rb:31: syntax error, unexpected tLABEL
+    t = make_table: :column_widths => [100, 200, 240]
+                   ^):
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 12:48:44 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 125ms
+
+Prawn::Errors::UnrecognizedTableContent (Prawn::Errors::UnrecognizedTableContent):
+  app/models/invoice_form.rb:31:in `to_pdf'
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 12:48:59 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 16ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/invoice_form.rb:31: syntax error, unexpected tASSOC, expecting ')'
+    t = make_table (:column_widths => [100, 200, 240])
+                                     ^):
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 12:49:30 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 78ms
+
+Prawn::Errors::UnrecognizedTableContent (Prawn::Errors::UnrecognizedTableContent):
+  app/models/invoice_form.rb:31:in `to_pdf'
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 12:51:41 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 141ms
+
+Prawn::Errors::UnrecognizedTableContent (Prawn::Errors::UnrecognizedTableContent):
+  app/models/invoice_form.rb:31:in `to_pdf'
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 12:52:54 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 0ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/invoice_form.rb:31: syntax error, unexpected ','
+...n_widths => [100, 200, 240]), , ([ ["№", "Товар", "К...
+...                               ^):
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 12:53:09 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 78ms
+
+Prawn::Errors::UnrecognizedTableContent (Prawn::Errors::UnrecognizedTableContent):
+  app/models/invoice_form.rb:31:in `to_pdf'
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 12:53:47 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 78ms
+
+Prawn::Errors::InvalidTableData (data must be a two dimensional array of cellable objects):
+  app/models/invoice_form.rb:31:in `to_pdf'
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 12:54:08 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 125ms
+
+Prawn::Errors::InvalidTableData (data must be a two dimensional array of cellable objects):
+  app/models/invoice_form.rb:31:in `to_pdf'
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 12:54:23 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 94ms
+
+Prawn::Errors::InvalidTableData (data must be a two dimensional array of cellable objects):
+  app/models/invoice_form.rb:31:in `to_pdf'
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 13:04:33 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 312ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 13:06:15 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 94ms
+
+Prawn::Errors::CannotFit (Prawn::Errors::CannotFit):
+  app/models/invoice_form.rb:32:in `to_pdf'
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (78.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 13:06:59 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 156ms
+
+Prawn::Errors::CannotFit (Prawn::Errors::CannotFit):
+  app/models/invoice_form.rb:32:in `to_pdf'
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 13:07:50 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 0ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/invoice_form.rb:32: syntax error, unexpected ',', expecting ')'
+    table (data, :column_widths => [10, 200, 40, 20, 30, 50])
+                ^
+D:/projects/pdf_forms/app/models/invoice_form.rb:32: syntax error, unexpected ')', expecting keyword_end
+    table (data, :column_widths => [10, 200, 40, 20, 30, 50])
+                                                             ^):
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 13:08:21 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 0ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/invoice_form.rb:31: syntax error, unexpected ',', expecting ')'
+    table (data, :column_widths => [10, 200, 40, 20, 30, 50])
+                ^
+D:/projects/pdf_forms/app/models/invoice_form.rb:31: syntax error, unexpected ')', expecting keyword_end
+    table (data, :column_widths => [10, 200, 40, 20, 30, 50])
+                                                             ^):
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 13:09:02 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 0ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/invoice_form.rb:31: syntax error, unexpected ',', expecting ')'
+    make_table (data, :column_widths => [10, 200, 40, 20, 30, 50])
+                     ^
+D:/projects/pdf_forms/app/models/invoice_form.rb:31: syntax error, unexpected ')', expecting keyword_end
+    make_table (data, :column_widths => [10, 200, 40, 20, 30, 50])
+                                                                  ^):
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 13:09:59 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 0ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/invoice_form.rb:31: syntax error, unexpected ',', expecting ')'
+    make_table (data, :column_widths => [10, 200, 40, 20, 30, 50])
+                     ^
+D:/projects/pdf_forms/app/models/invoice_form.rb:31: syntax error, unexpected ')', expecting keyword_end
+    make_table (data, :column_widths => [10, 200, 40, 20, 30, 50])
+                                                                  ^):
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 13:12:41 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 0ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/invoice_form.rb:31: syntax error, unexpected ',', expecting ')'
+    table (data, :column_widths => [10, 200, 40, 20, 30, 50])
+                ^
+D:/projects/pdf_forms/app/models/invoice_form.rb:31: syntax error, unexpected ')', expecting keyword_end
+    table (data, :column_widths => [10, 200, 40, 20, 30, 50])
+                                                             ^):
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 13:14:12 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 0ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/invoice_form.rb:30: syntax error, unexpected ',', expecting ')'
+    table (data, :column_widths => [10, 200, 40, 20, 30, 50])
+                ^
+D:/projects/pdf_forms/app/models/invoice_form.rb:30: syntax error, unexpected ')', expecting keyword_end
+    table (data, :column_widths => [10, 200, 40, 20, 30, 50])
+                                                             ^):
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 13:14:35 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 0ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/invoice_form.rb:31: syntax error, unexpected ',', expecting ')'
+    table (data, :column_widths => [10, 200, 40, 20, 30, 50])
+                ^
+D:/projects/pdf_forms/app/models/invoice_form.rb:31: syntax error, unexpected ')', expecting keyword_end
+    table (data, :column_widths => [10, 200, 40, 20, 30, 50])
+                                                             ^):
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 13:15:18 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 0ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/invoice_form.rb:33: syntax error, unexpected ',', expecting ')'
+    table (data, :column_widths => [10, 200, 40, 20, 30, 50])
+                ^
+D:/projects/pdf_forms/app/models/invoice_form.rb:33: syntax error, unexpected ')', expecting keyword_end
+    table (data, :column_widths => [10, 200, 40, 20, 30, 50])
+                                                             ^):
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 13:17:22 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 0ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/invoice_form.rb:32: syntax error, unexpected ',', expecting ')'
+    table (data, :column_widths => [10, 200, 40, 20, 30, 50])
+                ^
+D:/projects/pdf_forms/app/models/invoice_form.rb:32: syntax error, unexpected ')', expecting keyword_end
+    table (data, :column_widths => [10, 200, 40, 20, 30, 50])
+                                                             ^):
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 13:18:54 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 297ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 13:19:42 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 0ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/invoice_form.rb:32: syntax error, unexpected ',', expecting ')'
+    table (data, :column_widths => [10, 20, 40, 20, 30, 50])
+                ^
+D:/projects/pdf_forms/app/models/invoice_form.rb:32: syntax error, unexpected ')', expecting keyword_end
+    table (data, :column_widths => [10, 20, 40, 20, 30, 50])
+                                                            ^):
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 13:23:55 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 0ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/invoice_form.rb:32: syntax error, unexpected ')', expecting keyword_end
+    table (data), :column_widths => [10, 20, 40, 20, 30, 50])
+                                                             ^):
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 13:24:16 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 0ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/invoice_form.rb:32: syntax error, unexpected ':', expecting keyword_end
+    table (data) :column_widths => [10, 20, 40, 20, 30, 50])
+                  ^
+D:/projects/pdf_forms/app/models/invoice_form.rb:32: syntax error, unexpected ')', expecting keyword_end
+    table (data) :column_widths => [10, 20, 40, 20, 30, 50])
+                                                            ^):
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 13:24:41 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 0ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/invoice_form.rb:32: syntax error, unexpected ')', expecting keyword_end
+    table (data), :column_widths => [10, 20, 40, 20, 30, 50])
+                                                             ^):
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 13:25:01 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 78ms
+
+Prawn::Errors::CannotFit (Prawn::Errors::CannotFit):
+  app/models/invoice_form.rb:32:in `to_pdf'
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 13:25:33 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 0ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/invoice_form.rb:32: syntax error, unexpected ',', expecting ')'
+    table (data, :column_widths => [10, 20, 40, 20, 30, 50])
+                ^
+D:/projects/pdf_forms/app/models/invoice_form.rb:32: syntax error, unexpected ')', expecting keyword_end
+    table (data, :column_widths => [10, 20, 40, 20, 30, 50])
+                                                            ^):
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (46.9ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (62.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 13:25:57 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 0ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/invoice_form.rb:32: syntax error, unexpected ':', expecting keyword_end
+    table (data) :column_widths => [10, 20, 40, 20, 30, 50])
+                  ^
+D:/projects/pdf_forms/app/models/invoice_form.rb:32: syntax error, unexpected ')', expecting keyword_end
+    table (data) :column_widths => [10, 20, 40, 20, 30, 50])
+                                                            ^):
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 13:26:11 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 0ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/invoice_form.rb:32: syntax error, unexpected ')', expecting keyword_end
+    table (data), :column_widths => [10, 20, 40, 20, 30, 50])
+                                                             ^):
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 13:26:47 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 0ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/invoice_form.rb:32: syntax error, unexpected ',', expecting ')'
+    table ( (data), :column_widths => [10, 20, 40, 20, 30, 50]) )
+                   ^
+D:/projects/pdf_forms/app/models/invoice_form.rb:32: syntax error, unexpected ')', expecting keyword_end
+    table ( (data), :column_widths => [10, 20, 40, 20, 30, 50]) )
+                                                               ^):
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 13:27:14 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 16ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/invoice_form.rb:32: syntax error, unexpected ':', expecting ')'
+    table ( (data) :column_widths => [10, 20, 40, 20, 30, 50]) )
+                    ^
+D:/projects/pdf_forms/app/models/invoice_form.rb:32: syntax error, unexpected ')', expecting keyword_end
+    table ( (data) :column_widths => [10, 20, 40, 20, 30, 50]) )
+                                                              ^):
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 13:27:30 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 16ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/invoice_form.rb:32: syntax error, unexpected tASSOC, expecting ')'
+    table ( (data).column_widths => [10, 20, 40, 20, 30, 50]) )
+                                   ^):
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 13:27:46 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 16ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/invoice_form.rb:32: syntax error, unexpected ':', expecting ')'
+    table ( (data) :column_widths => [10, 20, 40, 20, 30, 50]) )
+                    ^
+D:/projects/pdf_forms/app/models/invoice_form.rb:32: syntax error, unexpected ')', expecting keyword_end
+    table ( (data) :column_widths => [10, 20, 40, 20, 30, 50]) )
+                                                              ^):
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 13:29:50 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 0ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/invoice_form.rb:32: syntax error, unexpected ':', expecting keyword_end
+    table (data) :column_widths => [10, 20, 40, 20, 30, 50])
+                  ^
+D:/projects/pdf_forms/app/models/invoice_form.rb:32: syntax error, unexpected ')', expecting keyword_end
+    table (data) :column_widths => [10, 20, 40, 20, 30, 50])
+                                                            ^):
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 13:29:59 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 0ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/invoice_form.rb:32: syntax error, unexpected ')', expecting keyword_end
+    table (data), :column_widths => [10, 20, 40, 20, 30, 50])
+                                                             ^):
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 13:31:12 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 0ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/invoice_form.rb:32: syntax error, unexpected tASSOC, expecting ')'
+    table (data), (:column_widths => [10, 20, 40, 20, 30, 50])
+                                    ^):
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 13:31:42 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 312ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 13:33:17 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 16ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/invoice_form.rb:30: syntax error, unexpected tASSOC, expecting keyword_end
+    a = :column_widths => [100, 200, 240])
+                         ^
+D:/projects/pdf_forms/app/models/invoice_form.rb:30: syntax error, unexpected ')', expecting keyword_end
+    a = :column_widths => [100, 200, 240])
+                                          ^):
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (46.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 13:33:52 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 16ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/invoice_form.rb:32: syntax error, unexpected ')', expecting keyword_end
+...lumn_widths => [100, 200, 240])
+...                               ^):
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 13:35:50 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 16ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/invoice_form.rb:32: syntax error, unexpected ',', expecting tASSOC
+    t = make_table ([ ["", :width => 300, "", "", "","", ""] ])
+                                             ^):
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 13:36:34 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 0ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/invoice_form.rb:32: syntax error, unexpected ',', expecting ')'
+    t = make_table ([ [("", :width => 300), "", "", "","", ""] ])
+                           ^):
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 13:38:58 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 0ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/invoice_form.rb:32: syntax error, unexpected ',', expecting ')'
+    t = make_table [ [("", "", "", "","", ""] ]
+                          ^
+D:/projects/pdf_forms/app/models/invoice_form.rb:47: syntax error, unexpected keyword_end, expecting ')'
+  end
+     ^):
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 13:39:46 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 0ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/invoice_form.rb:32: syntax error, unexpected ',', expecting ')'
+    t = make_table [ [("", "", "", "","", ""] ]
+                          ^
+D:/projects/pdf_forms/app/models/invoice_form.rb:47: syntax error, unexpected keyword_end, expecting ')'
+  end
+     ^):
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 13:39:48 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 16ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/invoice_form.rb:32: syntax error, unexpected ',', expecting ')'
+    t = make_table [ [("", "", "", "","", ""] ]
+                          ^
+D:/projects/pdf_forms/app/models/invoice_form.rb:47: syntax error, unexpected keyword_end, expecting ')'
+  end
+     ^):
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 13:40:02 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 0ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/invoice_form.rb:32: syntax error, unexpected ',', expecting ')'
+    t = make_table [ [("", "", "", "", "", ""] ]
+                          ^
+D:/projects/pdf_forms/app/models/invoice_form.rb:47: syntax error, unexpected keyword_end, expecting ')'
+  end
+     ^):
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 13:40:30 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 16ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/invoice_form.rb:32: syntax error, unexpected ',', expecting ')'
+    t = make_table [ [("", "", "", "", "", ""] ]
+                          ^
+D:/projects/pdf_forms/app/models/invoice_form.rb:46: syntax error, unexpected keyword_end, expecting ')'
+  end
+     ^):
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 13:40:54 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 0ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/invoice_form.rb:32: syntax error, unexpected ',', expecting ')'
+    t = make_table [ [("", "", "", "", "", ""] ]
+                          ^
+D:/projects/pdf_forms/app/models/invoice_form.rb:46: syntax error, unexpected keyword_end, expecting ')'
+  end
+     ^):
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 13:41:08 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (62.5ms)
+Completed 200 OK in 312ms (Views: 62.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 13:41:18 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 0ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/invoice_form.rb:33: syntax error, unexpected ',', expecting ')'
+    table ([%w[A B C]], :width => 300)
+                       ^):
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 13:42:09 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 16ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/invoice_form.rb:35: syntax error, unexpected ',', expecting ')'
+    table ([%w[A B C]], :width => 300)
+                       ^):
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 13:43:46 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 0ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/invoice_form.rb:36: syntax error, unexpected ',', expecting ')'
+    table ([%w[A B C]], :width => 300)
+                       ^):
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 13:44:14 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 16ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/invoice_form.rb:37: syntax error, unexpected ',', expecting ')'
+    table ([%w[A B C]], :width => 300)
+                       ^):
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 13:44:23 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 281ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 13:44:49 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 328ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 13:45:17 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 703ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 13:45:50 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (15.6ms)
+Completed 200 OK in 438ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 13:47:00 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 172ms
+
+NoMethodError (undefined method `column_width=' for #<Prawn::Table:0x36ce118>):
+  app/models/invoice_form.rb:32:in `to_pdf'
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (78.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 13:47:17 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 78ms
+
+NoMethodError (undefined method `column_width' for 10:Fixnum):
+  app/models/invoice_form.rb:32:in `to_pdf'
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 13:48:11 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 125ms
+
+NoMethodError (undefined method `column_width' for ["", "", "", "", "", ""]:Array):
+  app/models/invoice_form.rb:32:in `to_pdf'
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 13:48:24 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 375ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 14:47:09 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 1344ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 14:54:38 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 406ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 14:55:09 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 406ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 14:57:04 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 484ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 14:57:46 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 422ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 14:58:27 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 422ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 14:58:55 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (15.6ms)
+Completed 200 OK in 422ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 14:59:44 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 422ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 15:00:16 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 219ms
+
+Prawn::Errors::UnrecognizedTableContent (Prawn::Errors::UnrecognizedTableContent):
+  app/models/invoice_form.rb:40:in `to_pdf'
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (46.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 15:00:51 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 156ms
+
+Prawn::Errors::UnrecognizedTableContent (Prawn::Errors::UnrecognizedTableContent):
+  app/models/invoice_form.rb:40:in `to_pdf'
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 15:01:14 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 219ms
+
+Prawn::Errors::UnrecognizedTableContent (Prawn::Errors::UnrecognizedTableContent):
+  app/models/invoice_form.rb:40:in `to_pdf'
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 15:08:32 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 375ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 15:08:50 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (15.6ms)
+Completed 200 OK in 375ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 15:10:31 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 203ms
+
+NameError (undefined local variable or method `t' for #<InvoiceForm:0x236d918>):
+  app/models/invoice_form.rb:32:in `to_pdf'
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (62.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 15:10:50 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 94ms
+
+Prawn::Errors::CannotFit (Table's width was set too small to contain its contents (min width 570.0, requested 540.0)):
+  app/models/invoice_form.rb:37:in `to_pdf'
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 15:11:05 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 328ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 15:12:56 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 312ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 15:13:32 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 312ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 15:14:09 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 125ms
+
+NoMethodError (undefined method `*' for #<Prawn::Table:0x36d1d48>):
+  app/models/invoice_form.rb:37:in `to_pdf'
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (46.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 15:14:37 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 0ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/invoice_form.rb:37: syntax error, unexpected ',', expecting ')'
+    table (data, :column_widths => [30, 200, 50, 30, 60, 60]) * 38
+                ^
+D:/projects/pdf_forms/app/models/invoice_form.rb:37: syntax error, unexpected ')', expecting keyword_end
+    table (data, :column_widths => [30, 200, 50, 30, 60, 60]) * 38
+                                                             ^):
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (46.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 15:14:54 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 0ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/invoice_form.rb:37: syntax error, unexpected ',', expecting ')'
+    table (data, :column_widths => [30, 200, 50, 30, 60, 60])
+                ^
+D:/projects/pdf_forms/app/models/invoice_form.rb:37: syntax error, unexpected ')', expecting keyword_end
+    table (data, :column_widths => [30, 200, 50, 30, 60, 60])
+                                                             ^):
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 15:15:03 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 297ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 15:15:18 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 594ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 15:16:02 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 531ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 15:16:14 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 531ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 15:16:27 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 109ms
+
+Prawn::Errors::CannotFit (Table's width was set too small to contain its contents (min width 550.0, requested 540.0)):
+  app/models/invoice_form.rb:37:in `to_pdf'
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 15:16:35 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 547ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 15:17:59 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 531ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 15:21:23 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 375ms
+
+NoMethodError (undefined method `height=' for #<Prawn::Table:0x36ceeb0>):
+  app/models/invoice_form.rb:32:in `to_pdf'
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (218.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 15:21:49 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 281ms
+
+NoMethodError (undefined method `height=' for #<Prawn::Table:0x2e21cb0>):
+  app/models/invoice_form.rb:32:in `to_pdf'
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (250.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 15:22:24 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 406ms
+
+NoMethodError (undefined method `column_height=' for #<Prawn::Table:0x2e89660>):
+  app/models/invoice_form.rb:32:in `to_pdf'
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (218.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 15:24:48 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 16ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/invoice_form.rb:38: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+    draw_text "Всего наименова...
+               ^
+D:/projects/pdf_forms/app/models/invoice_form.rb:38: syntax error, unexpected ',', expecting keyword_end
+...37, на сумму 62'448.00", at: [0, 40]
+...                               ^):
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 15:25:09 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 0ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/invoice_form.rb:38: syntax error, unexpected tIDENTIFIER, expecting ')'
+    draw_text "Всего наименов...
+             ^):
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (46.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 15:25:42 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 0ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/invoice_form.rb:38: syntax error, unexpected tIDENTIFIER, expecting ')'
+    draw_text "Всего наименов...
+             ^):
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 15:26:04 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 547ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 15:26:21 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 328ms
+
+NoMethodError (undefined method `widths=' for #<Prawn::Table:0x36b5098>):
+  app/models/invoice_form.rb:32:in `to_pdf'
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (281.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 15:27:27 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 688ms
+
+NoMethodError (undefined method `column_height=' for #<Prawn::Table:0x393aad0>):
+  app/models/invoice_form.rb:33:in `to_pdf'
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (265.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 15:28:04 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 641ms
+
+NoMethodError (undefined method `stroke_height=' for #<Prawn::Table:0x3a6f770>):
+  app/models/invoice_form.rb:33:in `to_pdf'
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (390.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 15:28:24 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 562ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 15:30:21 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 547ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 15:32:35 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 359ms
+
+NoMethodError (undefined method `to_f' for [160, 120]:Array):
+  app/models/invoice_form.rb:37:in `block in to_pdf'
+  app/models/invoice_form.rb:35:in `each'
+  app/models/invoice_form.rb:35:in `to_pdf'
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 15:33:02 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 16ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/invoice_form.rb:35: syntax error, unexpected ',', expecting ')'
+    {:width => (160, 120), :height => 50, :paddin...
+                    ^):
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 15:33:42 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 547ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 15:44:48 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 531ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 15:45:28 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 0ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/invoice_form.rb:56: syntax error, unexpected $end, expecting keyword_end):
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (46.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 15:45:51 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 0ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/invoice_form.rb:56: syntax error, unexpected $end, expecting keyword_end):
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 15:46:01 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 0ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/invoice_form.rb:56: syntax error, unexpected $end, expecting keyword_end):
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 15:46:13 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 0ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/invoice_form.rb:56: syntax error, unexpected $end, expecting keyword_end):
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 15:46:16 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 0ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/invoice_form.rb:56: syntax error, unexpected $end, expecting keyword_end):
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 15:46:29 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 0ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/invoice_form.rb:56: syntax error, unexpected $end, expecting keyword_end):
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 15:46:54 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 0ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/invoice_form.rb:56: syntax error, unexpected $end, expecting keyword_end):
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 15:46:57 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 0ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/invoice_form.rb:56: syntax error, unexpected $end, expecting keyword_end):
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 15:47:15 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 16ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/invoice_form.rb:56: syntax error, unexpected $end, expecting keyword_end):
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 15:48:22 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 16ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/invoice_form.rb:54: syntax error, unexpected $end, expecting keyword_end):
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 15:51:19 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 531ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 15:51:56 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 312ms
+
+NoMethodError (undefined method `column_heights=' for #<Prawn::Table:0x36ce8b0>):
+  app/models/invoice_form.rb:32:in `to_pdf'
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (234.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 15:52:03 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 281ms
+
+NoMethodError (undefined method `column_height=' for #<Prawn::Table:0x36d5300>):
+  app/models/invoice_form.rb:32:in `to_pdf'
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (296.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 15:52:19 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 531ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 16:03:16 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 391ms
+
+NameError (undefined local variable or method `cells' for #<InvoiceForm:0x2322a20>):
+  app/models/invoice_form.rb:35:in `to_pdf'
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 16:04:18 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 344ms
+
+NameError (undefined local variable or method `cells' for #<InvoiceForm:0x231a9f8>):
+  app/models/invoice_form.rb:35:in `to_pdf'
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 16:06:28 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 0ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/invoice_form.rb:61: syntax error, unexpected $end, expecting keyword_end):
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 16:07:15 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 0ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/invoice_form.rb:61: syntax error, unexpected $end, expecting keyword_end):
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (78.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 16:07:52 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 16ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/invoice_form.rb:61: syntax error, unexpected $end, expecting keyword_end):
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 16:08:42 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 0ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/invoice_form.rb:64: syntax error, unexpected $end, expecting keyword_end):
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 16:08:57 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 0ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/invoice_form.rb:64: syntax error, unexpected $end, expecting keyword_end):
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 16:10:04 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 562ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 16:11:00 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 438ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 16:11:48 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 453ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 16:12:41 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 469ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 16:13:11 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 453ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 16:13:30 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 484ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 16:13:49 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 594ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 16:15:36 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 469ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 16:15:53 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 516ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 16:16:06 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 531ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 16:16:44 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 500ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 16:17:37 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 453ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 16:17:46 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 469ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 16:21:20 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 16ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/invoice_form.rb:33: syntax error, unexpected tASSOC, expecting keyword_end
+    row(0) => :height 20
+             ^):
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 16:21:36 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 359ms
+
+NoMethodError (undefined method `row' for #<InvoiceForm:0x2323050>):
+  app/models/invoice_form.rb:33:in `to_pdf'
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 16:23:59 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 0ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/invoice_form.rb:30: syntax error, unexpected tASSOC, expecting keyword_end
+    a = :column_widths => [40, 260, 60, 40, 70, 70])
+                         ^
+D:/projects/pdf_forms/app/models/invoice_form.rb:30: syntax error, unexpected ')', expecting keyword_end
+    a = :column_widths => [40, 260, 60, 40, 70, 70])
+                                                    ^):
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 16:25:20 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 547ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 16:34:59 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 328ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 16:37:00 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 344ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 16:38:29 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 94ms
+
+Prawn::Errors::UnrecognizedTableContent (Prawn::Errors::UnrecognizedTableContent):
+  app/models/invoice_form.rb:32:in `to_pdf'
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 16:38:39 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 94ms
+
+Prawn::Errors::UnrecognizedTableContent (Prawn::Errors::UnrecognizedTableContent):
+  app/models/invoice_form.rb:32:in `to_pdf'
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 16:39:05 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 344ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 16:48:27 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (15.6ms)
+Completed 200 OK in 312ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 16:51:56 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 469ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 16:52:41 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 469ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 16:53:10 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 484ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 16:53:47 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 0ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/invoice_form.rb:51: syntax error, unexpected tIDENTIFIER, expecting ')'
+    draw_text "Всего наименов...
+             ^):
+  app/controllers/forms_controller.rb:3:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 16:53:57 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 500ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 16:54:33 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 484ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 16:55:37 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 641ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 16:56:10 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 578ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 16:56:16 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 578ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 16:56:42 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 594ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 16:58:04 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 609ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 16:58:13 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 625ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-02 16:58:46 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 594ms (Views: 0.0ms | ActiveRecord: 0.0ms)
