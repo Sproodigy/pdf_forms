@@ -4614,3 +4614,48 @@ Processing by FormsController#invoice as HTML
   Rendered text template (0.0ms)
 Sent data invoice.pdf (0.0ms)
 Completed 200 OK in 531ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-08 13:48:42 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (93.8ms)
+Completed 200 OK in 828ms (Views: 93.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-08 13:51:56 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 578ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-08 13:53:49 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (15.6ms)
+Completed 200 OK in 609ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-08 16:50:33 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (93.8ms)
+Completed 200 OK in 844ms (Views: 93.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-08 16:59:35 +0300
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (0.0ms)
+Completed 200 OK in 594ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-08 17:00:17 +0300
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (0.0ms)
+Completed 200 OK in 141ms (Views: 0.0ms | ActiveRecord: 0.0ms)

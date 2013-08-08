@@ -1,6 +1,7 @@
 PdfForms::Application.routes.draw do
 
   root to: 'forms#invoice'
+  match '/test' => 'forms#test'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

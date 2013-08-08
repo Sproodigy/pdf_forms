@@ -16,16 +16,16 @@ class InvoiceForm < Prawn::Document
 
     draw_text "Накладная №264 от 31 июля 2013 г.", at: [10, 710], size: 14, style: :bold
     
-  stroke do
-    horizontal_line 0, 540, :at => 705
-    horizontal_line 83, 270, :at => 18
-    horizontal_line 333, 540, :at => 18
-  end 
+    stroke do
+        horizontal_line 0, 540, :at => 705
+        horizontal_line 83, 270, :at => 18
+        horizontal_line 333, 540, :at => 18
+    end 
 
-  stroke do
-    self.line_width = 2
-    horizontal_line 0, 540, :at => 705
-  end
+    stroke do
+        self.line_width = 2
+        horizontal_line 0, 540, :at => 705
+    end
 
     draw_text "Поставщик:", at: [0, 680]
     draw_text 'ООО "Экстра" 443168, г. Самара', at: [70, 680], style: :bold
