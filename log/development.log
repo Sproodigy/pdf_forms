@@ -3105,3 +3105,35 @@ Processing by FormsController#invoice as HTML
   Rendered text template (0.0ms)
 Sent data invoice.pdf (0.0ms)
 Completed 200 OK in 594ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-03 09:29:43 +0400
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (58.0ms)
+Completed 200 OK in 276ms (Views: 58.0ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-03 12:40:18 +0400
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (30.0ms)
+Completed 200 OK in 252ms (Views: 30.0ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-05 22:03:58 +0400
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (91.0ms)
+Completed 200 OK in 368ms (Views: 91.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-05 22:04:20 +0400
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.0ms)
+Completed 200 OK in 239ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
