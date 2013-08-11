@@ -14,6 +14,8 @@ class TestForm < Prawn::Document
       })
     font "DejaVuSans", size: 10
 
+  # Трактор
+
     stroke do
 
       stroke_color 100, 20, 100, 0  
@@ -59,7 +61,36 @@ class TestForm < Prawn::Document
       line [220, 350], [240, 330]
       line [285, 350], [265, 330]
       stroke
-    
+
+  # Домик
+
+    stroke do
+
+      stroke_color 1, 0, 0, 100
+      horizontal_line 330, 540, :at => 100
+      horizontal_line 360, 510, :at => 300 
+      horizontal_line 350, 400, :at => 250
+      horizontal_line 470, 520, :at => 250
+      horizontal_line 470, 520, :at => 200
+      horizontal_line 350, 400, :at => 200
+
+    end  
+
+    stroke do
+
+      stroke_color 30, 50, 100, 0
+      vertical_line 100, 250, :at => 330
+      vertical_line 100, 250, :at => 540
+      vertical_line 200, 250, :at => 350
+      vertical_line 200, 250, :at => 400
+
+    end
+
+      stroke_color 70, 20, 80, 0
+      line [330, 250], [360, 300]
+      line [510, 300], [540, 250]
+      stroke
+
     render
 
   end
