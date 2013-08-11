@@ -6135,3 +6135,1204 @@ Processing by FormsController#test as HTML
 Sent data test.pdf (2.0ms)
 Completed 200 OK in 60ms (Views: 2.0ms | ActiveRecord: 0.0ms)
 >>>>>>> de6c49d1432c5d79fc5aa36ebbdefd9150c4bf81
+Connecting to database specified by database.yml
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 16:57:47 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (30.0ms)
+Completed 200 OK in 39ms (Views: 30.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 16:59:54 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (0.0ms)
+Completed 200 OK in 9ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 17:08:21 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 21ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 17:13:23 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 10ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 17:13:42 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (0.0ms)
+Completed 200 OK in 11ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 17:13:57 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 21ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 17:14:05 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (0.0ms)
+Completed 200 OK in 20ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 17:14:19 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 12ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 17:26:37 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 12ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 17:26:54 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 10ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 17:27:32 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 9ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 17:28:33 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 14ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 17:29:22 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 23ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 17:31:29 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 10ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 17:33:43 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 20ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 17:35:18 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 9ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 17:35:55 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 10ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 17:36:32 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 10ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 17:36:43 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 9ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 17:37:00 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 9ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 17:41:42 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 10ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 17:43:19 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 9ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 17:44:18 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 22ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 17:44:36 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 10ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 17:46:55 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 10ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 17:47:32 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 10ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 17:51:01 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 10ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 17:51:18 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 25ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 17:51:43 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 10ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 17:53:51 +0400
+Processing by FormsController#test as HTML
+Completed 500 Internal Server Error in 20ms
+
+SyntaxError (D:/Lessons/pdf_forms/app/models/test_form.rb:109: syntax error, unexpected '\n', expecting tASSOC):
+  app/controllers/forms_controller.rb:8:in `test'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (27.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 17:54:10 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 62ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 17:54:45 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 38ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 17:55:40 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 87ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 17:57:11 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 49ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 17:58:51 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 52ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 18:00:55 +0400
+Processing by FormsController#test as HTML
+Completed 500 Internal Server Error in 9ms
+
+NoMethodError (undefined method `text_color' for #<TestForm:0x462b1c0>):
+  app/models/test_form.rb:109:in `to_pdf'
+  app/controllers/forms_controller.rb:8:in `test'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 18:12:59 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (13.0ms)
+Completed 200 OK in 55ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 18:15:48 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 40ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 18:16:09 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (0.0ms)
+Completed 200 OK in 42ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 18:16:19 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 54ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 18:16:38 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 53ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 18:16:46 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (0.0ms)
+Completed 200 OK in 38ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 18:18:01 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (13.0ms)
+Completed 200 OK in 56ms (Views: 13.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 18:21:55 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 49ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 18:22:13 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (0.0ms)
+Completed 200 OK in 59ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 18:22:51 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (0.0ms)
+Completed 200 OK in 38ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 18:23:39 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (0.0ms)
+Completed 200 OK in 50ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 18:23:47 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 49ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 18:24:07 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 51ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 18:24:27 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 39ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 18:25:26 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 46ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 18:26:00 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 53ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 18:29:32 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (0.0ms)
+Completed 200 OK in 50ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 18:30:13 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 51ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 18:32:38 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 55ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 18:33:03 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (0.0ms)
+Completed 200 OK in 35ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 18:33:10 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (0.0ms)
+Completed 200 OK in 47ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 18:33:28 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 51ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 18:33:40 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 38ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 18:33:54 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (0.0ms)
+Completed 200 OK in 54ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 18:33:57 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 52ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 18:37:10 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 39ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 18:39:18 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 49ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 18:39:48 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (0.0ms)
+Completed 200 OK in 54ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 18:40:11 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 38ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 18:41:01 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 47ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 18:41:14 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 49ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 18:41:32 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (0.0ms)
+Completed 200 OK in 40ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 18:41:52 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 57ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 18:42:20 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 53ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 18:42:44 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 42ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 18:42:56 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (0.0ms)
+Completed 200 OK in 49ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 18:43:09 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 52ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 18:43:22 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 40ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 18:43:49 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 54ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 18:44:10 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (0.0ms)
+Completed 200 OK in 38ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 18:45:31 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 46ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 18:45:55 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (0.0ms)
+Completed 200 OK in 48ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 18:46:07 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 52ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 18:46:44 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 42ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 18:47:05 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 39ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 18:47:14 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 52ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 18:47:28 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (0.0ms)
+Completed 200 OK in 51ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 18:47:55 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 58ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 18:49:51 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (0.0ms)
+Completed 200 OK in 57ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 18:50:14 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 52ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 18:51:48 +0400
+Processing by FormsController#test as HTML
+Completed 500 Internal Server Error in 2ms
+
+SyntaxError (D:/Lessons/pdf_forms/app/models/test_form.rb:79: syntax error, unexpected '\n', expecting tASSOC
+D:/Lessons/pdf_forms/app/models/test_form.rb:122: syntax error, unexpected $end, expecting keyword_end):
+  app/controllers/forms_controller.rb:8:in `test'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 18:52:49 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (0.0ms)
+Completed 200 OK in 38ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 18:54:33 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 38ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 18:55:29 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 49ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 18:56:11 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (14.0ms)
+Completed 200 OK in 55ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 18:56:36 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 39ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 18:57:00 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 51ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 18:57:28 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 54ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 18:57:40 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (0.0ms)
+Completed 200 OK in 57ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 18:57:58 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 39ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 18:59:27 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (0.0ms)
+Completed 200 OK in 39ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 19:00:20 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 38ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 19:01:35 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 45ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 19:01:55 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 62ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 19:02:07 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 38ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 19:02:43 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (0.0ms)
+Completed 200 OK in 55ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 19:03:23 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 38ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 19:04:14 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 54ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 19:04:34 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 60ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 19:05:15 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 44ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 19:05:23 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 40ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 19:05:40 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 49ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 19:06:04 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 38ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 19:09:39 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (0.0ms)
+Completed 200 OK in 49ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 19:15:45 +0400
+Processing by FormsController#test as HTML
+Completed 500 Internal Server Error in 2ms
+
+SyntaxError (D:/Lessons/pdf_forms/app/models/test_form.rb:137: syntax error, unexpected $end, expecting keyword_end):
+  app/controllers/forms_controller.rb:8:in `test'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (13.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 19:16:29 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 51ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 19:17:16 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 55ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 19:17:34 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 39ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 19:17:45 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 38ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 19:17:54 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 38ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 19:18:14 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (0.0ms)
+Completed 200 OK in 58ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 19:18:22 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 56ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 19:20:32 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 38ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 19:21:21 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (0.0ms)
+Completed 200 OK in 37ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 19:21:28 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 43ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 19:22:02 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 42ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 19:23:40 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 43ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 19:24:02 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 41ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 19:24:39 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (0.0ms)
+Completed 200 OK in 49ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 19:25:03 +0400
+Processing by FormsController#test as HTML
+Completed 500 Internal Server Error in 3ms
+
+SyntaxError (D:/Lessons/pdf_forms/app/models/test_form.rb:126: syntax error, unexpected '\n', expecting tCOLON2 or '[' or '.'):
+  app/controllers/forms_controller.rb:8:in `test'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 19:26:04 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 48ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 19:26:14 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 53ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 19:26:33 +0400
+Processing by FormsController#test as HTML
+Completed 500 Internal Server Error in 18ms
+
+NoMethodError (undefined method `*' for :miter:Symbol):
+  app/models/test_form.rb:126:in `to_pdf'
+  app/controllers/forms_controller.rb:8:in `test'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 19:27:03 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (0.0ms)
+Completed 200 OK in 49ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 19:27:25 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (0.0ms)
+Completed 200 OK in 51ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 19:28:07 +0400
+Processing by FormsController#test as HTML
+Completed 500 Internal Server Error in 16ms
+
+NoMethodError (undefined method `each_with_index' for 3:Fixnum):
+  app/models/test_form.rb:126:in `to_pdf'
+  app/controllers/forms_controller.rb:8:in `test'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 19:28:15 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 50ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 19:28:33 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (0.0ms)
+Completed 200 OK in 51ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 19:28:43 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 57ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 19:29:11 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 54ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 19:29:48 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 38ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 19:32:30 +0400
+Processing by FormsController#test as HTML
+Completed 500 Internal Server Error in 2ms
+
+SyntaxError (D:/Lessons/pdf_forms/app/models/test_form.rb:148: syntax error, unexpected $end, expecting keyword_end):
+  app/controllers/forms_controller.rb:8:in `test'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (12.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 19:32:50 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 41ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 19:33:16 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 55ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 19:33:42 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 39ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 19:34:00 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 53ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 19:34:31 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 40ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 19:35:04 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 38ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 19:35:10 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (0.0ms)
+Completed 200 OK in 41ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 19:35:26 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 51ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 19:38:05 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 55ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 19:38:18 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 53ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 19:38:41 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (0.0ms)
+Completed 200 OK in 39ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 19:39:31 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 41ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 19:39:53 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 49ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 19:40:26 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (0.0ms)
+Completed 200 OK in 40ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 19:40:34 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 45ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 19:40:54 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 51ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 19:41:13 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 53ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 19:41:19 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (0.0ms)
+Completed 200 OK in 53ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 19:41:24 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (0.0ms)
+Completed 200 OK in 59ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 19:41:32 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (0.0ms)
+Completed 200 OK in 52ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 19:41:44 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (0.0ms)
+Completed 200 OK in 55ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 19:41:54 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 55ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 19:42:15 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 54ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 19:42:28 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (0.0ms)
+Completed 200 OK in 39ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 19:42:37 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (0.0ms)
+Completed 200 OK in 43ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 19:42:49 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 39ms (Views: 1.0ms | ActiveRecord: 0.0ms)
