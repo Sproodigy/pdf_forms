@@ -5794,3 +5794,26 @@ Processing by FormsController#test as HTML
   Rendered text template (0.0ms)
 Sent data test.pdf (1.0ms)
 Completed 200 OK in 9ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-11 08:13:30 +0400
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (59.0ms)
+Completed 200 OK in 385ms (Views: 59.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 08:13:41 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 9ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-11 16:53:31 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (90.0ms)
+Completed 200 OK in 119ms (Views: 90.0ms | ActiveRecord: 0.0ms)
