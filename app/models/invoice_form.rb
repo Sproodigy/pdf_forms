@@ -32,10 +32,10 @@ class InvoiceForm < Prawn::Document
 
     draw_text "Покупатель:", at: [0, 650]
     draw_text 'ООО "Тринити-Групп"', at: [70, 650], style: :bold
-    move_down 85
+    move_down 100
     
     data = [ ["<b>№</b>", "<b>Товар</b>", "<b>Кол-во", "<b>Цена", "<b>Сумма"]] + [["","","","",""]] * 28
-    table(data, :column_widths => [30, 230, 70, 80, 80], cell_style: { inline_format: true })
+    table(data, :column_widths => [30, 280, 70, 80, 80], cell_style: { inline_format: true })
 
     draw_text "Всего наименований 37, на сумму 62'448.00", at: [0, 65], style: :italic
     draw_text "Шестьдесят две тысячи четыреста сорок восемь рублей 00 копеек", at:[0, 50], style: :italic
