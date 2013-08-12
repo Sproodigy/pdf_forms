@@ -18,8 +18,6 @@ class InvoiceForm < Prawn::Document
     
     stroke do
         horizontal_line 0, 540, :at => 705
-        horizontal_line 83, 270, :at => 18
-        horizontal_line 333, 540, :at => 18
     end 
 
     stroke do
@@ -34,23 +32,48 @@ class InvoiceForm < Prawn::Document
     draw_text 'ООО "Тринити-Групп"', at: [70, 650], style: :bold
     move_down 100
     
-    data = [ ["<b>№</b>", "<b>Товар</b>", "<b>Кол-во", "<b>Цена", "<b>Сумма"]] + [["","","","",""]] * 28
-    table(data, :column_widths => [30, 280, 70, 80, 80], cell_style: { inline_format: true })
+    data = [ ["<b>№</b>", "<b>Товар</b>", "<b>Кол-во", "<b>Цена", "<b>Сумма"]] + [["","","","",""]] * 10
+    table(data, :column_widths => [30, 280, 70, 80, 80], cell_style: { inline_format: true }) do |t|
+      t.cells.border_width = 1
+      t.before_rendering_page do |page|
+        page.row(0).border_top_width = 2
+        page.row(-1).border_bottom_width = 2
+        page.column(0).border_left_width = 2
+        page.column(-1).border_right_width = 2
 
-    draw_text "Всего наименований 37, на сумму 62'448.00", at: [0, 65], style: :italic
-    draw_text "Шестьдесят две тысячи четыреста сорок восемь рублей 00 копеек", at:[0, 50], style: :italic
-    
-    draw_text "Итого 62'448.00", at: [450, 110], style: :bold
-    draw_text "Без налога (НДС).", at: [440, 95], style: :bold
-    draw_text "Всего: 62'448.00", at: [450, 80], style: :bold
+      end
+
+    end
+
     move_down 20
+ 
+    draw_text "Итого 62'448.00", at: [440, cursor], style: :bold
+    draw_text "Без налога (НДС).", at: [430, cursor-15], style: :bold
+    draw_text "Всего: 62'448.00", at: [440, cursor-30], style: :bold
+    move_down 50
 
-    draw_text "Отпустил", at: [30, 20]
-    draw_text "Получил", at: [285, 20]
+    draw_text "Всего наименований 37, на сумму 62'448.00", at: [0, cursor], style: :italic
+    draw_text "Шестьдесят две тысячи четыреста сорок восемь рублей 00 копеек", at:[0, cursor-15], style: :italic
+    move_down 40
+
+    draw_text "Отпустил", at: [0, cursor-30]
+    draw_text "Получил", at: [285, cursor-30]
+    move_down 30
+
+
+  stroke do
+
+    line_width 1
+    horizontal_line 55, 270, :at => cursor
+    horizontal_line 333, 540, :at => cursor
+
+  end
+
+    move_down 7  
 
     a = "подпись"
-    draw_text a, at: [150, 10], size: 7
-    draw_text a, at: [420, 10], size: 7
+    draw_text a, at: [150, cursor], size: 7
+    draw_text a, at: [420, cursor], size: 7
 
     render
   end
