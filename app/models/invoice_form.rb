@@ -1,6 +1,12 @@
 # encoding: utf-8
 
 class InvoiceForm < Prawn::Document
+  include ActionView::Helpers::NumberHelper
+
+  def format_currency(value)
+    number_with_precision(value, precision: 2, delimiter: ' ')
+  end
+
   def to_pdf
     font_families.update(
       "DejaVuSans" => {
@@ -14,7 +20,7 @@ class InvoiceForm < Prawn::Document
       })
     font "DejaVuSans", size: 10
 
-    draw_text "Накладная №264 от 31 июля 2013 г.", at: [10, 710], size: 14, style: :bold
+    draw_text "Накладная №264 от 31 июля 2013 г.", at: [0, 710], size: 14, style: :bold
     
     stroke do
         horizontal_line 0, 540, :at => 705
@@ -32,9 +38,14 @@ class InvoiceForm < Prawn::Document
     draw_text 'ООО "Тринити-Групп"', at: [70, 650], style: :bold
     move_down 100
     
-    data = [ ["<b>№</b>", "<b>Товар</b>", "<b>Кол-во", "<b>Цена", "<b>Сумма"]] + [["","","","",""]] * 10
-    table(data, :column_widths => [30, 280, 70, 80, 80], cell_style: { inline_format: true }) do |t|
+    data = [ ["<b>№</b>", "<b>Товар</b>", "<b>Кол-во</b>", "<b>Цена</b>", "<b>Сумма</b>"]] + 
+            [["100", "Каша №32", 200, format_currency(10000), format_currency(2000000)]] * 10
+    table(data, :column_widths => [30, 310, 50, 70, 80], 
+         cell_style: { inline_format: true }) do |t|
       t.cells.border_width = 1
+      t.column(2).style align: :right
+      t.column(3).style align: :right
+      t.column(4).style align: :right
       t.before_rendering_page do |page|
         page.row(0).border_top_width = 2
         page.row(-1).border_bottom_width = 2
@@ -47,10 +58,9 @@ class InvoiceForm < Prawn::Document
 
     move_down 20
  
-    draw_text "Итого 62'448.00", at: [440, cursor], style: :bold
-    draw_text "Без налога (НДС).", at: [430, cursor-15], style: :bold
-    draw_text "Всего: 62'448.00", at: [440, cursor-30], style: :bold
-    move_down 50
+    text "Итого 62'448", style: :bold, align: :right
+    text "Без налога (НДС)", style: :bold, align: :right
+    text "Всего: 62'448.00", style: :bold, align: :right
 
     draw_text "Всего наименований 37, на сумму 62'448.00", at: [0, cursor], style: :italic
     draw_text "Шестьдесят две тысячи четыреста сорок восемь рублей 00 копеек", at:[0, cursor-15], style: :italic
@@ -64,16 +74,16 @@ class InvoiceForm < Prawn::Document
   stroke do
 
     line_width 1
-    horizontal_line 55, 270, :at => cursor
-    horizontal_line 333, 540, :at => cursor
+    horizontal_line 55, 222 , :at => cursor
+    horizontal_line 333, 500, :at => cursor
 
   end
 
     move_down 7  
 
-    a = "подпись"
-    draw_text a, at: [150, cursor], size: 7
-    draw_text a, at: [420, cursor], size: 7
+    data = "подпись"
+    draw_text data, at: [120, cursor], size: 7
+    draw_text data, at: [400, cursor], size: 7
 
     render
   end
