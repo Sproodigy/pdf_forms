@@ -119,7 +119,7 @@ class TestForm < Prawn::Document
       draw_text "...", :at => [419, 134], style: :bold
 
 
-    # Ёлка
+    # Ёлки
 
     self.line_width = 5
     
@@ -136,6 +136,13 @@ class TestForm < Prawn::Document
      
     end 
 
+      stroke_polygon [50, 750], [20, 700], [80, 700]
+      stroke_polygon [50, 700], [10, 650], [90, 650]
+      stroke_polygon [50, 650], [0, 600], [100, 600]
+      stroke_polygon [60, 540], [50, 520], [70, 520]
+      stroke_polygon [60, 518], [40, 500], [80, 500]
+      stroke_polygon [60, 498], [30, 480], [90, 480]
+
     stroke do
 
       horizontal_line 99, 201, :at => 500
@@ -148,8 +155,22 @@ class TestForm < Prawn::Document
 
       stroke_color 30, 50, 100, 0
       rectangle [143, 497], 15, 35
+      rectangle [40, 597], 15, 35
+      rectangle [57, 477], 5, 10
 
-    end  
+    end
+
+    #Домик сверху
+
+    stroke do
+
+      stroke_color 60, 60, 10, 40
+      rectangle [300, 650], 240, 150
+      horizontal_line 330, 510, at: 700
+      line [300, 650], [331, 700]
+      line [540, 650], [508, 700]
+
+    end     
 
     render
 
