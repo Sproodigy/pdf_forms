@@ -7,7 +7,7 @@ class InvoiceForm < Prawn::Document
     number_with_precision(value, precision: 2, delimiter: ' ')
   end
 
-  def to_pdf
+  def to_pdf(order)
     font_families.update(
       "DejaVuSans" => {
         normal: "#{Rails.root}/app/assets/fonts/DejaVuSans.ttf",
@@ -32,10 +32,10 @@ class InvoiceForm < Prawn::Document
     end
 
     draw_text "Поставщик:", at: [0, 680]
-    draw_text 'ООО "Экстра" 443168, г. Самара', at: [70, 680], style: :bold
+    draw_text "#{order._store.company.juridical_title} 443168, г. Самара", at: [70, 680], style: :bold
 
     draw_text "Покупатель:", at: [0, 650]
-    draw_text 'ООО "Тринити-Групп"', at: [70, 650], style: :bold
+    draw_text "#{order.name}, #{order.post_index}, #{order.region}", at: [70, 650], style: :bold
     move_down 100
     
     data = [ ["<b>№</b>", "<b>Товар</b>", "<b>Кол-во</b>", "<b>Цена</b>", "<b>Сумма</b>"]] + 
