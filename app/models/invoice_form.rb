@@ -21,22 +21,23 @@ class InvoiceForm < Prawn::Document
     font "DejaVuSans", size: 10
 
     draw_text "Накладная №264 от 31 июля 2013 г.", at: [0, 710], size: 14, style: :bold
-    
-    stroke do
-        horizontal_line 0, 540, :at => 705
-    end 
 
     stroke do
         self.line_width = 2
         horizontal_line 0, 540, :at => 705
     end
 
-    draw_text "Поставщик:", at: [0, 680]
-    draw_text "#{order._store.company.juridical_title} 443168, г. Самара", at: [70, 680], style: :bold
+    move_down 30
 
-    draw_text "Покупатель:", at: [0, 650]
-    draw_text "#{order.name}, #{order.post_index}, #{order.region}", at: [70, 650], style: :bold
-    move_down 100
+    text "Поставщик:"
+    text_box "#{order._store.company.juridical_title} 443168, г. Самара,",
+              at: [70, 690], style: :bold          
+    move_down 30       
+
+    text "Покупатель:"
+    text_box "#{order.name}, #{order.post_index}, #{order.country}, #{order.region}, #{order.town}, #{order.adress}, тел. #{order.telephone}",
+                at: [70, 648], style: :bold
+    move_down 45
     
     data = [ ["<b>№</b>", "<b>Товар</b>", "<b>Кол-во</b>", "<b>Цена</b>", "<b>Сумма</b>"]] + 
             [["100", "Каша №32", 200, format_currency(10000), format_currency(2000000)]] * 10

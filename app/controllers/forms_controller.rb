@@ -12,7 +12,8 @@ end
 class FormsController < ApplicationController
   def invoice
     order = {post_index: '443110', name: 'Африкантов Георгий Яковлевич',
-      region: 'Нижегородская область',
+      region: 'Нижегородская область', country: 'Россия',
+      town: 'Астрахань', adress: 'ул. Лизюкова 345, кв. 23', telephone: '8 800 453-23-23',
       _store: { company: { juridical_title: 'ООО "Экстра"'} },
       line_items: [{product_title: 'Каша Здоровяк №32', quantity: 6, price: 125.0}]}
     pdf = InvoiceForm.new.to_pdf(order)
