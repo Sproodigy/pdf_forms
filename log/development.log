@@ -10578,3 +10578,11 @@ Processing by FormsController#invoice as HTML
   Rendered text template (0.0ms)
 Sent data invoice.pdf (0.0ms)
 Completed 200 OK in 578ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-19 16:12:58 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (125.0ms)
+Completed 200 OK in 891ms (Views: 125.0ms | ActiveRecord: 0.0ms)
