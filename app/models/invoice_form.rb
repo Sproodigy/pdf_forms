@@ -30,17 +30,26 @@ class InvoiceForm < Prawn::Document
     move_down 30
 
     text "Поставщик:"
-    text_box "#{order._store.company.juridical_title} 443168, г. Самара,",
+    company = order._store.company
+    text_box "#{company.juridical_title}, #{company._zip}, #{company.address}, #{company.phone}",
               at: [70, 690], style: :bold          
     move_down 30       
 
     text "Покупатель:"
-    text_box "#{order.name}, #{order.post_index}, #{order.country}, #{order.region}, #{order.town}, #{order.adress}, тел. #{order.telephone}",
-                at: [70, 648], style: :bold
+    text_box "#{order.name}, #{order._zip}, #{order.region}, #{order.town}, #{order.adress}, тел. #{order.telephone}", at: [70, 648]
+
     move_down 45
     
-    data = [ ["<b>№</b>", "<b>Товар</b>", "<b>Кол-во</b>", "<b>Цена</b>", "<b>Сумма</b>"]] + 
-            [["100", "Каша №32", 200, format_currency(10000), format_currency(2000000)]] * 10
+    data = [ ["<b>№</b>", "<b>Товар</b>", "<b>Кол-во</b>", "<b>Цена</b>", "<b>Сумма</b>"]]
+
+    total_quantity = 0
+    total_cost = 0
+    order.line_items.each_with_index do |li, index|
+      data += [[index+1, li.product_title, li.quantity, format_currency(li.price), format_currency(li.quantity*li.price)]]
+      total_quantity += li.quantity
+      total_cost += li.quantity*li.price
+    end
+
     table(data, :column_widths => [30, 310, 50, 70, 80], 
          cell_style: { inline_format: true }) do |t|
       t.cells.border_width = 1
@@ -57,14 +66,14 @@ class InvoiceForm < Prawn::Document
 
     end
 
-    move_down 20
+    move_down 10
  
-    text "Итого 62'448", style: :bold, align: :right
+    text "Итого: #{format_currency(total_cost)} руб.", style: :bold, align: :right
     text "Без налога (НДС)", style: :bold, align: :right
-    text "Всего: 62'448.00", style: :bold, align: :right
+    text "Всего: #{format_currency(total_cost)} руб.", style: :bold, align: :right
 
-    draw_text "Всего наименований 37, на сумму 62'448.00", at: [0, cursor], style: :italic
-    draw_text "Шестьдесят две тысячи четыреста сорок восемь рублей 00 копеек", at:[0, cursor-15], style: :italic
+    draw_text "Всего наименований #{total_quantity}, на сумму #{format_currency(total_cost)} руб.", at: [0, cursor], style: :italic
+    draw_text RuPropisju.rublej(total_cost).mb_chars.capitalize + '.', at:[0, cursor-15], style: :italic
     move_down 40
 
     draw_text "Отпустил", at: [0, cursor-30]

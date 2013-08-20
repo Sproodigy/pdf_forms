@@ -8,6 +8,7 @@ gem 'rails', '3.2.13'
 gem 'sqlite3'
 
 gem 'prawn', git: 'git://github.com/prawnpdf/prawn', branch: 'master'
+gem 'ru_propisju'
 
 
 # Gems used only for assets and not required
