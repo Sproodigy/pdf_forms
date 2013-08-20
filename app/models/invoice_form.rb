@@ -31,12 +31,12 @@ class InvoiceForm < Prawn::Document
 
     text "Поставщик:"
     company = order._store.company
-    text_box "#{company.juridical_title}, #{company._zip}, #{company.address}, #{company.phone}",
-              at: [70, 690], style: :bold          
+    formatted_text_box  [ { text: company.juridical_title, styles: [:bold]}, { text: ", #{company._zip}, #{company.address}, #{company.phone}" }],
+              at: [70, 690]          
     move_down 30       
 
     text "Покупатель:"
-    text_box "#{order.name}, #{order._zip}, #{order.region}, #{order.town}, #{order.adress}, тел. #{order.telephone}", at: [70, 648]
+    formatted_text_box [ { text: order.name, styles: [:bold]}, { text: ", #{order._zip}, #{order.region}, #{order.town}, #{order.adress}, тел. #{order.telephone}"}], at: [70, 648]
 
     move_down 45
     

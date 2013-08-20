@@ -11,7 +11,7 @@ end
 
 class FormsController < ApplicationController
   def invoice
-    order = {_zip: '443110', name: "<b>Африкантов Георгий Яковлевич</b>",
+    order = {_zip: '443110', name: 'Африкантов Георгий Яковлевич',
       region: 'Нижегородская область', country: 'Россия',
       town: 'Астрахань', adress: 'ул. Лизюкова 345, кв. 23', telephone: '8 800 453-23-23',
       _store: { company: { juridical_title: 'ООО "Экстра"', _zip: 443110, address: 'г. Самара, ул. Новая, д. 106, корп. 2', phone: '(846) 221-64-49'} },
