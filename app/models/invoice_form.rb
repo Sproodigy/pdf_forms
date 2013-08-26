@@ -27,9 +27,9 @@ class InvoiceForm < Prawn::Document
         horizontal_line 0, 540, :at => 705
     end
 
-    move_down 30
+    move_down 30 
 
-    text "Поставщик:"
+    text"Поставщик:"
     company = order._store.company
     formatted_text_box  [ { text: company.juridical_title, styles: [:bold]}, { text: ", #{company._zip}, #{company.address}, #{company.phone}" }],
               at: [70, 690]          
