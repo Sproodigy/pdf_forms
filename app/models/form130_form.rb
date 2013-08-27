@@ -17,7 +17,17 @@ class Form130Form < Prawn::Document
       })
     font "DejaVuSans", size: 10
 
-    text opts[:index]
+    text 'ФГУП "Почта России"'
+    move_down 15
+    text 'УФПС САМАРСКОЙ ОБЛАСТИ'
+    move_down 15
+    text 'Самара-00'
+    move_down 15
+    text opts[:index], style: :bold
+
+    move_cursor_to 700
+
+    text "АНФ 09/04"
 
 
     render
