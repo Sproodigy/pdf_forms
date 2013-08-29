@@ -35,7 +35,7 @@ class TestForm < Prawn::Document
 
       stroke_color 10, 10, 10, 100
       curve [40, 70], [160, 70], :bounds => [[20, 190], [180, 190]]
-      curve [225, 70], [275 ,70], :bounds => [[220, 105], [280, 105]]
+      curve [225, 70], [275, 70], :bounds => [[220, 105], [280, 105]]
 
     end
 

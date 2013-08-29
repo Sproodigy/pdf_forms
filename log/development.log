@@ -13806,3 +13806,26 @@ Processing by FormsController#form130 as HTML
   Rendered text template (0.0ms)
 Sent data form130.pdf (0.0ms)
 Completed 200 OK in 5312ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-29 22:29:25 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (29.0ms)
+Completed 200 OK in 87ms (Views: 29.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 22:29:52 +0400
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (0.0ms)
+Completed 200 OK in 234ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-08-29 22:30:44 +0400
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (1.0ms)
+Completed 200 OK in 50ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
