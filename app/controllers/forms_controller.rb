@@ -34,7 +34,7 @@ class FormsController < ApplicationController
   end
 
   def form130
-    pdf = Form130Form.new.to_pdf index: '443218', date: Time.now, sum: 4_951.9, quantity: 16
+    pdf = Form130Form.new.to_pdf index: '443218', sum: 34_93.93, quantity: 160
     send_data pdf, type: 'application/pdf', filename: 'form130.pdf', disposition: 'inline'
   end
 

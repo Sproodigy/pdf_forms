@@ -12715,3 +12715,1094 @@ Processing by FormsController#form130 as HTML
   Rendered text template (0.0ms)
 Sent data form130.pdf (15.6ms)
 Completed 200 OK in 3109ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-29 10:36:39 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (859.4ms)
+Completed 200 OK in 6422ms (Views: 859.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 10:37:00 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (46.9ms)
+Completed 200 OK in 3062ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 10:52:28 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (0.0ms)
+Completed 200 OK in 1078ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 11:04:08 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (0.0ms)
+Completed 200 OK in 938ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 11:17:56 +0300
+Processing by FormsController#form130 as HTML
+Completed 500 Internal Server Error in 1156ms
+
+NoMethodError (undefined method `style=' for #<Prawn::Table::Cell::Text:0x3818b98>):
+  app/models/form130_form.rb:75:in `block in to_pdf'
+  app/models/form130_form.rb:66:in `to_pdf'
+  app/controllers/forms_controller.rb:37:in `form130'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (1171.9ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 11:18:10 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (78.1ms)
+Completed 200 OK in 3375ms (Views: 78.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 11:18:59 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (125.0ms)
+Completed 200 OK in 3281ms (Views: 125.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 11:19:17 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (62.5ms)
+Completed 200 OK in 3453ms (Views: 62.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 11:20:05 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (31.2ms)
+Completed 200 OK in 3953ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 11:20:25 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (31.2ms)
+Completed 200 OK in 3375ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 11:24:51 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (46.9ms)
+Completed 200 OK in 4109ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 11:25:27 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (0.0ms)
+Completed 200 OK in 2766ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 11:25:39 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (0.0ms)
+Completed 200 OK in 812ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 11:25:48 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (0.0ms)
+Completed 200 OK in 812ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 13:06:51 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (62.5ms)
+Completed 200 OK in 4406ms (Views: 62.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 13:07:21 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (62.5ms)
+Completed 200 OK in 3562ms (Views: 62.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 13:07:53 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (156.2ms)
+Completed 200 OK in 3328ms (Views: 156.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 13:08:42 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (0.0ms)
+Completed 200 OK in 3406ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 13:09:05 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (31.2ms)
+Completed 200 OK in 3031ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 13:29:31 +0300
+Processing by FormsController#form130 as HTML
+Completed 500 Internal Server Error in 47ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/form130_form.rb:41: unknown type of %string
+... ' * 39 + "#{Date.strptime (%d-%m-%Y)}"
+...                               ^
+D:/projects/pdf_forms/app/models/form130_form.rb:41: syntax error, unexpected $end
+... ' * 39 + "#{Date.strptime (%d-%m-%Y)}"
+...                               ^):
+  app/controllers/forms_controller.rb:37:in `form130'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (312.5ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 13:30:38 +0300
+Processing by FormsController#form130 as HTML
+Completed 500 Internal Server Error in 1203ms
+
+ArgumentError (invalid date):
+  app/models/form130_form.rb:41:in `strptime'
+  app/models/form130_form.rb:41:in `to_pdf'
+  app/controllers/forms_controller.rb:37:in `form130'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (78.1ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (296.9ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 13:34:24 +0300
+Processing by FormsController#form130 as HTML
+Completed 500 Internal Server Error in 0ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/form130_form.rb:45: unknown type of %string
+...+ "#{Date.current.strptime (%d-%m-%Y)}"
+...                               ^
+D:/projects/pdf_forms/app/models/form130_form.rb:45: syntax error, unexpected $end
+...+ "#{Date.current.strptime (%d-%m-%Y)}"
+...                               ^):
+  app/controllers/forms_controller.rb:37:in `form130'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (234.4ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 13:34:45 +0300
+Processing by FormsController#form130 as HTML
+Completed 500 Internal Server Error in 0ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/form130_form.rb:45: unknown type of %string
+... ' * 46 + "#{Date.strptime (%d-%m-%Y)}"
+...                               ^
+D:/projects/pdf_forms/app/models/form130_form.rb:45: syntax error, unexpected $end
+... ' * 46 + "#{Date.strptime (%d-%m-%Y)}"
+...                               ^):
+  app/controllers/forms_controller.rb:37:in `form130'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (62.5ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 13:35:02 +0300
+Processing by FormsController#form130 as HTML
+Completed 500 Internal Server Error in 0ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/form130_form.rb:45: unknown type of %string
+...' ' * 46 + "#{Date.current (%d-%m-%Y)}"
+...                               ^
+D:/projects/pdf_forms/app/models/form130_form.rb:45: syntax error, unexpected $end
+...' ' * 46 + "#{Date.current (%d-%m-%Y)}"
+...                               ^):
+  app/controllers/forms_controller.rb:37:in `form130'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (218.8ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 13:40:06 +0300
+Processing by FormsController#form130 as HTML
+Completed 500 Internal Server Error in 62ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/form130_form.rb:45: unknown type of %string
+... ' ' * 46 + "#{Date.current-%d-%m-%Y }"
+...                               ^
+D:/projects/pdf_forms/app/models/form130_form.rb:45: syntax error, unexpected $end
+... ' ' * 46 + "#{Date.current-%d-%m-%Y }"
+...                               ^):
+  app/controllers/forms_controller.rb:37:in `form130'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (328.1ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 13:40:24 +0300
+Processing by FormsController#form130 as HTML
+Completed 500 Internal Server Error in 0ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/form130_form.rb:45: unknown type of %string
+...' ' * 46 + "#{Date.current(-%d-%m-%Y) }"
+...                               ^
+D:/projects/pdf_forms/app/models/form130_form.rb:45: syntax error, unexpected $end
+...' ' * 46 + "#{Date.current(-%d-%m-%Y) }"
+...                               ^):
+  app/controllers/forms_controller.rb:37:in `form130'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 13:40:32 +0300
+Processing by FormsController#form130 as HTML
+Completed 500 Internal Server Error in 0ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/form130_form.rb:45: unknown type of %string
+... ' * 46 + "#{Date.current (-%d-%m-%Y) }"
+...                               ^
+D:/projects/pdf_forms/app/models/form130_form.rb:45: syntax error, unexpected $end
+... ' * 46 + "#{Date.current (-%d-%m-%Y) }"
+...                               ^):
+  app/controllers/forms_controller.rb:37:in `form130'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (62.5ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 13:42:29 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (0.0ms)
+Completed 200 OK in 3266ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 13:42:51 +0300
+Processing by FormsController#form130 as HTML
+Completed 500 Internal Server Error in 516ms
+
+ArgumentError (invalid date):
+  app/models/form130_form.rb:45:in `strptime'
+  app/models/form130_form.rb:45:in `to_pdf'
+  app/controllers/forms_controller.rb:37:in `form130'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (203.1ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 13:43:15 +0300
+Processing by FormsController#form130 as HTML
+Completed 500 Internal Server Error in 172ms
+
+ArgumentError (invalid date):
+  app/models/form130_form.rb:45:in `strptime'
+  app/models/form130_form.rb:45:in `to_pdf'
+  app/controllers/forms_controller.rb:37:in `form130'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (109.4ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 13:43:32 +0300
+Processing by FormsController#form130 as HTML
+Completed 500 Internal Server Error in 188ms
+
+TypeError (no implicit conversion to float from string):
+  app/models/form130_form.rb:45:in `today'
+  app/models/form130_form.rb:45:in `to_pdf'
+  app/controllers/forms_controller.rb:37:in `form130'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 13:43:43 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (62.5ms)
+Completed 200 OK in 3406ms (Views: 62.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 13:43:59 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (0.0ms)
+Completed 200 OK in 812ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 13:51:50 +0300
+Processing by FormsController#form130 as HTML
+Completed 500 Internal Server Error in 203ms
+
+ArgumentError (wrong number of arguments (2 for 0..1)):
+  app/models/form130_form.rb:41:in `today'
+  app/models/form130_form.rb:41:in `to_pdf'
+  app/controllers/forms_controller.rb:37:in `form130'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (31.2ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (62.5ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 13:52:00 +0300
+Processing by FormsController#form130 as HTML
+Completed 500 Internal Server Error in 594ms
+
+ArgumentError (wrong number of arguments (2 for 0..1)):
+  app/models/form130_form.rb:41:in `today'
+  app/models/form130_form.rb:41:in `to_pdf'
+  app/controllers/forms_controller.rb:37:in `form130'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (203.1ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 13:52:22 +0300
+Processing by FormsController#form130 as HTML
+Completed 500 Internal Server Error in 719ms
+
+ArgumentError (invalid date):
+  app/models/form130_form.rb:41:in `strptime'
+  app/models/form130_form.rb:41:in `to_pdf'
+  app/controllers/forms_controller.rb:37:in `form130'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (171.9ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 13:52:44 +0300
+Processing by FormsController#form130 as HTML
+Completed 500 Internal Server Error in 172ms
+
+TypeError (can't convert Symbol into String):
+  app/models/form130_form.rb:41:in `strptime'
+  app/models/form130_form.rb:41:in `to_pdf'
+  app/controllers/forms_controller.rb:37:in `form130'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (46.9ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 13:52:53 +0300
+Processing by FormsController#form130 as HTML
+Completed 500 Internal Server Error in 188ms
+
+ArgumentError (invalid date):
+  app/models/form130_form.rb:41:in `strptime'
+  app/models/form130_form.rb:41:in `to_pdf'
+  app/controllers/forms_controller.rb:37:in `form130'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (46.9ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 13:53:06 +0300
+Processing by FormsController#form130 as HTML
+Completed 500 Internal Server Error in 297ms
+
+ArgumentError (invalid date):
+  app/models/form130_form.rb:41:in `strptime'
+  app/models/form130_form.rb:41:in `to_pdf'
+  app/controllers/forms_controller.rb:37:in `form130'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (203.1ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 13:53:32 +0300
+Processing by FormsController#form130 as HTML
+Completed 500 Internal Server Error in 47ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/form130_form.rb:41: syntax error, unexpected tLABEL
+...* 39 + "#{Date.strptime (today:, '%d-%m-%Y')}"
+...                               ^
+D:/projects/pdf_forms/app/models/form130_form.rb:41: syntax error, unexpected ')', expecting '}'
+...e.strptime (today:, '%d-%m-%Y')}"
+...                               ^
+D:/projects/pdf_forms/app/models/form130_form.rb:67: syntax error, unexpected keyword_do_block, expecting '}'
+         cell_style: { inline_format: true }) do |t|
+                                                ^
+D:/projects/pdf_forms/app/models/form130_form.rb:85: syntax error, unexpected keyword_do_block, expecting '}'
+      t.before_rendering_page do |page|
+                                ^
+D:/projects/pdf_forms/app/models/form130_form.rb:91: syntax error, unexpected keyword_end, expecting '}'
+      end
+         ^
+D:/projects/pdf_forms/app/models/form130_form.rb:102: syntax error, unexpected keyword_end, expecting '}'
+  end
+     ^):
+  app/controllers/forms_controller.rb:37:in `form130'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (62.5ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 13:53:43 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (0.0ms)
+Completed 200 OK in 781ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 14:14:00 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (15.6ms)
+Completed 200 OK in 1562ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 14:15:28 +0300
+Processing by FormsController#form130 as HTML
+Completed 500 Internal Server Error in 0ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/form130_form.rb:41: unknown type of %string
+...+ ' ' * 39 + "#{Date.today -%y-%m-%d}"
+...                               ^
+D:/projects/pdf_forms/app/models/form130_form.rb:41: syntax error, unexpected $end
+...+ ' ' * 39 + "#{Date.today -%y-%m-%d}"
+...                               ^):
+  app/controllers/forms_controller.rb:37:in `form130'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (125.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 14:15:49 +0300
+Processing by FormsController#form130 as HTML
+Completed 500 Internal Server Error in 0ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/form130_form.rb:41: unknown type of %string
+...' ' * 39 + "#{Date.today ([-%y-%m-%d])}"
+...                               ^
+D:/projects/pdf_forms/app/models/form130_form.rb:41: syntax error, unexpected $end
+...' ' * 39 + "#{Date.today ([-%y-%m-%d])}"
+...                               ^):
+  app/controllers/forms_controller.rb:37:in `form130'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (31.2ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (78.1ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 14:15:56 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (0.0ms)
+Completed 200 OK in 859ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 14:17:12 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (0.0ms)
+Completed 200 OK in 891ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 14:21:15 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (15.6ms)
+Completed 200 OK in 766ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 14:21:21 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (0.0ms)
+Completed 200 OK in 781ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 14:21:39 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (140.6ms)
+Completed 200 OK in 3984ms (Views: 140.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 14:22:00 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (0.0ms)
+Completed 200 OK in 3047ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 14:23:07 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (62.5ms)
+Completed 200 OK in 3062ms (Views: 62.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 14:52:21 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (0.0ms)
+Completed 200 OK in 812ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 15:14:42 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (0.0ms)
+Completed 200 OK in 1328ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 15:20:40 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (15.6ms)
+Completed 200 OK in 797ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 15:21:04 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (0.0ms)
+Completed 200 OK in 797ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 15:21:25 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (0.0ms)
+Completed 200 OK in 953ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 15:21:38 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (0.0ms)
+Completed 200 OK in 875ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 15:22:06 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (0.0ms)
+Completed 200 OK in 891ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 15:43:33 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (0.0ms)
+Completed 200 OK in 3094ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 15:46:34 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (0.0ms)
+Completed 200 OK in 797ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 15:46:57 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (31.2ms)
+Completed 200 OK in 844ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 15:47:27 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (0.0ms)
+Completed 200 OK in 797ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 15:47:38 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (0.0ms)
+Completed 200 OK in 797ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 15:47:52 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (0.0ms)
+Completed 200 OK in 812ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 15:51:05 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (0.0ms)
+Completed 200 OK in 781ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 15:51:39 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (0.0ms)
+Completed 200 OK in 812ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 15:53:09 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (0.0ms)
+Completed 200 OK in 2875ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 15:54:20 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (0.0ms)
+Completed 200 OK in 812ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 15:54:59 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (0.0ms)
+Completed 200 OK in 797ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 15:55:31 +0300
+Processing by FormsController#form130 as HTML
+Completed 500 Internal Server Error in 562ms
+
+TypeError (can't convert Symbol into Integer):
+  app/models/form130_form.rb:101:in `to_pdf'
+  app/controllers/forms_controller.rb:37:in `form130'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (46.9ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 15:55:56 +0300
+Processing by FormsController#form130 as HTML
+Completed 500 Internal Server Error in 16ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/form130_form.rb:101: syntax error, unexpected ',', expecting ')'
+    text ('ID:', opts[:index])
+                ^
+D:/projects/pdf_forms/app/models/form130_form.rb:101: syntax error, unexpected ')', expecting keyword_end
+    text ('ID:', opts[:index])
+                              ^):
+  app/controllers/forms_controller.rb:37:in `form130'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 15:56:38 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (0.0ms)
+Completed 200 OK in 812ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 15:58:01 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (0.0ms)
+Completed 200 OK in 797ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 15:59:43 +0300
+Processing by FormsController#form130 as HTML
+Completed 500 Internal Server Error in 484ms
+
+NoMethodError (undefined method `order' for #<Form130Form:0x2dbb968>):
+  app/models/form130_form.rb:101:in `to_pdf'
+  app/controllers/forms_controller.rb:37:in `form130'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (46.9ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (109.4ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 16:00:04 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (0.0ms)
+Completed 200 OK in 797ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 16:03:23 +0300
+Processing by FormsController#form130 as HTML
+Completed 500 Internal Server Error in 500ms
+
+TypeError (can't convert Symbol into Integer):
+  app/models/form130_form.rb:101:in `to_pdf'
+  app/controllers/forms_controller.rb:37:in `form130'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (62.5ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 16:03:40 +0300
+Processing by FormsController#form130 as HTML
+Completed 500 Internal Server Error in 16ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/form130_form.rb:101: syntax error, unexpected '}', expecting tASSOC
+    formatted_text [{"ID:"}]
+                           ^):
+  app/controllers/forms_controller.rb:37:in `form130'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (46.9ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 16:09:03 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (0.0ms)
+Completed 200 OK in 812ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 16:10:23 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (0.0ms)
+Completed 200 OK in 844ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 16:13:08 +0300
+Processing by FormsController#form130 as HTML
+Completed 500 Internal Server Error in 625ms
+
+ArgumentError (malformed format string - %y):
+  app/models/form130_form.rb:101:in `%'
+  app/models/form130_form.rb:101:in `to_pdf'
+  app/controllers/forms_controller.rb:37:in `form130'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 16:13:21 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (0.0ms)
+Completed 200 OK in 859ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 16:16:29 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (15.6ms)
+Completed 200 OK in 828ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 16:41:24 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (0.0ms)
+Completed 200 OK in 1141ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 16:43:08 +0300
+Processing by FormsController#form130 as HTML
+Completed 500 Internal Server Error in 16ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/form130_form.rb:104: syntax error, unexpected tASSOC
+...�его листов 1", at: => bounds.bottom_right
+...                               ^):
+  app/controllers/forms_controller.rb:37:in `form130'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (656.2ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 16:43:23 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (0.0ms)
+Completed 200 OK in 3156ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 16:45:13 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (15.6ms)
+Completed 200 OK in 828ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 16:45:30 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (62.5ms)
+Completed 200 OK in 3312ms (Views: 62.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 16:58:40 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (62.5ms)
+Completed 200 OK in 3594ms (Views: 62.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 16:59:11 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (0.0ms)
+Completed 200 OK in 891ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 17:00:31 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (0.0ms)
+Completed 200 OK in 797ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 17:00:42 +0300
+Processing by FormsController#form130 as HTML
+Completed 500 Internal Server Error in 234ms
+
+NoMethodError (undefined method `strftime' for nil:NilClass):
+  app/models/form130_form.rb:47:in `to_pdf'
+  app/controllers/forms_controller.rb:37:in `form130'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (78.1ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 17:01:00 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (0.0ms)
+Completed 200 OK in 812ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 17:03:18 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (0.0ms)
+Completed 200 OK in 812ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 17:03:33 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (0.0ms)
+Completed 200 OK in 828ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 17:03:47 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (15.6ms)
+Completed 200 OK in 828ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 17:03:58 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (0.0ms)
+Completed 200 OK in 844ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 17:04:27 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (0.0ms)
+Completed 200 OK in 797ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 17:05:23 +0300
+Processing by FormsController#form130 as HTML
+Completed 500 Internal Server Error in 16ms
+
+ArgumentError (wrong number of arguments (1 for 2)):
+  app/models/form130_form.rb:20:in `to_pdf'
+  app/controllers/forms_controller.rb:37:in `form130'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (46.9ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 17:05:31 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (0.0ms)
+Completed 200 OK in 797ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 17:05:41 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (0.0ms)
+Completed 200 OK in 828ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 17:06:26 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (0.0ms)
+Completed 200 OK in 828ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 17:06:37 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (15.6ms)
+Completed 200 OK in 828ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 17:07:01 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (0.0ms)
+Completed 200 OK in 812ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 17:07:20 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (0.0ms)
+Completed 200 OK in 812ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 17:07:29 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (0.0ms)
+Completed 200 OK in 812ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 17:07:43 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (0.0ms)
+Completed 200 OK in 859ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 17:08:36 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (0.0ms)
+Completed 200 OK in 812ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 17:08:54 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (15.6ms)
+Completed 200 OK in 812ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 17:09:02 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (0.0ms)
+Completed 200 OK in 844ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 17:09:15 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (0.0ms)
+Completed 200 OK in 812ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 17:10:04 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (0.0ms)
+Completed 200 OK in 812ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 17:10:21 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (0.0ms)
+Completed 200 OK in 812ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 17:10:36 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (0.0ms)
+Completed 200 OK in 812ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 17:10:56 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (15.6ms)
+Completed 200 OK in 953ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 17:14:24 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (0.0ms)
+Completed 200 OK in 1125ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-29 17:15:19 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (0.0ms)
+Completed 200 OK in 5312ms (Views: 0.0ms | ActiveRecord: 0.0ms)

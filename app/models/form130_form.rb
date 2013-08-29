@@ -17,33 +17,35 @@ class Form130Form < Prawn::Document
       })
     font "DejaVuSans", size: 10
 
-    text 'ФГУП "Почта России"' 
-    move_down 15
-    text 'УФПС САМАРСКОЙ ОБЛАСТИ'
-    move_down 15
+    draw_text 'ФГУП "Почта России"', at: [0, 730] 
+    draw_text 'УФПС САМАРСКОЙ ОБЛАСТИ', at: [0, 715]
+    move_down 12
+    
     text 'Самара-00'
-    move_down 15
+    move_down 3
     text opts[:index], style: :bold
-    move_down 15
-    text 'Самара-218'
+    move_down 3
+    text 'Самара-123, ООО "Экстра"'
 
-    draw_text 'АНФ 09/04', at: [430, 712]
-    draw_text 'Утверждена приказом', at: [430, 700]
-    draw_text 'ФГУП "Почта России', at: [430, 688]
-    draw_text 'от 24.11.2007 № 582', at: [430, 676]
+    draw_text 'АНФ 09/04', at: [430, 730]
+    draw_text 'Утверждена приказом', at: [430, 715]
+    draw_text 'ФГУП "Почта России"', at: [430, 700]
+    draw_text 'от 24.11.2007 № 582', at: [430, 685]
 
     text 'Ежедневный отчёт о движении', align: :center, size: 15
     text 'денежных средств и сумм реализации', align: :center, size: 15
     text 'услуг, материальных ценностей,', align: :center, size: 15
     text 'товаров формы 130', align: :center, size: 15
-    move_down 10
+    move_down 5
 
-    text 'Дата создания отчёта:' + ' ' * 39 + "#{Date.current}"
-    move_down 15
+    text 'Дата создания отчёта:' + ' ' * 39 + "#{Date.today.strftime('%d.%m.%Y')}"
+    move_down 5
     text 'Оператор:' + ' ' * 60 + 'Oper'
+    move_down 5
+
+    report_date = opts[:date].present? ? opts[:date] : Date.today
+    text 'Отчётный период:' + ' ' * 46 + "#{report_date.strftime('%d.%m.%Y')}"
     move_down 15
-    text 'Отчётный период:' + ' ' * 46 + "#{Date.current}"
-    move_down 10
 
     sum = number_to_currency(opts[:sum])
     q = opts[:quantity]
@@ -56,17 +58,27 @@ class Form130Form < Prawn::Document
               ["2.5.2.1", "Организации", sum, q],
               ["2.5.2.1.2", "По авансовым книжкам", sum, q],
               ["2.5.2.1.2.1", "Плата за посылки", sum, q],
+              ["2.35", "ИТОГО по разделу 2", sum, q],
+              ["2.35.2", "Безналичными", sum, q],
+              ["2.35.2.4", "Безналичными", sum, q],
+              ["3", "Поступление", "0,00 р.", "0" ],
+              ["4", "Расход", "0,00 р.", "0"],
+              ["5", "Остаток на конец дня", "0,00 р.", "0"]
             ]
-    table(data, :column_widths => [60, 330, 100, 50], 
+    table(data, :column_widths => [55, 315, 120, 50], 
          cell_style: { inline_format: true }) do |t|
       t.cells.border_width = 1
-      t.row(1).style size: 14
-      t.row(2).style size: 14
+      t.row(1).style size: 13
+      t.row(2).style size: 13
       t.row(3).style size: 10, font_style: :bold
       t.row(4).style size: 10
       t.row(5).style size: 10
       t.row(6).style size: 8
       t.row(7).style size: 8
+      t.row(8).style size: 10, font_style: :bold
+      t.row(11).style size: 13
+      t.row(12).style size: 13
+      t.row(13).style size: 13
 
 
       t.column(2).style align: :right
@@ -82,10 +94,17 @@ class Form130Form < Prawn::Document
 
     end
 
-    move_down 10
-    text 'Заполнил:______________________________ / _______________________________________'
+    move_down 25
+    text 'Заполнил:______________________________ / __________________________________________'
     draw_text '(ответственное лицо)', at: [70, cursor-7]
-    draw_text 'Ф. И. О.', at: [265, cursor-7]
+    draw_text 'Ф. И. О.', at: [300, cursor-7]
+
+    move_down 50
+
+    repeat(:all) do
+      draw_text "ID: #{opts[:index]}.#{Time.now.strftime('%y%m%d.%H%M%S.%2N')}", :at => bounds.bottom_left
+      draw_text "Лист 1 Всего листов 1", at: [bounds.right-150, 0]
+    end 
 
     render
 
