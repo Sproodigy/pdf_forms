@@ -13829,3 +13829,236 @@ Processing by FormsController#test as HTML
 Sent data test.pdf (1.0ms)
 Completed 200 OK in 50ms (Views: 1.0ms | ActiveRecord: 0.0ms)
 Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-30 09:53:45 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (796.9ms)
+Completed 200 OK in 6047ms (Views: 796.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-30 09:54:12 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (78.1ms)
+Completed 200 OK in 3000ms (Views: 78.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-30 09:54:33 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (62.5ms)
+Completed 200 OK in 2812ms (Views: 62.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-30 09:55:23 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (62.5ms)
+Completed 200 OK in 3094ms (Views: 62.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-30 09:56:24 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (15.6ms)
+Completed 200 OK in 3750ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-30 09:57:45 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (93.8ms)
+Completed 200 OK in 3125ms (Views: 93.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-30 09:59:16 +0300
+Processing by FormsController#form130 as HTML
+Completed 500 Internal Server Error in 406ms
+
+ArgumentError (The :align option does not work with draw_text):
+  app/models/form130_form.rb:32:in `to_pdf'
+  app/controllers/forms_controller.rb:37:in `form130'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (468.8ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-30 09:59:58 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (62.5ms)
+Completed 200 OK in 2922ms (Views: 62.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-30 10:00:50 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (171.9ms)
+Completed 200 OK in 2969ms (Views: 171.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-30 10:03:11 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (0.0ms)
+Completed 200 OK in 766ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-30 10:03:27 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (15.6ms)
+Completed 200 OK in 781ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-30 10:03:40 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (0.0ms)
+Completed 200 OK in 781ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-30 10:04:13 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (0.0ms)
+Completed 200 OK in 734ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-30 10:04:23 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (0.0ms)
+Completed 200 OK in 859ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-30 10:04:31 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (109.4ms)
+Completed 200 OK in 922ms (Views: 109.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-30 10:04:56 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (0.0ms)
+Completed 200 OK in 734ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-30 10:05:05 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (0.0ms)
+Completed 200 OK in 812ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-30 10:05:14 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (0.0ms)
+Completed 200 OK in 797ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-30 10:05:23 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (15.6ms)
+Completed 200 OK in 891ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-30 10:05:29 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (0.0ms)
+Completed 200 OK in 734ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-30 10:05:40 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (0.0ms)
+Completed 200 OK in 797ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-30 10:05:55 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (15.6ms)
+Completed 200 OK in 734ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-30 10:06:23 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (0.0ms)
+Completed 200 OK in 719ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-30 10:06:39 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (15.6ms)
+Completed 200 OK in 797ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-30 10:07:09 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (0.0ms)
+Completed 200 OK in 797ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-30 10:07:33 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (0.0ms)
+Completed 200 OK in 1109ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-30 10:07:54 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (0.0ms)
+Completed 200 OK in 719ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-30 10:10:42 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (15.6ms)
+Completed 200 OK in 797ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-30 10:35:58 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (0.0ms)
+Completed 200 OK in 828ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-30 10:36:14 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (0.0ms)
+Completed 200 OK in 781ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-30 10:36:48 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (31.2ms)
+Completed 200 OK in 2703ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-08-30 14:30:38 +0300
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (93.8ms)
+Completed 200 OK in 906ms (Views: 93.8ms | ActiveRecord: 0.0ms)

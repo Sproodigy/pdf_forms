@@ -17,26 +17,26 @@ class Form130Form < Prawn::Document
       })
     font "DejaVuSans", size: 10
 
-    draw_text 'ФГУП "Почта России"', at: [0, 730] 
-    draw_text 'УФПС САМАРСКОЙ ОБЛАСТИ', at: [0, 715]
-    move_down 12
-    
+    draw_text 'ФГУП "Почта России"', at: [0, 735] 
+    draw_text 'УФПС САМАРСКОЙ ОБЛАСТИ', at: [0, 720]
+    move_down 7
     text 'Самара-00'
     move_down 3
     text opts[:index], style: :bold
     move_down 3
     text 'Самара-123, ООО "Экстра"'
+    move_down 7
 
-    draw_text 'АНФ 09/04', at: [430, 730]
-    draw_text 'Утверждена приказом', at: [430, 715]
-    draw_text 'ФГУП "Почта России"', at: [430, 700]
-    draw_text 'от 24.11.2007 № 582', at: [430, 685]
+    draw_text 'АНФ 09/04', at: [430, 735], size: 8
+    draw_text 'Утверждена приказом', at: [430, 725], size: 8
+    draw_text 'ФГУП "Почта России"', at: [430, 715], size: 8
+    draw_text 'от 24.11.2007 № 582', at: [430, 705], size: 8
 
     text 'Ежедневный отчёт о движении', align: :center, size: 15
     text 'денежных средств и сумм реализации', align: :center, size: 15
     text 'услуг, материальных ценностей,', align: :center, size: 15
     text 'товаров формы 130', align: :center, size: 15
-    move_down 5
+    move_down 10
 
     text 'Дата создания отчёта:' + ' ' * 39 + "#{Date.today.strftime('%d.%m.%Y')}"
     move_down 5
@@ -58,7 +58,7 @@ class Form130Form < Prawn::Document
               ["2.5.2.1", "Организации", sum, q],
               ["2.5.2.1.2", "По авансовым книжкам", sum, q],
               ["2.5.2.1.2.1", "Плата за посылки", sum, q],
-              ["2.35", "ИТОГО по разделу 2", sum, q],
+              ["2.35", "Итого по разделу 2", sum, q],
               ["2.35.2", "Безналичными", sum, q],
               ["2.35.2.4", "Безналичными", sum, q],
               ["3", "Поступление", "0,00 р.", "0" ],
@@ -72,10 +72,11 @@ class Form130Form < Prawn::Document
       t.row(2).style size: 13
       t.row(3).style size: 10, font_style: :bold
       t.row(4).style size: 10
-      t.row(5).style size: 10
+      t.row(5).style size: 9
       t.row(6).style size: 8
       t.row(7).style size: 8
       t.row(8).style size: 10, font_style: :bold
+      t.row(10).style size: 9
       t.row(11).style size: 13
       t.row(12).style size: 13
       t.row(13).style size: 13
