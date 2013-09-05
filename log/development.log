@@ -14062,3 +14062,25 @@ Processing by FormsController#form130 as HTML
   Rendered text template (0.0ms)
 Sent data form130.pdf (93.8ms)
 Completed 200 OK in 906ms (Views: 93.8ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-05 16:00:20 +0300
+Processing by FormsController#invoice as HTML
+Completed 500 Internal Server Error in 859ms
+
+NameError (undefined local variable or method `opts' for #<InvoiceForm:0x2b87170>):
+  app/models/invoice_form.rb:105:in `to_pdf'
+  app/controllers/forms_controller.rb:22:in `invoice'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (62.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-09-05 16:04:01 +0300
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (15.6ms)
+Completed 200 OK in 594ms (Views: 15.6ms | ActiveRecord: 0.0ms)
