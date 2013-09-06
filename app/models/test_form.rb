@@ -14,7 +14,7 @@ class TestForm < Prawn::Document
       })
     font "DejaVuSans", size: 10
 
-    # Трактор
+  # Трактор
 
     stroke do
 
@@ -64,7 +64,7 @@ class TestForm < Prawn::Document
       line [285, 350], [265, 330]
       stroke
 
-    # Домик
+  # Домик
 
     stroke do
 
@@ -119,7 +119,7 @@ class TestForm < Prawn::Document
       draw_text "...", :at => [419, 134], style: :bold
 
 
-    # Ёлки
+  # Ёлки
 
     self.line_width = 5
     
@@ -160,7 +160,7 @@ class TestForm < Prawn::Document
 
     end
 
-    #Домик сверху
+  # Домик сверху
 
     stroke do
 
@@ -170,7 +170,13 @@ class TestForm < Prawn::Document
       line [300, 650], [331, 700]
       line [540, 650], [508, 700]
 
-    end     
+    end
+
+  # НОВАЯ СТРАНИЦА
+
+    start_new_page
+
+    stroke_circle [100, 100], 50     
 
     render
 

@@ -14084,3 +14084,53 @@ Processing by FormsController#invoice as HTML
   Rendered text template (0.0ms)
 Sent data invoice.pdf (15.6ms)
 Completed 200 OK in 594ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/test" for 127.0.0.1 at 2013-09-06 12:07:52 +0300
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (140.6ms)
+Completed 200 OK in 406ms (Views: 140.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-09-06 12:10:40 +0300
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (0.0ms)
+Completed 200 OK in 125ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-09-06 12:12:16 +0300
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (0.0ms)
+Completed 200 OK in 156ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-09-06 12:12:52 +0300
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (0.0ms)
+Completed 200 OK in 188ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-09-06 12:13:46 +0300
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (15.6ms)
+Completed 200 OK in 172ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-09-06 12:14:38 +0300
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (0.0ms)
+Completed 200 OK in 156ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/test" for 127.0.0.1 at 2013-09-06 12:15:17 +0300
+Processing by FormsController#test as HTML
+  Rendered text template (0.0ms)
+Sent data test.pdf (0.0ms)
+Completed 200 OK in 172ms (Views: 0.0ms | ActiveRecord: 0.0ms)
