@@ -174,9 +174,26 @@ class TestForm < Prawn::Document
 
   # НОВАЯ СТРАНИЦА
 
-    start_new_page
+  start_new_page
 
-    stroke_circle [100, 100], 50     
+  self.line_width = 1
+
+  def box_content(string)
+    text string
+    transparent(0.5) { stroke_bounds }
+  end
+
+    canvas do
+      fill_rectangle [bounds.left, bounds.top], 40, 10
+      fill_polygon [bounds.right, bounds.top], [bounds.right, bounds.bottom], [565, 87]
+      fill_circle [bounds.right, bounds.bottom], 30
+      fill_circle [0, 0], 30
+    end
+
+      define_grid(:columns => 9, :rows => 15, :gutter => 1)
+      text "We defined the grid, roll over to the next page to see its outline"
+      start_new_page
+      grid.show_all    
 
     render
 
