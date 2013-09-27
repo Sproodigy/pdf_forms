@@ -4,6 +4,7 @@ PdfForms::Application.routes.draw do
   match '/test' => 'forms#test'
   match '/work' => 'forms#work'
   match '/form130' => 'forms#form130'
+  match '/prepayment' => 'forms#prepayment'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

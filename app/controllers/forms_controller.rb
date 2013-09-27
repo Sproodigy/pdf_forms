@@ -38,5 +38,10 @@ class FormsController < ApplicationController
     send_data pdf, type: 'application/pdf', filename: 'form130.pdf', disposition: 'inline'
   end
 
+  def prepayment
+    pdf = PrepaymentForm.new.to_pdf
+    send_data pdf, type: 'application/pdf', filename: 'prepayment.pdf', disposition: 'inline'
+  end
+
 end
 
