@@ -43,5 +43,10 @@ class FormsController < ApplicationController
     send_data pdf, type: 'application/pdf', filename: 'prepayment.pdf', disposition: 'inline'
   end
 
+  def inquiry
+    pdf = InquiryForm.new.to_pdf
+    send_data pdf, type: 'application/pdf', filename: 'inquiry.pdf', disposition: 'inline'
+  end  
+ 
 end
 
