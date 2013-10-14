@@ -19615,3 +19615,401 @@ Processing by FormsController#inquiry as HTML
   Rendered text template (0.0ms)
 Sent data inquiry.pdf (0.0ms)
 Completed 200 OK in 391ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-11 17:05:39 +0300
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (62.5ms)
+Completed 200 OK in 125ms (Views: 62.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-11 17:06:45 +0300
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 16ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/prepayment" for 127.0.0.1 at 2013-10-14 11:49:19 +0300
+Processing by FormsController#prepayment as HTML
+  Rendered text template (0.0ms)
+Sent data prepayment.pdf (125.0ms)
+Completed 200 OK in 1281ms (Views: 125.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/prepayment" for 127.0.0.1 at 2013-10-14 11:55:23 +0300
+Processing by FormsController#prepayment as HTML
+Completed 500 Internal Server Error in 62ms
+
+NameError (undefined local variable or method `y_position' for #<PrepaymentForm:0x2695980>):
+  app/models/prepayment_form.rb:51:in `block (2 levels) in to_pdf'
+  app/models/prepayment_form.rb:24:in `times'
+  app/models/prepayment_form.rb:24:in `block in to_pdf'
+  app/models/prepayment_form.rb:23:in `times'
+  app/models/prepayment_form.rb:23:in `to_pdf'
+  app/controllers/forms_controller.rb:42:in `prepayment'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (46.9ms)
+
+
+Started GET "/prepayment" for 127.0.0.1 at 2013-10-14 11:56:19 +0300
+Processing by FormsController#prepayment as HTML
+  Rendered text template (0.0ms)
+Sent data prepayment.pdf (0.0ms)
+Completed 200 OK in 1125ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/prepayment" for 127.0.0.1 at 2013-10-14 11:57:24 +0300
+Processing by FormsController#prepayment as HTML
+  Rendered text template (0.0ms)
+Sent data prepayment.pdf (0.0ms)
+Completed 200 OK in 1156ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/prepayment" for 127.0.0.1 at 2013-10-14 11:59:35 +0300
+Processing by FormsController#prepayment as HTML
+  Rendered text template (0.0ms)
+Sent data prepayment.pdf (0.0ms)
+Completed 200 OK in 1188ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/prepayment" for 127.0.0.1 at 2013-10-14 11:59:52 +0300
+Processing by FormsController#prepayment as HTML
+  Rendered text template (0.0ms)
+Sent data prepayment.pdf (0.0ms)
+Completed 200 OK in 1172ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/prepayment" for 127.0.0.1 at 2013-10-14 12:00:02 +0300
+Processing by FormsController#prepayment as HTML
+  Rendered text template (0.0ms)
+Sent data prepayment.pdf (0.0ms)
+Completed 200 OK in 1156ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/prepayment" for 127.0.0.1 at 2013-10-14 12:00:21 +0300
+Processing by FormsController#prepayment as HTML
+  Rendered text template (0.0ms)
+Sent data prepayment.pdf (0.0ms)
+Completed 200 OK in 1172ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/prepayment" for 127.0.0.1 at 2013-10-14 12:01:27 +0300
+Processing by FormsController#prepayment as HTML
+  Rendered text template (0.0ms)
+Sent data prepayment.pdf (0.0ms)
+Completed 200 OK in 1188ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/prepayment" for 127.0.0.1 at 2013-10-14 12:02:35 +0300
+Processing by FormsController#prepayment as HTML
+  Rendered text template (0.0ms)
+Sent data prepayment.pdf (0.0ms)
+Completed 200 OK in 1188ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/prepayment" for 127.0.0.1 at 2013-10-14 12:04:11 +0300
+Processing by FormsController#prepayment as HTML
+  Rendered text template (0.0ms)
+Sent data prepayment.pdf (0.0ms)
+Completed 200 OK in 1188ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/prepayment" for 127.0.0.1 at 2013-10-14 12:04:53 +0300
+Processing by FormsController#prepayment as HTML
+  Rendered text template (0.0ms)
+Sent data prepayment.pdf (0.0ms)
+Completed 200 OK in 1188ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/prepayment" for 127.0.0.1 at 2013-10-14 12:05:20 +0300
+Processing by FormsController#prepayment as HTML
+Completed 500 Internal Server Error in 16ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/prepayment_form.rb:53: syntax error, unexpected ':', expecting keyword_end
+...�б. 99 коп." ,:size => 10 :color => "FFFFFF"
+...                               ^):
+  app/controllers/forms_controller.rb:42:in `prepayment'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (46.9ms)
+
+
+Started GET "/prepayment" for 127.0.0.1 at 2013-10-14 12:05:25 +0300
+Processing by FormsController#prepayment as HTML
+  Rendered text template (0.0ms)
+Sent data prepayment.pdf (0.0ms)
+Completed 200 OK in 1156ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/prepayment" for 127.0.0.1 at 2013-10-14 12:06:12 +0300
+Processing by FormsController#prepayment as HTML
+  Rendered text template (0.0ms)
+Sent data prepayment.pdf (0.0ms)
+Completed 200 OK in 1219ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/prepayment" for 127.0.0.1 at 2013-10-14 12:07:18 +0300
+Processing by FormsController#prepayment as HTML
+  Rendered text template (0.0ms)
+Sent data prepayment.pdf (0.0ms)
+Completed 200 OK in 1188ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/prepayment" for 127.0.0.1 at 2013-10-14 12:07:45 +0300
+Processing by FormsController#prepayment as HTML
+  Rendered text template (0.0ms)
+Sent data prepayment.pdf (0.0ms)
+Completed 200 OK in 1188ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/prepayment" for 127.0.0.1 at 2013-10-14 12:08:05 +0300
+Processing by FormsController#prepayment as HTML
+  Rendered text template (0.0ms)
+Sent data prepayment.pdf (0.0ms)
+Completed 200 OK in 1203ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/prepayment" for 127.0.0.1 at 2013-10-14 12:08:28 +0300
+Processing by FormsController#prepayment as HTML
+  Rendered text template (0.0ms)
+Sent data prepayment.pdf (0.0ms)
+Completed 200 OK in 1172ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/prepayment" for 127.0.0.1 at 2013-10-14 12:08:49 +0300
+Processing by FormsController#prepayment as HTML
+  Rendered text template (0.0ms)
+Sent data prepayment.pdf (0.0ms)
+Completed 200 OK in 1172ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/prepayment" for 127.0.0.1 at 2013-10-14 12:09:13 +0300
+Processing by FormsController#prepayment as HTML
+  Rendered text template (0.0ms)
+Sent data prepayment.pdf (0.0ms)
+Completed 200 OK in 1188ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/prepayment" for 127.0.0.1 at 2013-10-14 12:10:01 +0300
+Processing by FormsController#prepayment as HTML
+  Rendered text template (0.0ms)
+Sent data prepayment.pdf (0.0ms)
+Completed 200 OK in 1188ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/prepayment" for 127.0.0.1 at 2013-10-14 12:12:02 +0300
+Processing by FormsController#prepayment as HTML
+  Rendered text template (0.0ms)
+Sent data prepayment.pdf (15.6ms)
+Completed 200 OK in 1297ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/prepayment" for 127.0.0.1 at 2013-10-14 12:12:39 +0300
+Processing by FormsController#prepayment as HTML
+  Rendered text template (0.0ms)
+Sent data prepayment.pdf (15.6ms)
+Completed 200 OK in 1438ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/prepayment" for 127.0.0.1 at 2013-10-14 12:12:54 +0300
+Processing by FormsController#prepayment as HTML
+  Rendered text template (0.0ms)
+Sent data prepayment.pdf (0.0ms)
+Completed 200 OK in 1281ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/prepayment" for 127.0.0.1 at 2013-10-14 12:13:37 +0300
+Processing by FormsController#prepayment as HTML
+  Rendered text template (0.0ms)
+Sent data prepayment.pdf (0.0ms)
+Completed 200 OK in 1312ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/prepayment" for 127.0.0.1 at 2013-10-14 12:14:07 +0300
+Processing by FormsController#prepayment as HTML
+  Rendered text template (0.0ms)
+Sent data prepayment.pdf (0.0ms)
+Completed 200 OK in 1266ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/prepayment" for 127.0.0.1 at 2013-10-14 12:14:46 +0300
+Processing by FormsController#prepayment as HTML
+  Rendered text template (0.0ms)
+Sent data prepayment.pdf (0.0ms)
+Completed 200 OK in 1312ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/prepayment" for 127.0.0.1 at 2013-10-14 12:14:52 +0300
+Processing by FormsController#prepayment as HTML
+  Rendered text template (0.0ms)
+Sent data prepayment.pdf (0.0ms)
+Completed 200 OK in 1469ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/prepayment" for 127.0.0.1 at 2013-10-14 12:15:33 +0300
+Processing by FormsController#prepayment as HTML
+  Rendered text template (0.0ms)
+Sent data prepayment.pdf (0.0ms)
+Completed 200 OK in 1297ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/prepayment" for 127.0.0.1 at 2013-10-14 12:15:52 +0300
+Processing by FormsController#prepayment as HTML
+  Rendered text template (0.0ms)
+Sent data prepayment.pdf (0.0ms)
+Completed 200 OK in 1281ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/prepayment" for 127.0.0.1 at 2013-10-14 12:17:22 +0300
+Processing by FormsController#prepayment as HTML
+  Rendered text template (0.0ms)
+Sent data prepayment.pdf (0.0ms)
+Completed 200 OK in 1031ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/prepayment" for 127.0.0.1 at 2013-10-14 12:17:56 +0300
+Processing by FormsController#prepayment as HTML
+  Rendered text template (0.0ms)
+Sent data prepayment.pdf (0.0ms)
+Completed 200 OK in 1094ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/prepayment" for 127.0.0.1 at 2013-10-14 12:17:57 +0300
+Processing by FormsController#prepayment as HTML
+  Rendered text template (0.0ms)
+Sent data prepayment.pdf (0.0ms)
+Completed 200 OK in 1047ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/prepayment" for 127.0.0.1 at 2013-10-14 12:18:51 +0300
+Processing by FormsController#prepayment as HTML
+  Rendered text template (0.0ms)
+Sent data prepayment.pdf (0.0ms)
+Completed 200 OK in 1078ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/prepayment" for 127.0.0.1 at 2013-10-14 12:19:30 +0300
+Processing by FormsController#prepayment as HTML
+  Rendered text template (0.0ms)
+Sent data prepayment.pdf (0.0ms)
+Completed 200 OK in 1047ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/prepayment" for 127.0.0.1 at 2013-10-14 12:19:55 +0300
+Processing by FormsController#prepayment as HTML
+  Rendered text template (0.0ms)
+Sent data prepayment.pdf (0.0ms)
+Completed 200 OK in 1047ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/prepayment" for 127.0.0.1 at 2013-10-14 12:20:17 +0300
+Processing by FormsController#prepayment as HTML
+  Rendered text template (0.0ms)
+Sent data prepayment.pdf (15.6ms)
+Completed 200 OK in 1062ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/prepayment" for 127.0.0.1 at 2013-10-14 12:20:51 +0300
+Processing by FormsController#prepayment as HTML
+  Rendered text template (0.0ms)
+Sent data prepayment.pdf (0.0ms)
+Completed 200 OK in 1281ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/prepayment" for 127.0.0.1 at 2013-10-14 12:21:37 +0300
+Processing by FormsController#prepayment as HTML
+  Rendered text template (0.0ms)
+Sent data prepayment.pdf (0.0ms)
+Completed 200 OK in 1328ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/prepayment" for 127.0.0.1 at 2013-10-14 12:22:20 +0300
+Processing by FormsController#prepayment as HTML
+  Rendered text template (0.0ms)
+Sent data prepayment.pdf (0.0ms)
+Completed 200 OK in 1297ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/prepayment" for 127.0.0.1 at 2013-10-14 12:22:28 +0300
+Processing by FormsController#prepayment as HTML
+  Rendered text template (0.0ms)
+Sent data prepayment.pdf (15.6ms)
+Completed 200 OK in 1344ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/prepayment" for 127.0.0.1 at 2013-10-14 12:22:41 +0300
+Processing by FormsController#prepayment as HTML
+  Rendered text template (0.0ms)
+Sent data prepayment.pdf (15.6ms)
+Completed 200 OK in 1312ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/prepayment" for 127.0.0.1 at 2013-10-14 12:27:20 +0300
+Processing by FormsController#prepayment as HTML
+  Rendered text template (0.0ms)
+Sent data prepayment.pdf (0.0ms)
+Completed 200 OK in 1438ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/prepayment" for 127.0.0.1 at 2013-10-14 12:31:31 +0300
+Processing by FormsController#prepayment as HTML
+  Rendered text template (0.0ms)
+Sent data prepayment.pdf (15.6ms)
+Completed 200 OK in 1406ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/prepayment" for 127.0.0.1 at 2013-10-14 12:31:42 +0300
+Processing by FormsController#prepayment as HTML
+  Rendered text template (0.0ms)
+Sent data prepayment.pdf (15.6ms)
+Completed 200 OK in 1422ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/prepayment" for 127.0.0.1 at 2013-10-14 12:33:39 +0300
+Processing by FormsController#prepayment as HTML
+  Rendered text template (0.0ms)
+Sent data prepayment.pdf (0.0ms)
+Completed 200 OK in 1391ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/prepayment" for 127.0.0.1 at 2013-10-14 12:33:56 +0300
+Processing by FormsController#prepayment as HTML
+  Rendered text template (0.0ms)
+Sent data prepayment.pdf (0.0ms)
+Completed 200 OK in 1406ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/prepayment" for 127.0.0.1 at 2013-10-14 12:34:27 +0300
+Processing by FormsController#prepayment as HTML
+  Rendered text template (0.0ms)
+Sent data prepayment.pdf (0.0ms)
+Completed 200 OK in 1453ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/prepayment" for 127.0.0.1 at 2013-10-14 12:35:15 +0300
+Processing by FormsController#prepayment as HTML
+  Rendered text template (0.0ms)
+Sent data prepayment.pdf (0.0ms)
+Completed 200 OK in 1406ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/prepayment" for 127.0.0.1 at 2013-10-14 16:03:47 +0300
+Processing by FormsController#prepayment as HTML
+  Rendered text template (0.0ms)
+Sent data prepayment.pdf (1125.0ms)
+Completed 200 OK in 7812ms (Views: 1125.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-14 16:04:49 +0300
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (218.8ms)
+Completed 200 OK in 375ms (Views: 218.8ms | ActiveRecord: 0.0ms)

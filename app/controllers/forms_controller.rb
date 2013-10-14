@@ -44,7 +44,7 @@ class FormsController < ApplicationController
   end
 
   def inquiry
-    pdf = InquiryForm.new.to_pdf
+    pdf = InquiryForm.new(page_layout: :landscape, page_size: 'A4').to_pdf
     send_data pdf, type: 'application/pdf', filename: 'inquiry.pdf', disposition: 'inline'
   end  
  

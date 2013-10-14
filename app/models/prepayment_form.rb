@@ -20,7 +20,7 @@ class PrepaymentForm < Prawn::Document
 
 # Левая часть
 
-    11.times do |a|
+    12.times do |a|
     3.times do |b|    
            
     self.line_width = 1
@@ -46,7 +46,12 @@ class PrepaymentForm < Prawn::Document
             horizontal_line 0, 265, :at => base_y - (2 * a)
             horizontal_line 0, 265, :at => base_y - 80 - (2 * a)
             horizontal_line 0, 265, :at => base_y - 160 - (2 * a)
-        end    
+        end
+
+        
+        bounding_box([0, base_y - 1], :width => 265, :height => 100) do
+            text "Один миллион восемьсот двадцать восемь тыс. девятьсот шестьдесят восемь руб. 99 коп.", :size => 10, style: :italic, :color => "FFFF00"
+        end 
 
         base_c = 680
         stroke_color 50, 50, 50, 100
