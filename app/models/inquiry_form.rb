@@ -14,8 +14,16 @@ class InquiryForm < Prawn::Document
       })
     font "DejaVuSans", size: 10
 
+      stroke_vertical_line 0, 540, :at => 385
 
-    
+      base_z = 530
+      draw_text "Форма № МС-42", at: [315, base_z], size: 7
+      draw_text "______________________________", at:[0, base_z-10]
+      draw_text "(наименование предприятия связи)", at: [10, base_z-20], size: 7
+      draw_text "Кассовая справка", at: [140, base_z-35], style: :bold
+      draw_text "оператора ____________________________________________", at: [50, base_z-50]
+      draw_text "за __________________________ месяц 20     г.", at: [80, base_z-70]
+          
 
     render
 
