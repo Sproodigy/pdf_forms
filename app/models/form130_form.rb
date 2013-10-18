@@ -24,7 +24,7 @@ class Form130Form < Prawn::Document
     move_down 3
     text opts[:index], style: :bold
     move_down 3
-    text 'Самара-123, ООО "Экстра"'
+    text 'Самара-123'
     move_down 7
 
     draw_text 'АНФ 09/04', at: [430, 735], size: 8

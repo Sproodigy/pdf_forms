@@ -34,7 +34,7 @@ class FormsController < ApplicationController
   end
 
   def form130
-    pdf = Form130Form.new.to_pdf index: '443218', sum: 34_93.93, quantity: 160
+    pdf = Form130Form.new.to_pdf index: '443218', sum: 14045.94, quantity: 33
     send_data pdf, type: 'application/pdf', filename: 'form130.pdf', disposition: 'inline'
   end
 
@@ -46,7 +46,12 @@ class FormsController < ApplicationController
   def inquiry
     pdf = InquiryForm.new(page_layout: :landscape, page_size: 'A4').to_pdf
     send_data pdf, type: 'application/pdf', filename: 'inquiry.pdf', disposition: 'inline'
-  end  
+  end 
+
+  def backsideform117
+    pdf = Backsideform117Form.new(page_layout: :landscape, page_size: 'A4').to_pdf
+    send_data pdf, type: 'application/pdf', filename: 'backsideform117.pdf', disposition: 'inline'
+  end 
  
 end
 

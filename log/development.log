@@ -20407,3 +20407,3229 @@ Processing by FormsController#inquiry as HTML
   Rendered text template (0.0ms)
 Sent data inquiry.pdf (0.0ms)
 Completed 200 OK in 281ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-10-16 14:05:29 +0400
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (93.8ms)
+Completed 200 OK in 1031ms (Views: 93.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-10-16 14:10:33 +0400
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (0.0ms)
+Completed 200 OK in 609ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-10-16 14:11:50 +0400
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (0.0ms)
+Completed 200 OK in 594ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-10-16 14:17:07 +0400
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (0.0ms)
+Completed 200 OK in 609ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-10-16 14:24:13 +0400
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (0.0ms)
+Completed 200 OK in 578ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-17 12:37:36 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (78.1ms)
+Completed 200 OK in 453ms (Views: 78.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-17 12:40:49 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 328ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-17 12:41:14 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 344ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-17 12:42:29 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 0ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/inquiry_form.rb:32: syntax error, unexpected ',', expecting keyword_end
+      ]), at: [0, base_z - 90]
+         ^):
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (93.8ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (187.5ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-17 12:45:58 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 0ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/inquiry_form.rb:32: syntax error, unexpected ',', expecting keyword_end
+      ]), at: [0, base_z - 90]
+         ^):
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (31.2ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (62.5ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-17 12:46:06 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 375ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-17 15:25:16 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (15.6ms)
+Completed 200 OK in 734ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-17 15:25:50 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (15.6ms)
+Completed 200 OK in 438ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-17 15:26:00 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 375ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-17 15:44:39 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (15.6ms)
+Completed 200 OK in 453ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-17 15:45:10 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 344ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-17 15:47:42 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 406ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-17 15:48:08 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 531ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-17 15:50:41 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (15.6ms)
+Completed 200 OK in 375ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-17 15:55:03 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 172ms
+
+Prawn::Errors::InvalidTableData (data must be a two dimensional array of cellable objects):
+  app/models/inquiry_form.rb:32:in `to_pdf'
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.6ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-17 15:55:24 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 31ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/inquiry_form.rb:31: syntax error, unexpected ')', expecting ']'
+      ])
+        ^):
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (31.2ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (78.1ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-17 15:55:31 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 16ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/inquiry_form.rb:31: syntax error, unexpected ')', expecting ']'
+      ])
+        ^):
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (62.5ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-17 15:58:02 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 0ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/inquiry_form.rb:31: syntax error, unexpected tLBRACE, expecting ']'
+         {:content => "Сумма, руб. коп.", :rowspan => 2}
+          ^
+D:/projects/pdf_forms/app/models/inquiry_form.rb:32: syntax error, unexpected ']', expecting keyword_end
+         ])
+          ^):
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-17 15:58:26 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 0ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/inquiry_form.rb:31: syntax error, unexpected tLBRACE, expecting ']'
+         {:content => "Сумма, руб. коп.", :rowspan => 2}
+          ^
+D:/projects/pdf_forms/app/models/inquiry_form.rb:32: syntax error, unexpected ']', expecting keyword_end
+      ])
+       ^):
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (78.1ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-17 15:59:01 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 16ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/inquiry_form.rb:32: syntax error, unexpected ')', expecting ']'
+      ])
+        ^):
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (78.1ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-17 15:59:33 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 16ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/inquiry_form.rb:32: syntax error, unexpected ')', expecting ']'
+      ])
+        ^):
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (62.5ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-17 15:59:42 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 94ms
+
+Prawn::Errors::InvalidTableData (data must be a two dimensional array of cellable objects):
+  app/models/inquiry_form.rb:32:in `to_pdf'
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (62.5ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-17 16:00:08 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 172ms
+
+Prawn::Errors::InvalidTableData (data must be a two dimensional array of cellable objects):
+  app/models/inquiry_form.rb:32:in `to_pdf'
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-17 16:00:42 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (15.6ms)
+Completed 200 OK in 375ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-17 16:01:01 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 391ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-17 16:01:30 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 125ms
+
+NoMethodError (undefined method `heigt=' for #<Prawn::Table::Cell::Text:0x2dddc40>):
+  app/models/inquiry_form.rb:32:in `to_pdf'
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (62.5ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-17 16:02:08 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 328ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-17 16:02:23 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 344ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-17 16:03:17 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 359ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-17 16:03:34 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 406ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-17 16:03:42 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 391ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-17 16:03:51 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 531ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-17 16:04:01 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 516ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-17 16:04:39 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 391ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-17 16:04:48 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 375ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-17 16:06:07 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 62ms
+
+NoMethodError (undefined method `weight=' for #<Prawn::Table::Cell::Text:0x24e3370>):
+  app/models/inquiry_form.rb:32:in `to_pdf'
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-17 16:06:37 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 312ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-17 16:06:51 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 391ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-17 16:06:58 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 297ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-17 16:07:54 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 328ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-17 16:07:59 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 281ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-17 16:08:06 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 328ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-17 16:09:46 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (15.6ms)
+Completed 200 OK in 359ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-17 16:10:18 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 328ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-17 16:10:33 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (78.1ms)
+Completed 200 OK in 297ms (Views: 78.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-17 16:11:23 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (15.6ms)
+Completed 200 OK in 359ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-17 16:11:28 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 266ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-17 16:11:58 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 297ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-17 16:12:04 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 281ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-17 16:12:30 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 297ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-17 16:12:43 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 16ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/inquiry_form.rb:32: syntax error, unexpected ']', expecting '}'
+      ])
+       ^):
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (62.5ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-17 16:13:10 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 344ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-17 16:13:19 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 234ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-17 16:13:32 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 312ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-17 16:13:37 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 203ms
+
+Prawn::Errors::CannotFit (Table's width was set too small to contain its contents (min width Infinity, requested 210.0)):
+  app/models/inquiry_form.rb:32:in `to_pdf'
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-17 16:13:46 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 172ms
+
+NoMethodError (undefined method `times' for 0.5:Float):
+  app/models/inquiry_form.rb:32:in `to_pdf'
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (46.9ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-17 16:13:57 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 297ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-17 16:14:09 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 344ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-17 16:14:13 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 375ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-17 16:14:18 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 359ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-17 16:14:29 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 516ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-17 16:14:51 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (15.6ms)
+Completed 200 OK in 516ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 09:02:12 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (93.8ms)
+Completed 200 OK in 438ms (Views: 93.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 09:06:59 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 344ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 09:32:38 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 594ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 09:33:20 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 422ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 09:34:10 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 16ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/inquiry_form.rb:35: syntax error, unexpected ',', expecting tASSOC
+      table([ [{"№ п/п", :width => 30}, "Наимен...
+                            ^
+D:/projects/pdf_forms/app/models/inquiry_form.rb:35: syntax error, unexpected ',', expecting keyword_end
+...ование операции", "Корреспондиру�...
+...                               ^
+D:/projects/pdf_forms/app/models/inquiry_form.rb:35: syntax error, unexpected ',', expecting keyword_end
+...� (шифр операции)", "Сумма, руб. коп....
+...                               ^
+D:/projects/pdf_forms/app/models/inquiry_form.rb:35: syntax error, unexpected ',', expecting keyword_end
+... "Сумма, руб. коп.", "Основание"],
+...                               ^
+D:/projects/pdf_forms/app/models/inquiry_form.rb:35: syntax error, unexpected ']', expecting keyword_end
+...коп.", "Основание"],
+...                               ^
+D:/projects/pdf_forms/app/models/inquiry_form.rb:36: syntax error, unexpected ',', expecting keyword_end
+              [cell_1, cell_2, "", ""],
+                                       ^
+D:/projects/pdf_forms/app/models/inquiry_form.rb:37: syntax error, unexpected ',', expecting keyword_end
+              ["", "", two_dimensional_array, ""],
+                                                  ^
+D:/projects/pdf_forms/app/models/inquiry_form.rb:38: syntax error, unexpected ',', expecting keyword_end
+              ["just another regular row", "", "", ""],
+                                                       ^
+D:/projects/pdf_forms/app/models/inquiry_form.rb:39: syntax error, unexpected ']', expecting keyword_end
+              ["", my_table, ""]])
+                                 ^):
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (375.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 09:34:35 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 16ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/inquiry_form.rb:35: syntax error, unexpected ',', expecting tASSOC
+      table([ [{"№ п/п", :width => 30}, "Наимен...
+                            ^
+D:/projects/pdf_forms/app/models/inquiry_form.rb:35: syntax error, unexpected ',', expecting keyword_end
+...ование операции", "Корреспондиру�...
+...                               ^
+D:/projects/pdf_forms/app/models/inquiry_form.rb:35: syntax error, unexpected ',', expecting keyword_end
+...� (шифр операции)", "Сумма, руб. коп....
+...                               ^
+D:/projects/pdf_forms/app/models/inquiry_form.rb:35: syntax error, unexpected ',', expecting keyword_end
+... "Сумма, руб. коп.", "Основание"],
+...                               ^
+D:/projects/pdf_forms/app/models/inquiry_form.rb:35: syntax error, unexpected ']', expecting keyword_end
+...коп.", "Основание"],
+...                               ^
+D:/projects/pdf_forms/app/models/inquiry_form.rb:36: syntax error, unexpected ',', expecting keyword_end
+              [cell_1, cell_2, "", ""],
+                                       ^
+D:/projects/pdf_forms/app/models/inquiry_form.rb:37: syntax error, unexpected ',', expecting keyword_end
+              ["", "", two_dimensional_array, ""],
+                                                  ^
+D:/projects/pdf_forms/app/models/inquiry_form.rb:38: syntax error, unexpected ',', expecting keyword_end
+              ["just another", "", "", ""],
+                                           ^
+D:/projects/pdf_forms/app/models/inquiry_form.rb:39: syntax error, unexpected ']', expecting keyword_end
+              ["", my_table, ""]])
+                                 ^):
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.6ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 09:35:10 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 406ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 09:35:20 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 391ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 09:38:36 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 1328ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 09:41:21 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 438ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 09:42:24 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 297ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 09:43:28 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 141ms
+
+NameError (undefined local variable or method `cell_1' for #<InquiryForm:0x26f3eb0>):
+  app/models/inquiry_form.rb:34:in `to_pdf'
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 09:43:39 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 328ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 09:45:02 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 359ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 09:45:37 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 812ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 09:45:56 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (15.6ms)
+Completed 200 OK in 391ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 09:46:46 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 344ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 09:47:24 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 406ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 09:48:07 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 31ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/inquiry_form.rb:33: syntax error, unexpected ',', expecting tASSOC
+...ование операции", {:content => "Корресп...
+...                               ^
+D:/projects/pdf_forms/app/models/inquiry_form.rb:33: syntax error, unexpected ',', expecting keyword_end
+...�ерации)", :width => 60},
+...                               ^
+D:/projects/pdf_forms/app/models/inquiry_form.rb:34: syntax error, unexpected ']', expecting tCOLON2 or '[' or '.'
+               my_table, "Основание"],
+                                              ^
+D:/projects/pdf_forms/app/models/inquiry_form.rb:35: syntax error, unexpected ',', expecting keyword_end
+              ["", ""],
+                       ^
+D:/projects/pdf_forms/app/models/inquiry_form.rb:38: syntax error, unexpected ']', expecting keyword_end
+      ])
+       ^):
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 09:48:55 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (15.6ms)
+Completed 200 OK in 406ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 09:49:03 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 375ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 09:49:13 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 469ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 09:51:01 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 328ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 09:52:23 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (15.6ms)
+Completed 200 OK in 391ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 09:52:52 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 328ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 09:53:03 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 438ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 09:53:10 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (31.2ms)
+Completed 200 OK in 641ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 09:53:23 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 312ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 09:53:32 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 453ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:02:45 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 438ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:03:34 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 375ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:04:05 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 344ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:04:16 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (15.6ms)
+Completed 200 OK in 344ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:04:28 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 344ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:07:02 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 0ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/inquiry_form.rb:30: syntax error, unexpected ']', expecting '}'
+...> "расход", :width => 60],
+...                               ^
+D:/projects/pdf_forms/app/models/inquiry_form.rb:31: syntax error, unexpected ']', expecting keyword_end
+                              ["руб.  |"] ])
+                                              ^):
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (46.9ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:07:19 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 156ms
+
+Prawn::Errors::CannotFit (Table's width was set larger than its contents' maximum width (max width 60, requested 120.0)):
+  app/models/inquiry_form.rb:31:in `to_pdf'
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:07:56 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (15.6ms)
+Completed 200 OK in 281ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:08:20 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 172ms
+
+Prawn::Errors::CannotFit (Table's width was set larger than its contents' maximum width (max width 60, requested 90.0)):
+  app/models/inquiry_form.rb:31:in `to_pdf'
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (93.8ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:09:13 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 328ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:09:55 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 125ms
+
+Prawn::Errors::CannotFit (Table's width was set larger than its contents' maximum width (max width 120, requested 180.0)):
+  app/models/inquiry_form.rb:31:in `to_pdf'
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:10:13 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 188ms
+
+Prawn::Errors::CannotFit (Table's width was set larger than its contents' maximum width (max width 90, requested 180.0)):
+  app/models/inquiry_form.rb:31:in `to_pdf'
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:10:19 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 234ms
+
+Prawn::Errors::CannotFit (Table's width was set larger than its contents' maximum width (max width 60, requested 150.0)):
+  app/models/inquiry_form.rb:31:in `to_pdf'
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:12:35 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 16ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/inquiry_form.rb:31: syntax error, unexpected ')', expecting ']'
+                              ["руб.  |"] ])
+                                               ^):
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (46.9ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:13:10 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 109ms
+
+Prawn::Errors::CannotFit (Table's width was set larger than its contents' maximum width (max width 60, requested 150.0)):
+  app/models/inquiry_form.rb:31:in `to_pdf'
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (78.1ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:13:21 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 172ms
+
+Prawn::Errors::CannotFit (Table's width was set larger than its contents' maximum width (max width 60, requested 150.0)):
+  app/models/inquiry_form.rb:31:in `to_pdf'
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.6ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:13:26 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 94ms
+
+Prawn::Errors::CannotFit (Table's width was set larger than its contents' maximum width (max width 60, requested 150.0)):
+  app/models/inquiry_form.rb:31:in `to_pdf'
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (62.5ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (93.8ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:13:48 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 94ms
+
+Prawn::Errors::CannotFit (Table's width was set larger than its contents' maximum width (max width 60, requested 130.0)):
+  app/models/inquiry_form.rb:31:in `to_pdf'
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:13:54 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 109ms
+
+Prawn::Errors::CannotFit (Table's width was set larger than its contents' maximum width (max width 60, requested 110.0)):
+  app/models/inquiry_form.rb:31:in `to_pdf'
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.6ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:14:00 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 109ms
+
+Prawn::Errors::CannotFit (Table's width was set larger than its contents' maximum width (max width 60, requested 90.0)):
+  app/models/inquiry_form.rb:31:in `to_pdf'
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.6ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:14:13 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (15.6ms)
+Completed 200 OK in 312ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:14:57 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 391ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:15:03 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 359ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:15:19 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 109ms
+
+Prawn::Errors::CannotFit (Table's width was set larger than its contents' maximum width (max width 120, requested 180.0)):
+  app/models/inquiry_form.rb:31:in `to_pdf'
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:16:04 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 328ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:17:52 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 312ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:18:11 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (15.6ms)
+Completed 200 OK in 281ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:18:17 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 328ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:18:24 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 453ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:18:52 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 469ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:18:58 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 406ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:19:15 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 469ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:19:26 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 469ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:20:09 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 453ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:21:18 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (15.6ms)
+Completed 200 OK in 281ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:21:34 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 281ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:23:12 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 359ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:23:27 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 359ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:23:33 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 312ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:28:10 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 328ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:29:40 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 16ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/inquiry_form.rb:32: syntax error, unexpected tLBRACE, expecting ']'
+                               {:content => "к.", :colspan => 1}] 
+                                ^
+D:/projects/pdf_forms/app/models/inquiry_form.rb:32: syntax error, unexpected ']', expecting keyword_end
+                               {:content => "к.", :colspan => 1}] 
+                                                                  ^):
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:29:49 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (15.6ms)
+Completed 200 OK in 344ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:32:54 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 312ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:33:04 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 344ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:33:31 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 344ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:33:50 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 312ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:34:33 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 297ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:34:39 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (15.6ms)
+Completed 200 OK in 312ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:34:47 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 328ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:35:23 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 391ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:35:34 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (15.6ms)
+Completed 200 OK in 281ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:35:56 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 312ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:36:52 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 391ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:37:12 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 344ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:37:34 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 328ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:38:01 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 344ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:38:11 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 328ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:38:34 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 516ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:38:42 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 438ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:39:00 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 219ms
+
+Prawn::Errors::CannotFit (Table's width was set too small to contain its contents (min width 240.4181111111111, requested 228.25083333333333)):
+  app/models/inquiry_form.rb:41:in `to_pdf'
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:39:26 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 328ms
+
+Prawn::Errors::CannotFit (Table's width was set too small to contain its contents (min width 250.4181111111111, requested 238.25083333333333)):
+  app/models/inquiry_form.rb:41:in `to_pdf'
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (46.9ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:39:43 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 234ms
+
+Prawn::Errors::CannotFit (Table's width was set too small to contain its contents (min width 260.4181111111111, requested 248.25083333333333)):
+  app/models/inquiry_form.rb:41:in `to_pdf'
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:39:57 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 188ms
+
+Prawn::Errors::CannotFit (Table's width was set too small to contain its contents (min width 254.24533333333335, requested 242.448)):
+  app/models/inquiry_form.rb:41:in `to_pdf'
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (46.9ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:40:57 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 281ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:41:07 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 328ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:41:29 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 359ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:41:49 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 344ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:41:59 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 297ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:42:16 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 406ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:42:25 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 203ms
+
+NoMethodError (undefined method `times' for 6.2:Float):
+  app/models/inquiry_form.rb:35:in `to_pdf'
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:42:41 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (31.2ms)
+Completed 200 OK in 484ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:46:45 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 297ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:47:08 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 312ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:47:12 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 312ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:47:38 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 344ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:48:09 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 16ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/inquiry_form.rb:37: syntax error, unexpected ':', expecting '}'
+...=> "№ п/п", :colspan => 1 :rowspan => 1},
+...                               ^
+D:/projects/pdf_forms/app/models/inquiry_form.rb:38: syntax error, unexpected ',', expecting keyword_end
+... :colspan => 3, :rowspan => 1},
+...                               ^
+D:/projects/pdf_forms/app/models/inquiry_form.rb:39: syntax error, unexpected ',', expecting keyword_end
+... :colspan => 3, :rowspan => 1},
+...                               ^):
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:48:23 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 328ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:48:41 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 375ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:49:25 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 234ms
+
+NoMethodError (undefined method `heigth=' for #<Prawn::Table::Cell::Text:0x36f2460>):
+  app/models/inquiry_form.rb:41:in `to_pdf'
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:50:42 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 328ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:51:04 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 344ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:51:12 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 328ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:51:20 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 359ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:51:25 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 359ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:51:43 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 156ms
+
+Prawn::Errors::CannotFit (Table's width was set too small to contain its contents (min width 244.24533333333335, requested 232.448)):
+  app/models/inquiry_form.rb:41:in `to_pdf'
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (46.9ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:51:54 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 297ms
+
+Prawn::Errors::CannotFit (Table's width was set too small to contain its contents (min width 284.24533333333335, requested 272.448)):
+  app/models/inquiry_form.rb:41:in `to_pdf'
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:52:06 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 250ms
+
+Prawn::Errors::CannotFit (Table's width was set too small to contain its contents (min width 304.24533333333335, requested 292.448)):
+  app/models/inquiry_form.rb:41:in `to_pdf'
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.6ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:52:18 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 188ms
+
+Prawn::Errors::CannotFit (Table's width was set too small to contain its contents (min width 404.24533333333335, requested 392.448)):
+  app/models/inquiry_form.rb:41:in `to_pdf'
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:52:25 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 250ms
+
+Prawn::Errors::CannotFit (Table's width was set too small to contain its contents (min width 214.24533333333335, requested 202.448)):
+  app/models/inquiry_form.rb:41:in `to_pdf'
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (46.9ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:53:28 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 578ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:54:01 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 328ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:54:19 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 203ms
+
+Prawn::Errors::CannotFit (Prawn::Errors::CannotFit):
+  app/models/inquiry_form.rb:41:in `to_pdf'
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:54:33 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 125ms
+
+Prawn::Errors::CannotFit (Prawn::Errors::CannotFit):
+  app/models/inquiry_form.rb:41:in `to_pdf'
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.6ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:54:52 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 328ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 10:55:04 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 359ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 11:01:50 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 312ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 11:20:03 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 375ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 11:55:47 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 172ms
+
+NameError (undefined local variable or method `cells' for #<InquiryForm:0x25c1e68>):
+  app/models/inquiry_form.rb:37:in `to_pdf'
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 12:00:19 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 0ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/inquiry_form.rb:38: syntax error, unexpected ')', expecting ']'
+    table([ cell_style: { inline_format: true }) do |t|
+                                                ^
+D:/projects/pdf_forms/app/models/inquiry_form.rb:43: syntax error, unexpected ']', expecting keyword_end
+         ])
+          ^
+D:/projects/pdf_forms/app/models/inquiry_form.rb:52: syntax error, unexpected keyword_end, expecting $end):
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 12:00:49 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 0ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/inquiry_form.rb:38: syntax error, unexpected ')', expecting ']'
+    table([ cell_style: { inline_format: true }) do |t|
+                                                ^
+D:/projects/pdf_forms/app/models/inquiry_form.rb:43: syntax error, unexpected ']', expecting keyword_end
+         ])
+          ^):
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (46.9ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 12:02:01 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 16ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/inquiry_form.rb:30: syntax error, unexpected ',', expecting keyword_end
+...расход", :colspan => 2}],
+...                               ^
+D:/projects/pdf_forms/app/models/inquiry_form.rb:35: syntax error, unexpected ']', expecting keyword_end
+                         ])
+                          ^):
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (46.9ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 12:02:11 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 328ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 12:03:04 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 297ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 12:07:49 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 328ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 12:09:13 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 312ms
+
+NoMethodError (undefined method `inline_format=' for #<Prawn::Table::Cell::Subtable:0x37a10d8>):
+  app/models/inquiry_form.rb:49:in `to_pdf'
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (109.4ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 12:10:47 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 328ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 12:11:39 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 16ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/inquiry_form.rb:53: syntax error, unexpected tIDENTIFIER, expecting ']'
+    render
+          ^):
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (46.9ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 12:12:40 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 234ms
+
+Prawn::Errors::InvalidTableData (data must be a two dimensional array of cellable objects):
+  app/models/inquiry_form.rb:47:in `to_pdf'
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 12:12:56 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 234ms
+
+Prawn::Errors::InvalidTableData (data must be a two dimensional array of cellable objects):
+  app/models/inquiry_form.rb:47:in `to_pdf'
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 12:13:16 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 16ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/inquiry_form.rb:55: syntax error, unexpected $end, expecting keyword_end):
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (46.9ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 12:13:39 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 0ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/inquiry_form.rb:48: syntax error, unexpected ')', expecting ']'
+         cell_style: { inline_format: true }) do |t| ])
+                                             ^):
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (78.1ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (140.6ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 12:13:52 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 16ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/inquiry_form.rb:48: syntax error, unexpected ')', expecting ']'
+         cell_style: { inline_format: true }) do |t| ]
+                                             ^):
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 12:14:11 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 16ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/inquiry_form.rb:48: syntax error, unexpected keyword_do_block, expecting ']'
+         cell_style: { inline_format: true } do |t| ])
+                                               ^):
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (62.5ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 12:14:51 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 16ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/inquiry_form.rb:48: syntax error, unexpected keyword_do_block, expecting ')'
+         cell_style: { inline_format: true } do |t| ])
+                                               ^):
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 12:16:20 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 16ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/inquiry_form.rb:47: syntax error, unexpected ')', expecting ']'
+..._widths => [55, 315, 120, 50] )] 
+...                               ^):
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (78.1ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 12:16:40 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 16ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/inquiry_form.rb:47: syntax error, unexpected '}', expecting ']'
+...         "Основание"]}, :column_widths => [55, 315,...
+...                               ^
+D:/projects/pdf_forms/app/models/inquiry_form.rb:47: syntax error, unexpected ')', expecting keyword_end
+..._widths => [55, 315, 120, 50] ) 
+...                               ^):
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 12:16:46 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (15.6ms)
+Completed 200 OK in 375ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 12:17:13 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 188ms
+
+Prawn::Errors::CannotFit (Table's width was set too small to contain its contents (min width 608.9014999999999, requested 595.744)):
+  app/models/inquiry_form.rb:47:in `to_pdf'
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 12:17:42 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 188ms
+
+Prawn::Errors::CannotFit (Table's width was set too small to contain its contents (min width 368.9015, requested 355.744)):
+  app/models/inquiry_form.rb:47:in `to_pdf'
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (78.1ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 12:18:53 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 359ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 12:19:06 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (15.6ms)
+Completed 200 OK in 344ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 12:19:20 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (15.6ms)
+Completed 200 OK in 344ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 12:19:29 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 312ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 12:19:46 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 391ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 12:20:16 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (93.8ms)
+Completed 200 OK in 562ms (Views: 93.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 12:20:24 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 188ms
+
+Prawn::Errors::CannotFit (Table's width was set too small to contain its contents (min width 347.0055, requested 345.0)):
+  app/models/inquiry_form.rb:47:in `to_pdf'
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 12:20:36 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 500ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 12:21:00 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (15.6ms)
+Completed 200 OK in 578ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 12:21:16 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 234ms
+
+Prawn::Errors::CannotFit (Table's width was set too small to contain its contents (min width 357.0055, requested 355.0)):
+  app/models/inquiry_form.rb:47:in `to_pdf'
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 12:21:24 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 297ms
+
+Prawn::Errors::CannotFit (Table's width was set too small to contain its contents (min width 357.0055, requested 357.0)):
+  app/models/inquiry_form.rb:47:in `to_pdf'
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.6ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 12:21:31 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 516ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 12:21:49 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (15.6ms)
+Completed 200 OK in 344ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 12:21:56 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 172ms
+
+Prawn::Errors::CannotFit (Table's width was set too small to contain its contents (min width 367.0055, requested 358.0)):
+  app/models/inquiry_form.rb:47:in `to_pdf'
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (62.5ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 12:22:21 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 312ms
+
+Prawn::Errors::CannotFit (Table's width was set too small to contain its contents (min width 377.0055, requested 368.0)):
+  app/models/inquiry_form.rb:47:in `to_pdf'
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (62.5ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 12:22:41 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 234ms
+
+Prawn::Errors::CannotFit (Table's width was set too small to contain its contents (min width 367.0055, requested 358.0)):
+  app/models/inquiry_form.rb:47:in `to_pdf'
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 12:22:48 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 125ms
+
+Prawn::Errors::CannotFit (Table's width was set too small to contain its contents (min width 377.0055, requested 368.0)):
+  app/models/inquiry_form.rb:47:in `to_pdf'
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (46.9ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 12:22:57 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 109ms
+
+Prawn::Errors::CannotFit (Table's width was set too small to contain its contents (min width 377.0055, requested 373.0)):
+  app/models/inquiry_form.rb:47:in `to_pdf'
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 12:23:04 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 312ms
+
+Prawn::Errors::CannotFit (Table's width was set too small to contain its contents (min width 377.0055, requested 375.0)):
+  app/models/inquiry_form.rb:47:in `to_pdf'
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 12:23:12 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 297ms
+
+Prawn::Errors::CannotFit (Table's width was set too small to contain its contents (min width 378.0055, requested 378.0)):
+  app/models/inquiry_form.rb:47:in `to_pdf'
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 12:23:19 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 391ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 12:23:37 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 469ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 12:23:50 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 469ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 12:24:05 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 547ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 12:24:14 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 484ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 12:27:27 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 609ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 12:27:56 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 391ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 12:28:09 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 250ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 12:28:26 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (15.6ms)
+Completed 200 OK in 391ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 12:28:33 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 375ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 12:28:48 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 344ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 12:28:55 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 359ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 12:29:06 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 391ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 12:29:13 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 250ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 12:29:20 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 359ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 12:29:30 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 281ms
+
+Prawn::Errors::CannotFit (Table's width was set too small to contain its contents (min width 312.0055, requested 305.0)):
+  app/models/inquiry_form.rb:47:in `to_pdf'
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 12:29:39 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 438ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 12:30:52 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 141ms
+
+Prawn::Errors::CannotFit (Table's width was set too small to contain its contents (min width 332.0055, requested 325.0)):
+  app/models/inquiry_form.rb:47:in `to_pdf'
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 12:31:18 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 375ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 12:31:23 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 297ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 12:31:35 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 344ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 12:31:44 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 406ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 12:31:51 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (15.6ms)
+Completed 200 OK in 344ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 12:32:00 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 391ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 12:32:07 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 453ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 12:32:21 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 391ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 12:33:57 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 328ms
+
+NoMethodError (undefined method `column_widths=' for #<Prawn::Table::Cell::Text:0x373f4a0>):
+  app/models/inquiry_form.rb:47:in `to_pdf'
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 12:34:11 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 188ms
+
+Prawn::Errors::CannotFit (Table's width was set too small to contain its contents (min width 332.0055, requested 325.0)):
+  app/models/inquiry_form.rb:47:in `to_pdf'
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 12:34:20 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 219ms
+
+Prawn::Errors::CannotFit (Table's width was set too small to contain its contents (min width 342.0055, requested 335.0)):
+  app/models/inquiry_form.rb:47:in `to_pdf'
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.6ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 12:34:28 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 250ms
+
+Prawn::Errors::CannotFit (Table's width was set too small to contain its contents (min width 352.0055, requested 345.0)):
+  app/models/inquiry_form.rb:47:in `to_pdf'
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 12:34:45 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 328ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 12:35:37 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 438ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-18 12:42:45 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 62ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-18 12:43:19 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 94ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-10-18 12:43:40 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 406ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-18 15:13:45 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (15.6ms)
+Completed 200 OK in 125ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-18 15:28:11 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 47ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-18 15:29:25 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (15.6ms)
+Completed 200 OK in 125ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-18 15:29:38 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 78ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-18 15:29:54 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 31ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-18 15:30:08 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 31ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-18 15:30:14 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (31.2ms)
+Completed 200 OK in 141ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-18 15:31:08 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (15.6ms)
+Completed 200 OK in 62ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-18 15:31:17 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (15.6ms)
+Completed 200 OK in 47ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-18 15:31:29 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 47ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-18 15:31:37 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (15.6ms)
+Completed 200 OK in 62ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-18 15:31:59 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 125ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-18 15:32:18 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 125ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-18 15:32:29 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 31ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-18 15:32:39 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 47ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-18 15:32:52 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (15.6ms)
+Completed 200 OK in 47ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-18 15:33:11 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 109ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-18 15:35:39 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (15.6ms)
+Completed 200 OK in 47ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-18 15:46:43 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 234ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-18 15:46:55 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 266ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-18 15:47:10 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 266ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-18 15:47:20 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (15.6ms)
+Completed 200 OK in 234ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-18 15:48:12 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 203ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-18 15:48:24 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 156ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-18 15:48:30 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 203ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-18 15:54:41 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 266ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-18 15:54:51 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 156ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-18 15:55:08 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (62.5ms)
+Completed 200 OK in 234ms (Views: 62.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-18 15:55:16 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 141ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-18 15:56:43 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 234ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-18 15:56:49 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 234ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-18 15:57:10 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 188ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-18 15:57:32 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 188ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-18 15:57:41 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 188ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-18 15:57:51 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 266ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-18 15:58:01 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 203ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-18 15:58:11 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 297ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-18 15:59:35 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 141ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-18 15:59:42 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 156ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-18 15:59:50 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 312ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-18 16:00:16 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 172ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-18 16:04:18 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 203ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-18 16:04:27 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 203ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-18 16:06:07 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 266ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-18 16:08:53 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 219ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-18 16:10:25 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 125ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-18 16:10:36 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 156ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-18 16:10:45 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 172ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-18 16:11:29 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 188ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-18 16:12:15 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 234ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-18 16:13:15 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 219ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-18 16:14:00 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 234ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-18 16:14:10 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 281ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-18 16:14:55 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (15.6ms)
+Completed 200 OK in 141ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-18 16:15:00 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 219ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-18 16:17:11 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 188ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-18 16:18:20 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 266ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-18 16:19:41 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 219ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-18 16:22:40 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 125ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-18 16:25:06 +0400
+Processing by FormsController#backsideform117 as HTML
+Completed 500 Internal Server Error in 31ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/backsideform117_form.rb:26: syntax error, unexpected '\n', expecting tASSOC):
+  app/controllers/forms_controller.rb:52:in `backsideform117'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (78.1ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-18 16:25:14 +0400
+Processing by FormsController#backsideform117 as HTML
+Completed 500 Internal Server Error in 0ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/backsideform117_form.rb:26: syntax error, unexpected tASSOC
+    draw_text "(подпись)", at: => 30, 102
+                                        ^):
+  app/controllers/forms_controller.rb:52:in `backsideform117'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (62.5ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-18 16:25:27 +0400
+Processing by FormsController#backsideform117 as HTML
+Completed 500 Internal Server Error in 94ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/backsideform117_form.rb:26: syntax error, unexpected tASSOC
+    draw_text "(подпись)", at: => [30, 102]
+                                        ^):
+  app/controllers/forms_controller.rb:52:in `backsideform117'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-18 16:25:34 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 188ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-18 16:26:40 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 266ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-18 16:27:02 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 125ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-18 16:27:25 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 203ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-18 16:27:32 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 125ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-18 16:30:01 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 188ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-18 16:31:42 +0400
+Processing by FormsController#backsideform117 as HTML
+Completed 500 Internal Server Error in 0ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/backsideform117_form.rb:21: syntax error, unexpected tASSOC, expecting tCOLON2 or '[' or '.'
+    stroke_vertikal_line, :at => 385
+                                ^):
+  app/controllers/forms_controller.rb:52:in `backsideform117'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (62.5ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-18 16:32:07 +0400
+Processing by FormsController#backsideform117 as HTML
+Completed 500 Internal Server Error in 16ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/backsideform117_form.rb:21: syntax error, unexpected ',', expecting tCOLON2 or '[' or '.'
+    stroke_vertikal_line, 0, 523, :at => 385
+                            ^):
+  app/controllers/forms_controller.rb:52:in `backsideform117'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (46.9ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-18 16:32:24 +0400
+Processing by FormsController#backsideform117 as HTML
+Completed 500 Internal Server Error in 16ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/backsideform117_form.rb:21: syntax error, unexpected ',', expecting tCOLON2 or '[' or '.'
+    stroke_vertikal_line, 0, 523, at: => 385
+                            ^):
+  app/controllers/forms_controller.rb:52:in `backsideform117'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (46.9ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-18 16:32:37 +0400
+Processing by FormsController#backsideform117 as HTML
+Completed 500 Internal Server Error in 0ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/backsideform117_form.rb:21: syntax error, unexpected tASSOC
+    stroke_vertikal_line 0, 523, at: => 385
+                                       ^):
+  app/controllers/forms_controller.rb:52:in `backsideform117'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (46.9ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-18 16:32:44 +0400
+Processing by FormsController#backsideform117 as HTML
+Completed 500 Internal Server Error in 31ms
+
+NoMethodError (undefined method `stroke_vertikal_line' for #<Backsideform117Form:0x25d7e58>):
+  app/models/backsideform117_form.rb:21:in `to_pdf'
+  app/controllers/forms_controller.rb:52:in `backsideform117'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (46.9ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-18 16:33:54 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (62.5ms)
+Completed 200 OK in 281ms (Views: 62.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-18 16:34:09 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 234ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-18 16:34:22 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 266ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-18 16:37:22 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 219ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-18 16:37:47 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 219ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-18 16:38:34 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 188ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-18 16:39:20 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 203ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-18 16:39:31 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 219ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-18 16:41:06 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 266ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-18 16:41:48 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 203ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-18 16:45:07 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 141ms (Views: 0.0ms | ActiveRecord: 0.0ms)
