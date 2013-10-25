@@ -23633,3 +23633,2632 @@ Processing by FormsController#backsideform117 as HTML
   Rendered text template (0.0ms)
 Sent data backsideform117.pdf (0.0ms)
 Completed 200 OK in 141ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 10:38:40 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (140.6ms)
+Completed 200 OK in 375ms (Views: 140.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 10:41:36 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 250ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 10:45:29 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 203ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 12:29:15 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 312ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 12:29:35 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 250ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 12:31:09 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 234ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 12:33:10 +0400
+Processing by FormsController#backsideform117 as HTML
+Completed 500 Internal Server Error in 16ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/backsideform117_form.rb:44: syntax error, unexpected keyword_end, expecting $end
+end    
+   ^):
+  app/controllers/forms_controller.rb:52:in `backsideform117'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (140.6ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 12:34:39 +0400
+Processing by FormsController#backsideform117 as HTML
+Completed 500 Internal Server Error in 16ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/backsideform117_form.rb:45: syntax error, unexpected keyword_end, expecting $end
+end    
+   ^):
+  app/controllers/forms_controller.rb:52:in `backsideform117'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (46.9ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 12:34:42 +0400
+Processing by FormsController#backsideform117 as HTML
+Completed 500 Internal Server Error in 0ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/backsideform117_form.rb:45: syntax error, unexpected keyword_end, expecting $end
+end    
+   ^):
+  app/controllers/forms_controller.rb:52:in `backsideform117'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (62.5ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 12:35:49 +0400
+Processing by FormsController#backsideform117 as HTML
+Completed 500 Internal Server Error in 16ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/backsideform117_form.rb:45: syntax error, unexpected keyword_end, expecting $end
+end    
+   ^):
+  app/controllers/forms_controller.rb:52:in `backsideform117'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (62.5ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 12:36:07 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 250ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 12:37:07 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 188ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 12:37:32 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 266ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 12:37:58 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 250ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 12:38:07 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 219ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 12:38:29 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 188ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 12:39:11 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 141ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 12:40:03 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 156ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 12:40:23 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 203ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 12:42:54 +0400
+Processing by FormsController#backsideform117 as HTML
+Completed 500 Internal Server Error in 16ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/backsideform117_form.rb:39: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+...t "Получил "____________" _________________________20...
+...                               ^):
+  app/controllers/forms_controller.rb:52:in `backsideform117'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (78.1ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 12:43:57 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 250ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 12:44:18 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 281ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 12:44:28 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 203ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 12:44:35 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 203ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 12:44:47 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 281ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 12:45:00 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 188ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 12:45:11 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 188ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 12:49:32 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 203ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 12:49:51 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 203ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 12:57:32 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 250ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 12:57:48 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 250ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 12:58:04 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 250ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 12:58:20 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (46.9ms)
+Completed 200 OK in 250ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 12:59:24 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 281ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 12:59:38 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 141ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 12:59:44 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 125ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 12:59:48 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 109ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 13:00:49 +0400
+Processing by FormsController#backsideform117 as HTML
+Completed 500 Internal Server Error in 125ms
+
+NameError (undefined local variable or method `a' for #<Backsideform117Form:0x264d728>):
+  app/models/backsideform117_form.rb:49:in `block in to_pdf'
+  app/models/backsideform117_form.rb:33:in `to_pdf'
+  app/controllers/forms_controller.rb:52:in `backsideform117'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 13:01:24 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 219ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 13:04:22 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 156ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 13:07:04 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 281ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 13:07:26 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 281ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 13:08:55 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 250ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 13:09:19 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 250ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 13:09:48 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 266ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 13:10:14 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 219ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 13:10:20 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 219ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 13:10:38 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 219ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 13:11:10 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 281ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 13:11:35 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 219ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 13:12:03 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 203ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 13:12:09 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 281ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 13:12:16 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 172ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 13:12:21 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 125ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 13:12:28 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 234ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 13:17:48 +0400
+Processing by FormsController#backsideform117 as HTML
+Completed 500 Internal Server Error in 125ms
+
+LocalJumpError (no block given (yield)):
+  app/models/backsideform117_form.rb:44:in `block (2 levels) in to_pdf'
+  app/models/backsideform117_form.rb:42:in `times'
+  app/models/backsideform117_form.rb:42:in `block in to_pdf'
+  app/models/backsideform117_form.rb:33:in `to_pdf'
+  app/controllers/forms_controller.rb:52:in `backsideform117'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 13:19:14 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 203ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 13:19:27 +0400
+Processing by FormsController#backsideform117 as HTML
+Completed 500 Internal Server Error in 0ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/backsideform117_form.rb:33: syntax error, unexpected '=', expecting ')'
+...17, cursor - 90], :line_width = 2, :width => 380, :height =>...
+...                               ^
+D:/projects/pdf_forms/app/models/backsideform117_form.rb:53: syntax error, unexpected keyword_end, expecting $end
+end    
+   ^):
+  app/controllers/forms_controller.rb:52:in `backsideform117'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (46.9ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 13:19:35 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 141ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 13:19:42 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 188ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 13:20:07 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 188ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 13:20:22 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 281ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 13:20:52 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 188ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 13:21:26 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (15.6ms)
+Completed 200 OK in 172ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 13:21:34 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 125ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 13:22:02 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 141ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 13:22:15 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 297ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 13:25:37 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 203ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 13:27:15 +0400
+Processing by FormsController#backsideform117 as HTML
+Completed 500 Internal Server Error in 188ms
+
+LocalJumpError (no block given (yield)):
+  app/models/backsideform117_form.rb:48:in `block in to_pdf'
+  app/models/backsideform117_form.rb:46:in `times'
+  app/models/backsideform117_form.rb:46:in `to_pdf'
+  app/controllers/forms_controller.rb:52:in `backsideform117'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 13:27:41 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 188ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 13:28:36 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 172ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 13:28:45 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 219ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 13:28:54 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 172ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 13:28:59 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 297ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 13:29:10 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (15.6ms)
+Completed 200 OK in 219ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 13:29:17 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 250ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 13:29:22 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 234ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 13:29:29 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 281ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 13:31:40 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 188ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 13:35:44 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 375ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 13:35:51 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 266ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 13:35:58 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 281ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 13:36:20 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 156ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 13:36:49 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 219ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 13:37:01 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (15.6ms)
+Completed 200 OK in 188ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 13:37:09 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (46.9ms)
+Completed 200 OK in 250ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 13:37:20 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 250ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 13:37:25 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 219ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 13:37:57 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 281ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 14:43:22 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (15.6ms)
+Completed 200 OK in 375ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 14:44:36 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 188ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 14:44:41 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (15.6ms)
+Completed 200 OK in 172ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 14:44:56 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (15.6ms)
+Completed 200 OK in 297ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 14:46:55 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 281ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 14:47:50 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 266ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 14:48:06 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 266ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 14:50:23 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 250ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 14:50:32 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 250ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 14:51:00 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 219ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 14:52:47 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 156ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 14:53:09 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 297ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 14:55:14 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 203ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 14:58:32 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 156ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 14:58:40 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 156ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 14:58:49 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 219ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 15:00:24 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 250ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 15:01:49 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 422ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 15:02:15 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 328ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 15:02:22 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 312ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 15:02:40 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (15.6ms)
+Completed 200 OK in 312ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 15:06:26 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 391ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 15:07:35 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (15.6ms)
+Completed 200 OK in 453ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 15:07:51 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 281ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 15:09:05 +0400
+Processing by FormsController#backsideform117 as HTML
+Completed 500 Internal Server Error in 16ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/backsideform117_form.rb:76: syntax error, unexpected $end, expecting keyword_end):
+  app/controllers/forms_controller.rb:52:in `backsideform117'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (46.9ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 15:09:16 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (15.6ms)
+Completed 200 OK in 359ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 15:09:43 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 438ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 15:10:44 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 438ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 15:10:57 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 328ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 15:11:03 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 422ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 15:11:15 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 297ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 15:11:51 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 297ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 15:12:19 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 438ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 15:13:00 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (15.6ms)
+Completed 200 OK in 391ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 15:35:08 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 312ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 15:35:33 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 391ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 15:36:22 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 250ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 15:37:32 +0400
+Processing by FormsController#backsideform117 as HTML
+Completed 500 Internal Server Error in 0ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/backsideform117_form.rb:76: syntax error, unexpected $end, expecting keyword_end):
+  app/controllers/forms_controller.rb:52:in `backsideform117'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 15:38:44 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 359ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 15:39:10 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 234ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 15:49:48 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 266ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 15:50:01 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 234ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 15:50:17 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (15.6ms)
+Completed 200 OK in 203ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 15:50:39 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 250ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 15:51:18 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 203ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 15:51:47 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 203ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 15:52:00 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 219ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 15:53:02 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 188ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 15:55:01 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 141ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 15:55:14 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 234ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 15:55:29 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 219ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 15:55:59 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 297ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 15:56:33 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 266ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 15:57:05 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 188ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 15:57:17 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 172ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 15:57:34 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 141ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 15:57:57 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 266ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 15:58:13 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 250ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 16:14:22 +0400
+Processing by FormsController#backsideform117 as HTML
+Completed 500 Internal Server Error in 172ms
+
+NameError (undefined local variable or method `space' for #<Backsideform117Form:0x2724630>):
+  app/models/backsideform117_form.rb:80:in `block in to_pdf'
+  app/models/backsideform117_form.rb:76:in `times'
+  app/models/backsideform117_form.rb:76:in `to_pdf'
+  app/controllers/forms_controller.rb:52:in `backsideform117'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (62.5ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 16:14:35 +0400
+Processing by FormsController#backsideform117 as HTML
+Completed 500 Internal Server Error in 141ms
+
+NameError (undefined local variable or method `space' for #<Backsideform117Form:0x2726c40>):
+  app/models/backsideform117_form.rb:80:in `block in to_pdf'
+  app/models/backsideform117_form.rb:76:in `times'
+  app/models/backsideform117_form.rb:76:in `to_pdf'
+  app/controllers/forms_controller.rb:52:in `backsideform117'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 16:14:55 +0400
+Processing by FormsController#backsideform117 as HTML
+Completed 500 Internal Server Error in 94ms
+
+NameError (undefined local variable or method `space' for #<Backsideform117Form:0x264d788>):
+  app/models/backsideform117_form.rb:80:in `block in to_pdf'
+  app/models/backsideform117_form.rb:76:in `times'
+  app/models/backsideform117_form.rb:76:in `to_pdf'
+  app/controllers/forms_controller.rb:52:in `backsideform117'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 16:15:36 +0400
+Processing by FormsController#backsideform117 as HTML
+Completed 500 Internal Server Error in 125ms
+
+NameError (undefined local variable or method `space' for #<Backsideform117Form:0x2725da0>):
+  app/models/backsideform117_form.rb:80:in `block in to_pdf'
+  app/models/backsideform117_form.rb:76:in `times'
+  app/models/backsideform117_form.rb:76:in `to_pdf'
+  app/controllers/forms_controller.rb:52:in `backsideform117'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 16:16:15 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 281ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 16:16:34 +0400
+Processing by FormsController#backsideform117 as HTML
+Completed 500 Internal Server Error in 188ms
+
+ArgumentError (wrong number of arguments (3 for 2)):
+  app/models/backsideform117_form.rb:80:in `block in to_pdf'
+  app/models/backsideform117_form.rb:76:in `times'
+  app/models/backsideform117_form.rb:76:in `to_pdf'
+  app/controllers/forms_controller.rb:52:in `backsideform117'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 16:16:48 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 266ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 16:18:16 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 234ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 16:18:29 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 172ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 16:19:08 +0400
+Processing by FormsController#backsideform117 as HTML
+Completed 500 Internal Server Error in 172ms
+
+NameError (undefined local variable or method `base_y' for #<Backsideform117Form:0x29309d0>):
+  app/models/backsideform117_form.rb:87:in `block in to_pdf'
+  app/models/backsideform117_form.rb:76:in `times'
+  app/models/backsideform117_form.rb:76:in `to_pdf'
+  app/controllers/forms_controller.rb:52:in `backsideform117'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 16:20:04 +0400
+Processing by FormsController#backsideform117 as HTML
+Completed 500 Internal Server Error in 0ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/backsideform117_form.rb:86: syntax error, unexpected ',', expecting ')'
+      dash (length, :space => space, :phase => phase)
+                   ^
+D:/projects/pdf_forms/app/models/backsideform117_form.rb:86: syntax error, unexpected tASSOC, expecting tCOLON2 or '[' or '.'
+      dash (length, :space => space, :phase => phase)
+                                              ^):
+  app/controllers/forms_controller.rb:52:in `backsideform117'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (46.9ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 16:20:15 +0400
+Processing by FormsController#backsideform117 as HTML
+Completed 500 Internal Server Error in 219ms
+
+NameError (undefined local variable or method `i' for #<Backsideform117Form:0x2da8f90>):
+  app/models/backsideform117_form.rb:87:in `block in to_pdf'
+  app/models/backsideform117_form.rb:76:in `times'
+  app/models/backsideform117_form.rb:76:in `to_pdf'
+  app/controllers/forms_controller.rb:52:in `backsideform117'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 16:20:25 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (15.6ms)
+Completed 200 OK in 344ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 16:20:50 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 219ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 16:21:04 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 297ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 16:22:36 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 250ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 16:22:49 +0400
+Processing by FormsController#backsideform117 as HTML
+Completed 500 Internal Server Error in 16ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/backsideform117_form.rb:83: syntax error, unexpected keyword_end, expecting keyword_when
+      end
+         ^):
+  app/controllers/forms_controller.rb:52:in `backsideform117'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (46.9ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 16:22:58 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 203ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 16:23:41 +0400
+Processing by FormsController#backsideform117 as HTML
+Completed 500 Internal Server Error in 0ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/backsideform117_form.rb:83: syntax error, unexpected tIDENTIFIER, expecting keyword_when
+        phase = length
+             ^
+D:/projects/pdf_forms/app/models/backsideform117_form.rb:94: syntax error, unexpected keyword_end, expecting $end
+end    
+   ^):
+  app/controllers/forms_controller.rb:52:in `backsideform117'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (62.5ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 16:23:52 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 188ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 16:23:59 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 188ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 16:24:06 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 219ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 16:24:19 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 188ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 16:24:33 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 250ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 16:27:27 +0400
+Processing by FormsController#backsideform117 as HTML
+Completed 500 Internal Server Error in 16ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/backsideform117_form.rb:76: syntax error, unexpected '(', expecting tASSOC
+    stroke_horizontal_line 0, 300, :at => 300, :dash (1)
+                                                      ^):
+  app/controllers/forms_controller.rb:52:in `backsideform117'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (46.9ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 16:27:46 +0400
+Processing by FormsController#backsideform117 as HTML
+Completed 500 Internal Server Error in 0ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/backsideform117_form.rb:76: syntax error, unexpected tLPAREN_ARG, expecting keyword_do or '{' or '('
+    stroke_horizontal_line 0, 300, :at => 300, {dash (1)}
+                                                      ^
+D:/projects/pdf_forms/app/models/backsideform117_form.rb:76: syntax error, unexpected '}', expecting keyword_end
+    stroke_horizontal_line 0, 300, :at => 300, {dash (1)}
+                                                         ^):
+  app/controllers/forms_controller.rb:52:in `backsideform117'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 16:29:45 +0400
+Processing by FormsController#backsideform117 as HTML
+Completed 500 Internal Server Error in 0ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/backsideform117_form.rb:76: syntax error, unexpected '\n', expecting tASSOC):
+  app/controllers/forms_controller.rb:52:in `backsideform117'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 16:30:02 +0400
+Processing by FormsController#backsideform117 as HTML
+Completed 500 Internal Server Error in 16ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/backsideform117_form.rb:76: syntax error, unexpected '(', expecting tASSOC
+    stroke_horizontal_line 0, 300, :at => 300, :dashed(1)
+                                                       ^):
+  app/controllers/forms_controller.rb:52:in `backsideform117'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (78.1ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (109.4ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 16:32:09 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 203ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 16:32:23 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 203ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 16:32:36 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 188ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 16:32:50 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 234ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 16:33:05 +0400
+Processing by FormsController#backsideform117 as HTML
+Completed 500 Internal Server Error in 0ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/backsideform117_form.rb:77: syntax error, unexpected ';', expecting tASSOC
+    {dash(1); stroke_bounds}
+             ^):
+  app/controllers/forms_controller.rb:52:in `backsideform117'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 16:34:58 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 250ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 16:35:16 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 141ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 16:35:33 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 125ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 16:35:56 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 266ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 16:36:10 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 203ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 16:36:21 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 281ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 16:37:55 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 172ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 16:38:30 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 266ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 16:39:05 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 266ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 16:39:16 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 281ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 16:39:23 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 328ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 16:39:57 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 375ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 16:41:05 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 312ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 16:41:34 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 266ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 16:41:44 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 406ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 16:41:53 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 312ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 16:42:23 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 344ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 16:42:29 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (15.6ms)
+Completed 200 OK in 375ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 16:42:40 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 281ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 16:45:02 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 359ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 16:45:30 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 391ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 16:45:39 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 359ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 16:45:45 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 297ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 16:46:11 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (15.6ms)
+Completed 200 OK in 312ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 16:46:18 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 453ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 16:46:26 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 359ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 16:49:21 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 344ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 16:49:29 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 297ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 16:49:38 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 281ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 16:49:45 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (15.6ms)
+Completed 200 OK in 312ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 16:49:55 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (15.6ms)
+Completed 200 OK in 344ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 16:50:03 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 328ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 16:50:42 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 297ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 16:50:49 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 344ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 16:50:56 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 422ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 16:51:11 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (15.6ms)
+Completed 200 OK in 391ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-24 16:51:20 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 344ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 10:49:51 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (171.9ms)
+Completed 200 OK in 766ms (Views: 171.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 11:28:15 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 1125ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 11:28:49 +0400
+Processing by FormsController#backsideform117 as HTML
+Completed 500 Internal Server Error in 219ms
+
+NoMethodError (undefined method `normalize_to_utf8' for [-17, 237]:Array):
+  app/models/backsideform117_form.rb:84:in `to_pdf'
+  app/controllers/forms_controller.rb:52:in `backsideform117'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (203.1ms)
+
+
+Started GET "/prepayment" for 127.0.0.1 at 2013-10-25 11:30:34 +0400
+Processing by FormsController#prepayment as HTML
+  Rendered text template (0.0ms)
+Sent data prepayment.pdf (0.0ms)
+Completed 200 OK in 1969ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 11:32:41 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (15.6ms)
+Completed 200 OK in 531ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 11:34:01 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (15.6ms)
+Completed 200 OK in 297ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 11:34:23 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (15.6ms)
+Completed 200 OK in 328ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 11:35:10 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (15.6ms)
+Completed 200 OK in 344ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 11:35:23 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 375ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 11:35:54 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (15.6ms)
+Completed 200 OK in 328ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 11:36:08 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 297ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 11:36:23 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 344ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 11:40:26 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (15.6ms)
+Completed 200 OK in 328ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 11:41:00 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (15.6ms)
+Completed 200 OK in 391ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 11:41:09 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 406ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 11:49:08 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 312ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 11:49:57 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (15.6ms)
+Completed 200 OK in 328ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 11:50:12 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 328ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 11:50:26 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 375ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 11:51:19 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 344ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 11:51:39 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 328ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 11:51:46 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (15.6ms)
+Completed 200 OK in 375ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 11:51:58 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 328ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 11:52:51 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 375ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 11:53:36 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 344ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 11:53:43 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 344ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 11:54:07 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 328ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 11:54:51 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 391ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 11:55:13 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (15.6ms)
+Completed 200 OK in 391ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 11:56:48 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 391ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 11:58:57 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 375ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 11:59:04 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 344ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 11:59:56 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 297ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 12:00:21 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 328ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 12:00:42 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 328ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 12:01:30 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 312ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 12:01:59 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 375ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 12:02:07 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 312ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 12:06:06 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 297ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 12:06:16 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 312ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 12:06:24 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 344ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 12:08:33 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 375ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 12:10:13 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 359ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 12:14:57 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 375ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 12:16:03 +0400
+Processing by FormsController#backsideform117 as HTML
+Completed 500 Internal Server Error in 172ms
+
+ArgumentError (wrong number of arguments (4 for 3)):
+  app/models/backsideform117_form.rb:105:in `block in to_pdf'
+  app/models/backsideform117_form.rb:103:in `to_pdf'
+  app/controllers/forms_controller.rb:52:in `backsideform117'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (46.9ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 12:17:28 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 406ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 12:17:48 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 312ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 12:18:14 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 391ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 12:18:34 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (15.6ms)
+Completed 200 OK in 406ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 12:18:54 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 344ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 12:19:20 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 312ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 12:23:07 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 391ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 12:27:04 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 312ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 12:30:54 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 344ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 12:31:28 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (15.6ms)
+Completed 200 OK in 328ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 12:32:42 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (15.6ms)
+Completed 200 OK in 359ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 12:33:03 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 391ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 12:33:26 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 312ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 12:35:08 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 344ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 12:36:21 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 344ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 15:11:17 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 469ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 15:11:25 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 375ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 15:11:50 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (15.6ms)
+Completed 200 OK in 375ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 15:17:32 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 375ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 15:17:48 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 375ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 15:17:54 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 344ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 15:18:01 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 391ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 15:18:08 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 359ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 15:18:25 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 312ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 15:18:47 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 375ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 15:19:37 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 312ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 15:20:09 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 344ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 15:20:33 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 312ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 15:20:43 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 375ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 15:20:51 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 266ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 15:20:58 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (15.6ms)
+Completed 200 OK in 328ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 15:21:25 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 375ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 15:21:37 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 391ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 15:21:53 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 375ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 15:22:06 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (15.6ms)
+Completed 200 OK in 359ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 15:22:13 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (15.6ms)
+Completed 200 OK in 422ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 15:22:23 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 375ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 15:22:31 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 344ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 15:22:36 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (15.6ms)
+Completed 200 OK in 359ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 15:22:52 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 297ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 15:22:59 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 375ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 15:23:06 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 328ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 15:23:32 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (15.6ms)
+Completed 200 OK in 312ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 15:23:48 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 234ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 15:24:04 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 359ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 15:24:23 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 328ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 15:24:31 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 391ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 15:24:41 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 344ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 15:27:02 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 359ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 15:27:32 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 312ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 16:09:33 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 297ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 16:09:47 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 250ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 16:09:55 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 406ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 16:10:43 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 391ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 16:11:02 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 344ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 16:13:04 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 312ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 16:17:01 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (15.6ms)
+Completed 200 OK in 406ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 16:17:22 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 391ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 16:18:39 +0400
+Processing by FormsController#backsideform117 as HTML
+Completed 500 Internal Server Error in 31ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/backsideform117_form.rb:129: syntax error, unexpected tIDENTIFIER, expecting ']'
+    render
+          ^):
+  app/controllers/forms_controller.rb:52:in `backsideform117'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (62.5ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 16:19:11 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 328ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 16:20:58 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (15.6ms)
+Completed 200 OK in 375ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 16:21:18 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 344ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 16:21:48 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 344ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 16:22:45 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 391ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 16:22:52 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 297ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 16:23:05 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 375ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 16:24:24 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 391ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 16:25:13 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 375ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 16:26:00 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 328ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 16:26:06 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 406ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 16:26:30 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 312ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 16:29:02 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 312ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 16:29:32 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (15.6ms)
+Completed 200 OK in 328ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 16:29:57 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 312ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 16:30:05 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (62.5ms)
+Completed 200 OK in 391ms (Views: 62.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 16:30:10 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 375ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 17:00:46 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 344ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 17:00:58 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 375ms (Views: 0.0ms | ActiveRecord: 0.0ms)
