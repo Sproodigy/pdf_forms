@@ -14,7 +14,7 @@ class TestForm < Prawn::Document
       })
     font "DejaVuSans", size: 10
 
-    # Трактор
+  # Трактор
 
     stroke do
 
@@ -35,7 +35,7 @@ class TestForm < Prawn::Document
 
       stroke_color 10, 10, 10, 100
       curve [40, 70], [160, 70], :bounds => [[20, 190], [180, 190]]
-      curve [225, 70], [275 ,70], :bounds => [[220, 105], [280, 105]]
+      curve [225, 70], [275, 70], :bounds => [[220, 105], [280, 105]]
 
     end
 
@@ -64,7 +64,7 @@ class TestForm < Prawn::Document
       line [285, 350], [265, 330]
       stroke
 
-    # Домик
+  # Домик
 
     stroke do
 
@@ -119,7 +119,7 @@ class TestForm < Prawn::Document
       draw_text "...", :at => [419, 134], style: :bold
 
 
-    # Ёлки
+  # Ёлки
 
     self.line_width = 5
     
@@ -160,7 +160,7 @@ class TestForm < Prawn::Document
 
     end
 
-    #Домик сверху
+  # Домик сверху
 
     stroke do
 
@@ -170,7 +170,30 @@ class TestForm < Prawn::Document
       line [300, 650], [331, 700]
       line [540, 650], [508, 700]
 
-    end     
+    end
+
+  # НОВАЯ СТРАНИЦА
+
+  start_new_page
+
+  self.line_width = 1
+
+  def box_content(string)
+    text string
+    transparent(0.5) { stroke_bounds }
+  end
+
+    canvas do
+      fill_rectangle [bounds.left, bounds.top], 40, 10
+      fill_polygon [bounds.right, bounds.top], [bounds.right, bounds.bottom], [565, 87]
+      fill_circle [bounds.right, bounds.bottom], 30
+      fill_circle [0, 0], 30
+    end
+
+      define_grid(:columns => 9, :rows => 15, :gutter => 1)
+      text "We defined the grid, roll over to the next page to see its outline"
+      start_new_page
+      grid.show_all    
 
     render
 
