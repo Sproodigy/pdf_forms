@@ -26376,3 +26376,46 @@ Processing by FormsController#backsideform117 as HTML
   Rendered text template (0.0ms)
 Sent data backsideform117.pdf (2.0ms)
 Completed 200 OK in 327ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-27 14:37:40 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (237.3ms)
+Completed 200 OK in 765ms (Views: 236.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-27 14:38:57 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (2.0ms)
+Completed 200 OK in 428ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-27 14:39:22 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (2.0ms)
+Completed 200 OK in 223ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-27 14:39:58 +0400
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (2.0ms)
+Completed 200 OK in 1930ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-10-27 14:40:12 +0400
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (1.0ms)
+Completed 200 OK in 471ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/prepayment" for 127.0.0.1 at 2013-10-27 14:40:39 +0400
+Processing by FormsController#prepayment as HTML
+  Rendered text template (0.0ms)
+Sent data prepayment.pdf (1.0ms)
+Completed 200 OK in 1229ms (Views: 1.0ms | ActiveRecord: 0.0ms)
