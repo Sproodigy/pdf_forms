@@ -51,10 +51,54 @@ class Backsideform117Form < Prawn::Document
       draw_text "места вручения)", :at => [309, base_z-158], :size => 7
       draw_text "(дата и подпись)", :at => [125, base_z-167], :size => 7
 
+<<<<<<< HEAD
       draw_text "Обведённое жирной чертой",
                 :at => [-17, base_z-330], :style => :bold, :rotate => 90
       draw_text "заполняется получателем",
                 :at => [-7, base_z-330], :style => :bold, :rotate => 90          
+=======
+        stroke_bounds
+    end
+
+    self.line_width = 1
+    stroke_color 50, 50, 50 ,10
+    6.times do |a|       
+        stroke_horizontal_line 30, 360, :at => base_z-128-(3 * a)
+    end
+
+    stroke_color 50, 50, 50, 100
+      draw_text "Оплатил", :at => [-17, base_z-200]
+      stroke_horizontal_line -17, 290, :at => base_z-205
+      draw_text "(перечислено)", :at => [-5, base_z-213]
+      draw_text "(должность, подпись)",:size => 7, :at => [130, base_z-213]
+      draw_text "Отметки о досылке, возвращении и причинах неоплаты",
+      :at => [-5, base_z-240]
+
+    3.times do |b|
+    stroke do  
+      rectangle [300, base_z-205], 60, 60
+      horizontal_line -17, 280, :at => base_z-255-(15 * b)
+    end
+    end
+
+      draw_text "(оттиск календарного", :at => [289, base_z-272], :size => 7
+      draw_text "штемпеля ОПС места вр", :at => [285, base_z-280], :size => 7
+      draw_text "или дня перечисления)", :at => [287, base_z-288], :size => 7
+
+      dash(2, :space => 4)  
+      stroke_horizontal_line -17, 130, :at => base_z-300
+      draw_text "л и н и я   о т р е з а", :at => [132, base_z-303],
+        :style => :italic, :size => 7
+      stroke_horizontal_line 210, 370, :at => base_z-303
+      stroke_vertical_line base_z-307, base_z-380, :at => 190
+      stroke_vertical_line base_z-460, base_z-550, :at => 190
+      dash(0, :spase => 0)
+
+      draw_text "Для получения денег заполните извещение и предъя- ",
+                :at => [-12, base_z-313], :size => 6
+      draw_text "вите паспорт или документ, удостоверяющий личность",
+                :at => [-17, base_z-320], :size => 6 
+>>>>>>> c3a48f4000beba85a5c79170b7f91e1ba0556fcf
 
     stroke do
       self.line_width = 2
@@ -67,6 +111,41 @@ class Backsideform117Form < Prawn::Document
       line_to 0, base_z-350
       line_to 0, base_z-175    
     end 
+<<<<<<< HEAD
+=======
+  
+      self.line_width = 1
+      stroke_rectangle [-5, base_z-510], 40, 40
+
+      draw_text "Заполняется адресатом", :at => [-10, base_z-335],
+                                         :style => :italic
+
+      text_box 'Предъявлен __________________________ 
+                Серия ______ №____________, выданный
+                "_____" _______20______г., кем _________
+                ________________________________________', 
+                :at => [-10, base_z-350], :height => 145,
+                :width => 185, :leading => 7
+
+      draw_text "(наименование учреждения выдавшего документ)",
+                :at => [-14, base_z-418], :size => 7
+
+      text_box 'Для переводов, адресованных "до востребования",
+               на а\я, по месту работы (учёбы), при несовпадении
+               прописки или регистрации с указанным адресом,
+               укажите адрес и дату прописки или регистрации',
+               :at => [-5, base_z-422], :size => 6
+
+      stroke_horizontal_line -13, 170, :at => base_z-470
+      stroke_horizontal_line -13, 170, :at => base_z-490
+
+      draw_text "Адресат___________________", :at => [45, base_z-517]
+      draw_text "(подпись)", :at => [107, base_z-525], :size => 7
+
+      draw_text "", :at => [20, base_z-580]
+
+
+>>>>>>> c3a48f4000beba85a5c79170b7f91e1ba0556fcf
 
       self.line_width = 1
 

@@ -11342,6 +11342,41 @@ Completed 200 OK in 547ms (Views: 0.0ms | ActiveRecord: 0.0ms)
 Connecting to database specified by database.yml
 
 
+<<<<<<< HEAD
+Started GET "/" for 127.0.0.1 at 2013-08-20 18:37:30 +0400
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (83.0ms)
+Completed 200 OK in 1001ms (Views: 83.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-20 18:51:57 +0400
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (2.0ms)
+Completed 200 OK in 476ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-20 21:23:36 +0400
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (2.0ms)
+Completed 200 OK in 580ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-20 21:26:11 +0400
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (2.0ms)
+Completed 200 OK in 646ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-20 21:27:11 +0400
+Processing by FormsController#invoice as HTML
+  Rendered text template (1.0ms)
+Sent data invoice.pdf (2.0ms)
+Completed 200 OK in 663ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+=======
 Started GET "/" for 127.0.0.1 at 2013-08-23 15:45:09 +0300
 Processing by FormsController#invoice as HTML
   Rendered text template (0.0ms)
@@ -11509,6 +11544,25 @@ Processing by FormsController#test as HTML
   Rendered text template (0.0ms)
 Sent data test.pdf (0.0ms)
 Completed 200 OK in 109ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+<<<<<<< HEAD
+>>>>>>> 274f1e3c2fce68a441d4c2b7dbaa7d7f9d7df937
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-08-27 02:14:48 +0400
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (109.4ms)
+Completed 200 OK in 1125ms (Views: 109.4ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-25 19:20:51 +0400
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (118.2ms)
+Completed 200 OK in 1046ms (Views: 118.2ms | ActiveRecord: 0.0ms)
+=======
 Connecting to database specified by database.yml
 
 
@@ -26262,6 +26316,7 @@ Processing by FormsController#backsideform117 as HTML
   Rendered text template (0.0ms)
 Sent data backsideform117.pdf (0.0ms)
 Completed 200 OK in 375ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+<<<<<<< HEAD
 Connecting to database specified by database.yml
 
 
@@ -26327,10 +26382,45 @@ Completed 500 Internal Server Error in 16ms
 
 SyntaxError (D:/projects/pdf_forms/app/models/backsideform117_form.rb:133: syntax error, unexpected tIDENTIFIER, expecting ']'
 ...ду", :at => [250, base_z-350f]
+=======
+>>>>>>> 7158a3b118113c22c4d7329947bc6dc95acdc40c
+Connecting to database specified by database.yml
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-25 19:23:57 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (43.9ms)
+Completed 200 OK in 313ms (Views: 43.9ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-26 22:46:08 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (136.7ms)
+Completed 200 OK in 441ms (Views: 136.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-26 22:47:42 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (2.0ms)
+Completed 200 OK in 275ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-26 22:51:10 +0400
+Processing by FormsController#backsideform117 as HTML
+Completed 500 Internal Server Error in 8ms
+
+SyntaxError (D:/lessons/pdf_forms/app/models/backsideform117_form.rb:77: syntax error, unexpected '=', expecting tASSOC
+...at => base_z-300, :line_width = 2
+>>>>>>> c3a48f4000beba85a5c79170b7f91e1ba0556fcf
 ...                               ^):
   app/controllers/forms_controller.rb:52:in `backsideform117'
 
 
+<<<<<<< HEAD
   Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
   Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
   Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (187.5ms)
@@ -32868,3 +32958,72 @@ Processing by FormsController#inquiry as HTML
   Rendered text template (0.0ms)
 Sent data inquiry.pdf (0.0ms)
 Completed 200 OK in 609ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+=======
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.9ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (131.8ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-26 22:51:29 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (40.0ms)
+Completed 200 OK in 270ms (Views: 40.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-26 22:52:13 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (2.0ms)
+Completed 200 OK in 287ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-26 23:22:26 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (2.0ms)
+Completed 200 OK in 327ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-27 14:37:40 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (237.3ms)
+Completed 200 OK in 765ms (Views: 236.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-27 14:38:57 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (2.0ms)
+Completed 200 OK in 428ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-10-27 14:39:22 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (2.0ms)
+Completed 200 OK in 223ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-10-27 14:39:58 +0400
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (2.0ms)
+Completed 200 OK in 1930ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form130" for 127.0.0.1 at 2013-10-27 14:40:12 +0400
+Processing by FormsController#form130 as HTML
+  Rendered text template (0.0ms)
+Sent data form130.pdf (1.0ms)
+Completed 200 OK in 471ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/prepayment" for 127.0.0.1 at 2013-10-27 14:40:39 +0400
+Processing by FormsController#prepayment as HTML
+  Rendered text template (0.0ms)
+Sent data prepayment.pdf (1.0ms)
+Completed 200 OK in 1229ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+>>>>>>> c3a48f4000beba85a5c79170b7f91e1ba0556fcf
