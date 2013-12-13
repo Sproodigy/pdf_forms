@@ -7,6 +7,7 @@ PdfForms::Application.routes.draw do
   match '/prepayment' => 'forms#prepayment'
   match '/inquiry' => 'forms#inquiry'
   match '/backsideform117' => 'forms#backsideform117'
+  match '/backsideform113' => 'forms#backsideform113'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

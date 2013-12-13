@@ -96,6 +96,7 @@ class InvoiceForm < Prawn::Document
     draw_text data, at: [400, cursor], size: 7
 
     render
+    
   end
   
 end
