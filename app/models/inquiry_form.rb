@@ -69,7 +69,27 @@ class InquiryForm < Prawn::Document
                 :cell_style => {:height => 15},
                 :column_widths => [23, 90, 60, 33.4, 23.3, 33.2, 23.3, 75.8] )
 
-          
+       
+        draw_text 'Приложение " ________ "  приходных документов',
+                  at: [10, base_z-350]
+        draw_text '" ________ "  расходных документов',
+                  at: [66, base_z-370]
+        draw_text 'Оператор _________________________               ___________________', style: :bold,
+                  at: [66, base_z-390]
+        draw_text '(подпись)', :size => 7, at: [143, base_z-399]
+        draw_text '(подпись)', :size => 7, at: [275, base_z-399]
+        draw_text 'Соответствие итогов справки данным приложенных документов',
+                  at: [0, base_z-420]
+        draw_text 'проверил     _______________________',
+                  at: [200, base_z-440], style: :bold
+        draw_text '(должность)', at: [280, base_z-449], :size => 7
+        draw_text '_______________________', at: [258, base_z-470], style: :bold
+        draw_text '(подпись)', at: [285, base_z-479], :size => 7
+
+
+
+
+
     end            
   end
 
