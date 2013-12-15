@@ -26419,3 +26419,11 @@ Processing by FormsController#prepayment as HTML
   Rendered text template (0.0ms)
 Sent data prepayment.pdf (1.0ms)
 Completed 200 OK in 1229ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-15 09:53:32 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (141.6ms)
+Completed 200 OK in 464ms (Views: 141.6ms | ActiveRecord: 0.0ms)
