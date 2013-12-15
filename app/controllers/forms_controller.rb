@@ -52,6 +52,12 @@ class FormsController < ApplicationController
     pdf = Backsideform117Form.new(page_layout: :landscape, page_size: 'A4').to_pdf
     send_data pdf, type: 'application/pdf', filename: 'backsideform117.pdf', disposition: 'inline'
   end 
+
+  def backsideform113
+    pdf = Backsideform113Form.new(page_layout: :landscape, page_size: 'A4').to_pdf
+    send_data pdf, type: 'application/pdf', filename: 'backsideform113.pdf', disposition: 'inline'
+  end 
+ 
  
 end
 
