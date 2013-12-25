@@ -14,8 +14,8 @@ class InquiryForm < Prawn::Document
       })
     font "DejaVuSans", size: 8
 
-    draw_inquiry(0, 0)
-    draw_inquiry(410,0)
+    draw_inquiry(-15, 0)
+    draw_inquiry(390,0)
     render
   end
 
@@ -33,7 +33,7 @@ class InquiryForm < Prawn::Document
       draw_text "Кассовая справка", at: [140, base_z-35], style: :bold, size: 10
       draw_text "оператора ____________________________________________", at: [50, base_z-50], size: 10
       draw_text "за __________________________ месяц 20     г.", at: [80, base_z-70], size: 10
-      move_cursor_to 440
+      move_cursor_to 450
 
 
 
@@ -65,28 +65,30 @@ class InquiryForm < Prawn::Document
 
         end
 
-      table([ ["", "", "", "", "", "", "", ""] ] * 13,
-                :cell_style => {:height => 15},
+      table([ ["", "", "", "", "", "", "", ""] ] * 12 + [["", "Итого", "",  "", "", "", "", ""]],
+                :cell_style => {:height => 15, :padding => [2, 30]},
                 :column_widths => [23, 90, 60, 33.4, 23.3, 33.2, 23.3, 75.8] )
 
        
         draw_text 'Приложение " ________ "  приходных документов',
-                  at: [10, base_z-350]
+                  at: [10, base_z-335]
         draw_text '" ________ "  расходных документов',
-                  at: [66, base_z-370]
+                  at: [66, base_z-350]
         draw_text 'Оператор _________________________               ___________________', style: :bold,
-                  at: [66, base_z-390]
-        draw_text '(подпись)', :size => 7, at: [143, base_z-399]
-        draw_text '(подпись)', :size => 7, at: [275, base_z-399]
+                  at: [66, base_z-365]
+        draw_text '(подпись)', :size => 7, at: [143, base_z-373]
+        draw_text '(подпись)', :size => 7, at: [275, base_z-373]
         draw_text 'Соответствие итогов справки данным приложенных документов',
-                  at: [0, base_z-420]
+                  at: [0, base_z-395]
         draw_text 'проверил     _______________________',
-                  at: [200, base_z-440], style: :bold
-        draw_text '(должность)', at: [280, base_z-449], :size => 7
-        draw_text '_______________________', at: [258, base_z-470], style: :bold
-        draw_text '(подпись)', at: [285, base_z-479], :size => 7
+                  at: [200, base_z-410], style: :bold
+        draw_text '(должность)', at: [280, base_z-418], :size => 7
+        draw_text '_______________________', at: [258, base_z-433], style: :bold
+        draw_text '(подпись)', at: [285, base_z-441], :size => 7
 
+        stroke_horizontal_line 0, 380, at: [base_z-445]
 
+        draw_text 'Линия отреза', at: [160, base_z-455]
 
 
 

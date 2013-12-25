@@ -33334,3 +33334,1880 @@ Processing by FormsController#inquiry as HTML
   Rendered text template (0.0ms)
 Sent data inquiry.pdf (2.0ms)
 Completed 200 OK in 450ms (Views: 2.0ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-25 11:45:03 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (93.8ms)
+Completed 200 OK in 875ms (Views: 93.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 11:54:53 +0400
+
+ActionController::RoutingError (No route matches [GET] "/inquirybackside"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (31.2ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 11:57:44 +0400
+
+ActionController::RoutingError (No route matches [GET] "/inquirybackside"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 11:58:54 +0400
+
+ActionController::RoutingError (No route matches [GET] "/inquirybackside"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 12:01:34 +0400
+
+ActionController::RoutingError (No route matches [GET] "/inquirybackside"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-25 12:01:41 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 656ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 12:01:54 +0400
+
+ActionController::RoutingError (No route matches [GET] "/inquirybackside"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 12:02:40 +0400
+
+ActionController::RoutingError (No route matches [GET] "/inquirybackside"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 12:04:57 +0400
+
+ActionController::RoutingError (No route matches [GET] "/inquirybackside"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (15.6ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 12:05:29 +0400
+
+ActionController::RoutingError (No route matches [GET] "/inquirybackside"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (15.6ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 12:05:39 +0400
+
+ActionController::RoutingError (No route matches [GET] "/inquirybackside"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 12:15:00 +0400
+
+ActionController::RoutingError (No route matches [GET] "/inquirybackside"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 12:16:10 +0400
+
+ActionController::RoutingError (No route matches [GET] "/inquirybackside"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/inquirybacksideform" for 127.0.0.1 at 2013-12-25 12:16:29 +0400
+
+AbstractController::ActionNotFound (The action 'inquirybacksideform' could not be found for FormsController):
+  actionpack (3.2.13) lib/abstract_controller/base.rb:116:in `process'
+  actionpack (3.2.13) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.13) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.13) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.13) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:612:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.13) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.13) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `_run__126923562__call__248821914__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 12:16:51 +0400
+
+ActionController::RoutingError (No route matches [GET] "/inquirybackside"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 12:17:13 +0400
+
+ActionController::RoutingError (No route matches [GET] "/inquirybackside"):
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 12:17:56 +0400
+
+AbstractController::ActionNotFound (The action 'inquirybacksideform' could not be found for FormsController):
+  actionpack (3.2.13) lib/abstract_controller/base.rb:116:in `process'
+  actionpack (3.2.13) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.13) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.13) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.13) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:612:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.13) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.13) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `_run__126923562__call__248821914__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  C:/RailsInstaller/Ruby1.9.3/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 12:18:09 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (15.6ms)
+Completed 200 OK in 31ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 12:18:42 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (31.2ms)
+Completed 200 OK in 109ms (Views: 31.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 12:21:12 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 219ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 12:22:28 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 156ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 12:22:42 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (46.9ms)
+Completed 200 OK in 188ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 12:22:54 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 219ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 12:23:06 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (15.6ms)
+Completed 200 OK in 156ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 12:23:13 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 94ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 12:23:22 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 109ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 12:23:27 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 94ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 12:23:34 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 141ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 12:23:43 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 219ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 12:24:37 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 78ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 12:27:31 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 234ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 12:27:56 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 250ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 12:28:22 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (15.6ms)
+Completed 200 OK in 250ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 12:28:32 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 234ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 12:28:46 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 266ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 12:29:06 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (15.6ms)
+Completed 200 OK in 141ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 12:30:21 +0400
+Processing by FormsController#inquirybackside as HTML
+Completed 500 Internal Server Error in 62ms
+
+ArgumentError (wrong number of arguments (1 for 2)):
+  app/models/inquirybackside_form.rb:29:in `block in draw_inquiry'
+  app/models/inquirybackside_form.rb:23:in `draw_inquiry'
+  app/models/inquirybackside_form.rb:17:in `to_pdf'
+  app/controllers/forms_controller.rb:62:in `inquirybackside'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (62.5ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 12:32:24 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (15.6ms)
+Completed 200 OK in 172ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 12:36:19 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 453ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 12:36:35 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (15.6ms)
+Completed 200 OK in 359ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 12:38:21 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 641ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 12:41:20 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 609ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 12:41:27 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (15.6ms)
+Completed 200 OK in 641ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 12:41:36 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 1000ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 12:44:55 +0400
+Processing by FormsController#inquirybackside as HTML
+Completed 500 Internal Server Error in 203ms
+
+NoMethodError (undefined method `align=' for #<Prawn::Table::Cell::Subtable:0x2e64ec8>):
+  app/models/inquirybackside_form.rb:51:in `block (2 levels) in draw_inquiry'
+  app/models/inquirybackside_form.rb:46:in `block in draw_inquiry'
+  app/models/inquirybackside_form.rb:23:in `draw_inquiry'
+  app/models/inquirybackside_form.rb:17:in `to_pdf'
+  app/controllers/forms_controller.rb:62:in `inquirybackside'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (140.6ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 12:45:39 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 719ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 12:46:00 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 719ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 12:46:19 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 734ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 12:46:43 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 797ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 12:47:20 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 688ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 12:50:01 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 688ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 12:50:30 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 609ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 12:50:52 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 797ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 12:51:22 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 734ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 12:52:14 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 609ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 12:52:32 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 672ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 12:52:39 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 688ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 12:52:46 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 766ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 12:53:00 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (93.8ms)
+Completed 200 OK in 812ms (Views: 93.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 12:53:14 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 812ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 12:53:21 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 734ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 12:53:35 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 766ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 12:54:29 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 750ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 12:54:57 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 750ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 12:55:03 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (15.6ms)
+Completed 200 OK in 797ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 12:55:29 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 562ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 12:55:36 +0400
+Processing by FormsController#inquirybackside as HTML
+Completed 500 Internal Server Error in 94ms
+
+Prawn::Errors::CannotFit (Table's width was set too small to contain its contents (min width 366.15999999999997, requested 366.0)):
+  app/models/inquirybackside_form.rb:46:in `block in draw_inquiry'
+  app/models/inquirybackside_form.rb:23:in `draw_inquiry'
+  app/models/inquirybackside_form.rb:17:in `to_pdf'
+  app/controllers/forms_controller.rb:62:in `inquirybackside'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 12:55:42 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 750ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 12:56:28 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 703ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 12:59:29 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 656ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 12:59:42 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (78.1ms)
+Completed 200 OK in 672ms (Views: 78.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 13:00:16 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 547ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 13:00:40 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 594ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 13:01:26 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 734ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 13:01:35 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 719ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 13:01:51 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 656ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 13:04:43 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 625ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 13:04:53 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 641ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 13:06:29 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 562ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 13:06:39 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 609ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 13:06:52 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 688ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 13:07:08 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 891ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 13:09:39 +0400
+Processing by FormsController#inquirybackside as HTML
+Completed 500 Internal Server Error in 31ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/inquirybackside_form.rb:70: syntax error, unexpected ']'
+                at: [0, base_z-]
+                                ^):
+  app/controllers/forms_controller.rb:62:in `inquirybackside'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (62.5ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 13:09:53 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 531ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 13:10:43 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 641ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 13:11:48 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 531ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 13:12:11 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (15.6ms)
+Completed 200 OK in 562ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 13:14:58 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 562ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 13:15:42 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 641ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 13:17:14 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (15.6ms)
+Completed 200 OK in 609ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 13:17:28 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (15.6ms)
+Completed 200 OK in 672ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 13:17:34 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 719ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 13:17:42 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 766ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 13:22:15 +0400
+Processing by FormsController#inquirybackside as HTML
+Completed 500 Internal Server Error in 297ms
+
+ArgumentError (wrong number of arguments (1 for 2)):
+  app/models/inquirybackside_form.rb:76:in `block in draw_inquiry'
+  app/models/inquirybackside_form.rb:23:in `draw_inquiry'
+  app/models/inquirybackside_form.rb:17:in `to_pdf'
+  app/controllers/forms_controller.rb:62:in `inquirybackside'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 13:23:40 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 625ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 13:25:33 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (15.6ms)
+Completed 200 OK in 641ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 13:26:10 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 672ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 13:26:53 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 609ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 13:27:16 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 734ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 13:27:37 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 797ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 13:29:51 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 656ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 13:30:04 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 609ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 13:35:27 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 672ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 13:42:51 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 641ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 13:43:07 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 656ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 13:43:15 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 656ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 13:43:27 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 688ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 13:43:35 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 781ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 13:44:43 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 562ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 13:48:22 +0400
+Processing by FormsController#inquirybackside as HTML
+Completed 500 Internal Server Error in 16ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/inquirybackside_form.rb:86: syntax error, unexpected ']'
+      draw_text '',at: [0, base_z-]
+                                   ^):
+  app/controllers/forms_controller.rb:62:in `inquirybackside'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 13:48:38 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 734ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 13:48:56 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 719ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 13:49:07 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 672ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 13:49:23 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 719ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 13:49:29 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 2922ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 13:49:43 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 797ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 13:53:30 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 625ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 13:54:04 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 641ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 13:54:16 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (15.6ms)
+Completed 200 OK in 719ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 13:55:41 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 609ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 13:57:41 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 703ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 13:58:19 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 562ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 14:01:03 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 609ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 14:01:38 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (15.6ms)
+Completed 200 OK in 766ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 14:01:49 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 625ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 14:02:05 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 609ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 14:03:54 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 703ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 14:04:14 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 625ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-25 14:05:42 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 703ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 14:09:55 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 656ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 14:10:12 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 719ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 14:16:26 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 609ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 14:16:37 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 734ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 14:16:51 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 625ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 14:17:27 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (15.6ms)
+Completed 200 OK in 656ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 14:18:00 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 578ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 14:18:10 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (15.6ms)
+Completed 200 OK in 672ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 14:18:19 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 766ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 14:18:24 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 609ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 14:18:43 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 875ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 14:19:03 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 719ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 14:20:30 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 719ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 14:20:41 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 578ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 14:20:51 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 750ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 14:20:59 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 625ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 14:21:30 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 656ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 14:22:08 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 656ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 14:22:14 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 719ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 16:23:48 +0400
+Processing by FormsController#inquirybackside as HTML
+Completed 500 Internal Server Error in 16ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/inquirybackside_form.rb:96: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+                at: [0, base_z-525]__
+                                     ^):
+  app/controllers/forms_controller.rb:62:in `inquirybackside'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (62.5ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 16:24:30 +0400
+Processing by FormsController#inquirybackside as HTML
+Completed 500 Internal Server Error in 16ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/inquirybackside_form.rb:96: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+                at: [0, base_z-525]__
+                                     ^):
+  app/controllers/forms_controller.rb:62:in `inquirybackside'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (46.9ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 16:26:29 +0400
+Processing by FormsController#inquirybackside as HTML
+Completed 500 Internal Server Error in 0ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/inquirybackside_form.rb:96: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+                at: [0, base_z-525]__
+                                     ^):
+  app/controllers/forms_controller.rb:62:in `inquirybackside'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (62.5ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 16:27:04 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 734ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 16:27:26 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 609ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 16:27:33 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 641ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 16:36:32 +0400
+Processing by FormsController#inquirybackside as HTML
+Completed 500 Internal Server Error in 203ms
+
+Prawn::Errors::CannotFit (Table's width was set too small to contain its contents (min width 1322.0, requested 769.89)):
+  app/models/inquirybackside_form.rb:58:in `block in draw_inquiry'
+  app/models/inquirybackside_form.rb:23:in `draw_inquiry'
+  app/models/inquirybackside_form.rb:17:in `to_pdf'
+  app/controllers/forms_controller.rb:62:in `inquirybackside'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 16:37:38 +0400
+Processing by FormsController#inquirybackside as HTML
+Completed 500 Internal Server Error in 0ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/inquirybackside_form.rb:59: syntax error, unexpected tSYMBEG, expecting ')'
+                :cell_style => {:height => 15},
+                 ^
+D:/projects/pdf_forms/app/models/inquirybackside_form.rb:59: syntax error, unexpected ',', expecting keyword_end
+                :cell_style => {:height => 15},
+                                               ^
+D:/projects/pdf_forms/app/models/inquirybackside_form.rb:60: syntax error, unexpected ')', expecting keyword_end
+...33.4, 23.3, 33.2, 23.3, 75.8] )
+...                               ^):
+  app/controllers/forms_controller.rb:62:in `inquirybackside'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (62.5ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 16:37:59 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 656ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 16:38:11 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (15.6ms)
+Completed 200 OK in 688ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 16:38:29 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 672ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 16:38:53 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (15.6ms)
+Completed 200 OK in 672ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 16:40:44 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 656ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 16:41:03 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 688ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 16:41:19 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 703ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 16:41:25 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (15.6ms)
+Completed 200 OK in 688ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 16:41:39 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 828ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 16:41:46 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 750ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 16:41:51 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 875ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 16:41:58 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (15.6ms)
+Completed 200 OK in 797ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 16:42:09 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (15.6ms)
+Completed 200 OK in 922ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 16:42:18 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 859ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 16:45:29 +0400
+Processing by FormsController#inquirybackside as HTML
+Completed 500 Internal Server Error in 16ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/inquirybackside_form.rb:59: syntax error, unexpected '}', expecting tASSOC
+                :cell_style => {:height => 15, padding: 2,5},
+                                                            ^
+D:/projects/pdf_forms/app/models/inquirybackside_form.rb:60: syntax error, unexpected ')', expecting keyword_end
+...33.4, 23.3, 33.2, 23.3, 75.8] )
+...                               ^):
+  app/controllers/forms_controller.rb:62:in `inquirybackside'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 16:45:39 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 609ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 16:45:51 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 609ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 16:46:13 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 578ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-25 16:46:22 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 609ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-25 16:51:28 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 641ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-25 16:52:04 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (15.6ms)
+Completed 200 OK in 625ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-25 16:52:27 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 656ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-25 16:53:59 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (15.6ms)
+Completed 200 OK in 641ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-25 16:54:13 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 594ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-25 16:59:15 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 594ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-25 17:05:23 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 625ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-25 17:07:39 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 609ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-25 17:07:44 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 562ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-25 17:08:11 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 578ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-25 17:08:22 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 594ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-25 17:08:29 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 594ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-25 17:09:11 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 531ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-25 17:09:35 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (15.6ms)
+Completed 200 OK in 578ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-25 17:10:02 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 609ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-25 17:10:20 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 688ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-25 17:18:31 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 250ms
+
+TypeError (can't dup NilClass):
+  app/models/inquiry_form.rb:91:in `block in draw_inquiry'
+  app/models/inquiry_form.rb:24:in `draw_inquiry'
+  app/models/inquiry_form.rb:17:in `to_pdf'
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.6ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-25 17:18:44 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 594ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-25 17:18:51 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 2766ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-25 17:19:01 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 656ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-25 17:25:03 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 578ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-25 17:26:05 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 578ms (Views: 0.0ms | ActiveRecord: 0.0ms)
