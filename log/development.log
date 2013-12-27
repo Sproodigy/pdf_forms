@@ -35211,3 +35211,2611 @@ Processing by FormsController#inquiry as HTML
   Rendered text template (0.0ms)
 Sent data inquiry.pdf (0.0ms)
 Completed 200 OK in 578ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 10:28:09 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (93.8ms)
+Completed 200 OK in 875ms (Views: 93.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 10:28:18 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 656ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 10:28:44 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (15.6ms)
+Completed 200 OK in 922ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 10:29:37 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 672ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 10:30:10 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 719ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 10:30:24 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 688ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 10:31:05 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 766ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 10:31:22 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 703ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 10:31:35 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 875ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 10:32:00 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 906ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 10:32:15 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 797ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 10:32:48 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 734ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 10:32:56 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 625ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 10:33:09 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 656ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 10:33:15 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 625ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 10:33:22 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 859ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 10:33:32 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 906ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-27 10:34:10 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 672ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-27 10:39:03 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 562ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-27 10:39:31 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 609ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-27 10:39:42 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 828ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-27 10:39:52 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (15.6ms)
+Completed 200 OK in 703ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-27 10:40:20 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 891ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-27 10:40:28 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 750ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-27 10:41:09 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 734ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-27 10:41:38 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (15.6ms)
+Completed 200 OK in 750ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 10:43:17 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 656ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 10:43:32 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (15.6ms)
+Completed 200 OK in 938ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 10:43:39 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 797ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 10:43:47 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 641ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 10:44:15 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 828ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 10:46:49 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (15.6ms)
+Completed 200 OK in 641ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-27 10:46:55 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 766ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 10:49:56 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 641ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 10:58:03 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 16ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/inquiry_form.rb:42: syntax error, unexpected ',', expecting keyword_end
+...расход", :colspan => 2}],
+...                               ^
+D:/projects/pdf_forms/app/models/inquiry_form.rb:47: syntax error, unexpected ']', expecting keyword_end
+                             ], :cell_style => {:padding =>...
+                              ^
+D:/projects/pdf_forms/app/models/inquiry_form.rb:47: syntax error, unexpected ')', expecting keyword_end
+... => {:padding => [3, 8, 2, 8]}) do |t|
+...                               ^):
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (31.2ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (500.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 10:58:54 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 16ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/inquiry_form.rb:96: syntax error, unexpected keyword_end, expecting $end):
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (62.5ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 10:59:05 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 109ms
+
+NameError (undefined local variable or method `my_table' for #<InquiryForm:0x269bba8>):
+  app/models/inquiry_form.rb:53:in `block in draw_inquiry'
+  app/models/inquiry_form.rb:24:in `draw_inquiry'
+  app/models/inquiry_form.rb:17:in `to_pdf'
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.6ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 10:59:22 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (15.6ms)
+Completed 200 OK in 562ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:00:16 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 594ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:00:26 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 609ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:01:21 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (62.5ms)
+Completed 200 OK in 578ms (Views: 62.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:03:41 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 625ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:04:34 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 656ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:04:54 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 609ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:05:18 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 531ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:05:27 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 594ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:06:23 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 547ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:06:36 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (15.6ms)
+Completed 200 OK in 672ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:07:32 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (15.6ms)
+Completed 200 OK in 688ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:08:09 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (15.6ms)
+Completed 200 OK in 703ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:08:44 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 750ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:08:54 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 703ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:08:59 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 719ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:09:18 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 562ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:09:43 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 672ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:09:49 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 609ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:10:03 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 562ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:11:31 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 16ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/inquiry_form.rb:54: syntax error, unexpected tSYMBEG, expecting ')'
+               :column_widths => [23, 90, 60, 124, 80] ) do |t|
+                ^
+D:/projects/pdf_forms/app/models/inquiry_form.rb:54: syntax error, unexpected ')', expecting keyword_end
+               :column_widths => [23, 90, 60, 124, 80] ) do |t|
+                                                        ^
+D:/projects/pdf_forms/app/models/inquiry_form.rb:56: syntax error, unexpected tLABEL, expecting keyword_end
+        t.column(0).style align: :center, :padding => [12, 0, 0, 1]
+                                ^
+D:/projects/pdf_forms/app/models/inquiry_form.rb:102: syntax error, unexpected keyword_end, expecting $end):
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (62.5ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:11:49 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 594ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:11:56 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 656ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:12:01 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 672ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:12:10 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 703ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:12:27 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 547ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:12:59 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 594ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:13:26 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 672ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:13:33 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 656ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:15:47 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 328ms
+
+NoMethodError (undefined method `vertikal_line' for #<InquiryForm:0x2931948>):
+  app/models/inquiry_form.rb:74:in `block (2 levels) in draw_inquiry'
+  app/models/inquiry_form.rb:71:in `block in draw_inquiry'
+  app/models/inquiry_form.rb:24:in `draw_inquiry'
+  app/models/inquiry_form.rb:17:in `to_pdf'
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:15:54 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 359ms
+
+NoMethodError (undefined method `vertikale_line' for #<InquiryForm:0x3bae040>):
+  app/models/inquiry_form.rb:74:in `block (2 levels) in draw_inquiry'
+  app/models/inquiry_form.rb:71:in `block in draw_inquiry'
+  app/models/inquiry_form.rb:24:in `draw_inquiry'
+  app/models/inquiry_form.rb:17:in `to_pdf'
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (46.9ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:16:10 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 594ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:16:25 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (15.6ms)
+Completed 200 OK in 656ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:16:31 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 656ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:17:33 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 500ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:17:42 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 609ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:17:49 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 625ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:18:12 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (15.6ms)
+Completed 200 OK in 703ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:18:58 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (78.1ms)
+Completed 200 OK in 656ms (Views: 78.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:22:56 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 344ms
+
+Prawn::Errors::CannotFit (Prawn::Errors::CannotFit):
+  app/models/inquiry_form.rb:67:in `block in draw_inquiry'
+  app/models/inquiry_form.rb:24:in `draw_inquiry'
+  app/models/inquiry_form.rb:17:in `to_pdf'
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (46.9ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:23:01 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 203ms
+
+Prawn::Errors::CannotFit (Prawn::Errors::CannotFit):
+  app/models/inquiry_form.rb:67:in `block in draw_inquiry'
+  app/models/inquiry_form.rb:24:in `draw_inquiry'
+  app/models/inquiry_form.rb:17:in `to_pdf'
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (46.9ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:23:07 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 266ms
+
+Prawn::Errors::CannotFit (Prawn::Errors::CannotFit):
+  app/models/inquiry_form.rb:67:in `block in draw_inquiry'
+  app/models/inquiry_form.rb:24:in `draw_inquiry'
+  app/models/inquiry_form.rb:17:in `to_pdf'
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:23:11 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 281ms
+
+Prawn::Errors::CannotFit (Prawn::Errors::CannotFit):
+  app/models/inquiry_form.rb:67:in `block in draw_inquiry'
+  app/models/inquiry_form.rb:24:in `draw_inquiry'
+  app/models/inquiry_form.rb:17:in `to_pdf'
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:23:22 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (15.6ms)
+Completed 200 OK in 656ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:23:40 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 203ms
+
+Prawn::Errors::CannotFit (Prawn::Errors::CannotFit):
+  app/models/inquiry_form.rb:67:in `block in draw_inquiry'
+  app/models/inquiry_form.rb:24:in `draw_inquiry'
+  app/models/inquiry_form.rb:17:in `to_pdf'
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (46.9ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:23:48 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 219ms
+
+Prawn::Errors::CannotFit (Prawn::Errors::CannotFit):
+  app/models/inquiry_form.rb:67:in `block in draw_inquiry'
+  app/models/inquiry_form.rb:24:in `draw_inquiry'
+  app/models/inquiry_form.rb:17:in `to_pdf'
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:23:56 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (15.6ms)
+Completed 200 OK in 578ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:26:01 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 672ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:26:17 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 672ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:26:27 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 719ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:27:47 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 641ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:27:56 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (15.6ms)
+Completed 200 OK in 703ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:28:16 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 656ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:28:22 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 672ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:28:34 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 703ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:28:44 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 672ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:28:50 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 688ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:28:55 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (15.6ms)
+Completed 200 OK in 688ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:29:04 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 703ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:29:48 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 594ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:29:55 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 594ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:30:04 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 547ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:30:35 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 641ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:30:41 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 625ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:30:47 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 609ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:31:19 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 688ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:31:25 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 719ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:31:50 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 562ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:31:55 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 672ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:32:05 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (15.6ms)
+Completed 200 OK in 703ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:32:40 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (15.6ms)
+Completed 200 OK in 547ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:32:45 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 516ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:32:52 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 656ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:33:11 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 562ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:33:22 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 547ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:33:34 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 547ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:33:47 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 578ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:33:59 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 547ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:34:07 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 500ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:34:32 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (15.6ms)
+Completed 200 OK in 734ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:34:43 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 562ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:34:48 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (15.6ms)
+Completed 200 OK in 562ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:34:53 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 641ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:35:12 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 531ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:35:29 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 562ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:35:38 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 562ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:38:05 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 719ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:39:20 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 578ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:39:51 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 609ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:40:04 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 594ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:41:25 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (15.6ms)
+Completed 200 OK in 547ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:41:45 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 547ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:42:27 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 703ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:43:25 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 625ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:44:06 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 656ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:46:11 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (15.6ms)
+Completed 200 OK in 562ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:47:28 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 656ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:48:32 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 734ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:51:47 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 16ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/inquiry_form.rb:72: syntax error, unexpected ',', expecting keyword_end
+... 60, 37, 24.9, 37, 25, 80.1] ), :position => 200
+...                               ^):
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (62.5ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:52:16 +0400
+Processing by FormsController#inquiry as HTML
+Completed 500 Internal Server Error in 16ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/inquiry_form.rb:71: syntax error, unexpected tSYMBEG, expecting ')'
+                :cell_style => {:height => 15, :padding => [2, 30]},
+                 ^
+D:/projects/pdf_forms/app/models/inquiry_form.rb:71: syntax error, unexpected ',', expecting keyword_end
+                :cell_style => {:height => 15, :padding => [2, 30]},
+                                                                    ^
+D:/projects/pdf_forms/app/models/inquiry_form.rb:72: syntax error, unexpected ')', expecting keyword_end
+..., 60, 37, 24.9, 37, 25, 80.1] )
+...                               ^):
+  app/controllers/forms_controller.rb:47:in `inquiry'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (78.1ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:52:22 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 516ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:53:01 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 578ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:53:41 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 703ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:54:16 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 672ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:54:25 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 750ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:55:16 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 578ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:55:41 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 578ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:56:43 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 734ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:57:25 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 578ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:57:55 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 672ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:58:20 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 688ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:58:47 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 531ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:59:19 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (15.6ms)
+Completed 200 OK in 641ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:59:30 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 609ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 11:59:41 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 547ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 12:00:13 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 609ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 12:00:22 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 625ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 12:00:33 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 672ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 12:01:41 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (15.6ms)
+Completed 200 OK in 688ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 12:01:59 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 719ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 12:02:10 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 656ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 12:02:23 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 547ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 12:02:30 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 609ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 12:02:42 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 562ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 12:04:48 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 594ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 12:05:16 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 625ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 12:05:26 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 578ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 12:06:58 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 594ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 12:07:13 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 547ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 12:08:04 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (15.6ms)
+Completed 200 OK in 734ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 12:08:30 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 594ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 12:09:09 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 500ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 12:09:37 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (15.6ms)
+Completed 200 OK in 688ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 12:09:48 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 656ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 12:09:55 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 578ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 12:10:25 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 547ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 12:10:31 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 547ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 12:10:48 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 562ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 12:10:54 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 609ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 12:11:07 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 547ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 12:11:23 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 547ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 12:11:31 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 625ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 12:13:18 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 656ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 12:13:33 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 500ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 12:14:27 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 672ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 12:17:10 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 656ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 12:17:34 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 609ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 12:17:58 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 656ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 12:38:25 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 594ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 12:39:14 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 625ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 12:39:28 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 609ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 12:39:40 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 578ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 12:39:53 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 703ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 12:40:04 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 562ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-27 12:43:06 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 672ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-27 12:45:49 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 672ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-27 12:46:30 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (15.6ms)
+Completed 200 OK in 656ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-27 12:48:09 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 609ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-27 12:52:16 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 641ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-27 12:53:02 +0400
+Processing by FormsController#inquirybackside as HTML
+Completed 500 Internal Server Error in 16ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/inquirybackside_form.rb:91: syntax error, unexpected '=', expecting tASSOC
+...at: [base_z-460], :line_width = 2
+...                               ^):
+  app/controllers/forms_controller.rb:62:in `inquirybackside'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (78.1ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-27 12:54:53 +0400
+Processing by FormsController#inquirybackside as HTML
+Completed 500 Internal Server Error in 16ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/inquirybackside_form.rb:91: syntax error, unexpected tLABEL
+      stroke_horizontal_line_width = 2, base_x, 380, at: [base_z-460]
+                                                        ^):
+  app/controllers/forms_controller.rb:62:in `inquirybackside'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (78.1ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-27 12:55:02 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 625ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-27 12:56:14 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 703ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-27 12:56:43 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 672ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-27 12:57:05 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 672ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-27 12:57:12 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (15.6ms)
+Completed 200 OK in 797ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-27 12:57:19 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 828ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-27 12:57:29 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 656ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-27 12:57:39 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 844ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-27 12:57:49 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 781ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-27 12:58:05 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 844ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-27 12:58:19 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (15.6ms)
+Completed 200 OK in 719ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-27 12:58:25 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 906ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-27 12:58:35 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 1078ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-27 12:58:47 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 797ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-27 12:59:09 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 703ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-27 12:59:18 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 859ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-27 12:59:36 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (15.6ms)
+Completed 200 OK in 906ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-27 13:00:03 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 891ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-27 13:00:27 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (15.6ms)
+Completed 200 OK in 953ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-27 13:00:42 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (15.6ms)
+Completed 200 OK in 969ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-27 13:01:54 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 953ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-27 13:02:10 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 594ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-27 13:02:37 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 594ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-27 13:26:10 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 625ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-27 13:27:04 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 609ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-27 13:27:35 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 547ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-27 13:31:05 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 531ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-27 13:31:37 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 562ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-27 13:32:38 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 531ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-27 13:33:04 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 547ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-27 13:33:49 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (15.6ms)
+Completed 200 OK in 609ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-27 13:34:14 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 516ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-27 13:34:53 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (15.6ms)
+Completed 200 OK in 578ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-27 13:36:25 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 547ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-27 13:37:04 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (15.6ms)
+Completed 200 OK in 516ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-27 13:37:12 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 594ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-27 13:38:44 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 578ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-27 13:39:42 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 562ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-27 13:40:40 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (15.6ms)
+Completed 200 OK in 578ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-27 13:40:47 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (15.6ms)
+Completed 200 OK in 531ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-27 13:40:55 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 547ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-27 13:41:10 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (15.6ms)
+Completed 200 OK in 531ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-27 13:41:17 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 609ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-27 13:41:24 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (15.6ms)
+Completed 200 OK in 594ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-27 13:41:30 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 562ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-27 13:41:54 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 531ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-27 13:42:26 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 547ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-27 13:42:38 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 609ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-27 13:42:57 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (93.8ms)
+Completed 200 OK in 672ms (Views: 93.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-27 13:43:37 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 547ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-27 13:43:47 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 547ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-27 13:44:09 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (78.1ms)
+Completed 200 OK in 625ms (Views: 78.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-27 13:44:30 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 547ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-27 13:44:43 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 578ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-27 13:44:52 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 531ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-27 13:48:40 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 609ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-27 13:48:59 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 516ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-27 13:49:17 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 578ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 13:51:06 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (15.6ms)
+Completed 200 OK in 641ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-27 13:51:19 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 562ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-27 13:54:19 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 547ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 13:54:39 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (15.6ms)
+Completed 200 OK in 547ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 13:54:44 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 719ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-27 13:57:07 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 609ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-27 13:57:20 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 594ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-27 13:57:34 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (15.6ms)
+Completed 200 OK in 547ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 13:57:38 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 625ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 15:15:04 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 1438ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 15:15:20 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 703ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-27 15:15:54 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 562ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-27 15:16:54 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 672ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-27 15:17:25 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 547ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-27 15:17:33 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 672ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-27 15:18:29 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 531ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-27 15:20:03 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 516ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-27 15:20:13 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 578ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-27 15:23:20 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 547ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-27 15:23:26 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 562ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquiry" for 127.0.0.1 at 2013-12-27 15:23:43 +0400
+Processing by FormsController#inquiry as HTML
+  Rendered text template (0.0ms)
+Sent data inquiry.pdf (0.0ms)
+Completed 200 OK in 578ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/inquirybackside" for 127.0.0.1 at 2013-12-27 15:24:18 +0400
+Processing by FormsController#inquirybackside as HTML
+  Rendered text template (0.0ms)
+Sent data inquirybackside.pdf (0.0ms)
+Completed 200 OK in 531ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-12-27 15:40:07 +0400
+Processing by FormsController#backsideform117 as HTML
+Completed 500 Internal Server Error in 78ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/backsideform117_form.rb:54: syntax error, unexpected tLSHFT, expecting keyword_end
+<<<<<<< HEAD
+  ^
+D:/projects/pdf_forms/app/models/backsideform117_form.rb:59: syntax error, unexpected tEQQ, expecting keyword_end
+=======
+   ^
+D:/projects/pdf_forms/app/models/backsideform117_form.rb:101: syntax error, unexpected tRSHFT, expecting keyword_end
+>>>>>>> c3a48f4000beba85a5c79170b7f91e1ba0556fcf
+  ^
+D:/projects/pdf_forms/app/models/backsideform117_form.rb:114: syntax error, unexpected tLSHFT, expecting keyword_end
+<<<<<<< HEAD
+  ^
+D:/projects/pdf_forms/app/models/backsideform117_form.rb:148: syntax error, unexpected tRSHFT, expecting keyword_end
+>>>>>>> c3a48f4000beba85a5c79170b7f91e1ba0556fcf
+  ^
+D:/projects/pdf_forms/app/models/backsideform117_form.rb:205: syntax error, unexpected keyword_end, expecting $end
+end    
+   ^):
+  app/controllers/forms_controller.rb:52:in `backsideform117'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (31.2ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (62.5ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-12-27 15:40:50 +0400
+Processing by FormsController#backsideform117 as HTML
+Completed 500 Internal Server Error in 16ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/backsideform117_form.rb:54: syntax error, unexpected tLSHFT, expecting keyword_end
+<<<<<<< HEAD
+  ^
+D:/projects/pdf_forms/app/models/backsideform117_form.rb:59: syntax error, unexpected tEQQ, expecting keyword_end
+=======
+   ^
+D:/projects/pdf_forms/app/models/backsideform117_form.rb:101: syntax error, unexpected tRSHFT, expecting keyword_end
+>>>>>>> c3a48f4000beba85a5c79170b7f91e1ba0556fcf
+  ^
+D:/projects/pdf_forms/app/models/backsideform117_form.rb:114: syntax error, unexpected tLSHFT, expecting keyword_end
+<<<<<<< HEAD
+  ^
+D:/projects/pdf_forms/app/models/backsideform117_form.rb:148: syntax error, unexpected tRSHFT, expecting keyword_end
+>>>>>>> c3a48f4000beba85a5c79170b7f91e1ba0556fcf
+  ^
+D:/projects/pdf_forms/app/models/backsideform117_form.rb:205: syntax error, unexpected keyword_end, expecting $end
+end    
+   ^):
+  app/controllers/forms_controller.rb:52:in `backsideform117'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (78.1ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-12-27 15:41:57 +0400
+Processing by FormsController#backsideform117 as HTML
+Completed 500 Internal Server Error in 16ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/backsideform117_form.rb:198: syntax error, unexpected keyword_end, expecting $end
+end    
+   ^):
+  app/controllers/forms_controller.rb:52:in `backsideform117'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (46.9ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-12-27 15:42:50 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 484ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-12-27 15:43:51 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 484ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform113" for 127.0.0.1 at 2013-12-27 15:45:22 +0400
+Processing by FormsController#backsideform113 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform113.pdf (15.6ms)
+Completed 200 OK in 578ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-12-27 15:45:37 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (15.6ms)
+Completed 200 OK in 469ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-12-27 15:47:48 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 438ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-12-27 15:48:44 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 406ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-12-27 15:48:54 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 469ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-12-27 15:50:30 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (15.6ms)
+Completed 200 OK in 484ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-12-27 15:51:05 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 500ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-12-27 15:51:44 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 438ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-12-27 15:52:36 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 406ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-12-27 15:53:08 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 297ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-12-27 15:53:42 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 453ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-12-27 15:54:54 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (15.6ms)
+Completed 200 OK in 641ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-12-27 15:55:14 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 547ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-12-27 15:55:44 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 516ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-12-27 15:55:57 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 469ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-12-27 15:56:22 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 406ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-12-27 15:57:01 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 406ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-12-27 15:57:27 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 516ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-12-27 15:57:42 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 438ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-12-27 15:58:39 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 391ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-12-27 15:58:45 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 375ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-12-27 15:58:50 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 438ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-12-27 15:59:31 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (15.6ms)
+Completed 200 OK in 469ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-12-27 16:00:03 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 438ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-12-27 16:00:22 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 406ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-12-27 16:00:29 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 500ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-12-27 16:00:48 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 406ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-12-27 16:01:10 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 484ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-12-27 16:02:04 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 406ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-12-27 16:02:16 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 484ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-12-27 16:02:22 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 500ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-12-27 16:02:31 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 484ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-12-27 16:02:54 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 422ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-12-27 16:03:10 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 469ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-12-27 16:03:24 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 484ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-12-27 16:03:31 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 469ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-12-27 16:05:20 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 453ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-12-27 16:05:41 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 406ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-12-27 16:05:53 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 469ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-12-27 16:06:03 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 422ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform113" for 127.0.0.1 at 2013-12-27 16:06:34 +0400
+Processing by FormsController#backsideform113 as HTML
+Completed 500 Internal Server Error in 0ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/backsideform113_form.rb:167: syntax error, unexpected $end, expecting keyword_end):
+  app/controllers/forms_controller.rb:57:in `backsideform113'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (31.2ms)
+
+
+Started GET "/backsideform113" for 127.0.0.1 at 2013-12-27 16:07:26 +0400
+Processing by FormsController#backsideform113 as HTML
+Completed 500 Internal Server Error in 16ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/backsideform113_form.rb:167: syntax error, unexpected $end, expecting keyword_end):
+  app/controllers/forms_controller.rb:57:in `backsideform113'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (62.5ms)
+
+
+Started GET "/backsideform113" for 127.0.0.1 at 2013-12-27 16:08:29 +0400
+Processing by FormsController#backsideform113 as HTML
+Completed 500 Internal Server Error in 0ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/backsideform113_form.rb:167: syntax error, unexpected $end, expecting keyword_end):
+  app/controllers/forms_controller.rb:57:in `backsideform113'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (78.1ms)
+
+
+Started GET "/backsideform113" for 127.0.0.1 at 2013-12-27 16:09:20 +0400
+Processing by FormsController#backsideform113 as HTML
+Completed 500 Internal Server Error in 16ms
+
+SyntaxError (D:/projects/pdf_forms/app/models/backsideform113_form.rb:167: syntax error, unexpected $end, expecting keyword_end):
+  app/controllers/forms_controller.rb:57:in `backsideform113'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.0ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (46.9ms)
+
+
+Started GET "/backsideform113" for 127.0.0.1 at 2013-12-27 16:09:28 +0400
+Processing by FormsController#backsideform113 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform113.pdf (0.0ms)
+Completed 200 OK in 547ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform113" for 127.0.0.1 at 2013-12-27 16:10:01 +0400
+Processing by FormsController#backsideform113 as HTML
+Completed 500 Internal Server Error in 328ms
+
+NoMethodError (undefined method `draw_backsideform117' for #<Backsideform113Form:0x2adc320>):
+  app/models/backsideform113_form.rb:18:in `to_pdf'
+  app/controllers/forms_controller.rb:57:in `backsideform113'
+
+
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (31.2ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (15.6ms)
+  Rendered C:/RailsInstaller/Ruby1.9.3/lib/ruby/gems/1.9.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (62.5ms)
+
+
+Started GET "/backsideform113" for 127.0.0.1 at 2013-12-27 16:10:45 +0400
+Processing by FormsController#backsideform113 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform113.pdf (0.0ms)
+Completed 200 OK in 438ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform113" for 127.0.0.1 at 2013-12-27 16:10:58 +0400
+Processing by FormsController#backsideform113 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform113.pdf (0.0ms)
+Completed 200 OK in 547ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform113" for 127.0.0.1 at 2013-12-27 16:12:26 +0400
+Processing by FormsController#backsideform113 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform113.pdf (0.0ms)
+Completed 200 OK in 578ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform113" for 127.0.0.1 at 2013-12-27 16:13:25 +0400
+Processing by FormsController#backsideform113 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform113.pdf (15.6ms)
+Completed 200 OK in 516ms (Views: 15.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-12-27 16:22:55 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 406ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-12-27 16:24:18 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 438ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-12-27 16:24:48 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 484ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-12-27 16:31:49 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 469ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backsideform117" for 127.0.0.1 at 2013-12-27 16:31:58 +0400
+Processing by FormsController#backsideform117 as HTML
+  Rendered text template (0.0ms)
+Sent data backsideform117.pdf (0.0ms)
+Completed 200 OK in 516ms (Views: 0.0ms | ActiveRecord: 0.0ms)

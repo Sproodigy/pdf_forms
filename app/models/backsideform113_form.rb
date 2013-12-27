@@ -14,9 +14,15 @@ class Backsideform113Form < Prawn::Document
       })
     font "DejaVuSans", size: 9
 
+    draw_backsideform113(-10, 0)
+    draw_backsideform113(420,0)
+    render
+  end
+
+  def draw_backsideform113(x, y)
+    translate(x,y) do
+      
 # Pазмер листа - 770x523 точек
-    
-    stroke_vertical_line 0, 523, :at => 385
 
     base_z = 557
       text_box "Вторичное извещение выписано _________________ 
@@ -153,7 +159,7 @@ class Backsideform113Form < Prawn::Document
       draw_text "вручения РПО)", :at => [-8, base_z-579], :size => 6
 
 
-    render
+    end
 
   end
   
