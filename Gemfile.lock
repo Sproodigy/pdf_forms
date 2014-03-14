@@ -1,10 +1,9 @@
 GIT
   remote: git://github.com/prawnpdf/prawn
-  revision: 386998effa7ce299c749f47063d7ff426b8f980a
+  revision: 6e520785d5f07db15995f399e1d59d358f9c3c33
   branch: master
   specs:
-    prawn (1.0.0.rc2)
-      afm
+    prawn (0.14.0)
       pdf-reader (~> 1.2)
       ruby-rc4
       ttfunk (~> 1.0.3)
@@ -41,7 +40,8 @@ GEM
       i18n (= 0.6.1)
       multi_json (~> 1.0)
     afm (0.2.0)
-    arel (3.0.2)
+    arel (3.0.3)
+    barby (0.5.1)
     builder (3.0.4)
     coffee-rails (3.2.2)
       coffee-script (>= 2.2.0)
@@ -51,21 +51,20 @@ GEM
       execjs
     coffee-script-source (1.6.3)
     erubis (2.7.0)
-    execjs (1.4.0)
-      multi_json (~> 1.0)
-    hashery (2.1.0)
+    execjs (2.0.2)
+    hashery (2.1.1)
     hike (1.2.3)
     i18n (0.6.1)
     journey (1.0.4)
     jquery-rails (3.0.4)
       railties (>= 3.0, < 5.0)
       thor (>= 0.14, < 2.0)
-    json (1.8.0)
+    json (1.8.1)
     mail (2.5.4)
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
-    mime-types (1.23)
-    multi_json (1.7.7)
+    mime-types (1.25.1)
+    multi_json (1.8.2)
     pdf-reader (1.3.3)
       Ascii85 (~> 1.0.0)
       afm (~> 0.2.0)
@@ -95,12 +94,12 @@ GEM
       rake (>= 0.8.7)
       rdoc (~> 3.4)
       thor (>= 0.14.6, < 2.0)
-    rake (10.1.0)
+    rake (10.1.1)
     rdoc (3.12.2)
       json (~> 1.4)
-    ru_propisju (2.2.1)
+    ru_propisju (2.2.2)
     ruby-rc4 (0.1.5)
-    sass (3.2.10)
+    sass (3.2.13)
     sass-rails (3.2.6)
       railties (~> 3.2.0)
       sass (>= 3.1.10)
@@ -110,23 +109,23 @@ GEM
       multi_json (~> 1.0)
       rack (~> 1.0)
       tilt (~> 1.1, != 1.3.0)
-    sqlite3 (1.3.7)
-    sqlite3 (1.3.7-x86-mingw32)
+    sqlite3 (1.3.8-x86-mingw32)
     thor (0.18.1)
     tilt (1.4.1)
-    treetop (1.4.14)
+    treetop (1.4.15)
       polyglot
       polyglot (>= 0.3.1)
     ttfunk (1.0.3)
-    tzinfo (0.3.37)
-    uglifier (2.1.2)
+    tzinfo (0.3.38)
+    uglifier (2.4.0)
       execjs (>= 0.3.0)
-      multi_json (~> 1.0, >= 1.0.2)
+      json (>= 1.8.0)
 
 PLATFORMS
   x86-mingw32
 
 DEPENDENCIES
+  barby (~> 0.5.1)
   coffee-rails (~> 3.2.1)
   jquery-rails
   prawn!

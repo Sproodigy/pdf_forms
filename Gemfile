@@ -9,6 +9,7 @@ gem 'sqlite3'
 
 gem 'prawn', git: 'git://github.com/prawnpdf/prawn', branch: 'master'
 gem 'ru_propisju'
+gem 'barby', '~> 0.5.1'
 
 
 # Gems used only for assets and not required
