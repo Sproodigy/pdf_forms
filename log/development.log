@@ -44241,3 +44241,4 @@ Processing by FormsController#invoice_for_payment as HTML
   Rendered text template (0.0ms)
 Sent data invoice_for_payment.pdf (1.0ms)
 Completed 200 OK in 374ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
