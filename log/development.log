@@ -42575,3 +42575,11 @@ Processing by FormsController#act as HTML
   Rendered text template (0.0ms)
 Sent data act.pdf (0.0ms)
 Completed 200 OK in 438ms (Views: 0.0ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/invoice_for_payment" for 127.0.0.1 at 2014-03-18 11:14:16 +0400
+Processing by FormsController#invoice_for_payment as HTML
+  Rendered text template (0.0ms)
+Sent data invoice_for_payment.pdf (140.6ms)
+Completed 200 OK in 547ms (Views: 140.6ms | ActiveRecord: 0.0ms)
