@@ -71,7 +71,7 @@ class ActForm < Prawn::Document
 
     # Основная таблица
     data = [ ["№", "Услуга", "Кол-во", "Ед.", "Цена", "Сумма"]] + services_data
-    table(data, :column_widths => [20, 203, 50, 36, 100, 110],
+    table(data, :column_widths => [20, 207, 50, 36, 100, 110],
                 cell_style: { inline_format: true }) do |t|
 
       t.row(0).style align: :center, font_style: :bold
@@ -97,7 +97,7 @@ class ActForm < Prawn::Document
     formatted_text [ {text: "Всего: "}, {text: fc(total_sum), styles: [:bold]} ],
                       align: :right
 
-    move_down 35
+    move_down 15
     formatted_text [ {text: "Всего оказано услуг на сумму: "}, {text: total_sum_string, styles: [:bold]} ]
 
     move_down 30
@@ -125,6 +125,8 @@ class ActForm < Prawn::Document
     font_size 12
     draw_text "М. П.", at: [85, cursor-86]
     draw_text "М. П.", at: [365, cursor-86]
+    
+
 
 
     render
