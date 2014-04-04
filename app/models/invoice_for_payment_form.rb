@@ -7,7 +7,7 @@ class Invoice_for_paymentForm < Prawn::Document
     number_with_precision(num, precision: 2, delimiter: ' ')
   end
 
-  def to_pdf
+  def to_pdf(params = {})
     font_families.update(
       "DejaVuSans" => {
         normal: "#{Rails.root}/app/assets/fonts/DejaVuSans.ttf",
@@ -20,48 +20,87 @@ class Invoice_for_paymentForm < Prawn::Document
       })
     font "DejaVuSans", size: 9
 
+    #Параметры счёта
+    num = params[:num]
+    date = params[:date]
+    line_items = params[:line_items]
+    adress = params[:adress]
+    tel = params[:tel]
+    receiver = params[:receiver]
+    account = params[:account]
+    bik = params[:bik]
+    corr_account =params[:corr_account]
+    inn = params[:inn]
+    kpp = params[:kpp]
+    bank = params[:bank]
+    singer = params[:singer]
+    client = params[:client]
+
+    line_items_data = []
+    total_sum = 0.00
+    line_items.each_with_index do |service, index|
+      service_sum = service[2]*service[3]
+      total_sum += service_sum
+      line_items_data << [index+1, service[0], service[1], service[2], fc(service[3]), fc(service_sum)]
+    end 
+
+    total_sum_string = (RuPropisju.propisju_int(total_sum.floor) + ' руб. ' +
+          ((total_sum-total_sum.floor)*100).floor.to_s[0..1].rjust(2, '0') + ' коп.').mb_chars.capitalize
+
     # Заголовок
 
-    text 'ООО "Экстра"', style: :bold
+    image "app/assets/images/exxtra_logo_web.png", at: [380, 720], width: 150
+
+    text "#{receiver}", style: :bold
     move_down 10
-    text '443068, г. Самара, ул. Ново-Садовая д. 106, корп. 109', style: :bold
+    text "#{adress}", style: :bold
     move_down 10
-    text 'Тел.: 8-800-100-31-01', style: :bold
-    move_down 30
+    text "#{tel}", style: :bold
+    move_down 20
     text 'Образец заполнения платёжного поручения', align: :center, style: :bold
     move_down 10
 
     # Таблица для реквизитов
-    
-    two_dimensional_array_1 = [ [{content:'БИК', width: 40}],
-     [{content:'Сч. №', width: 40, height: 33, padding: [17, 0, 0, 5]}] ]
-    two_dimensional_array_2 = [ [{content:'042202824', width: 180}],
-     [{content:'30101810200000000824', width: 180, height: 33, padding: [17, 0, 0, 5]}] ]
-
-    table ([ 
-      [{content: 'ИНН 6316152650', width: 150},
-       {content: 'КПП 631601001', width: 150}, 
-       {content: 'Сч. №', rowspan: 2, width: 40, padding: [63, 0, 0, 5]},
-       {content: '40702810029180000336', rowspan: 2, width: 170, padding: [63, 0, 0, 5]}],
-      [{content:"Получатель\n\nООО \"Экстра\"", colspan: 2 }],
-      [{content: "Банк получателя\n\nФИЛИАЛ \"НИЖЕГОРОДСКИЙ\" ОАО \"АЛЬФА-БАНК\" Г.НИЖНИЙ НОВГОРОД",
-        colspan: 2, width: 170}, two_dimensional_array_1, two_dimensional_array_2] 
-    ])
+    table( [
+      [{content: "ИНН #{check_inn_length(inn)}", width: 165, inline_format: true},
+       {content: "КПП #{check_kpp_length(kpp)}", width: 165},
+       {content: ''}, {content: ''}],
+      [{content:"Получатель", colspan: 2},
+       {content: 'Сч. №', rowspan: 2, valign: :bottom},
+       {content: "#{check_account_length(account)}", rowspan: 2, width: 165, valign: :bottom}],
+      [{content: "#{receiver}", colspan: 2,width: 310, valign: :bottom}],
+      [{content: "Банк получателя", colspan: 2},
+       {content:'БИК', width: 40}, {content: "#{check_bik_length(bik)}", width: 165}],
+      [{content: "#{bank}",width: 310, valign: :bottom, colspan: 2}, 
+       {content:'Сч. №', valign: :bottom},   
+       {content: "#{check_corr_account_length(corr_account)}", width: 165, valign: :bottom}]  
+    ], cell_style: { inline_format: true }) do
+      row(0).column(2).borders = [:top, :right]
+      row(1).column(2).borders = [:bottom, :left]
+      row(0).column(3).borders = [:top, :right]
+      row(1).column(3).borders = [:bottom, :left, :right]
+      row(1).column(0).borders = [:left]
+      row(2).column(0).borders = [:left, :right, :bottom]
+      row(3).column(0).borders = [:left]
+      row(4).column(0).borders = [:left, :right, :bottom]
+      row(3).column(3).borders = [:right]
+      row(4).column(3).borders = [:bottom, :right]
+    end
     move_down 20
 
-    text 'СЧЁТ №86 от 07 февраля 2014 г.',
-      style: :bold, align: :center, size: 16
+      
+
+    text "Счёт №#{num} от " + I18n.l(date, format: :long), align: :center, style: :bold, size: 14
     move_down 20
 
-    formatted_text [{text:'Покупатель: '}, {text: 'ООО "Медхелп", ИНН 3662175880/366201001, 394026, г. Воронеж, ул. Варейкиса, 70',
+    formatted_text [{text:'Покупатель: '}, {text: "#{client}",
       styles: [:bold]} ]
     move_down 20
 
     # Основная таблица
 
-    data = [ ['№', 'Наименование товара, работ, услуг', 'Ед. изм.', 'Кол-во', 'Цена', 'Сумма'],
-             ['900', 'Каша "Самарский Здоровяк" №54', 'Шт.', '999', '3000', '38909830'] ]
-    table(data, column_widths: [27, 240, 46, 50, 80, 80], cell_style: { inline_format: true }) do |t|
+    data = [ ['№', 'Наименование товара,работ, услуг', 'Ед. изм.', 'Кол-во', 'Цена', 'Сумма'] ] + line_items_data
+    table(data, column_widths: [27, 257, 46, 50, 80, 80], cell_style: { inline_format: true }) do |t|
       t.row(0).style align: :center, font_style: :bold
       t.column(0).style align: :center
       t.column(3).style align: :right
@@ -76,11 +115,11 @@ class Invoice_for_paymentForm < Prawn::Document
     end
 
     text_box "Итого:\nБез налога (НДС):\nВсего к оплате:", 
-      at: [340, cursor-7], width: 100, leading: 10, align: :right, style: :bold
+      at: [355, cursor-7], width: 100, leading: 10, align: :right, style: :bold
 
     # Дополнительная таблица
 
-    table ([ ['32,836.00'], ['---'], ['32,836.00'] ]),
+    table ([ ["#{fc(total_sum)}"], ['---'], ["#{fc(total_sum)}"] ]),
       position: :right, column_widths: [80], cell_style: {font_style: :bold, align: :right} do |t|
       t.before_rendering_page do |page|
         page.row(-1).border_bottom_width = 2
@@ -91,18 +130,51 @@ class Invoice_for_paymentForm < Prawn::Document
 
     move_down 20
 
-    text 'Всего наименований 28, на сумму 32,836.00 руб.'
+    text "Всего наименований #{line_items.size}, на сумму #{fc(total_sum)}"
     move_down 5
-    text 'Тридцать две тысячи восемьсот тридцать шесть рублей 00 копеек', style: :bold
+    text "#{total_sum_string}", style: :bold
     move_down 30
 
-    text 'Руководитель предприятия ____________________________________ (Афанасьева Марина Васильевна)'
+    text "Руководитель предприятия ____________________________________ (#{singer})"
     move_down 20
-    text 'Главный бухгалтер _____________________________________________ (Афанасьева Марина Васильевна)'  
+    text "Главный бухгалтер _____________________________________________ (#{singer})"  
 
 
     render
 
   end
+
+private
+  def red_if_size_not(str, size)
+    if not size.instance_of? Array
+      size = [size]
+    end
+
+    if size.include? str.size
+      str
+    else
+      "<color rgb='ff0000'>#{str}</color>"
+    end
+  end
+
+  def check_inn_length(inn)
+    red_if_size_not(inn, [10, 12])
+  end
+
+  def check_bik_length(bik)
+    red_if_size_not(bik, 9)
+  end
+
+  def check_kpp_length(kpp)
+    red_if_size_not(kpp, 9)
+  end
+
+  def check_account_length(account)
+    red_if_size_not(account, 20)
+  end
+
+  def check_corr_account_length(corr_account)
+    red_if_size_not(corr_account, 20)
+  end    
 
 end

@@ -144,6 +144,8 @@ class Backsideform113Form < Prawn::Document
       draw_text "Адресат________________", :at => [55, base_z-517]
       draw_text "(подпись)", :at => [110, base_z-525], :size => 7
 
+      image "app/assets/images/logo_russian_post.png", at: [207, base_z-319], width: 50
+
       draw_text "ТАЛОН", :at => [292, base_z-335], :size => 11
       draw_text "к почтовому переводу", :at => [257, base_z-350], :style => :bold
       draw_text "наложенного платежа", :at => [257, base_z-360], :style => :bold

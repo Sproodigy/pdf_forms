@@ -53,6 +53,9 @@ class ActForm < Prawn::Document
 
 
     # Заголовок
+
+    image "app/assets/images/exxtra_logo_web.png", at: [430, 742], width: 110
+
     text "Акт №#{num} от " + I18n.l(date, format: :long), style: :bold, size: 14      
 
     stroke_horizontal_rule
@@ -60,18 +63,18 @@ class ActForm < Prawn::Document
 
     text FULFILLER + ":"
 
-    text_box fulfiller, at: [70, 739], width: 370, heigth: 50, style: :bold
+    text_box fulfiller, at: [70, 688], width: 370, heigth: 50, style: :bold
     move_down 30
 
     text CLIENT + ":"
 
-    text_box client, at: [70, 698], width: 450, heigth: 50, style: :bold
+    text_box client, at: [70, 647], width: 450, heigth: 50, style: :bold
     move_down 30
 
 
     # Основная таблица
-    data = [ ["№", "Услуга", "Кол-во", "Ед.", "Цена", "Сумма"]] + services_data
-    table(data, :column_widths => [20, 207, 50, 36, 100, 110],
+    data = [ ["№", "Услуга", "Кол-во", "Ед.", "Цена", "Сумма"] ] + services_data
+    table(data, :column_widths => [20, 223, 50, 36, 100, 110],
                 cell_style: { inline_format: true }) do |t|
 
       t.row(0).style align: :center, font_style: :bold

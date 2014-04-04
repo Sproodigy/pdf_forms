@@ -74,7 +74,7 @@ class FormsController < ApplicationController
   end
 
   def act
-    pdf = ActForm.new(page_size: 'A4').to_pdf(num: 4899, date: Date.today,
+    pdf = ActForm.new.to_pdf(num: 4899, date: Date.today,
       fulfiller: 'ООО "Экстра", ИНН/КПП 6316152650/631601001, 443068, г. Самара, ул. Ново-Садовая, д. 106, корп. 109',
       client: 'ООО МНПФ "Центр Новые Технологии", ИНН/КПП 6322025466/632401001, 445046, Самарская обл., г. Тольятти, ул. Лизы Чайкиной, д. 33, кв. 16',
       services: [['Почтовая подготовка', 55, 'шт.', 85], ['Складское хранение', 5, 'м. кв.', 490]],
@@ -86,7 +86,19 @@ class FormsController < ApplicationController
   end
 
   def invoice_for_payment
-    pdf = Invoice_for_paymentForm.new(page_size: 'A4').to_pdf
+    pdf = Invoice_for_paymentForm.new.to_pdf(num: 8493, date: Date.today,
+      adress: '443068, г. Самара, ул. Ново-Садовая д. 106, корп. 109',
+      tel: 'Тел.: 8-800-100-31-01',
+      line_items: [ ['Каша "Самарский Здоровяк" №48', 'шт.', 5, 125], ['Каша "Самарский Здоровяк" №42', 'шт.', 38, 125] ],
+      client: 'ООО "Медхелп", ИНН/КПП 3662175880/366201001, 394026, г. Воронеж, ул. Варейкиса, 70',
+      receiver: 'ООО "Экстра"',
+      inn: '6316152650',
+      kpp: '631601001',
+      account: '40702810029180000336',
+      bik: '042202824',
+      corr_account: '30101810200000000824',  
+      bank: 'ФИЛИАЛ "НИЖЕГОРОДСКИЙ" ОАО "АЛЬФА-БАНК" Г.НИЖНИЙ НОВГОРОД',
+      singer: 'Афанасьева Марина Васильевна')
     send_data pdf, type: 'application/pdf', filename: 'invoice_for_payment.pdf', disposition: 'inline'
   end
  
