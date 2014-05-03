@@ -54073,3 +54073,88 @@ Sent data form113en.pdf (1.2ms)
 Completed 200 OK in 248ms (Views: 1.0ms | ActiveRecord: 0.0ms)
 Connecting to database specified by database.yml
 >>>>>>> 52228fa81575c52ac4a8e344e62928b390b8845e
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2014-05-03 16:27:45 +0400
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (33.5ms)
+Completed 200 OK in 545ms (Views: 33.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-03 16:28:15 +0400
+Processing by FormsController#form113en as HTML
+  Rendered text template (0.0ms)
+Sent data form113en.pdf (0.5ms)
+Completed 200 OK in 174ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-03 16:29:05 +0400
+Processing by FormsController#form113en as HTML
+  Rendered text template (0.0ms)
+Sent data form113en.pdf (0.5ms)
+Completed 200 OK in 136ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.1.36 at 2014-05-03 16:30:22 +0400
+Processing by FormsController#invoice as HTML
+  Rendered text template (0.0ms)
+Sent data invoice.pdf (0.4ms)
+Completed 200 OK in 224ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form113en" for 192.168.1.36 at 2014-05-03 16:30:30 +0400
+Processing by FormsController#form113en as HTML
+  Rendered text template (0.0ms)
+Sent data form113en.pdf (0.4ms)
+Completed 200 OK in 148ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-03 16:32:12 +0400
+Processing by FormsController#form113en as HTML
+  Rendered text template (0.0ms)
+Sent data form113en.pdf (0.5ms)
+Completed 200 OK in 137ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-03 16:34:36 +0400
+Processing by FormsController#form113en as HTML
+  Rendered text template (0.0ms)
+Sent data form113en.pdf (0.4ms)
+Completed 200 OK in 206ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-03 16:37:16 +0400
+Processing by FormsController#form113en as HTML
+  Rendered text template (0.0ms)
+Sent data form113en.pdf (0.4ms)
+Completed 200 OK in 137ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-03 16:37:16 +0400
+Processing by FormsController#form113en as HTML
+  Rendered text template (0.0ms)
+Sent data form113en.pdf (0.4ms)
+Completed 200 OK in 137ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-03 16:37:20 +0400
+Processing by FormsController#form113en as HTML
+  Rendered text template (0.0ms)
+Sent data form113en.pdf (0.4ms)
+Completed 200 OK in 136ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-03 16:38:31 +0400
+Processing by FormsController#form113en as HTML
+  Rendered text template (0.0ms)
+Sent data form113en.pdf (0.4ms)
+Completed 200 OK in 136ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-03 16:50:13 +0400
+Processing by FormsController#form113en as HTML
+  Rendered text template (0.0ms)
+Sent data form113en.pdf (0.4ms)
+Completed 200 OK in 135ms (Views: 0.3ms | ActiveRecord: 0.0ms)
