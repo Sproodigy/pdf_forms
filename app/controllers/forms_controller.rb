@@ -23,16 +23,6 @@ class FormsController < ApplicationController
     send_data pdf, type: 'application/pdf', filename: 'invoice.pdf', disposition: 'inline'
   end
 
-  def test
-    pdf = TestForm.new.to_pdf
-    send_data pdf, type: 'application/pdf', filename: 'test.pdf', disposition: 'inline'
-  end
-
-  def work
-    pdf = WorkForm.new.to_pdf
-    send_data pdf, type: 'application/pdf', filename: 'work.pdf', disposition: 'inline'
-  end
-
   def form130
     pdf = Form130Form.new.to_pdf index: '443218', sum: 14045.94, quantity: 33
     send_data pdf, type: 'application/pdf', filename: 'form130.pdf', disposition: 'inline'
@@ -63,14 +53,9 @@ class FormsController < ApplicationController
     send_data pdf, type: 'application/pdf', filename: 'inquirybackside.pdf', disposition: 'inline'
   end  
 
-
-  def form_f113_f117
-    parcels = []
-    output = Documents::PostFormF113117.new(page_layout: :landscape,
-                                            page_size: 'A4',
-                                            top_margin: 1, left_margin: 1, right_margin: 1, bottom_margin: 1
-                                            ).to_pdf(parcels)
-    send_data output, type: 'application/pdf', filename: 'form_f113_f117.pdf', disposition: 'inline'
+  def form113en
+    pdf = Form113enForm.new.to_pdf
+    send_data pdf, type: 'application/pdf', filename: 'form113en.pdf', disposition: 'inline'
   end
 
   def act

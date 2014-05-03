@@ -1,5 +1,3 @@
-# encoding: utf-8
-
 class Backsideform113Form < Prawn::Document
   def to_pdf
     font_families.update(
