@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component name="dataSourceStorage">
-<<<<<<< HEAD
-  <data-source source="LOCAL" name="Rails pdf_forms: development" uuid="a9dae3c2-a29a-4cfc-a143-ac67612d3d51">
-=======
   <data-source source="LOCAL" name="Rails pdf_forms: development" uuid="f90e4115-5a26-4610-a1f3-2e736fdd6ac0">
->>>>>>> 52228fa81575c52ac4a8e344e62928b390b8845e
     <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
   </data-source>
 </component>

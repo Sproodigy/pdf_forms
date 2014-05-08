@@ -1,7 +1,7 @@
 class Form113enForm < Prawn::Document
 	def to_pdf
 		font_families.update(
-				"DejaVuSans" => {
+				'DejaVuSans' => {
 						normal: "#{Rails.root}/app/assets/fonts/DejaVuSans.ttf",
 						bold: "#{Rails.root}/app/assets/fonts/DejaVuSans-Bold.ttf",
 						italic: "#{Rails.root}/app/assets/fonts/DejaVuSans-Oblique.ttf",
