@@ -56,7 +56,12 @@ class FormsController < ApplicationController
   def form113en
     pdf = Form113enForm.new.to_pdf
     send_data pdf, type: 'application/pdf', filename: 'form113en.pdf', disposition: 'inline'
-  end
+	end
+
+	def backform113en
+		pdf = Backform113enForm.new.to_pdf
+		send_data pdf, type: 'application/pdf', filename: 'backform113en.pdf', disposition: 'inline'
+	end
 
   def act
     pdf = ActForm.new.to_pdf(num: 4899, date: Date.today,
