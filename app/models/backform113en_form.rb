@@ -66,7 +66,46 @@ class Backform113enForm < Prawn::Document
 		text_box "к почтовому переводу\nналоженного платежа", at: [440, 632], style: :bold
 		draw_text 'Обведённое жирной чертой заполняется адресатом',
 							at: [167, 340], style: :bold, rotate: 90
-		bounding_box([190, 600], width: 300, height: 50) do
+
+		bounding_box([175, 500], width: 365, height: 80) do
+			move_down 4
+			indent(2) do
+				text "<b>Предъявлен:</b>_____________________ Серия___________ №________________ выдан____________ 20__.__ г.",
+						 inline_format: true
+				indent(55) do
+					text '(наименование документа)', style: :italic, size: 5
+				end
+				move_down 4
+				text '_' * 103
+				text '(наименование учреждения)', align: :center, style: :italic, size: 5
+				self.line_width = 2
+				stroke_horizontal_rule
+				self.line_width = 1
+				move_down 2
+				text "<u>Для нерезидентов России</u>",style: :bold, inline_format: true
+				move_down 4
+				text "<b>Предъявлен:</b>_____________________ Серия___________ №________________ выдан____________ 20__.__ г.",
+						 inline_format: true
+				indent(55) do
+					text '(наименование документа)', style: :italic, size: 5
+				end
+				move_down 5
+				text "<b>Дата срока пребывания с:</b>_____._____20_____г.   по_____._____20_____ г.", inline_format: true
+			end
+			stroke_bounds
+		end
+
+		bounding_box([175, 414], width: 365, height: 50) do
+			indent(2) do
+				text 'Гражданство: __________________________', style: :bold
+				text 'Укажите адрес жительства (регистрации) или места пребывания адресата', style: :bold
+				move_down 5
+				text '_' * 103
+				move_down 5
+				text '_' * 103
+			end
+
+		end
 
 		bounding_box([175, 370], width: 365, height: 80) do
 			indent(2) do
@@ -81,7 +120,7 @@ class Backform113enForm < Prawn::Document
 				text 'ИНН:                                                                   ОГРН:', style: :bold
 				move_down 4
 				text '_' * 103
-					text '(адрес местонахождения по месту государственной регистрации)',
+				text '(адрес местонахождения по месту государственной регистрации)',
 					     align: :center, style: :italic, size: 5
 				move_down 3
 				text '_' * 103
@@ -92,6 +131,8 @@ class Backform113enForm < Prawn::Document
 			end
 			stroke_bounds
 		end
+
+		# transparent(10) {self.line_width = 2; stroke_bounds}
 
 		# Нижняя секция
 
