@@ -67,6 +67,11 @@ class Backform113enForm < Prawn::Document
 		draw_text 'Обведённое жирной чертой заполняется адресатом',
 							at: [167, 340], style: :bold, rotate: 90
 
+		bounding_box([190, 600], width: 300, height: 50) do
+
+			stroke_bounds
+		end
+
 		# Нижняя секция
 
 		draw_text 'Оплатил', at: [162, 254]
