@@ -26,7 +26,7 @@ class Form113enForm < Prawn::Document
 			rectangle [0, 750], 550, 570
 			rectangle [180, 525], 355, 74
 			rectangle [180, 272], 355, 71
-			vertical_line 180, 750, at: 156
+			vertical_line 180, 750, at: 159
 			horizontal_line 267, 550, at: 637
 			vertical_line 637, 750, at: 267
 		end
@@ -54,21 +54,12 @@ class Form113enForm < Prawn::Document
 		draw_text '_____________       ' + '   ___________', at: [405, 619], style: :bold
 		draw_text 'Девяносто девять тысяч девятьсот девяносто девять руб.00 коп.', at: [185, 609], style: :bold
 
-		10.times do |a|
-			stroke_color 50, 50, 50, 0
-			base_z = 615
-			dash(lenght: 1, space: 1, phase: 1)
-			stroke_horizontal_line 180, 535, at: base_z - (2 * a)
-		end
-		stroke_color 50, 50, 50, 100
-
 		draw_text '(рубли прописью, копейки цифрами)', at: [290, 588]
 		formatted_text_box [{text: 'Кому:    ', styles: [:bold]}, {text: 'ООО "Экстра"'}], at:[180, 585]
 		draw_text '(для юридического лица - полное или краткое наименование, для гражданина - фамилия, имя, отчество полностью)',
 							at: [202, 560], size: 5
 		formatted_text_box [{text: 'Куда:    ', styles: [:bold]}, {text: 'г. Самара, а/я 4001'}], at:[180, 556]
 
-		undash
 		stroke do
 			horizontal_line 175, 540, at: 576
 			horizontal_line 175, 540, at: 566
@@ -135,7 +126,7 @@ class Form113enForm < Prawn::Document
 		draw_text '_' * 101, at: [180, 243]
 		draw_text '(наименование учреждения)', at: [296, 235]
 		draw_text '_' * 101, at: [180, 233]
-		draw_text "<u>Для нерезидентов России</u>", at: [183, 225], inline_format: true
+		text_box "<u>Для нерезидентов России</u>", at: [183, 230], inline_format: true
 		draw_text 'Предъявлен ' + '_' * 22 + ' Серия ______ № ____________ выдан ______ . __________ 20     г.',
 							at: [183, 215]
 		draw_text 'Дата срока пребывания с _____ . _____ 20 _____г.,     по _____ . _____ 20 ____ г.',
@@ -154,10 +145,10 @@ class Form113enForm < Prawn::Document
 		# Надписи по краям
 
 		draw_text 'ф. 113эн', at: [515, 740]
-		draw_text 'Линия отреза', at: [154, 510], rotate: 90
+		draw_text 'Линия отреза', at: [157, 510], rotate: 90
 		draw_text 'Обведённое линией заполняется отправителем РПО',
 							at: [168, 446], rotate: 90, size: 6, style: :bold
-		draw_text 'исправления не допускаются', at: [550, 480], rotate: 90
+		draw_text 'исправления не допускаются', at: [548, 480], rotate: 90
 
 		render
 
