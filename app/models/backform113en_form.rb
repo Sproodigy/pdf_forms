@@ -22,7 +22,7 @@ class Backform113enForm < Prawn::Document
 		self.line_width =1
 		stroke do
 			rectangle [0, 750], 550, 570
-			vertical_line 180, 750, at: 156
+			vertical_line 180, 750, at: 159
 		end
 
 		# Секция с логотипом
@@ -54,11 +54,11 @@ class Backform113enForm < Prawn::Document
 
 		# Верхняя секция
 
-		text_box "Вторичное извещение\n\nвыписано _____________\n\nПлата за доставку\n\n
+		text_box "Вторичное извещение\n\nвыписано _____________\n\n<b>Плата за доставку</b>\n\n
 						 _________руб. ______коп.\n\nПодлежит оплате\n\n________________________",
-						 at: [160, 740]
-		draw_text '(подпись)', at: [183, 634]
-		text_box "О\nП\nЛ\nА\nТ\nА", at: [250, 726], size: 11, style: :bold
+						 at: [163, 740], inline_format: true
+		draw_text '(подпись)', at: [186, 634]
+		text_box "О\nП\nЛ\nА\nТ\nА", at: [253, 726], size: 11, style: :bold
 
 		# Секция расписки адресата
 
@@ -66,9 +66,30 @@ class Backform113enForm < Prawn::Document
 		text_box "к почтовому переводу\nналоженного платежа", at: [440, 632], style: :bold
 		draw_text 'Обведённое жирной чертой заполняется адресатом',
 							at: [167, 340], style: :bold, rotate: 90
-
 		bounding_box([190, 600], width: 300, height: 50) do
 
+		bounding_box([175, 370], width: 365, height: 80) do
+			indent(2) do
+				move_down 2
+				text 'Заполняется при выплате перевода в адрес юридического лица', style: :bold
+				move_down 3
+				text 'Получатель: ' + '_' * 88, style: :bold
+				table [[' '] * 10], cell_style: {width: 10, height: 10}, position: 22
+				move_up 10
+				table [[' '] * 15], cell_style: {width: 10, height: 10}, position: 210
+				move_up 7
+				text 'ИНН:                                                                   ОГРН:', style: :bold
+				move_down 4
+				text '_' * 103
+					text '(адрес местонахождения по месту государственной регистрации)',
+					     align: :center, style: :italic, size: 5
+				move_down 3
+				text '_' * 103
+				move_down 3
+				text '_' * 103
+					text '(фактический адрес, указать при несовпадении с местом государственной регистрации)',
+					     align: :center, style: :italic, size: 5
+			end
 			stroke_bounds
 		end
 
