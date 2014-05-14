@@ -62,6 +62,35 @@ class Backform113enForm < Prawn::Document
 
 		# Секция расписки адресата
 
+		bounding_box([175, 610], width: 365) do
+			indent(2) do
+				move_down 3
+				text 'Сумма:', style: :bold
+
+				fill_color 50, 50, 50, 0
+				fill_rectangle [30, 13], 332, 15
+				fill_color 50, 50, 50, 100
+				move_down 3
+
+				indent(135) do
+					text '(рубли прописью, копейки цифрами)', style: :italic, size: 5
+				end
+				move_down 6
+
+				text 'ФИО:' + '_' * 51, style: :bold
+
+				text_box "ИНН, при\nего наличии:", at: [202, 12], style: :bold, size: 5
+				move_up 12
+
+				table [[' '] * 12], cell_style: {width: 10, height: 10}, position: 242
+				move_down 5
+
+				text '_' * 103
+
+			end
+
+		end
+
 		draw_text 'РАСПИСКА АДРЕСАТА', at: [288, 619], size: 11, style: :bold
 		text_box "к почтовому переводу\nналоженного платежа", at: [440, 632], style: :bold
 		draw_text 'Обведённое жирной чертой заполняется адресатом',

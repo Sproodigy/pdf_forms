@@ -65062,3 +65062,503 @@ Processing by FormsController#backform113en as */*
   Rendered text template (0.0ms)
 Sent data backform113en.pdf (0.9ms)
 Completed 200 OK in 412ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/backform113en" for 127.0.0.1 at 2014-05-14 13:08:02 +0400
+Processing by FormsController#backform113en as HTML
+  Rendered text template (0.0ms)
+Sent data backform113en.pdf (43.1ms)
+Completed 200 OK in 423ms (Views: 43.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform113en" for 127.0.0.1 at 2014-05-14 13:23:28 +0400
+Processing by FormsController#backform113en as HTML
+  Rendered text template (0.0ms)
+Sent data backform113en.pdf (0.6ms)
+Completed 200 OK in 248ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform113en" for 127.0.0.1 at 2014-05-14 13:23:45 +0400
+Processing by FormsController#backform113en as HTML
+  Rendered text template (0.0ms)
+Sent data backform113en.pdf (0.6ms)
+Completed 200 OK in 235ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform113en" for 127.0.0.1 at 2014-05-14 13:24:01 +0400
+Processing by FormsController#backform113en as HTML
+  Rendered text template (0.0ms)
+Sent data backform113en.pdf (0.6ms)
+Completed 200 OK in 243ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform113en" for 127.0.0.1 at 2014-05-14 13:24:17 +0400
+Processing by FormsController#backform113en as HTML
+  Rendered text template (0.0ms)
+Sent data backform113en.pdf (0.6ms)
+Completed 200 OK in 265ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform113en" for 127.0.0.1 at 2014-05-14 13:24:26 +0400
+Processing by FormsController#backform113en as HTML
+  Rendered text template (0.0ms)
+Sent data backform113en.pdf (0.6ms)
+Completed 200 OK in 270ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform113en" for 127.0.0.1 at 2014-05-14 13:24:31 +0400
+Processing by FormsController#backform113en as HTML
+  Rendered text template (0.0ms)
+Sent data backform113en.pdf (0.6ms)
+Completed 200 OK in 242ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform113en" for 127.0.0.1 at 2014-05-14 13:25:00 +0400
+Processing by FormsController#backform113en as HTML
+  Rendered text template (0.0ms)
+Sent data backform113en.pdf (0.6ms)
+Completed 200 OK in 246ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform113en" for 127.0.0.1 at 2014-05-14 13:25:07 +0400
+Processing by FormsController#backform113en as HTML
+  Rendered text template (0.0ms)
+Sent data backform113en.pdf (0.6ms)
+Completed 200 OK in 275ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform113en" for 127.0.0.1 at 2014-05-14 13:25:15 +0400
+Processing by FormsController#backform113en as HTML
+  Rendered text template (0.0ms)
+Sent data backform113en.pdf (0.6ms)
+Completed 200 OK in 267ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform113en" for 127.0.0.1 at 2014-05-14 13:25:20 +0400
+Processing by FormsController#backform113en as HTML
+  Rendered text template (0.0ms)
+Sent data backform113en.pdf (0.6ms)
+Completed 200 OK in 241ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform113en" for 127.0.0.1 at 2014-05-14 13:25:29 +0400
+Processing by FormsController#backform113en as HTML
+  Rendered text template (0.0ms)
+Sent data backform113en.pdf (0.6ms)
+Completed 200 OK in 245ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform113en" for 127.0.0.1 at 2014-05-14 13:25:43 +0400
+Processing by FormsController#backform113en as HTML
+  Rendered text template (0.0ms)
+Sent data backform113en.pdf (0.6ms)
+Completed 200 OK in 248ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform113en" for 127.0.0.1 at 2014-05-14 13:26:00 +0400
+Processing by FormsController#backform113en as HTML
+  Rendered text template (0.0ms)
+Sent data backform113en.pdf (0.6ms)
+Completed 200 OK in 302ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform113en" for 127.0.0.1 at 2014-05-14 13:26:08 +0400
+Processing by FormsController#backform113en as HTML
+  Rendered text template (0.0ms)
+Sent data backform113en.pdf (0.6ms)
+Completed 200 OK in 251ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform113en" for 127.0.0.1 at 2014-05-14 13:26:27 +0400
+Processing by FormsController#backform113en as HTML
+  Rendered text template (0.0ms)
+Sent data backform113en.pdf (0.6ms)
+Completed 200 OK in 239ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform113en" for 127.0.0.1 at 2014-05-14 13:26:36 +0400
+Processing by FormsController#backform113en as HTML
+  Rendered text template (0.0ms)
+Sent data backform113en.pdf (0.6ms)
+Completed 200 OK in 265ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform113en" for 127.0.0.1 at 2014-05-14 13:26:46 +0400
+Processing by FormsController#backform113en as HTML
+  Rendered text template (0.0ms)
+Sent data backform113en.pdf (0.7ms)
+Completed 200 OK in 276ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform113en" for 127.0.0.1 at 2014-05-14 13:26:57 +0400
+Processing by FormsController#backform113en as HTML
+  Rendered text template (0.0ms)
+Sent data backform113en.pdf (0.7ms)
+Completed 200 OK in 244ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform113en" for 127.0.0.1 at 2014-05-14 13:27:03 +0400
+Processing by FormsController#backform113en as HTML
+  Rendered text template (0.0ms)
+Sent data backform113en.pdf (0.6ms)
+Completed 200 OK in 254ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform113en" for 127.0.0.1 at 2014-05-14 13:27:10 +0400
+Processing by FormsController#backform113en as HTML
+  Rendered text template (0.0ms)
+Sent data backform113en.pdf (0.7ms)
+Completed 200 OK in 258ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform113en" for 127.0.0.1 at 2014-05-14 13:27:45 +0400
+Processing by FormsController#backform113en as HTML
+  Rendered text template (0.0ms)
+Sent data backform113en.pdf (0.6ms)
+Completed 200 OK in 306ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform113en" for 127.0.0.1 at 2014-05-14 13:27:51 +0400
+Processing by FormsController#backform113en as HTML
+  Rendered text template (0.0ms)
+Sent data backform113en.pdf (0.6ms)
+Completed 200 OK in 248ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform113en" for 127.0.0.1 at 2014-05-14 13:27:58 +0400
+Processing by FormsController#backform113en as HTML
+  Rendered text template (0.0ms)
+Sent data backform113en.pdf (0.6ms)
+Completed 200 OK in 240ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform113en" for 127.0.0.1 at 2014-05-14 13:28:11 +0400
+Processing by FormsController#backform113en as HTML
+  Rendered text template (0.0ms)
+Sent data backform113en.pdf (0.6ms)
+Completed 200 OK in 264ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform113en" for 127.0.0.1 at 2014-05-14 13:29:31 +0400
+Processing by FormsController#backform113en as HTML
+  Rendered text template (0.0ms)
+Sent data backform113en.pdf (0.6ms)
+Completed 200 OK in 275ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform113en" for 127.0.0.1 at 2014-05-14 13:30:05 +0400
+Processing by FormsController#backform113en as HTML
+Completed 500 Internal Server Error in 2ms
+
+SyntaxError (/home/warehouse/Projects/pdf_forms/app/models/backform113en_form.rb:71: syntax error, unexpected tINTEGER, expecting keyword_do or '{' or '('
+				fill_rectangle [30, 13], 332, 15, color 50, 50, 50, 0
+				                                          ^
+/home/warehouse/Projects/pdf_forms/app/models/backform113en_form.rb:83: syntax error, unexpected keyword_do_block, expecting keyword_end
+/home/warehouse/Projects/pdf_forms/app/models/backform113en_form.rb:85: syntax error, unexpected keyword_do_block, expecting keyword_end
+/home/warehouse/Projects/pdf_forms/app/models/backform113en_form.rb:88: syntax error, unexpected keyword_do_block, expecting keyword_end
+/home/warehouse/Projects/pdf_forms/app/models/backform113en_form.rb:109: syntax error, unexpected keyword_end, expecting end-of-input):
+  app/controllers/forms_controller.rb:62:in `backform113en'
+
+
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.3ms)
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.9ms)
+
+
+Started GET "/backform113en" for 127.0.0.1 at 2014-05-14 13:31:16 +0400
+Processing by FormsController#backform113en as HTML
+Completed 500 Internal Server Error in 88ms
+
+ArgumentError (wrong number of arguments (4 for 3)):
+  app/models/backform113en_form.rb:70:in `block (2 levels) in to_pdf'
+  app/models/backform113en_form.rb:66:in `block in to_pdf'
+  app/models/backform113en_form.rb:65:in `to_pdf'
+  app/controllers/forms_controller.rb:62:in `backform113en'
+
+
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.3ms)
+
+
+Started GET "/backform113en" for 127.0.0.1 at 2014-05-14 13:33:03 +0400
+Processing by FormsController#backform113en as HTML
+Completed 500 Internal Server Error in 112ms
+
+NoMethodError (undefined method `color' for #<Backform113enForm:0x83e788c>):
+  app/models/backform113en_form.rb:72:in `block (2 levels) in to_pdf'
+  app/models/backform113en_form.rb:66:in `block in to_pdf'
+  app/models/backform113en_form.rb:65:in `to_pdf'
+  app/controllers/forms_controller.rb:62:in `backform113en'
+
+
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (46.4ms)
+
+
+Started GET "/backform113en" for 127.0.0.1 at 2014-05-14 13:33:19 +0400
+Processing by FormsController#backform113en as HTML
+  Rendered text template (0.0ms)
+Sent data backform113en.pdf (0.7ms)
+Completed 200 OK in 290ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform113en" for 127.0.0.1 at 2014-05-14 13:33:37 +0400
+Processing by FormsController#backform113en as HTML
+  Rendered text template (0.0ms)
+Sent data backform113en.pdf (0.7ms)
+Completed 200 OK in 252ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform113en" for 127.0.0.1 at 2014-05-14 13:34:39 +0400
+Processing by FormsController#backform113en as HTML
+  Rendered text template (0.0ms)
+Sent data backform113en.pdf (0.7ms)
+Completed 200 OK in 240ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform113en" for 127.0.0.1 at 2014-05-14 13:34:53 +0400
+Processing by FormsController#backform113en as HTML
+  Rendered text template (0.0ms)
+Sent data backform113en.pdf (0.6ms)
+Completed 200 OK in 241ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform113en" for 127.0.0.1 at 2014-05-14 13:34:57 +0400
+Processing by FormsController#backform113en as HTML
+  Rendered text template (0.0ms)
+Sent data backform113en.pdf (0.6ms)
+Completed 200 OK in 270ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform113en" for 127.0.0.1 at 2014-05-14 13:35:11 +0400
+Processing by FormsController#backform113en as HTML
+  Rendered text template (0.0ms)
+Sent data backform113en.pdf (0.6ms)
+Completed 200 OK in 277ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform113en" for 127.0.0.1 at 2014-05-14 13:35:16 +0400
+Processing by FormsController#backform113en as HTML
+  Rendered text template (0.0ms)
+Sent data backform113en.pdf (0.7ms)
+Completed 200 OK in 253ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform113en" for 127.0.0.1 at 2014-05-14 13:35:22 +0400
+Processing by FormsController#backform113en as HTML
+  Rendered text template (0.0ms)
+Sent data backform113en.pdf (0.6ms)
+Completed 200 OK in 244ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform113en" for 127.0.0.1 at 2014-05-14 13:35:29 +0400
+Processing by FormsController#backform113en as HTML
+  Rendered text template (0.0ms)
+Sent data backform113en.pdf (0.6ms)
+Completed 200 OK in 279ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform113en" for 127.0.0.1 at 2014-05-14 13:35:36 +0400
+Processing by FormsController#backform113en as HTML
+  Rendered text template (0.0ms)
+Sent data backform113en.pdf (0.6ms)
+Completed 200 OK in 274ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform113en" for 127.0.0.1 at 2014-05-14 13:41:54 +0400
+Processing by FormsController#backform113en as HTML
+  Rendered text template (0.0ms)
+Sent data backform113en.pdf (0.7ms)
+Completed 200 OK in 256ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform113en" for 127.0.0.1 at 2014-05-14 13:42:23 +0400
+Processing by FormsController#backform113en as HTML
+  Rendered text template (0.0ms)
+Sent data backform113en.pdf (0.6ms)
+Completed 200 OK in 249ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform113en" for 127.0.0.1 at 2014-05-14 13:42:28 +0400
+Processing by FormsController#backform113en as HTML
+  Rendered text template (0.0ms)
+Sent data backform113en.pdf (0.7ms)
+Completed 200 OK in 290ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform113en" for 127.0.0.1 at 2014-05-14 13:42:36 +0400
+Processing by FormsController#backform113en as HTML
+  Rendered text template (0.0ms)
+Sent data backform113en.pdf (0.6ms)
+Completed 200 OK in 280ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform113en" for 127.0.0.1 at 2014-05-14 13:42:44 +0400
+Processing by FormsController#backform113en as HTML
+  Rendered text template (0.0ms)
+Sent data backform113en.pdf (0.6ms)
+Completed 200 OK in 255ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform113en" for 127.0.0.1 at 2014-05-14 13:43:28 +0400
+Processing by FormsController#backform113en as HTML
+  Rendered text template (0.0ms)
+Sent data backform113en.pdf (0.6ms)
+Completed 200 OK in 251ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform113en" for 127.0.0.1 at 2014-05-14 13:54:46 +0400
+Processing by FormsController#backform113en as HTML
+  Rendered text template (0.0ms)
+Sent data backform113en.pdf (0.7ms)
+Completed 200 OK in 291ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform113en" for 127.0.0.1 at 2014-05-14 13:54:56 +0400
+Processing by FormsController#backform113en as HTML
+  Rendered text template (0.0ms)
+Sent data backform113en.pdf (0.7ms)
+Completed 200 OK in 280ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform113en" for 127.0.0.1 at 2014-05-14 13:55:10 +0400
+Processing by FormsController#backform113en as HTML
+  Rendered text template (0.0ms)
+Sent data backform113en.pdf (0.7ms)
+Completed 200 OK in 259ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform113en" for 127.0.0.1 at 2014-05-14 13:55:32 +0400
+Processing by FormsController#backform113en as HTML
+  Rendered text template (0.0ms)
+Sent data backform113en.pdf (0.6ms)
+Completed 200 OK in 251ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform113en" for 127.0.0.1 at 2014-05-14 13:55:43 +0400
+Processing by FormsController#backform113en as HTML
+  Rendered text template (0.0ms)
+Sent data backform113en.pdf (0.7ms)
+Completed 200 OK in 289ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform113en" for 127.0.0.1 at 2014-05-14 13:56:18 +0400
+Processing by FormsController#backform113en as HTML
+  Rendered text template (0.0ms)
+Sent data backform113en.pdf (0.6ms)
+Completed 200 OK in 282ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform113en" for 127.0.0.1 at 2014-05-14 13:56:24 +0400
+Processing by FormsController#backform113en as HTML
+  Rendered text template (0.0ms)
+Sent data backform113en.pdf (0.7ms)
+Completed 200 OK in 260ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform113en" for 127.0.0.1 at 2014-05-14 13:56:41 +0400
+Processing by FormsController#backform113en as HTML
+  Rendered text template (0.0ms)
+Sent data backform113en.pdf (0.6ms)
+Completed 200 OK in 251ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform113en" for 127.0.0.1 at 2014-05-14 13:56:46 +0400
+Processing by FormsController#backform113en as HTML
+  Rendered text template (0.0ms)
+Sent data backform113en.pdf (0.6ms)
+Completed 200 OK in 291ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform113en" for 127.0.0.1 at 2014-05-14 13:56:56 +0400
+Processing by FormsController#backform113en as HTML
+  Rendered text template (0.0ms)
+Sent data backform113en.pdf (0.6ms)
+Completed 200 OK in 282ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform113en" for 127.0.0.1 at 2014-05-14 13:57:09 +0400
+Processing by FormsController#backform113en as HTML
+  Rendered text template (0.0ms)
+Sent data backform113en.pdf (0.6ms)
+Completed 200 OK in 261ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform113en" for 127.0.0.1 at 2014-05-14 13:57:21 +0400
+Processing by FormsController#backform113en as HTML
+  Rendered text template (0.0ms)
+Sent data backform113en.pdf (0.6ms)
+Completed 200 OK in 252ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform113en" for 127.0.0.1 at 2014-05-14 13:57:52 +0400
+Processing by FormsController#backform113en as HTML
+  Rendered text template (0.0ms)
+Sent data backform113en.pdf (0.6ms)
+Completed 200 OK in 290ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform113en" for 127.0.0.1 at 2014-05-14 13:57:57 +0400
+Processing by FormsController#backform113en as HTML
+  Rendered text template (0.0ms)
+Sent data backform113en.pdf (0.7ms)
+Completed 200 OK in 280ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform113en" for 127.0.0.1 at 2014-05-14 13:58:05 +0400
+Processing by FormsController#backform113en as HTML
+  Rendered text template (0.0ms)
+Sent data backform113en.pdf (0.7ms)
+Completed 200 OK in 260ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform113en" for 127.0.0.1 at 2014-05-14 13:59:14 +0400
+Processing by FormsController#backform113en as HTML
+  Rendered text template (0.0ms)
+Sent data backform113en.pdf (0.7ms)
+Completed 200 OK in 254ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform113en" for 127.0.0.1 at 2014-05-14 13:59:28 +0400
+Processing by FormsController#backform113en as HTML
+  Rendered text template (0.0ms)
+Sent data backform113en.pdf (0.6ms)
+Completed 200 OK in 288ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform113en" for 127.0.0.1 at 2014-05-14 13:59:33 +0400
+Processing by FormsController#backform113en as HTML
+  Rendered text template (0.0ms)
+Sent data backform113en.pdf (0.7ms)
+Completed 200 OK in 284ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform113en" for 127.0.0.1 at 2014-05-14 13:59:37 +0400
+Processing by FormsController#backform113en as HTML
+  Rendered text template (0.0ms)
+Sent data backform113en.pdf (0.6ms)
+Completed 200 OK in 261ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform113en" for 127.0.0.1 at 2014-05-14 13:59:42 +0400
+Processing by FormsController#backform113en as HTML
+  Rendered text template (0.0ms)
+Sent data backform113en.pdf (0.7ms)
+Completed 200 OK in 258ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform113en" for 127.0.0.1 at 2014-05-14 14:00:02 +0400
+Processing by FormsController#backform113en as HTML
+  Rendered text template (0.0ms)
+Sent data backform113en.pdf (0.6ms)
+Completed 200 OK in 296ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform113en" for 127.0.0.1 at 2014-05-14 14:00:11 +0400
+Processing by FormsController#backform113en as HTML
+  Rendered text template (0.0ms)
+Sent data backform113en.pdf (0.7ms)
+Completed 200 OK in 277ms (Views: 0.6ms | ActiveRecord: 0.0ms)
