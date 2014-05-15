@@ -57,7 +57,7 @@ class Backform113enForm < Prawn::Document
 		text_box "Вторичное извещение\n\nвыписано _____________\n\n<b>Плата за доставку</b>\n\n
 						 _________руб. ______коп.\n\nПодлежит оплате\n\n________________________",
 						 at: [163, 740], inline_format: true
-		draw_text '(подпись)', at: [186, 634]
+		draw_text '(подпись)', at: [186, 634], style: :italic
 		text_box "О\nП\nЛ\nА\nТ\nА", at: [253, 726], size: 11, style: :bold
 
 		# Секция расписки адресата
@@ -127,7 +127,7 @@ class Backform113enForm < Prawn::Document
 					text '(наименование документа)', style: :italic, size: 5
 				end
 				move_down 7
-				text "<b>Дата срока пребывания с:</b>_____._____20_____г.   по_____._____20_____ г.", inline_format: true
+				text "<b>Дата срока пребывания с:</b> _____._____20_____г.   по_____._____20_____ г.", inline_format: true
 			end
 			stroke_bounds
 		end
@@ -173,10 +173,10 @@ class Backform113enForm < Prawn::Document
 
 		# Нижняя секция
 
-		draw_text 'Оплатил', at: [162, 261]
+		draw_text 'Оплатил:', at: [162, 261], style: :bold
 		draw_text '_' * 82, at: [162, 259]
 		draw_text '(перечислено)                              (должность, подпись)',
-							at: [162, 250]
+							style: :italic, at: [162, 250]
 		draw_text 'Отметки о досылке, возвращени и причинах неоплаты',
 							at: [162, 233], style: :bold
 
