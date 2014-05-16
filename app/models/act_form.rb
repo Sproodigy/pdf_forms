@@ -1,5 +1,3 @@
-# encoding: utf-8
-
 class ActForm < Prawn::Document
   include ActionView::Helpers::NumberHelper
 

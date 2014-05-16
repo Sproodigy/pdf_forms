@@ -1,5 +1,38 @@
+require 'barby'
+require 'barby/barcode/code_25_interleaved'
+require 'barby/outputter/prawn_outputter'
+
 class Form113enForm < Prawn::Document
-	def to_pdf
+
+	def draw_barcode(code, opts = {})
+		x = opts[:x]
+		y = opts[:y]
+		size = opts[:size]
+
+		code ||= '00000000000000'
+		barcode = Barby::Code25Interleaved.new(code)
+		barcode.include_checksum = false
+
+		barcode_string = [code.to_s[0..5] + '   ' + code.to_s[6..7] + '   ', code.to_s[8..12], '   ' + code.to_s[13]]
+
+		if opts[:string_only]
+			formatted_text_box [{ text: barcode_string[0] }, { text: barcode_string[1], styles: [:bold] }, { text: barcode_string[2] }], at: [x+1, y-28], size: 8
+			return
+		end
+
+		if size == :small
+			barcode.annotate_pdf(self, x: x, y: y-22, xdim: 0.75, height: 22)
+
+			formatted_text_box [{ text: barcode_string[0] }, { text: barcode_string[1], styles: [:bold] }, { text: barcode_string[2] }], at: [x+2, y-24], size: 8
+		else
+			barcode.annotate_pdf(self, x: x, y: y-25, xdim: 1, height: 30)
+
+			draw_text 'ПОЧТА РОССИИ', at: [x, y+8], size: 8 if opts[:print_rus_post] || !opts.key?(:print_rus_post)
+			formatted_text_box [{ text: barcode_string[0] }, { text: barcode_string[1], styles: [:bold] }, { text: barcode_string[2] }], at: [x+1, y-28], size: 11
+		end
+	end
+
+	def to_pdf(params = {})
 		font_families.update(
 				'DejaVuSans' => {
 						normal: "#{Rails.root}/app/assets/fonts/DejaVuSans.ttf",
@@ -11,6 +44,16 @@ class Form113enForm < Prawn::Document
 						condensed_bold: "#{Rails.root}/app/assets/fonts/DejaVuSansCondensed-Bold.ttf"
 				})
 		font 'DejaVuSans', size: 7
+
+		# Парамерты формы
+
+		fulfiller = params[:fulfiller]
+		address = params[:address]
+		index = params[:index]
+		inn = params[:inn]
+		remittor = params[:remittor]
+		remittor_address = params[:remittor_address]
+		barcode = params[:barcode]
 
 		# Деление формы на сектора
 
@@ -60,11 +103,11 @@ class Form113enForm < Prawn::Document
 		draw_text 'Девяносто девять тысяч девятьсот девяносто девять руб.00 коп.',
 							at: [185, 608], style: :bold
 
-		draw_text '(рубли прописью, копейки цифрами)', at: [290, 588], style: :italic
-		formatted_text_box [{text: 'Кому:    ', styles: [:bold]}, {text: 'ООО "Экстра"'}], at:[180, 585]
+		draw_text '(рубли прописью, копейки цифрами)', at: [305, 590], style: :italic, size: 5
+		formatted_text_box [{text: 'Кому:    ', styles: [:bold]}, {text: "#{fulfiller}"}], at:[180, 585]
 		draw_text '(для юридического лица - полное или краткое наименование, для гражданина - фамилия, имя, отчество полностью)',
 							at: [202, 560], size: 5, style: :italic
-		formatted_text_box [{text: 'Куда:    ', styles: [:bold]}, {text: 'г. Самара, а/я 4001'}], at:[180, 556]
+		formatted_text_box [{text: 'Куда:    ', styles: [:bold]}, {text: "#{address}"}], at:[180, 556]
 
 		stroke do
 			horizontal_line 175, 540, at: 576
@@ -85,9 +128,9 @@ class Form113enForm < Prawn::Document
 
 		font 'DejaVuSans', size: 7
 
-		formatted_text_box [{text: '443110', character_spacing: 5.1}],
+		formatted_text_box [{text: "#{index}", character_spacing: 5.1}],
 											 at: [473, 513], style: :bold
-		formatted_text_box [{text: '631614265880', character_spacing: 5.1}],
+		formatted_text_box [{text: "#{inn}", character_spacing: 5.1}],
 											 at: [187, 490], style: :bold
 
 		move_down 205
@@ -105,9 +148,11 @@ class Form113enForm < Prawn::Document
 
 		# Секция с ШПИ
 
+		draw_barcode "#{barcode}", x: 275, y: 435, print_rus_post: false
+
 		formatted_text_box [{text: 'Наложенный платёж'}],
 											 at: [200, 440], width: 65, height: 45, size: 9
-		draw_text 'за РПО', at: [190, 405], style: :bold, size: 11
+		draw_text 'за РПО', at: [200, 400], style: :bold, size: 11
 		draw_text '_' * 30, at: [434, 415]
 		draw_text '_' * 30, at: [434, 400]
 		draw_text '(шифр и подпись)', at: [454, 390], style: :italic
@@ -117,13 +162,13 @@ class Form113enForm < Prawn::Document
 		draw_text 'Обведённое линией заполняется отправителем перевода',
 							at: [235, 375], style: :bold
 		draw_text 'От кого:' + ' ' * 51 + 'ИНН, при его наличии:', at: [180, 359], style: :bold
-		draw_text 'Иванов Иван Иванович', at: [180, 349]
+		draw_text "#{remittor}", at: [180, 349]
 		draw_text '_' * 104, at: [174, 348]
 		draw_text '_' * 104, at: [174, 338]
 		draw_text 'Адрес отправителя:' + ' ' * 73 + 'Индекс:', at: [180, 327], style: :bold
-		formatted_text_box [{text: '443110', character_spacing: 5.1}],
+		formatted_text_box [{text: "#{index}", character_spacing: 5.1}],
 											 at: [478, 332], style: :bold
-		text_box 'ул. Лейтенанта Шмидта, д. 3, корп.39, кв. 15 МОСКВА, МОСКОВСКАЯ ОБЛАСТЬ, РОССИЯ',
+		text_box "#{remittor_address}",
 							at: [180, 320], height: 20, leading: 2
 		draw_text '_' * 104, at: [174, 314]
 		draw_text '_' * 104, at: [174, 304]
@@ -139,7 +184,7 @@ class Form113enForm < Prawn::Document
 							at: [183, 228], inline_format: true
 		text_box '<b>Дата срока пребывания с:</b> ______.______ 20______ г.,     по ______.______ 20______ г.',
 							at: [182, 213], inline_format: true
-		draw_text 'Гражданство:' + ' ' * 50 + 'Подпись отправителя:', style: :bold, at: [182, 191], style: :bold
+		draw_text 'Гражданство:' + ' ' * 50 + 'Подпись отправителя:', style: :bold, at: [182, 191]
 
 
 		move_down 87
@@ -150,7 +195,7 @@ class Form113enForm < Prawn::Document
 		# Надписи по краям
 
 		draw_text 'ф. 113эн', at: [515, 740]
-		draw_text 'Линия отреза', at: [157, 510], rotate: 90
+		draw_text 'Линия отреза', at: [157, 380], rotate: 90
 		draw_text 'Обведённое линией заполняется отправителем РПО',
 							at: [168, 446], rotate: 90, size: 6, style: :bold
 		draw_text 'исправления не допускаются', at: [548, 480], rotate: 90

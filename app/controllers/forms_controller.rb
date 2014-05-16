@@ -1,5 +1,3 @@
-# encoding: utf-8
-
 class ::Hash
   def method_missing(name)
     return self[name] if key? name
@@ -54,7 +52,12 @@ class FormsController < ApplicationController
   end  
 
   def form113en
-    pdf = Form113enForm.new.to_pdf
+    pdf = Form113enForm.new.to_pdf(fulfiller: 'ООО "Экстра"', barcode: 32389209822998,
+      address: 'г. Самара, а/я 4001',
+      inn: 631614265880,
+      index: 443110,
+      remittor: 'Иванов Иван Иванович',
+      remittor_address: 'ул. Лейтенанта Шмидта, д. 3, корп. 39, кв. 15 МОСКВА, МОСКОВСКАЯ ОБЛАСТЬ, РОССИЯ')
     send_data pdf, type: 'application/pdf', filename: 'form113en.pdf', disposition: 'inline'
 	end
 
@@ -90,6 +93,16 @@ class FormsController < ApplicationController
       bank: 'ФИЛИАЛ "НИЖЕГОРОДСКИЙ" ОАО "АЛЬФА-БАНК" Г.НИЖНИЙ НОВГОРОД',
       singer: 'Афанасьева Марина Васильевна')
     send_data pdf, type: 'application/pdf', filename: 'invoice_for_payment.pdf', disposition: 'inline'
+  end
+
+  def form22
+	  pdf = Form22Form.new.to_pdf
+	  send_data pdf, type: 'application/pdf', filename: 'form22.pdf', disposition: 'inline'
+  end
+
+  def backform22
+	  pdf = Backform22Form.new.to_pdf
+	  send_data pdf, type: 'application/pdf', filename: 'backform22.pdf', disposition: 'inline'
   end
  
  

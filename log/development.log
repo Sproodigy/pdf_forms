@@ -68182,3 +68182,1176 @@ Processing by FormsController#form113en as */*
 Sent data form113en.pdf (0.9ms)
 Completed 200 OK in 492ms (Views: 0.8ms | ActiveRecord: 0.0ms)
 >>>>>>> 5e8c2e3c2c9339f5397532fe46f62f6d83de575f
+Connecting to database specified by database.yml
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-16 12:26:25 +0400
+Processing by FormsController#form113en as HTML
+  Rendered text template (0.0ms)
+Sent data form113en.pdf (4.5ms)
+Completed 200 OK in 309ms (Views: 4.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform113en" for 127.0.0.1 at 2014-05-16 12:26:47 +0400
+Processing by FormsController#backform113en as HTML
+  Rendered text template (0.0ms)
+Sent data backform113en.pdf (0.5ms)
+Completed 200 OK in 278ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-16 12:36:52 +0400
+Processing by FormsController#form113en as HTML
+  Rendered text template (0.0ms)
+Sent data form113en.pdf (0.6ms)
+Completed 200 OK in 257ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-16 12:43:56 +0400
+Processing by FormsController#form113en as HTML
+  Rendered text template (0.0ms)
+Sent data form113en.pdf (0.6ms)
+Completed 200 OK in 308ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-16 12:49:08 +0400
+Processing by FormsController#form113en as HTML
+Completed 500 Internal Server Error in 3ms
+
+ArgumentError (wrong number of arguments (1 for 0)):
+  app/models/form113en_form.rb:2:in `to_pdf'
+  app/controllers/forms_controller.rb:57:in `form113en'
+
+
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.1ms)
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (36.0ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-16 12:50:37 +0400
+Processing by FormsController#form113en as HTML
+  Rendered text template (0.0ms)
+Sent data form113en.pdf (0.6ms)
+Completed 200 OK in 276ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-16 12:53:48 +0400
+Processing by FormsController#form113en as HTML
+Completed 500 Internal Server Error in 3ms
+
+ArgumentError (wrong number of arguments (1 for 0)):
+  app/models/form113en_form.rb:2:in `to_pdf'
+  app/controllers/forms_controller.rb:57:in `form113en'
+
+
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.5ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-16 12:54:47 +0400
+
+SyntaxError (/home/warehouse/Projects/pdf_forms/app/controllers/forms_controller.rb:57: syntax error, unexpected tLABEL, expecting ')'
+    pdf = Form113enForm.new.to_pdf (x: 100, y: 200)
+                                      ^):
+  activesupport (3.2.13) lib/active_support/dependencies.rb:469:in `load'
+  activesupport (3.2.13) lib/active_support/dependencies.rb:469:in `block in load_file'
+  activesupport (3.2.13) lib/active_support/dependencies.rb:639:in `new_constants_in'
+  activesupport (3.2.13) lib/active_support/dependencies.rb:468:in `load_file'
+  activesupport (3.2.13) lib/active_support/dependencies.rb:353:in `require_or_load'
+  activesupport (3.2.13) lib/active_support/dependencies.rb:502:in `load_missing_constant'
+  activesupport (3.2.13) lib/active_support/dependencies.rb:192:in `block in const_missing'
+  activesupport (3.2.13) lib/active_support/dependencies.rb:190:in `each'
+  activesupport (3.2.13) lib/active_support/dependencies.rb:190:in `const_missing'
+  activesupport (3.2.13) lib/active_support/inflector/methods.rb:230:in `block in constantize'
+  activesupport (3.2.13) lib/active_support/inflector/methods.rb:229:in `each'
+  activesupport (3.2.13) lib/active_support/inflector/methods.rb:229:in `constantize'
+  activesupport (3.2.13) lib/active_support/dependencies.rb:554:in `get'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:69:in `controller_reference'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:54:in `controller'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:32:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:612:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.13) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.13) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `_run__730451717__call__349230416__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/warehouse/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/warehouse/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/warehouse/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.4ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-16 12:55:45 +0400
+Processing by FormsController#form113en as HTML
+Completed 500 Internal Server Error in 3ms
+
+ArgumentError (wrong number of arguments (1 for 0)):
+  app/models/form113en_form.rb:2:in `to_pdf'
+  app/controllers/forms_controller.rb:57:in `form113en'
+
+
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.2ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-16 12:58:27 +0400
+Processing by FormsController#form113en as HTML
+  Rendered text template (0.0ms)
+Sent data form113en.pdf (0.7ms)
+Completed 200 OK in 263ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-16 13:00:10 +0400
+Processing by FormsController#form113en as HTML
+Completed 500 Internal Server Error in 137ms
+
+ArgumentError (data not valid):
+  app/models/form113en_form.rb:24:in `draw_barcode'
+  app/models/form113en_form.rb:141:in `to_pdf'
+  app/controllers/forms_controller.rb:57:in `form113en'
+
+
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.1ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-16 13:00:56 +0400
+Processing by FormsController#form113en as HTML
+Completed 500 Internal Server Error in 132ms
+
+ArgumentError (data not valid):
+  app/models/form113en_form.rb:24:in `draw_barcode'
+  app/models/form113en_form.rb:141:in `to_pdf'
+  app/controllers/forms_controller.rb:57:in `form113en'
+
+
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.3ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-16 13:00:59 +0400
+Processing by FormsController#form113en as HTML
+Completed 500 Internal Server Error in 137ms
+
+ArgumentError (data not valid):
+  app/models/form113en_form.rb:24:in `draw_barcode'
+  app/models/form113en_form.rb:141:in `to_pdf'
+  app/controllers/forms_controller.rb:57:in `form113en'
+
+
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.2ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-16 13:01:05 +0400
+Processing by FormsController#form113en as HTML
+  Rendered text template (0.0ms)
+Sent data form113en.pdf (0.6ms)
+Completed 200 OK in 276ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-16 13:01:34 +0400
+Processing by FormsController#form113en as HTML
+  Rendered text template (0.0ms)
+Sent data form113en.pdf (0.7ms)
+Completed 200 OK in 308ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-16 13:02:39 +0400
+Processing by FormsController#form113en as HTML
+  Rendered text template (0.0ms)
+Sent data form113en.pdf (0.6ms)
+Completed 200 OK in 276ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-16 13:02:44 +0400
+Processing by FormsController#form113en as HTML
+  Rendered text template (0.0ms)
+Sent data form113en.pdf (0.7ms)
+Completed 200 OK in 266ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-16 13:02:53 +0400
+Processing by FormsController#form113en as HTML
+  Rendered text template (0.0ms)
+Sent data form113en.pdf (0.7ms)
+Completed 200 OK in 268ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-16 13:03:09 +0400
+Processing by FormsController#form113en as HTML
+  Rendered text template (0.0ms)
+Sent data form113en.pdf (0.6ms)
+Completed 200 OK in 310ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-16 13:03:21 +0400
+Processing by FormsController#form113en as HTML
+  Rendered text template (0.0ms)
+Sent data form113en.pdf (0.6ms)
+Completed 200 OK in 268ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-16 13:03:35 +0400
+Processing by FormsController#form113en as HTML
+  Rendered text template (0.0ms)
+Sent data form113en.pdf (0.6ms)
+Completed 200 OK in 261ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-16 13:03:47 +0400
+Processing by FormsController#form113en as HTML
+  Rendered text template (0.0ms)
+Sent data form113en.pdf (0.7ms)
+Completed 200 OK in 268ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-16 13:04:00 +0400
+Processing by FormsController#form113en as HTML
+  Rendered text template (0.0ms)
+Sent data form113en.pdf (0.6ms)
+Completed 200 OK in 311ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-16 13:04:16 +0400
+Processing by FormsController#form113en as HTML
+  Rendered text template (0.0ms)
+Sent data form113en.pdf (0.6ms)
+Completed 200 OK in 262ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-16 13:13:14 +0400
+Processing by FormsController#form113en as HTML
+  Rendered text template (0.0ms)
+Sent data form113en.pdf (0.6ms)
+Completed 200 OK in 262ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-16 13:13:30 +0400
+Processing by FormsController#form113en as HTML
+  Rendered text template (0.0ms)
+Sent data form113en.pdf (0.6ms)
+Completed 200 OK in 268ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-16 13:13:32 +0400
+Processing by FormsController#form113en as HTML
+  Rendered text template (0.0ms)
+Sent data form113en.pdf (0.4ms)
+Completed 200 OK in 313ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-16 13:14:37 +0400
+Processing by FormsController#form113en as HTML
+  Rendered text template (0.0ms)
+Sent data form113en.pdf (0.7ms)
+Completed 200 OK in 261ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-16 13:15:07 +0400
+Processing by FormsController#form113en as HTML
+  Rendered text template (0.0ms)
+Sent data form113en.pdf (0.7ms)
+Completed 200 OK in 263ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-16 13:15:09 +0400
+Processing by FormsController#form113en as HTML
+  Rendered text template (0.0ms)
+Sent data form113en.pdf (0.4ms)
+Completed 200 OK in 296ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-16 13:17:40 +0400
+Processing by FormsController#form113en as HTML
+  Rendered text template (0.0ms)
+Sent data form113en.pdf (0.6ms)
+Completed 200 OK in 280ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-16 13:17:41 +0400
+Processing by FormsController#form113en as HTML
+  Rendered text template (0.0ms)
+Sent data form113en.pdf (0.4ms)
+Completed 200 OK in 270ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-16 13:18:38 +0400
+Processing by FormsController#form113en as HTML
+  Rendered text template (0.0ms)
+Sent data form113en.pdf (0.6ms)
+Completed 200 OK in 267ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-16 13:18:39 +0400
+Processing by FormsController#form113en as HTML
+  Rendered text template (0.0ms)
+Sent data form113en.pdf (0.4ms)
+Completed 200 OK in 302ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-16 13:18:44 +0400
+Processing by FormsController#form113en as HTML
+  Rendered text template (0.0ms)
+Sent data form113en.pdf (0.4ms)
+Completed 200 OK in 267ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-16 13:19:09 +0400
+Processing by FormsController#form113en as HTML
+  Rendered text template (0.0ms)
+Sent data form113en.pdf (0.6ms)
+Completed 200 OK in 266ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-16 13:19:21 +0400
+Processing by FormsController#form113en as HTML
+  Rendered text template (0.0ms)
+Sent data form113en.pdf (0.7ms)
+Completed 200 OK in 274ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-16 13:27:14 +0400
+Processing by FormsController#form113en as HTML
+  Rendered text template (0.0ms)
+Sent data form113en.pdf (0.6ms)
+Completed 200 OK in 315ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-16 13:27:25 +0400
+Processing by FormsController#form113en as HTML
+  Rendered text template (0.0ms)
+Sent data form113en.pdf (0.6ms)
+Completed 200 OK in 270ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-16 13:27:30 +0400
+Processing by FormsController#form113en as HTML
+  Rendered text template (0.0ms)
+Sent data form113en.pdf (0.7ms)
+Completed 200 OK in 261ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-16 13:27:50 +0400
+Processing by FormsController#form113en as HTML
+  Rendered text template (0.0ms)
+Sent data form113en.pdf (0.6ms)
+Completed 200 OK in 270ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-16 13:36:00 +0400
+Processing by FormsController#form113en as HTML
+  Rendered text template (0.0ms)
+Sent data form113en.pdf (0.8ms)
+Completed 200 OK in 312ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-16 13:36:33 +0400
+Processing by FormsController#form113en as HTML
+  Rendered text template (0.0ms)
+Sent data form113en.pdf (0.6ms)
+Completed 200 OK in 263ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-16 13:36:59 +0400
+Processing by FormsController#form113en as HTML
+  Rendered text template (0.0ms)
+Sent data form113en.pdf (0.6ms)
+Completed 200 OK in 264ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-16 13:37:04 +0400
+Processing by FormsController#form113en as HTML
+  Rendered text template (0.0ms)
+Sent data form113en.pdf (0.6ms)
+Completed 200 OK in 268ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-16 13:37:12 +0400
+Processing by FormsController#form113en as HTML
+  Rendered text template (0.0ms)
+Sent data form113en.pdf (0.6ms)
+Completed 200 OK in 322ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-16 13:38:43 +0400
+Processing by FormsController#form113en as HTML
+  Rendered text template (0.0ms)
+Sent data form113en.pdf (0.6ms)
+Completed 200 OK in 260ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-16 13:39:14 +0400
+Processing by FormsController#form113en as HTML
+  Rendered text template (0.0ms)
+Sent data form113en.pdf (0.6ms)
+Completed 200 OK in 264ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-16 13:39:23 +0400
+Processing by FormsController#form113en as HTML
+  Rendered text template (0.0ms)
+Sent data form113en.pdf (0.6ms)
+Completed 200 OK in 307ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-16 13:39:34 +0400
+Processing by FormsController#form113en as HTML
+  Rendered text template (0.0ms)
+Sent data form113en.pdf (0.7ms)
+Completed 200 OK in 272ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-16 13:39:44 +0400
+Processing by FormsController#form113en as HTML
+  Rendered text template (0.0ms)
+Sent data form113en.pdf (0.7ms)
+Completed 200 OK in 269ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-16 16:15:01 +0400
+Processing by FormsController#form113en as HTML
+Completed 500 Internal Server Error in 4ms
+
+ArgumentError (wrong number of arguments (1 for 0)):
+  app/models/form113en_form.rb:35:in `to_pdf'
+  app/controllers/forms_controller.rb:57:in `form113en'
+
+
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.5ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/backform113en" for 127.0.0.1 at 2014-05-16 16:32:27 +0400
+Processing by FormsController#backform113en as HTML
+  Rendered text template (0.0ms)
+Sent data backform113en.pdf (4.6ms)
+Completed 200 OK in 303ms (Views: 4.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-16 16:32:30 +0400
+Processing by FormsController#form113en as HTML
+Completed 500 Internal Server Error in 3ms
+
+SyntaxError (/home/warehouse/Projects/pdf_forms/app/models/form113en_form.rb:203: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/forms_controller.rb:57:in `form113en'
+
+
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.1ms)
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.8ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-16 16:33:34 +0400
+Processing by FormsController#form113en as HTML
+Completed 500 Internal Server Error in 79ms
+
+Prawn::Errors::IncompatibleStringEncoding (Encoding US-ASCII can not be transparently converted to UTF-8. Please ensure the encoding of the string you are attempting to use is set correctly):
+  app/models/form113en_form.rb:101:in `to_pdf'
+  app/controllers/forms_controller.rb:57:in `form113en'
+
+
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.6ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-16 16:34:26 +0400
+Processing by FormsController#form113en as HTML
+Completed 500 Internal Server Error in 2ms
+
+SyntaxError (/home/warehouse/Projects/pdf_forms/app/models/form113en_form.rb:102: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+		draw_text '(для юридическо...
+		           ^
+/home/warehouse/Projects/pdf_forms/app/models/form113en_form.rb:102: syntax error, unexpected ',', expecting keyword_end
+/home/warehouse/Projects/pdf_forms/app/models/form113en_form.rb:103: syntax error, unexpected ',', expecting keyword_end
+							at: [202, 560], size: 5, style: :italic
+							               ^):
+  app/controllers/forms_controller.rb:57:in `form113en'
+
+
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.6ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-16 16:34:48 +0400
+Processing by FormsController#form113en as HTML
+  Rendered text template (0.0ms)
+Sent data form113en.pdf (0.7ms)
+Completed 200 OK in 286ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-16 16:35:03 +0400
+Processing by FormsController#form113en as HTML
+Completed 500 Internal Server Error in 2ms
+
+SyntaxError (/home/warehouse/Projects/pdf_forms/app/models/form113en_form.rb:101: syntax error, unexpected ':', expecting tSTRING_DEND
+... [:bold]}, {text: "#{fulfiller:}"}], at:[180, 585]
+...                               ^
+/home/warehouse/Projects/pdf_forms/app/models/form113en_form.rb:176: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+...Для нерезидентов России</u>", at: [183,...
+...                               ^
+/home/warehouse/Projects/pdf_forms/app/models/form113en_form.rb:177: unknown regexp option - b
+/home/warehouse/Projects/pdf_forms/app/models/form113en_form.rb:177: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+...Предъявлен:</b> ' + '_' * 21 + ' Серия _______...
+...                                ^
+/home/warehouse/Projects/pdf_forms/app/models/form113en_form.rb:177: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+.../b> ' + '_' * 21 + ' Серия _______ № _____________ в...
+...                               ^
+/home/warehouse/Projects/pdf_forms/app/models/form113en_form.rb:177: trailing `_' in number
+...__ выдан ______.______ 20______г.',
+...                               ^
+/home/warehouse/Projects/pdf_forms/app/models/form113en_form.rb:177: syntax error, unexpected tIDENTIFIER, expecting tSTRING_DEND
+...дан ______.______ 20______г.',
+...                               ^
+/home/warehouse/Projects/pdf_forms/app/models/form113en_form.rb:179: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+...ext_box '<b>Дата срока пребывания с:</b>...
+...                               ^
+/home/warehouse/Projects/pdf_forms/app/models/form113en_form.rb:179: syntax error, unexpected '<'
+...ока пребывания с:</b> ______.______ 20______ г...
+...                                ^
+/home/warehouse/Projects/pdf_forms/app/models/form113en_form.rb:179: unterminated regexp meets end of file):
+  app/controllers/forms_controller.rb:57:in `form113en'
+
+
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.3ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-16 16:36:30 +0400
+Processing by FormsController#form113en as HTML
+  Rendered text template (0.0ms)
+Sent data form113en.pdf (0.7ms)
+Completed 200 OK in 261ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-16 16:41:56 +0400
+Processing by FormsController#form113en as HTML
+  Rendered text template (0.0ms)
+Sent data form113en.pdf (0.7ms)
+Completed 200 OK in 265ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-16 16:42:53 +0400
+Processing by FormsController#form113en as HTML
+  Rendered text template (0.0ms)
+Sent data form113en.pdf (0.7ms)
+Completed 200 OK in 315ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-16 16:43:07 +0400
+Processing by FormsController#form113en as HTML
+  Rendered text template (0.0ms)
+Sent data form113en.pdf (0.7ms)
+Completed 200 OK in 271ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-16 16:43:58 +0400
+Processing by FormsController#form113en as HTML
+  Rendered text template (0.0ms)
+Sent data form113en.pdf (0.4ms)
+Completed 200 OK in 258ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-16 16:46:00 +0400
+Processing by FormsController#form113en as HTML
+Completed 500 Internal Server Error in 142ms
+
+ArgumentError (:at is no longer a valid option with text.use draw_text or text_box instead):
+  app/models/form113en_form.rb:170:in `to_pdf'
+  app/controllers/forms_controller.rb:55:in `form113en'
+
+
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.1ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-16 16:46:11 +0400
+Processing by FormsController#form113en as HTML
+  Rendered text template (0.0ms)
+Sent data form113en.pdf (0.7ms)
+Completed 200 OK in 296ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-16 16:46:35 +0400
+Processing by FormsController#form113en as HTML
+  Rendered text template (0.0ms)
+Sent data form113en.pdf (0.6ms)
+Completed 200 OK in 288ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-16 16:47:08 +0400
+Processing by FormsController#form113en as HTML
+  Rendered text template (0.0ms)
+Sent data form113en.pdf (0.8ms)
+Completed 200 OK in 263ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-16 16:48:38 +0400
+Processing by FormsController#form113en as HTML
+  Rendered text template (0.0ms)
+Sent data form113en.pdf (0.6ms)
+Completed 200 OK in 259ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-16 16:50:35 +0400
+
+SyntaxError (/home/warehouse/Projects/pdf_forms/app/controllers/forms_controller.rb:56: syntax error, unexpected tIDENTIFIER, expecting ')'
+      address: 'г. Самара, а/я 4001',
+             ^
+/home/warehouse/Projects/pdf_forms/app/controllers/forms_controller.rb:56: syntax error, unexpected ',', expecting keyword_end
+/home/warehouse/Projects/pdf_forms/app/controllers/forms_controller.rb:59: syntax error, unexpected ',', expecting keyword_end
+/home/warehouse/Projects/pdf_forms/app/controllers/forms_controller.rb:60: syntax error, unexpected ')', expecting keyword_end):
+  activesupport (3.2.13) lib/active_support/dependencies.rb:469:in `load'
+  activesupport (3.2.13) lib/active_support/dependencies.rb:469:in `block in load_file'
+  activesupport (3.2.13) lib/active_support/dependencies.rb:639:in `new_constants_in'
+  activesupport (3.2.13) lib/active_support/dependencies.rb:468:in `load_file'
+  activesupport (3.2.13) lib/active_support/dependencies.rb:353:in `require_or_load'
+  activesupport (3.2.13) lib/active_support/dependencies.rb:502:in `load_missing_constant'
+  activesupport (3.2.13) lib/active_support/dependencies.rb:192:in `block in const_missing'
+  activesupport (3.2.13) lib/active_support/dependencies.rb:190:in `each'
+  activesupport (3.2.13) lib/active_support/dependencies.rb:190:in `const_missing'
+  activesupport (3.2.13) lib/active_support/inflector/methods.rb:230:in `block in constantize'
+  activesupport (3.2.13) lib/active_support/inflector/methods.rb:229:in `each'
+  activesupport (3.2.13) lib/active_support/inflector/methods.rb:229:in `constantize'
+  activesupport (3.2.13) lib/active_support/dependencies.rb:554:in `get'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:69:in `controller_reference'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:54:in `controller'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:32:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:612:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.13) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.13) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `_run__309140319__call__433694365__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/warehouse/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/warehouse/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/warehouse/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.9ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-16 16:50:47 +0400
+Processing by FormsController#form113en as HTML
+Completed 500 Internal Server Error in 136ms
+
+TypeError (no implicit conversion of nil into String):
+  app/models/form113en_form.rb:16:in `+'
+  app/models/form113en_form.rb:16:in `draw_barcode'
+  app/models/form113en_form.rb:151:in `to_pdf'
+  app/controllers/forms_controller.rb:55:in `form113en'
+
+
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.2ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-16 16:51:09 +0400
+Processing by FormsController#form113en as HTML
+Completed 500 Internal Server Error in 138ms
+
+TypeError (no implicit conversion of nil into String):
+  app/models/form113en_form.rb:16:in `+'
+  app/models/form113en_form.rb:16:in `draw_barcode'
+  app/models/form113en_form.rb:151:in `to_pdf'
+  app/controllers/forms_controller.rb:55:in `form113en'
+
+
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.6ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-16 16:51:39 +0400
+Processing by FormsController#form113en as HTML
+Completed 500 Internal Server Error in 210ms
+
+TypeError (no implicit conversion of nil into String):
+  app/models/form113en_form.rb:16:in `+'
+  app/models/form113en_form.rb:16:in `draw_barcode'
+  app/models/form113en_form.rb:151:in `to_pdf'
+  app/controllers/forms_controller.rb:55:in `form113en'
+
+
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.0ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-16 16:51:43 +0400
+Processing by FormsController#form113en as HTML
+Completed 500 Internal Server Error in 127ms
+
+TypeError (no implicit conversion of nil into String):
+  app/models/form113en_form.rb:16:in `+'
+  app/models/form113en_form.rb:16:in `draw_barcode'
+  app/models/form113en_form.rb:151:in `to_pdf'
+  app/controllers/forms_controller.rb:55:in `form113en'
+
+
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.6ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-16 16:51:58 +0400
+Processing by FormsController#form113en as HTML
+Completed 500 Internal Server Error in 147ms
+
+TypeError (no implicit conversion of nil into String):
+  app/models/form113en_form.rb:16:in `+'
+  app/models/form113en_form.rb:16:in `draw_barcode'
+  app/models/form113en_form.rb:151:in `to_pdf'
+  app/controllers/forms_controller.rb:55:in `form113en'
+
+
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.0ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-16 16:52:44 +0400
+Processing by FormsController#form113en as HTML
+Completed 500 Internal Server Error in 131ms
+
+TypeError (no implicit conversion of nil into String):
+  app/models/form113en_form.rb:16:in `+'
+  app/models/form113en_form.rb:16:in `draw_barcode'
+  app/models/form113en_form.rb:151:in `to_pdf'
+  app/controllers/forms_controller.rb:55:in `form113en'
+
+
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.2ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-16 16:52:48 +0400
+Processing by FormsController#form113en as HTML
+Completed 500 Internal Server Error in 143ms
+
+TypeError (no implicit conversion of nil into String):
+  app/models/form113en_form.rb:16:in `+'
+  app/models/form113en_form.rb:16:in `draw_barcode'
+  app/models/form113en_form.rb:151:in `to_pdf'
+  app/controllers/forms_controller.rb:55:in `form113en'
+
+
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.4ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-16 16:53:00 +0400
+Processing by FormsController#form113en as HTML
+Completed 500 Internal Server Error in 124ms
+
+TypeError (no implicit conversion of nil into String):
+  app/models/form113en_form.rb:16:in `+'
+  app/models/form113en_form.rb:16:in `draw_barcode'
+  app/models/form113en_form.rb:151:in `to_pdf'
+  app/controllers/forms_controller.rb:55:in `form113en'
+
+
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (11.4ms)
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.6ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-16 16:54:00 +0400
+Processing by FormsController#form113en as HTML
+Completed 500 Internal Server Error in 135ms
+
+TypeError (no implicit conversion of nil into String):
+  app/models/form113en_form.rb:16:in `+'
+  app/models/form113en_form.rb:16:in `draw_barcode'
+  app/models/form113en_form.rb:151:in `to_pdf'
+  app/controllers/forms_controller.rb:55:in `form113en'
+
+
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.5ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-16 16:55:57 +0400
+Processing by FormsController#form113en as HTML
+  Rendered text template (0.0ms)
+Sent data form113en.pdf (0.6ms)
+Completed 200 OK in 267ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-16 16:56:48 +0400
+Processing by FormsController#form113en as HTML
+  Rendered text template (0.0ms)
+Sent data form113en.pdf (0.6ms)
+Completed 200 OK in 258ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-16 16:58:20 +0400
+Processing by FormsController#form113en as HTML
+  Rendered text template (0.0ms)
+Sent data form113en.pdf (0.6ms)
+Completed 200 OK in 329ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-16 16:58:35 +0400
+Processing by FormsController#form113en as HTML
+  Rendered text template (0.0ms)
+Sent data form113en.pdf (0.6ms)
+Completed 200 OK in 262ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-16 17:01:52 +0400
+Processing by FormsController#form113en as HTML
+  Rendered text template (0.0ms)
+Sent data form113en.pdf (0.6ms)
+Completed 200 OK in 261ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-16 17:02:17 +0400
+Processing by FormsController#form113en as HTML
+  Rendered text template (0.0ms)
+Sent data form113en.pdf (0.6ms)
+Completed 200 OK in 267ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-16 17:03:11 +0400
+Processing by FormsController#form113en as HTML
+  Rendered text template (0.0ms)
+Sent data form113en.pdf (0.6ms)
+Completed 200 OK in 319ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-16 17:03:46 +0400
+Processing by FormsController#form113en as HTML
+  Rendered text template (0.0ms)
+Sent data form113en.pdf (0.6ms)
+Completed 200 OK in 260ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-16 17:05:36 +0400
+
+SyntaxError (/home/warehouse/Projects/pdf_forms/app/controllers/forms_controller.rb:56: syntax error, unexpected tIDENTIFIER, expecting ')'
+      address: 'г. Самара, а/я 4001',
+             ^
+/home/warehouse/Projects/pdf_forms/app/controllers/forms_controller.rb:56: syntax error, unexpected ',', expecting keyword_end
+/home/warehouse/Projects/pdf_forms/app/controllers/forms_controller.rb:59: syntax error, unexpected ',', expecting keyword_end
+/home/warehouse/Projects/pdf_forms/app/controllers/forms_controller.rb:60: syntax error, unexpected ')', expecting keyword_end):
+  activesupport (3.2.13) lib/active_support/dependencies.rb:469:in `load'
+  activesupport (3.2.13) lib/active_support/dependencies.rb:469:in `block in load_file'
+  activesupport (3.2.13) lib/active_support/dependencies.rb:639:in `new_constants_in'
+  activesupport (3.2.13) lib/active_support/dependencies.rb:468:in `load_file'
+  activesupport (3.2.13) lib/active_support/dependencies.rb:353:in `require_or_load'
+  activesupport (3.2.13) lib/active_support/dependencies.rb:502:in `load_missing_constant'
+  activesupport (3.2.13) lib/active_support/dependencies.rb:192:in `block in const_missing'
+  activesupport (3.2.13) lib/active_support/dependencies.rb:190:in `each'
+  activesupport (3.2.13) lib/active_support/dependencies.rb:190:in `const_missing'
+  activesupport (3.2.13) lib/active_support/inflector/methods.rb:230:in `block in constantize'
+  activesupport (3.2.13) lib/active_support/inflector/methods.rb:229:in `each'
+  activesupport (3.2.13) lib/active_support/inflector/methods.rb:229:in `constantize'
+  activesupport (3.2.13) lib/active_support/dependencies.rb:554:in `get'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:69:in `controller_reference'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:54:in `controller'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:32:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:612:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.13) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.13) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `_run__309140319__call__433694365__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/warehouse/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/warehouse/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/warehouse/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.4ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-16 17:05:49 +0400
+Processing by FormsController#form113en as HTML
+  Rendered text template (0.0ms)
+Sent data form113en.pdf (0.7ms)
+Completed 200 OK in 264ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-16 17:06:14 +0400
+Processing by FormsController#form113en as HTML
+  Rendered text template (0.0ms)
+Sent data form113en.pdf (0.4ms)
+Completed 200 OK in 293ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-16 17:40:28 +0400
+Processing by FormsController#form22 as HTML
+Completed 500 Internal Server Error in 3ms
+
+NameError (undefined local variable or method `font_families' for #<Form22Form:0xb5765790>):
+  app/models/form22_form.rb:36:in `to_pdf'
+  app/controllers/forms_controller.rb:99:in `form22'
+
+
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.7ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-16 17:41:07 +0400
+Processing by FormsController#form22 as HTML
+Completed 500 Internal Server Error in 3ms
+
+NameError (undefined local variable or method `font_families' for #<Form22Form:0xb597ea68>):
+  app/models/form22_form.rb:36:in `to_pdf'
+  app/controllers/forms_controller.rb:99:in `form22'
+
+
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.6ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-16 17:41:34 +0400
+Processing by FormsController#form22 as HTML
+Completed 500 Internal Server Error in 0ms
+
+NameError (undefined local variable or method `font_families' for #<Form22Form:0xb588cc2c>):
+  app/models/form22_form.rb:36:in `to_pdf'
+  app/controllers/forms_controller.rb:99:in `form22'
+
+
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.5ms)
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.2ms)
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.3ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-16 17:43:35 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 12ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-16 17:45:08 +0400
+Processing by FormsController#backform22 as HTML
+Completed 500 Internal Server Error in 1ms
+
+NameError (uninitialized constant FormsController::Backform22Form):
+  app/controllers/forms_controller.rb:104:in `backform22'
+
+
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.4ms)
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (8.7ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-16 17:45:47 +0400
+Processing by FormsController#backform22 as HTML
+Completed 500 Internal Server Error in 1ms
+
+NameError (uninitialized constant FormsController::Backform22Form):
+  app/controllers/forms_controller.rb:104:in `backform22'
+
+
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.9ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-16 17:46:59 +0400
+Processing by FormsController#backform22 as HTML
+Completed 500 Internal Server Error in 1ms
+
+NameError (uninitialized constant FormsController::Backform22Form):
+  app/controllers/forms_controller.rb:104:in `backform22'
+
+
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.9ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-16 17:47:02 +0400
+Processing by FormsController#backform22 as HTML
+Completed 500 Internal Server Error in 1ms
+
+NameError (uninitialized constant FormsController::Backform22Form):
+  app/controllers/forms_controller.rb:104:in `backform22'
+
+
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.1ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-16 17:48:37 +0400
+Processing by FormsController#backform22 as HTML
+Completed 500 Internal Server Error in 1ms
+
+NameError (uninitialized constant FormsController::Backform22Form):
+  app/controllers/forms_controller.rb:104:in `backform22'
+
+
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.3ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-16 17:48:59 +0400
+Processing by FormsController#backform22 as HTML
+Completed 500 Internal Server Error in 1ms
+
+NameError (uninitialized constant FormsController::Backform22Form):
+  app/controllers/forms_controller.rb:104:in `backform22'
+
+
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (7.4ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-16 17:49:18 +0400
+Processing by FormsController#backform22 as HTML
+Completed 500 Internal Server Error in 1ms
+
+NameError (uninitialized constant FormsController::Backform22Form):
+  app/controllers/forms_controller.rb:104:in `backform22'
+
+
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (8.0ms)
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-16 17:49:23 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 16ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-16 17:50:49 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.4ms)
+Completed 200 OK in 14ms (Views: 0.3ms | ActiveRecord: 0.0ms)
