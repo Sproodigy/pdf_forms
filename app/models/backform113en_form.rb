@@ -16,7 +16,7 @@ class Backform113enForm < Prawn::Document
 
 		self.line_width = 2
 		stroke do
-			rectangle [172, 615], 371, 329
+			rectangle [172, 615], 371, 320
 		end
 
 		self.line_width =1
@@ -57,19 +57,24 @@ class Backform113enForm < Prawn::Document
 		text_box "Вторичное извещение\n\nвыписано _____________\n\n<b>Плата за доставку</b>\n\n
 						 _________руб. ______коп.\n\nПодлежит оплате\n\n________________________",
 						 at: [163, 740], inline_format: true
-		draw_text '(подпись)', at: [186, 634]
+		draw_text '(подпись)', at: [186, 634], style: :italic
 		text_box "О\nП\nЛ\nА\nТ\nА", at: [253, 726], size: 11, style: :bold
 
 		# Секция расписки адресата
+
+		draw_text 'РАСПИСКА АДРЕСАТА', at: [288, 619], size: 11, style: :bold
+		text_box "к почтовому переводу\nналоженного платежа", at: [440, 632], style: :bold
+		draw_text 'Обведённое жирной чертой заполняется адресатом',
+							at: [167, 340], style: :bold, rotate: 90
 
 		bounding_box([175, 610], width: 365) do
 			indent(2) do
 				move_down 3
 				text 'Сумма:', style: :bold
 
-				fill_color 50, 50, 50, 0
+				fill_color 'eeeeee'
 				fill_rectangle [30, 13], 332, 15
-				fill_color 50, 50, 50, 100
+				fill_color '000000'
 				move_down 3
 
 				indent(135) do
@@ -83,77 +88,80 @@ class Backform113enForm < Prawn::Document
 				move_up 12
 
 				table [[' '] * 12], cell_style: {width: 10, height: 10}, position: 242
-				move_down 5
+				move_down 7
 
 				text '_' * 103
+				text_box '<b>Получил:</b> "________" _________________________ 20_______ г.                     ' + '_' * 30,
+						 at: [0, -10], inline_format: true
+				move_down 18
+
+				indent(110) do
+					text '(дата)' + ' ' * 98 + '(подпись адресата)', style: :italic, size: 5
+				end
 
 			end
 
 		end
 
-		draw_text 'РАСПИСКА АДРЕСАТА', at: [288, 619], size: 11, style: :bold
-		text_box "к почтовому переводу\nналоженного платежа", at: [440, 632], style: :bold
-		draw_text 'Обведённое жирной чертой заполняется адресатом',
-							at: [167, 340], style: :bold, rotate: 90
 
-		bounding_box([175, 500], width: 365, height: 80) do
-			move_down 4
+		bounding_box([175, 535], width: 365) do
+			move_down 7
 			indent(2) do
-				text "<b>Предъявлен:</b>_____________________ Серия___________ №________________ выдан____________ 20__.__ г.",
+				text "<b>Предъявлен:</b>______________________ Серия___________ №________________ выдан____________ 20____ г.",
 						 inline_format: true
 				indent(55) do
 					text '(наименование документа)', style: :italic, size: 5
 				end
-				move_down 4
+				move_down 6
 				text '_' * 103
 				text '(наименование учреждения)', align: :center, style: :italic, size: 5
 				self.line_width = 2
 				stroke_horizontal_rule
 				self.line_width = 1
-				move_down 2
+				move_down 3
 				text "<u>Для нерезидентов России</u>",style: :bold, inline_format: true
-				move_down 4
-				text "<b>Предъявлен:</b>_____________________ Серия___________ №________________ выдан____________ 20__.__ г.",
+				move_down 6
+				text "<b>Предъявлен:</b>______________________ Серия___________ №________________ выдан____________ 20____ г.",
 						 inline_format: true
 				indent(55) do
 					text '(наименование документа)', style: :italic, size: 5
 				end
-				move_down 5
-				text "<b>Дата срока пребывания с:</b>_____._____20_____г.   по_____._____20_____ г.", inline_format: true
+				move_down 7
+				text "<b>Дата срока пребывания с:</b> _____._____20_____г.   по_____._____20_____ г.", inline_format: true
 			end
 			stroke_bounds
 		end
 
-		bounding_box([175, 414], width: 365, height: 50) do
+		bounding_box([175, 438], width: 365) do
 			indent(2) do
-				text 'Гражданство: __________________________', style: :bold
+				text 'Гражданство: __________________________________________', style: :bold
 				text 'Укажите адрес жительства (регистрации) или места пребывания адресата', style: :bold
-				move_down 5
+				move_down 7
 				text '_' * 103
-				move_down 5
+				move_down 7
 				text '_' * 103
 			end
 
 		end
 
-		bounding_box([175, 370], width: 365, height: 80) do
+		bounding_box([175, 390], width: 365) do
 			indent(2) do
 				move_down 2
 				text 'Заполняется при выплате перевода в адрес юридического лица', style: :bold
-				move_down 3
+				move_down 6
 				text 'Получатель: ' + '_' * 88, style: :bold
 				table [[' '] * 10], cell_style: {width: 10, height: 10}, position: 22
 				move_up 10
 				table [[' '] * 15], cell_style: {width: 10, height: 10}, position: 210
 				move_up 7
 				text 'ИНН:                                                                   ОГРН:', style: :bold
-				move_down 4
+				move_down 6
 				text '_' * 103
 				text '(адрес местонахождения по месту государственной регистрации)',
 					     align: :center, style: :italic, size: 5
-				move_down 3
+				move_down 6
 				text '_' * 103
-				move_down 3
+				move_down 6
 				text '_' * 103
 					text '(фактический адрес, указать при несовпадении с местом государственной регистрации)',
 					     align: :center, style: :italic, size: 5
@@ -165,15 +173,15 @@ class Backform113enForm < Prawn::Document
 
 		# Нижняя секция
 
-		draw_text 'Оплатил', at: [162, 254]
-		draw_text '_' * 82, at: [162, 252]
+		draw_text 'Оплатил:', at: [162, 261], style: :bold
+		draw_text '_' * 82, at: [162, 259]
 		draw_text '(перечислено)                              (должность, подпись)',
-							at: [162, 242]
+							style: :italic, at: [162, 250]
 		draw_text 'Отметки о досылке, возвращени и причинах неоплаты',
-							at: [162, 225], style: :bold
+							at: [162, 233], style: :bold
 
 		3.times do |t|
-			stroke_horizontal_line 162, 450, at: 210 - (t * 12)
+			stroke_horizontal_line 162, 450, at: 218 - (t * 16)
 		end
 
 		stroke_rectangle [472, 275], 60, 60
