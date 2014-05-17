@@ -34,9 +34,24 @@ class Backform22Form < Prawn::Document
 		draw_text 'при несовпадении места регистрации с указанным адресом)', at:[105, cursor-4], size: 7
 		text_box 'Почтовое отправление, указанное на лицевой
 							стороне извещения, с верным весом, исправными оболочкой, печатями, пломбами, перевязью,
-							почтовый перевод получил.', at: [0, cursor-10],	 style: :bold, size: 6, width: 185, leading: 3
+							почтовый перевод получил.', at: [0, cursor-10],	style: :bold, size: 6, width: 185, leading: 3
+		draw_text '"_____" _______________ 20 ______г.', at: [283, cursor-18]
+		draw_text '___________________       __________', at: [283, cursor-38]
+		draw_text '(фамилия)                      (подпись)', at: [306, cursor-48], size: 7
+		draw_text 'по доверенности', at: [283, cursor-62]
+		draw_text '№______________', at: [363, cursor-72]
 		move_down 55
 		text "Даю своё согласие на обработку моих персональных\nданных.", style: :bold, size: 6
+		move_down 10
+		text 'Выдал (доставил)  _____________________  от  "________"  ________________  20________ г.'
+		draw_text '(подпись)', at: [110, cursor-4], size: 7
+
+		self.line_width = 2
+		stroke_horizontal_line 0, 438, at: cursor-8
+
+		move_down 11
+		text 'Служебные отметки:', style: :bold
+		draw_text 'Оператор', at: [250, cursor-20], style: :bold
 
 
 
