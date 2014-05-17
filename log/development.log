@@ -69355,3 +69355,686 @@ Processing by FormsController#backform22 as HTML
   Rendered text template (0.0ms)
 Sent data backform22.pdf (0.4ms)
 Completed 200 OK in 14ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 09:37:51 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (15.4ms)
+Completed 200 OK in 255ms (Views: 15.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 09:37:52 +0400
+Processing by FormsController#backform22 as */*
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.9ms)
+Completed 200 OK in 213ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 09:39:34 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (3.5ms)
+Completed 200 OK in 151ms (Views: 3.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 09:39:35 +0400
+Processing by FormsController#backform22 as */*
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (2.3ms)
+Completed 200 OK in 198ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 09:43:09 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (1.3ms)
+Completed 200 OK in 234ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 09:43:10 +0400
+Processing by FormsController#backform22 as */*
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.8ms)
+Completed 200 OK in 227ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 09:43:32 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (1.3ms)
+Completed 200 OK in 220ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 09:43:32 +0400
+Processing by FormsController#backform22 as */*
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.8ms)
+Completed 200 OK in 221ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 09:43:48 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (1.9ms)
+Completed 200 OK in 218ms (Views: 1.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 09:43:48 +0400
+Processing by FormsController#backform22 as */*
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.8ms)
+Completed 200 OK in 257ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 09:51:59 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (1.1ms)
+Completed 200 OK in 279ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 09:51:59 +0400
+Processing by FormsController#backform22 as */*
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.8ms)
+Completed 200 OK in 230ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 09:52:18 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (1.2ms)
+Completed 200 OK in 235ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 09:52:19 +0400
+Processing by FormsController#backform22 as */*
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.9ms)
+Completed 200 OK in 217ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 09:52:25 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (1.6ms)
+Completed 200 OK in 232ms (Views: 1.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 09:52:26 +0400
+Processing by FormsController#backform22 as */*
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.8ms)
+Completed 200 OK in 233ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 09:52:33 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (1.3ms)
+Completed 200 OK in 215ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 09:52:34 +0400
+Processing by FormsController#backform22 as */*
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (1.0ms)
+Completed 200 OK in 297ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 09:54:11 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (1.4ms)
+Completed 200 OK in 220ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 09:54:12 +0400
+Processing by FormsController#backform22 as */*
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.9ms)
+Completed 200 OK in 264ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 09:54:27 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (1.2ms)
+Completed 200 OK in 222ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 09:54:27 +0400
+Processing by FormsController#backform22 as */*
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.8ms)
+Completed 200 OK in 253ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 09:54:38 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (1.2ms)
+Completed 200 OK in 205ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 09:54:38 +0400
+Processing by FormsController#backform22 as */*
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.9ms)
+Completed 200 OK in 240ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 09:54:47 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (1.4ms)
+Completed 200 OK in 257ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 09:54:48 +0400
+Processing by FormsController#backform22 as */*
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.8ms)
+Completed 200 OK in 323ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 09:57:20 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (1.3ms)
+Completed 200 OK in 216ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 09:57:21 +0400
+Processing by FormsController#backform22 as */*
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.8ms)
+Completed 200 OK in 235ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 10:00:05 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (1.1ms)
+Completed 200 OK in 237ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 10:00:05 +0400
+Processing by FormsController#backform22 as */*
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.7ms)
+Completed 200 OK in 239ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 10:00:33 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (1.3ms)
+Completed 200 OK in 216ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 10:00:34 +0400
+Processing by FormsController#backform22 as */*
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.8ms)
+Completed 200 OK in 259ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 10:00:47 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (1.2ms)
+Completed 200 OK in 256ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 10:00:48 +0400
+Processing by FormsController#backform22 as */*
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.8ms)
+Completed 200 OK in 238ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 10:00:59 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (1.5ms)
+Completed 200 OK in 247ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 10:00:59 +0400
+Processing by FormsController#backform22 as */*
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.8ms)
+Completed 200 OK in 235ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 10:03:46 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (1.2ms)
+Completed 200 OK in 340ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 10:03:47 +0400
+Processing by FormsController#backform22 as */*
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.8ms)
+Completed 200 OK in 249ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 10:05:05 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (1.2ms)
+Completed 200 OK in 225ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 10:05:06 +0400
+Processing by FormsController#backform22 as */*
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.9ms)
+Completed 200 OK in 235ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 10:05:36 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (1.2ms)
+Completed 200 OK in 358ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 10:05:37 +0400
+Processing by FormsController#backform22 as */*
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (1.0ms)
+Completed 200 OK in 231ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 10:05:52 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (2.2ms)
+Completed 200 OK in 247ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 10:05:53 +0400
+Processing by FormsController#backform22 as */*
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.9ms)
+Completed 200 OK in 253ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 14:50:40 +0400
+Processing by FormsController#backform22 as HTML
+Completed 500 Internal Server Error in 5ms
+
+SyntaxError (/home/sproodigy/RubyMine63/lessons/pdf_forms/app/models/backform22_form.rb:36: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+...ил.', at: [0, cursor-4] style: :bold, size: 6
+...                               ^):
+  app/controllers/forms_controller.rb:104:in `backform22'
+
+
+  Rendered /home/sproodigy/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.1ms)
+  Rendered /home/sproodigy/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (3.9ms)
+  Rendered /home/sproodigy/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (22.4ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 14:51:00 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (14.8ms)
+Completed 200 OK in 430ms (Views: 14.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 14:51:01 +0400
+Processing by FormsController#backform22 as */*
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.9ms)
+Completed 200 OK in 268ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 15:38:05 +0400
+Processing by FormsController#backform22 as */*
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (161.4ms)
+Completed 200 OK in 1196ms (Views: 161.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 15:42:05 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (1.4ms)
+Completed 200 OK in 315ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 15:42:06 +0400
+Processing by FormsController#backform22 as */*
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.8ms)
+Completed 200 OK in 285ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 15:42:28 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (1.3ms)
+Completed 200 OK in 314ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 15:42:29 +0400
+Processing by FormsController#backform22 as */*
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (1.0ms)
+Completed 200 OK in 337ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 15:42:37 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (1.2ms)
+Completed 200 OK in 279ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 15:42:37 +0400
+Processing by FormsController#backform22 as */*
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.9ms)
+Completed 200 OK in 297ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 15:42:52 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (1.2ms)
+Completed 200 OK in 263ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 15:42:52 +0400
+Processing by FormsController#backform22 as */*
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.9ms)
+Completed 200 OK in 276ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 15:43:09 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (1.4ms)
+Completed 200 OK in 248ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 15:43:10 +0400
+Processing by FormsController#backform22 as */*
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.8ms)
+Completed 200 OK in 283ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 15:43:23 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (1.4ms)
+Completed 200 OK in 264ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 15:43:24 +0400
+Processing by FormsController#backform22 as */*
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.9ms)
+Completed 200 OK in 330ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 15:43:49 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (1.5ms)
+Completed 200 OK in 283ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 15:43:50 +0400
+Processing by FormsController#backform22 as */*
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.9ms)
+Completed 200 OK in 279ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 15:43:55 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (1.2ms)
+Completed 200 OK in 254ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 15:43:56 +0400
+Processing by FormsController#backform22 as */*
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.9ms)
+Completed 200 OK in 331ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 15:44:43 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (1.3ms)
+Completed 200 OK in 288ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 15:44:43 +0400
+Processing by FormsController#backform22 as */*
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.8ms)
+Completed 200 OK in 295ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 15:45:03 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (1.3ms)
+Completed 200 OK in 390ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 15:45:03 +0400
+Processing by FormsController#backform22 as */*
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.9ms)
+Completed 200 OK in 274ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 15:45:13 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (1.2ms)
+Completed 200 OK in 236ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 15:45:13 +0400
+Processing by FormsController#backform22 as */*
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.8ms)
+Completed 200 OK in 285ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 15:45:24 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (2.0ms)
+Completed 200 OK in 261ms (Views: 1.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 15:45:25 +0400
+Processing by FormsController#backform22 as */*
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.8ms)
+Completed 200 OK in 254ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 15:46:03 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (1.5ms)
+Completed 200 OK in 379ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 15:46:04 +0400
+Processing by FormsController#backform22 as */*
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.9ms)
+Completed 200 OK in 247ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 15:46:54 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (1.2ms)
+Completed 200 OK in 241ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 15:46:55 +0400
+Processing by FormsController#backform22 as */*
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.9ms)
+Completed 200 OK in 285ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 15:47:12 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (1.3ms)
+Completed 200 OK in 256ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 15:47:13 +0400
+Processing by FormsController#backform22 as */*
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (1.1ms)
+Completed 200 OK in 262ms (Views: 0.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 15:47:40 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (1.5ms)
+Completed 200 OK in 342ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 15:47:41 +0400
+Processing by FormsController#backform22 as */*
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (1.0ms)
+Completed 200 OK in 266ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 15:49:40 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (1.2ms)
+Completed 200 OK in 234ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 15:49:40 +0400
+Processing by FormsController#backform22 as */*
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.9ms)
+Completed 200 OK in 289ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 15:50:46 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (1.4ms)
+Completed 200 OK in 260ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 15:50:47 +0400
+Processing by FormsController#backform22 as */*
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.8ms)
+Completed 200 OK in 263ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 15:51:32 +0400
+Processing by FormsController#backform22 as HTML
+Completed 500 Internal Server Error in 223ms
+
+Prawn::Errors::UnknownFont ( is not a known font.):
+  app/models/backform22_form.rb:39:in `to_pdf'
+  app/controllers/forms_controller.rb:104:in `backform22'
+
+
+  Rendered /home/sproodigy/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.9ms)
+  Rendered /home/sproodigy/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.9ms)
+  Rendered /home/sproodigy/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (32.1ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 15:51:39 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (1.4ms)
+Completed 200 OK in 316ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 15:51:40 +0400
+Processing by FormsController#backform22 as */*
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (5.7ms)
+Completed 200 OK in 294ms (Views: 5.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 15:52:11 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (1.2ms)
+Completed 200 OK in 279ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 15:52:12 +0400
+Processing by FormsController#backform22 as */*
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.8ms)
+Completed 200 OK in 280ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 15:52:32 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (1.2ms)
+Completed 200 OK in 248ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 15:52:33 +0400
+Processing by FormsController#backform22 as */*
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.8ms)
+Completed 200 OK in 316ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 15:53:23 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (1.3ms)
+Completed 200 OK in 299ms (Views: 1.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 15:53:24 +0400
+Processing by FormsController#backform22 as */*
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.8ms)
+Completed 200 OK in 282ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 15:53:32 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (1.1ms)
+Completed 200 OK in 251ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-17 15:53:33 +0400
+Processing by FormsController#backform22 as */*
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (1.8ms)
+Completed 200 OK in 287ms (Views: 1.5ms | ActiveRecord: 0.0ms)

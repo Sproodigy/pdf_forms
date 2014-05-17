@@ -4,34 +4,6 @@ require 'barby/outputter/prawn_outputter'
 
 class Backform22Form < Prawn::Document
 
-	def draw_barcode(code, opts = {})
-		x = opts[:x]
-		y = opts[:y]
-		size = opts[:size]
-
-		code ||= '00000000000000'
-		barcode = Barby::Code25Interleaved.new(code)
-		barcode.include_checksum = false
-
-		barcode_string = [code.to_s[0..5] + '   ' + code.to_s[6..7] + '   ', code.to_s[8..12], '   ' + code.to_s[13]]
-
-		if opts[:string_only]
-			formatted_text_box [{ text: barcode_string[0] }, { text: barcode_string[1], styles: [:bold] }, { text: barcode_string[2] }], at: [x+1, y-28], size: 8
-			return
-		end
-
-		if size == :small
-			barcode.annotate_pdf(self, x: x, y: y-22, xdim: 0.75, height: 22)
-
-			formatted_text_box [{ text: barcode_string[0] }, { text: barcode_string[1], styles: [:bold] }, { text: barcode_string[2] }], at: [x+2, y-24], size: 8
-		else
-			barcode.annotate_pdf(self, x: x, y: y-25, xdim: 1, height: 30)
-
-			draw_text 'ПОЧТА РОССИИ', at: [x, y+8], size: 8 if opts[:print_rus_post] || !opts.key?(:print_rus_post)
-			formatted_text_box [{ text: barcode_string[0] }, { text: barcode_string[1], styles: [:bold] }, { text: barcode_string[2] }], at: [x+1, y-28], size: 11
-		end
-	end
-
 	def to_pdf
 		font_families.update(
 				'DejaVuSans' => {
@@ -43,7 +15,30 @@ class Backform22Form < Prawn::Document
 						condensed: "#{Rails.root}/app/assets/fonts/DejaVuSansCondensed.ttf",
 						condensed_bold: "#{Rails.root}/app/assets/fonts/DejaVuSansCondensed-Bold.ttf"
 				})
-		font 'DejaVuSans', size: 7
+		font 'DejaVuSans', size: 9
+
+		text_box "<u>Заполняется получателем</u>", style: :bold, inline_format: true
+		move_down 20
+		text 'Предъявлен _______________ Серия______ №___________ выдан "______" ______________ 20______ г.'
+		move_down 10
+		text 'Кем ' + '_' * 92
+		draw_text '(наименование учреждения, выдавшего документ)', at:[140, cursor-4], size: 7
+		move_down 10
+		text 'Зарегистрирован ' + '_' * 78
+		draw_text '(указать при получении почтовых отправлений и денежных переводов,', at:[110, cursor-4], size: 7
+		move_down 10
+		text '_' * 97
+		draw_text 'адресованных "до востребования", на а/я, по месту учёбы,', at:[107, cursor-4], size: 7
+		move_down 10
+		text '_' * 97
+		draw_text 'при несовпадении места регистрации с указанным адресом)', at:[105, cursor-4], size: 7
+		text_box 'Почтовое отправление, указанное на лицевой
+							стороне извещения, с верным весом, исправными оболочкой, печатями, пломбами, перевязью,
+							почтовый перевод получил.', at: [0, cursor-10],	 style: :bold, size: 6, width: 185, leading: 3
+		move_down 55
+		text "Даю своё согласие на обработку моих персональных\nданных.", style: :bold, size: 6
+
+
 
 		render
 
