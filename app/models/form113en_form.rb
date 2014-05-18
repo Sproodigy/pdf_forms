@@ -47,12 +47,12 @@ class Form113enForm < Prawn::Document
 
 		# Парамерты формы
 
-		fulfiller = params[:fulfiller]
-		address = params[:address]
+		receiver = params[:receiver]
+		receiver_address = params[:receiver_address]
 		index = params[:index]
 		inn = params[:inn]
-		remittor = params[:remittor]
-		remittor_address = params[:remittor_address]
+		sender = params[:sender]
+		sender_address = params[:sender_receiver_address]
 		barcode = params[:barcode]
 
 		# Деление формы на сектора
@@ -104,10 +104,10 @@ class Form113enForm < Prawn::Document
 							at: [185, 608], style: :bold
 
 		draw_text '(рубли прописью, копейки цифрами)', at: [305, 590], style: :italic, size: 5
-		formatted_text_box [{text: 'Кому:    ', styles: [:bold]}, {text: "#{fulfiller}"}], at:[180, 585]
+		formatted_text_box [{text: 'Кому:    ', styles: [:bold]}, {text: "#{receiver}"}], at:[180, 585]
 		draw_text '(для юридического лица - полное или краткое наименование, для гражданина - фамилия, имя, отчество полностью)',
 							at: [202, 560], size: 5, style: :italic
-		formatted_text_box [{text: 'Куда:    ', styles: [:bold]}, {text: "#{address}"}], at:[180, 556]
+		formatted_text_box [{text: 'Куда:    ', styles: [:bold]}, {text: "#{receiver_address}"}], at:[180, 556]
 
 		stroke do
 			horizontal_line 175, 540, at: 576
@@ -128,7 +128,7 @@ class Form113enForm < Prawn::Document
 
 		font 'DejaVuSans', size: 7
 
-		formatted_text_box [{text: "#{index}", character_spacing: 5.1}],
+		formatted_text_box [{text: index.to_s, character_spacing: 5.1}],
 											 at: [473, 513], style: :bold
 		formatted_text_box [{text: "#{inn}", character_spacing: 5.1}],
 											 at: [187, 490], style: :bold
@@ -148,7 +148,7 @@ class Form113enForm < Prawn::Document
 
 		# Секция с ШПИ
 
-		draw_barcode "#{barcode}", x: 275, y: 435, print_rus_post: false
+		draw_barcode barcode, x: 275, y: 435, print_rus_post: false
 
 		formatted_text_box [{text: 'Наложенный платёж'}],
 											 at: [200, 440], width: 65, height: 45, size: 9
@@ -162,13 +162,13 @@ class Form113enForm < Prawn::Document
 		draw_text 'Обведённое линией заполняется отправителем перевода',
 							at: [235, 375], style: :bold
 		draw_text 'От кого:' + ' ' * 51 + 'ИНН, при его наличии:', at: [180, 359], style: :bold
-		draw_text "#{remittor}", at: [180, 349]
+		draw_text "#{sender}", at: [180, 349]
 		draw_text '_' * 104, at: [174, 348]
 		draw_text '_' * 104, at: [174, 338]
 		draw_text 'Адрес отправителя:' + ' ' * 73 + 'Индекс:', at: [180, 327], style: :bold
-		formatted_text_box [{text: "#{index}", character_spacing: 5.1}],
+		formatted_text_box [{text: index.to_s, character_spacing: 5.1}],
 											 at: [478, 332], style: :bold
-		text_box "#{remittor_address}",
+		text_box "#{sender_address}",
 							at: [180, 320], height: 20, leading: 2
 		draw_text '_' * 104, at: [174, 314]
 		draw_text '_' * 104, at: [174, 304]

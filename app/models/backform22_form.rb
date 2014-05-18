@@ -46,14 +46,12 @@ class Backform22Form < Prawn::Document
 		text 'Выдал (доставил)  _____________________  от  "________"  ________________  20________ г.'
 		draw_text '(подпись)', at: [110, cursor-4], size: 7
 
-		self.line_width = 2
+		line_width  2
 		stroke_horizontal_line 0, 438, at: cursor-8
 
 		move_down 11
 		text 'Служебные отметки:', style: :bold
 		draw_text 'Оператор', at: [250, cursor-20], style: :bold
-
-
 
 		render
 

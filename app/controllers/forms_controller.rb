@@ -52,12 +52,12 @@ class FormsController < ApplicationController
   end  
 
   def form113en
-    pdf = Form113enForm.new.to_pdf(fulfiller: 'ООО "Экстра"', barcode: 32389209822998,
-      address: 'г. Самара, а/я 4001',
+    pdf = Form113enForm.new.to_pdf(receiver: 'ООО "Экстра"', barcode: 32389209822998,
+      receiver_address: 'г. Самара, а/я 4001',
       inn: 631614265880,
       index: 443110,
-      remittor: 'Иванов Иван Иванович',
-      remittor_address: 'ул. Лейтенанта Шмидта, д. 3, корп. 39, кв. 15 МОСКВА, МОСКОВСКАЯ ОБЛАСТЬ, РОССИЯ')
+      sender: 'Иванов Иван Иванович',
+      sender_address: 'ул. Лейтенанта Шмидта, д. 3, корп. 39, кв. 15 МОСКВА, МОСКОВСКАЯ ОБЛАСТЬ, РОССИЯ')
     send_data pdf, type: 'application/pdf', filename: 'form113en.pdf', disposition: 'inline'
 	end
 
