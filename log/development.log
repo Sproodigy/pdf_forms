@@ -73151,4 +73151,1843 @@ Processing by FormsController#form22 as */*
 Sent data form22.pdf (0.8ms)
 Completed 200 OK in 248ms (Views: 0.7ms | ActiveRecord: 0.0ms)
 Connecting to database specified by database.yml
+<<<<<<< HEAD
 Connecting to database specified by database.yml
+=======
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 12:46:50 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (39.3ms)
+Completed 200 OK in 278ms (Views: 39.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-19 12:47:01 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.5ms)
+Completed 200 OK in 177ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-19 13:02:33 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.6ms)
+Completed 200 OK in 152ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-19 13:04:19 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.6ms)
+Completed 200 OK in 158ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-19 13:05:24 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.6ms)
+Completed 200 OK in 145ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-19 13:06:12 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.6ms)
+Completed 200 OK in 165ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-19 13:15:54 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.6ms)
+Completed 200 OK in 163ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-19 13:16:04 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.6ms)
+Completed 200 OK in 153ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-19 13:16:18 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.6ms)
+Completed 200 OK in 146ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-19 13:16:24 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.6ms)
+Completed 200 OK in 157ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-19 13:16:31 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.6ms)
+Completed 200 OK in 149ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-19 13:16:53 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.6ms)
+Completed 200 OK in 157ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-19 13:17:38 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.6ms)
+Completed 200 OK in 150ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-19 13:17:46 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.6ms)
+Completed 200 OK in 183ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-19 13:17:54 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.6ms)
+Completed 200 OK in 151ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-19 13:18:14 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.6ms)
+Completed 200 OK in 153ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-19 13:18:26 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.6ms)
+Completed 200 OK in 143ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-19 13:18:30 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.6ms)
+Completed 200 OK in 147ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-19 13:36:38 +0400
+Processing by FormsController#backform22 as HTML
+Completed 500 Internal Server Error in 2ms
+
+SyntaxError (/home/warehouse/Projects/pdf_forms/app/models/backform22_form.rb:41: syntax error, unexpected tSTRING_BEG, expecting keyword_end
+...'(фамилия)' + ' ' * 20 '(подпись)', at: [326, ...
+...                               ^
+/home/warehouse/Projects/pdf_forms/app/models/backform22_form.rb:41: syntax error, unexpected ',', expecting keyword_end
+... + ' ' * 20 '(подпись)', at: [326, cursor-48], size: 7
+...                               ^
+/home/warehouse/Projects/pdf_forms/app/models/backform22_form.rb:41: syntax error, unexpected ',', expecting keyword_end
+...ись)', at: [326, cursor-48], size: 7
+...                               ^):
+  app/controllers/forms_controller.rb:104:in `backform22'
+
+
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (24.1ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-19 13:36:48 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.8ms)
+Completed 200 OK in 152ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-19 13:36:57 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.6ms)
+Completed 200 OK in 149ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-19 13:37:01 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.4ms)
+Completed 200 OK in 151ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-19 13:37:20 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.6ms)
+Completed 200 OK in 197ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-19 13:37:30 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.6ms)
+Completed 200 OK in 142ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-19 13:37:35 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.6ms)
+Completed 200 OK in 148ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-19 13:37:39 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.6ms)
+Completed 200 OK in 149ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-19 13:38:28 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.6ms)
+Completed 200 OK in 149ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-19 13:38:36 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.6ms)
+Completed 200 OK in 173ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-19 13:38:51 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.6ms)
+Completed 200 OK in 160ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-19 13:39:12 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.6ms)
+Completed 200 OK in 154ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-19 13:39:17 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.6ms)
+Completed 200 OK in 148ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-19 13:39:24 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.6ms)
+Completed 200 OK in 150ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-19 13:39:29 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.6ms)
+Completed 200 OK in 153ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-19 13:39:36 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.6ms)
+Completed 200 OK in 150ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-19 13:39:48 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.6ms)
+Completed 200 OK in 172ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-19 13:40:09 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.6ms)
+Completed 200 OK in 172ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-19 13:43:04 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.6ms)
+Completed 200 OK in 157ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-19 13:43:22 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.6ms)
+Completed 200 OK in 151ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-19 13:43:37 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.6ms)
+Completed 200 OK in 151ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-19 13:43:41 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.6ms)
+Completed 200 OK in 149ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-19 13:45:50 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.6ms)
+Completed 200 OK in 149ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-19 13:47:10 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.6ms)
+Completed 200 OK in 202ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-19 13:48:48 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.6ms)
+Completed 200 OK in 151ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-19 13:50:03 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.6ms)
+Completed 200 OK in 151ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 13:53:06 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 147ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 13:54:33 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 153ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 13:54:46 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.7ms)
+Completed 200 OK in 157ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-19 13:54:50 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.4ms)
+Completed 200 OK in 149ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-19 13:55:34 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.6ms)
+Completed 200 OK in 172ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-19 14:28:16 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.6ms)
+Completed 200 OK in 163ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-19 14:28:52 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.8ms)
+Completed 200 OK in 167ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-19 14:29:18 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.6ms)
+Completed 200 OK in 153ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-19 14:29:24 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.6ms)
+Completed 200 OK in 151ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-19 14:30:15 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.7ms)
+Completed 200 OK in 149ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-19 14:30:21 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.6ms)
+Completed 200 OK in 150ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-19 14:31:11 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.6ms)
+Completed 200 OK in 196ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-19 14:31:22 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.6ms)
+Completed 200 OK in 153ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-19 14:31:27 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.6ms)
+Completed 200 OK in 146ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-19 14:31:36 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.6ms)
+Completed 200 OK in 139ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-19 14:31:50 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.6ms)
+Completed 200 OK in 149ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-19 14:32:03 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.6ms)
+Completed 200 OK in 150ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-19 14:32:11 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.6ms)
+Completed 200 OK in 148ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-19 14:32:32 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.6ms)
+Completed 200 OK in 171ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-19 14:32:40 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.7ms)
+Completed 200 OK in 154ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-19 14:33:23 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.6ms)
+Completed 200 OK in 166ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-19 14:33:33 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.6ms)
+Completed 200 OK in 150ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-19 14:33:37 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.6ms)
+Completed 200 OK in 148ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-19 14:33:44 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.6ms)
+Completed 200 OK in 148ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-19 14:33:49 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.6ms)
+Completed 200 OK in 148ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-19 14:34:03 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.6ms)
+Completed 200 OK in 190ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 14:34:14 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 165ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 14:34:51 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 154ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 14:35:07 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 154ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 14:36:08 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 156ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 14:36:42 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 176ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 14:36:48 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 172ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 14:37:04 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 161ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-19 14:38:14 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.6ms)
+Completed 200 OK in 150ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-19 14:38:32 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.6ms)
+Completed 200 OK in 149ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-19 14:38:59 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.6ms)
+Completed 200 OK in 152ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-19 14:39:26 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.6ms)
+Completed 200 OK in 151ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-19 14:40:31 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.6ms)
+Completed 200 OK in 177ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-19 14:40:36 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.6ms)
+Completed 200 OK in 175ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-19 14:40:41 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.8ms)
+Completed 200 OK in 161ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-19 14:40:48 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.6ms)
+Completed 200 OK in 154ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 14:41:05 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 156ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 14:41:43 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 156ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 14:49:26 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 155ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 14:49:31 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 178ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 14:49:50 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 176ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 14:53:33 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 170ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 14:53:53 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 160ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 14:54:28 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 158ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 14:54:36 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 157ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 14:54:41 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 157ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 14:56:35 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 184ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 14:57:39 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 179ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 14:58:16 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 158ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 14:58:27 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 155ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 14:58:37 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 156ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 14:58:42 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 157ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 14:58:52 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 157ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:01:02 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 186ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:01:27 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 178ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:01:38 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 164ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:02:15 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 159ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:02:22 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 164ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:02:56 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 158ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:03:13 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 159ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:03:22 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.7ms)
+Completed 200 OK in 184ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:03:39 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 182ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:03:42 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 167ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:05:52 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 165ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:06:12 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 163ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:06:34 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 162ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:07:07 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 161ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:07:22 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 188ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:07:57 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 186ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:08:49 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 171ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:09:07 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 171ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:09:27 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 163ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:09:40 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 163ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:09:53 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 162ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:10:08 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 191ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:10:16 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (1.1ms)
+Completed 200 OK in 189ms (Views: 1.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:10:32 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 171ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:10:52 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 170ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:10:59 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 165ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:11:33 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 163ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:11:42 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.8ms)
+Completed 200 OK in 165ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:12:06 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 162ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:12:17 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 186ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:12:53 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 188ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:13:02 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.7ms)
+Completed 200 OK in 174ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:15:14 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 167ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:15:23 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 164ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:15:29 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 162ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:15:39 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 168ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:15:56 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 191ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:16:32 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 190ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:17:00 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 166ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:17:24 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 173ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:17:30 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 165ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:17:35 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 163ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:17:42 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.8ms)
+Completed 200 OK in 163ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:17:49 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 163ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:18:28 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 191ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:18:37 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.7ms)
+Completed 200 OK in 193ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:18:56 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 173ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:19:06 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 166ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:19:27 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 164ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:19:33 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 164ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:22:44 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 160ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:22:51 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.7ms)
+Completed 200 OK in 188ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:23:33 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.7ms)
+Completed 200 OK in 184ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-19 15:28:39 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.6ms)
+Completed 200 OK in 159ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform22" for 127.0.0.1 at 2014-05-19 15:29:16 +0400
+Processing by FormsController#backform22 as HTML
+  Rendered text template (0.0ms)
+Sent data backform22.pdf (0.6ms)
+Completed 200 OK in 152ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:29:23 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.5ms)
+Completed 200 OK in 164ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:30:15 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 163ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform113en" for 127.0.0.1 at 2014-05-19 15:30:28 +0400
+Processing by FormsController#backform113en as HTML
+  Rendered text template (0.0ms)
+Sent data backform113en.pdf (0.5ms)
+Completed 200 OK in 352ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-19 15:30:35 +0400
+Processing by FormsController#form113en as HTML
+  Rendered text template (0.0ms)
+Sent data form113en.pdf (0.5ms)
+Completed 200 OK in 323ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-19 15:31:16 +0400
+Processing by FormsController#form113en as HTML
+  Rendered text template (0.0ms)
+Sent data form113en.pdf (0.6ms)
+Completed 200 OK in 269ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-19 15:31:24 +0400
+Processing by FormsController#form113en as HTML
+  Rendered text template (0.0ms)
+Sent data form113en.pdf (0.7ms)
+Completed 200 OK in 260ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-19 15:31:45 +0400
+Processing by FormsController#form113en as HTML
+  Rendered text template (0.0ms)
+Sent data form113en.pdf (0.4ms)
+Completed 200 OK in 266ms (Views: 0.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:33:43 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 208ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:35:37 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 173ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:35:48 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.8ms)
+Completed 200 OK in 168ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:35:58 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 163ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:36:11 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 163ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:36:21 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 188ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:36:29 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 181ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:36:42 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 156ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:36:58 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 164ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:37:08 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 165ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:41:26 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 163ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:41:54 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.7ms)
+Completed 200 OK in 163ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:42:13 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 189ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:42:20 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 179ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:42:27 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 174ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:45:02 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 167ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:45:22 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 165ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:45:32 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 164ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:45:43 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 162ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:45:49 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.7ms)
+Completed 200 OK in 187ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:45:59 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (1.6ms)
+Completed 200 OK in 187ms (Views: 1.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:46:23 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 170ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:46:37 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 166ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:47:55 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 175ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:48:29 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 163ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:48:40 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 163ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:48:48 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.9ms)
+Completed 200 OK in 191ms (Views: 0.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:48:59 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.7ms)
+Completed 200 OK in 190ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:49:06 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 171ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:49:12 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 174ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:51:11 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 166ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:51:33 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.7ms)
+Completed 200 OK in 165ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:51:39 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 169ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:51:52 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 162ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:52:00 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 184ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:52:05 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.9ms)
+Completed 200 OK in 192ms (Views: 0.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:52:16 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 175ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:52:27 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 167ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:52:37 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 171ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:52:42 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 164ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:52:46 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 169ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:55:23 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 201ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:55:28 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 191ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:55:36 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 159ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:55:47 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.6ms)
+Completed 200 OK in 164ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form22" for 127.0.0.1 at 2014-05-19 15:57:09 +0400
+Processing by FormsController#form22 as HTML
+  Rendered text template (0.0ms)
+Sent data form22.pdf (0.7ms)
+Completed 200 OK in 163ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform113en" for 127.0.0.1 at 2014-05-19 16:48:55 +0400
+Processing by FormsController#backform113en as HTML
+Completed 500 Internal Server Error in 3ms
+
+NoMethodError (undefined method `print_f113en_back' for #<Backform113enForm:0xb4841d40>):
+  app/controllers/forms_controller.rb:65:in `backform113en'
+
+
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.9ms)
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.4ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-19 16:49:01 +0400
+Processing by FormsController#form113en as HTML
+  Rendered text template (0.0ms)
+Sent data form113en.pdf (0.6ms)
+Completed 200 OK in 265ms (Views: 0.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-19 16:49:16 +0400
+Processing by FormsController#form113en as HTML
+  Rendered text template (0.0ms)
+Sent data form113en.pdf (0.4ms)
+Completed 200 OK in 260ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-19 16:49:21 +0400
+Processing by FormsController#form113en as HTML
+  Rendered text template (0.0ms)
+Sent data form113en.pdf (0.4ms)
+Completed 200 OK in 291ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-19 16:54:34 +0400
+Processing by FormsController#form113en as HTML
+  Rendered text template (0.0ms)
+Sent data form113en.pdf (0.4ms)
+Completed 200 OK in 270ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-19 17:02:54 +0400
+Processing by FormsController#form113en as HTML
+Completed 500 Internal Server Error in 3ms
+
+NoMethodError (undefined method `print_f113en_back' for #<Backform113enForm:0xb54f4bb4>):
+  app/controllers/forms_controller.rb:65:in `form113en'
+
+
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (9.9ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-19 17:03:11 +0400
+Processing by FormsController#form113en as HTML
+  Rendered text template (0.0ms)
+Sent data form113en.pdf (1.3ms)
+Completed 200 OK in 307ms (Views: 1.2ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-19 17:11:55 +0400
+
+SyntaxError (/home/warehouse/Projects/pdf_forms/app/controllers/forms_controller.rb:66: syntax error, unexpected tSTRING_BEG, expecting keyword_end
+...pdf', filename:  form113en.pdf', disposition: 'inline'
+...                               ^
+/home/warehouse/Projects/pdf_forms/app/controllers/forms_controller.rb:66: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+...13en.pdf', disposition: 'inline'
+...                               ^
+/home/warehouse/Projects/pdf_forms/app/controllers/forms_controller.rb:71: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+      fulfiller: 'ООО "Экстра", ИНН/КП...
+                        ^
+/home/warehouse/Projects/pdf_forms/app/controllers/forms_controller.rb:71: syntax error, unexpected tINTEGER, expecting keyword_do or '{' or '('
+...ра", ИНН/КПП 6316152650/631601001, 443068, г. Са...
+...                               ^
+/home/warehouse/Projects/pdf_forms/app/controllers/forms_controller.rb:71: syntax error, unexpected ',', expecting keyword_end
+...Н/КПП 6316152650/631601001, 443068, г. Самара, у...
+...                               ^
+/home/warehouse/Projects/pdf_forms/app/controllers/forms_controller.rb:71: syntax error, unexpected '-', expecting :: or '[' or '.'
+.... Самара, ул. Ново-Садовая, д. 106, ко...
+...                               ^
+/home/warehouse/Projects/pdf_forms/app/controllers/forms_controller.rb:71: syntax error, unexpected tINTEGER, expecting '('
+...Ново-Садовая, д. 106, корп. 109',
+...                                ^
+/home/warehouse/Projects/pdf_forms/app/controllers/forms_controller.rb:72: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+      client: 'ООО МНПФ "Центр Нов...
+                     ^
+/home/warehouse/Projects/pdf_forms/app/controllers/forms_controller.rb:72: syntax error, unexpected tINTEGER, expecting keyword_do or '{' or '('
+...ии", ИНН/КПП 6322025466/632401001, 445046, Сама...
+...                               ^
+/home/warehouse/Projects/pdf_forms/app/controllers/forms_controller.rb:72: syntax error, unexpected ',', expecting keyword_end
+...Н/КПП 6322025466/632401001, 445046, Самарская ...
+...                               ^
+/home/warehouse/Projects/pdf_forms/app/controllers/forms_controller.rb:72: syntax error, unexpected ',', expecting '('
+...46, Самарская обл., г. Тольятти, ул. ...
+...                               ^
+/home/warehouse/Projects/pdf_forms/app/controllers/forms_controller.rb:72: syntax error, unexpected tIDENTIFIER, expecting :: or '[' or '.'
+...ул. Лизы Чайкиной, д. 33, кв. 16',
+...                               ^
+/home/warehouse/Projects/pdf_forms/app/controllers/forms_controller.rb:72: syntax error, unexpected tINTEGER, expecting '('
+...изы Чайкиной, д. 33, кв. 16',
+...                               ^
+/home/warehouse/Projects/pdf_forms/app/controllers/forms_controller.rb:73: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+...  services: [['Почтовая подготовка', 55, '...
+...                               ^
+/home/warehouse/Projects/pdf_forms/app/controllers/forms_controller.rb:73: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+...подготовка', 55, 'шт.', 85], ['Складское...
+...                                ^
+/home/warehouse/Projects/pdf_forms/app/controllers/forms_controller.rb:73: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+...т.', 85], ['Складское хранение', 5, 'м. ...
+...                               ^
+/home/warehouse/Projects/pdf_forms/app/controllers/forms_controller.rb:73: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+...кое хранение', 5, 'м. кв.', 490]],
+...                                ^
+/home/warehouse/Projects/pdf_forms/app/controllers/forms_controller.rb:73: syntax error, unexpected tSTRING_BEG, expecting '('
+...ранение', 5, 'м. кв.', 490]],
+...                               ^
+/home/warehouse/Projects/pdf_forms/app/controllers/forms_controller.rb:74: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+      fulfiller_title: 'Директор',
+                                        ^
+/home/warehouse/Projects/pdf_forms/app/controllers/forms_controller.rb:75: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+      fulfiller_singer: 'Афанасьева М. В.',
+                                             ^
+/home/warehouse/Projects/pdf_forms/app/controllers/forms_controller.rb:75: syntax error, unexpected tSTRING_BEG, expecting '('
+      fulfiller_singer: 'Афанасьева М. В.',
+                                                      ^
+/home/warehouse/Projects/pdf_forms/app/controllers/forms_controller.rb:76: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+      client_title: 'Гл. бухгалтер',
+                         ^
+/home/warehouse/Projects/pdf_forms/app/controllers/forms_controller.rb:77: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+      client_singer: 'Петров С. Р.')
+                                  ^
+/home/warehouse/Projects/pdf_forms/app/controllers/forms_controller.rb:77: syntax error, unexpected tSTRING_BEG, expecting '('
+      client_singer: 'Петров С. Р.')
+                                           ^
+/home/warehouse/Projects/pdf_forms/app/controllers/forms_controller.rb:78: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+...nd_data pdf, type: 'application/pdf', filename: 'act.pdf', d...
+...                               ^
+/home/warehouse/Projects/pdf_forms/app/controllers/forms_controller.rb:78: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+...ta pdf, type: 'application/pdf', filename: 'act.pdf', dispos...
+...                               ^
+/home/warehouse/Projects/pdf_forms/app/controllers/forms_controller.rb:78: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+...pplication/pdf', filename: 'act.pdf', disposition: 'inline'
+...                               ^
+/home/warehouse/Projects/pdf_forms/app/controllers/forms_controller.rb:78: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+...'act.pdf', disposition: 'inline'
+...                               ^
+/home/warehouse/Projects/pdf_forms/app/controllers/forms_controller.rb:83: syntax error, unexpected tINTEGER, expecting keyword_end
+      adress: '443068, г. Самара, ул. Н...
+                     ^
+/home/warehouse/Projects/pdf_forms/app/controllers/forms_controller.rb:83: syntax error, unexpected '-', expecting :: or '[' or '.'
+.... Самара, ул. Ново-Садовая д. 106, ко...
+...                               ^
+/home/warehouse/Projects/pdf_forms/app/controllers/forms_controller.rb:83: syntax error, unexpected tINTEGER, expecting '('
+...Ново-Садовая д. 106, корп. 109',
+...                               ^
+/home/warehouse/Projects/pdf_forms/app/controllers/forms_controller.rb:84: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+      tel: 'Тел.: 8-800-100-31-01',
+                  ^
+/home/warehouse/Projects/pdf_forms/app/controllers/forms_controller.rb:84: syntax error, unexpected tSTRING_BEG, expecting keyword_end
+      tel: 'Тел.: 8-800-100-31-01',
+                                     ^
+/home/warehouse/Projects/pdf_forms/app/controllers/forms_controller.rb:85: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+      line_items: [ ['Каша "Самарский Здор...
+                              ^
+/home/warehouse/Projects/pdf_forms/app/controllers/forms_controller.rb:85: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+...ский Здоровяк" №48', 'шт.', 5, 125], ['Каш...
+...                                ^
+/home/warehouse/Projects/pdf_forms/app/controllers/forms_controller.rb:85: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+...Здоровяк" №48', 'шт.', 5, 125], ['Каша "Са...
+...                               ^
+/home/warehouse/Projects/pdf_forms/app/controllers/forms_controller.rb:85: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+...', 'шт.', 5, 125], ['Каша "Самарский Здор...
+...                               ^
+/home/warehouse/Projects/pdf_forms/app/controllers/forms_controller.rb:85: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+...ский Здоровяк" №42', 'шт.', 38, 125] ],
+...                                ^
+/home/warehouse/Projects/pdf_forms/app/controllers/forms_controller.rb:85: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+...Здоровяк" №42', 'шт.', 38, 125] ],
+...                               ^
+/home/warehouse/Projects/pdf_forms/app/controllers/forms_controller.rb:86: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+      client: 'ООО "Медхелп", ИНН/К...
+                     ^
+/home/warehouse/Projects/pdf_forms/app/controllers/forms_controller.rb:86: syntax error, unexpected tINTEGER, expecting keyword_do or '{' or '('
+...лп", ИНН/КПП 3662175880/366201001, 394026, г. Во...
+...                               ^
+/home/warehouse/Projects/pdf_forms/app/controllers/forms_controller.rb:86: syntax error, unexpected ',', expecting keyword_end
+...Н/КПП 3662175880/366201001, 394026, г. Воронеж, ...
+...                               ^
+/home/warehouse/Projects/pdf_forms/app/controllers/forms_controller.rb:86: syntax error, unexpected tSTRING_BEG, expecting :: or '[' or '.'
+..., ул. Варейкиса, 70',
+...                               ^
+/home/warehouse/Projects/pdf_forms/app/controllers/forms_controller.rb:87: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+      receiver: 'ООО "Экстра"',
+                       ^
+/home/warehouse/Projects/pdf_forms/app/controllers/forms_controller.rb:88: syntax error, unexpected tINTEGER, expecting keyword_end
+      inn: '6316152650',
+                      ^
+/home/warehouse/Projects/pdf_forms/app/controllers/forms_controller.rb:89: syntax error, unexpected tINTEGER, expecting keyword_end
+      kpp: '631601001',
+                     ^
+/home/warehouse/Projects/pdf_forms/app/controllers/forms_controller.rb:90: syntax error, unexpected tINTEGER, expecting keyword_end
+      account: '40702810029180000336',
+                                    ^
+/home/warehouse/Projects/pdf_forms/app/controllers/forms_controller.rb:91: Invalid octal digit
+      bik: '042202824',
+                   ^
+/home/warehouse/Projects/pdf_forms/app/controllers/forms_controller.rb:91: syntax error, unexpected tINTEGER, expecting keyword_end
+      bik: '042202824',
+                     ^
+/home/warehouse/Projects/pdf_forms/app/controllers/forms_controller.rb:92: syntax error, unexpected tINTEGER, expecting keyword_end
+      corr_account: '30101810200000000824',  
+                                         ^
+/home/warehouse/Projects/pdf_forms/app/controllers/forms_controller.rb:93: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+      bank: 'ФИЛИАЛ "НИЖЕГОРОДСКИЙ"...
+                         ^
+/home/warehouse/Projects/pdf_forms/app/controllers/forms_controller.rb:93: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+...ИЖЕГОРОДСКИЙ" ОАО "АЛЬФА-БАНК" Г.Н...
+...                                ^
+/home/warehouse/Projects/pdf_forms/app/controllers/forms_controller.rb:93: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+...ОАО "АЛЬФА-БАНК" Г.НИЖНИЙ НОВГОРО...
+...                               ^
+/home/warehouse/Projects/pdf_forms/app/controllers/forms_controller.rb:94: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+...  singer: 'Афанасьева Марина Василье...
+...                               ^
+/home/warehouse/Projects/pdf_forms/app/controllers/forms_controller.rb:95: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+...nd_data pdf, type: 'application/pdf', filename: 'invoice_for...
+...                               ^
+/home/warehouse/Projects/pdf_forms/app/controllers/forms_controller.rb:95: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+...ta pdf, type: 'application/pdf', filename: 'invoice_for_paym...
+...                               ^
+/home/warehouse/Projects/pdf_forms/app/controllers/forms_controller.rb:95: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+... filename: 'invoice_for_payment.pdf', disposition: 'inline'
+...                               ^
+/home/warehouse/Projects/pdf_forms/app/controllers/forms_controller.rb:95: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+...ment.pdf', disposition: 'inline'
+...                               ^
+/home/warehouse/Projects/pdf_forms/app/controllers/forms_controller.rb:100: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+...nd_data pdf, type: 'application/pdf', filename: 'form22.pdf'...
+...                               ^
+/home/warehouse/Projects/pdf_forms/app/controllers/forms_controller.rb:100: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+...ta pdf, type: 'application/pdf', filename: 'form22.pdf', dis...
+...                               ^
+/home/warehouse/Projects/pdf_forms/app/controllers/forms_controller.rb:100: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+...ication/pdf', filename: 'form22.pdf', disposition: 'inline'
+...                               ^
+/home/warehouse/Projects/pdf_forms/app/controllers/forms_controller.rb:100: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+...rm22.pdf', disposition: 'inline'
+...                               ^
+/home/warehouse/Projects/pdf_forms/app/controllers/forms_controller.rb:105: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+...nd_data pdf, type: 'application/pdf', filename: 'backform22....
+...                               ^
+/home/warehouse/Projects/pdf_forms/app/controllers/forms_controller.rb:105: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+...ta pdf, type: 'application/pdf', filename: 'backform22.pdf',...
+...                               ^
+/home/warehouse/Projects/pdf_forms/app/controllers/forms_controller.rb:105: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+...ion/pdf', filename: 'backform22.pdf', disposition: 'inline'
+...                               ^
+/home/warehouse/Projects/pdf_forms/app/controllers/forms_controller.rb:105: syntax error, unexpected tIDENTIFIER, expecting keyword_end
+...rm22.pdf', disposition: 'inline'
+...                               ^
+/home/warehouse/Projects/pdf_forms/app/controllers/forms_controller.rb:105: unterminated string meets end of file
+/home/warehouse/Projects/pdf_forms/app/controllers/forms_controller.rb:105: syntax error, unexpected end-of-input, expecting keyword_end):
+  activesupport (3.2.13) lib/active_support/dependencies.rb:469:in `load'
+  activesupport (3.2.13) lib/active_support/dependencies.rb:469:in `block in load_file'
+  activesupport (3.2.13) lib/active_support/dependencies.rb:639:in `new_constants_in'
+  activesupport (3.2.13) lib/active_support/dependencies.rb:468:in `load_file'
+  activesupport (3.2.13) lib/active_support/dependencies.rb:353:in `require_or_load'
+  activesupport (3.2.13) lib/active_support/dependencies.rb:502:in `load_missing_constant'
+  activesupport (3.2.13) lib/active_support/dependencies.rb:192:in `block in const_missing'
+  activesupport (3.2.13) lib/active_support/dependencies.rb:190:in `each'
+  activesupport (3.2.13) lib/active_support/dependencies.rb:190:in `const_missing'
+  activesupport (3.2.13) lib/active_support/inflector/methods.rb:230:in `block in constantize'
+  activesupport (3.2.13) lib/active_support/inflector/methods.rb:229:in `each'
+  activesupport (3.2.13) lib/active_support/inflector/methods.rb:229:in `constantize'
+  activesupport (3.2.13) lib/active_support/dependencies.rb:554:in `get'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:69:in `controller_reference'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:54:in `controller'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:32:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.13) lib/action_dispatch/routing/route_set.rb:612:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.13) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.13) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `_run__186521419__call__472516039__callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.13) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.13) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.13) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.13) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.13) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.13) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.13) lib/action_dispatch/middleware/static.rb:63:in `call'
+  railties (3.2.13) lib/rails/engine.rb:479:in `call'
+  railties (3.2.13) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.13) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /home/warehouse/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/warehouse/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/warehouse/.rvm/rubies/ruby-2.1.1/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.7ms)
+  Rendered /home/warehouse/.rvm/gems/ruby-2.1.1/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (10.0ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-19 17:12:40 +0400
+Processing by FormsController#form113en as HTML
+  Rendered text template (0.0ms)
+Sent data form113en.pdf (1.4ms)
+Completed 200 OK in 306ms (Views: 1.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/form113en" for 127.0.0.1 at 2014-05-19 17:20:32 +0400
+Processing by FormsController#form113en as HTML
+  Rendered text template (0.0ms)
+Sent data form113en.pdf (0.7ms)
+Completed 200 OK in 282ms (Views: 0.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/backform113en" for 127.0.0.1 at 2014-05-19 17:20:54 +0400
+Processing by FormsController#backform113en as HTML
+  Rendered text template (0.0ms)
+Sent data backform113en.pdf (0.5ms)
+Completed 200 OK in 253ms (Views: 0.4ms | ActiveRecord: 0.0ms)
+>>>>>>> c9656c6ad871854ba96635939536a2814c6fba1b

@@ -15,43 +15,44 @@ class Backform22Form < Prawn::Document
 						condensed: "#{Rails.root}/app/assets/fonts/DejaVuSansCondensed.ttf",
 						condensed_bold: "#{Rails.root}/app/assets/fonts/DejaVuSansCondensed-Bold.ttf"
 				})
-		font 'DejaVuSans', size: 9
+		font 'DejaVuSans', size: 10
 
 		text_box "<u>Заполняется получателем</u>", style: :bold, inline_format: true
-		move_down 20
-		text 'Предъявлен _______________ Серия______ №___________ выдан "______" ______________ 20______ г.'
-		move_down 10
-		text 'Кем ' + '_' * 92
+		move_down 24
+		text 'Предъявлен _____________ Серия______ №___________ выдан "_____" _____________ 20_____ г.'
+		move_down 12
+		text 'Кем ' + '_' * 87
 		draw_text '(наименование учреждения, выдавшего документ)', at:[140, cursor-4], size: 7
-		move_down 10
-		text 'Зарегистрирован ' + '_' * 78
+		move_down 12
+		text 'Зарегистрирован ' + '_' * 73
 		draw_text '(указать при получении почтовых отправлений и денежных переводов,', at:[110, cursor-4], size: 7
-		move_down 10
-		text '_' * 97
+		move_down 12
+		text '_' * 92
 		draw_text 'адресованных "до востребования", на а/я, по месту учёбы,', at:[107, cursor-4], size: 7
-		move_down 10
-		text '_' * 97
+		move_down 12
+		text '_' * 92
 		draw_text 'при несовпадении места регистрации с указанным адресом)', at:[105, cursor-4], size: 7
 		text_box 'Почтовое отправление, указанное на лицевой
 							стороне извещения, с верным весом, исправными оболочкой, печатями, пломбами, перевязью,
-							почтовый перевод получил.', at: [0, cursor-10],	style: :bold, size: 6, width: 185, leading: 3
-		draw_text '"_____" _______________ 20 ______г.', at: [283, cursor-18]
-		draw_text '___________________       __________', at: [283, cursor-38]
-		draw_text '(фамилия)                      (подпись)', at: [306, cursor-48], size: 7
-		draw_text 'по доверенности', at: [283, cursor-62]
-		draw_text '№______________', at: [363, cursor-72]
-		move_down 55
-		text "Даю своё согласие на обработку моих персональных\nданных.", style: :bold, size: 6
+							почтовый перевод получил.',
+		          at: [0, cursor-10],	style: :bold, size: 7, width: 210, leading: 5
+		draw_text '"_______" ___________________ 20 ______г.', at: [261, cursor-18]
+		draw_text '_' * 25 + '         _________', at: [261, cursor-38]
+		draw_text '(фамилия)' + ' ' * 34 + '(подпись)', at: [306, cursor-48], size: 7
+		draw_text 'по доверенности', at: [261, cursor-62]
+		draw_text '№______________', at: [353, cursor-72]
+		move_down 65
+		text "Даю своё согласие на обработку моих персональных\nданных.", style: :bold, size: 7
 		move_down 10
-		text 'Выдал (доставил)  _____________________  от  "________"  ________________  20________ г.'
-		draw_text '(подпись)', at: [110, cursor-4], size: 7
+		text 'Выдал (доставил) ' + '_' * 25 + ' от  "________"  __________________  20________ г.'
+		draw_text '(подпись)', at: [144, cursor-4], size: 7
 
 		line_width  2
-		stroke_horizontal_line 0, 438, at: cursor-8
+		stroke_horizontal_line 0, 459, at: [cursor-8]
 
 		move_down 11
 		text 'Служебные отметки:', style: :bold
-		draw_text 'Оператор', at: [250, cursor-20], style: :bold
+		draw_text 'Оператор', at: [300, cursor-20], style: :bold
 
 		render
 

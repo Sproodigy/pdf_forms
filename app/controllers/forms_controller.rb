@@ -52,7 +52,7 @@ class FormsController < ApplicationController
   end  
 
   def form113en
-    pdf = Form113enForm.new.to_pdf(receiver: 'ООО "Экстра"', barcode: 32389209822998,
+    pdf = Form113enForm.new.print_f113en(receiver: 'ООО "Экстра"', barcode: 32389209822998,
       receiver_address: 'г. Самара, а/я 4001',
       inn: 631614265880,
       index: 443110,
@@ -62,7 +62,7 @@ class FormsController < ApplicationController
 	end
 
 	def backform113en
-		pdf = Backform113enForm.new.to_pdf
+		pdf = Form113enForm.new.print_f113en_back
 		send_data pdf, type: 'application/pdf', filename: 'backform113en.pdf', disposition: 'inline'
 	end
 
