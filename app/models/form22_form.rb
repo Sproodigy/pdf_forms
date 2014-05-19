@@ -96,28 +96,49 @@ class Form22Form < Prawn::Document
 						condensed: "#{Rails.root}/app/assets/fonts/DejaVuSansCondensed.ttf",
 						condensed_bold: "#{Rails.root}/app/assets/fonts/DejaVuSansCondensed-Bold.ttf"
 				})
-		font 'DejaVuSans', size: 9
+		font 'DejaVuSans', size: 10
 
-		draw_barcode '23892087343890', x: 150, y: cursor, print_rus_post: false
+		draw_barcode '23892087343890', x: 170, y: cursor, print_rus_post: false
 
 		stroke_rectangle [359, cursor-10], 80, 80
 
 		#draw_post_stamp  x: 200, y: cursor
 
-		draw_text 'ф. 22', at: [420, cursor], size: 7
-		draw_text 'ИЗВЕЩЕНИЕ №_____________________', at:[80, cursor-10]
+		draw_text 'ф. 22', at: [440, cursor], size: 7
+		draw_text 'ИЗВЕЩЕНИЕ №                1', at:[80, cursor-50]
+		draw_text '_____________________', at: [160, cursor-51]
+		move_down 60
+		text 'Кому     Сорокиной Оксане Александровне'
+		draw_text '_' * 61, at: [29, cursor+3]
+		move_down 5
+		text 'Адрес    г. Новокуйбышевск, ул. Сергея Лазо, д. 328, кв. 389'
+		draw_text '_' * 60, at: [34, cursor+3]
+
+		text_box 'На Ваше имя
+						поступило                      группа РПО (2 шт.)', at: [0, cursor-1]
+		draw_text '_' * 43, at: [120, cursor-22]
+
+		move_down 30
+		text 'Откуда  г. Самара, ул. Лейтенанта Шмидта, д. 106, корп. 109'
+		draw_text '_' * 59, at: [40, cursor+3]
+		move_down 5
+		text 'Масса  39 кг'
+		draw_text '_' * 59, at: [40, cursor+3]
+
+
+
 		text_box '(дата и место
-							составления)', at: [380, cursor-92], size: 6
+							составления)', at: [378, cursor+56], size: 6
 
-		text_box 'Объявленная ценность     ____________
-							Наложенный платёж    _______________
-							Плата за доставку        _______________
-							Плата за возвр./дост.         ___________
-							Тамож. пошлина      __________________
-							Тамож. сбор         _____________________', at: [0, 600], leading: 2
+		text_box 'Объявленная ценность       _______________
+							Наложенный платёж      __________________
+							Плата за доставку          __________________
+							Плата за возвр./дост.           ______________
+							Тамож. пошлина        _____________________
+							Тамож. сбор           ________________________', at: [0, 565], leading: 2
 
-		bounding_box([239, cursor-120], width: 200, height: 60) do
-			indent(20) do
+		bounding_box([259, cursor], width: 200, height: 60) do
+			indent(10) do
 				move_down 2
 				text 'Выдача производится по адресу:'
 			end
@@ -125,10 +146,10 @@ class Form22Form < Prawn::Document
 		end
 
 		text_box 'Возможна доставка на дом.                        (услуга платная)
-							Вызов курьера по телефону:', at: [213, cursor-2], size: 5
+							Вызов курьера по телефону:', at: [233, cursor-2], size: 5
 
-		draw_text 'Извещение доставил '+ '_' * 41, at: [213, cursor-23	], size: 7
-		draw_text '(дата, подпись)', at: [340, cursor-30], size: 6
+		draw_text 'Извещение доставил '+ '_' * 41, at: [233, cursor-23	], size: 7
+		draw_text '(дата, подпись)', at: [360, cursor-30], size: 6
 
 		text_box "<font_size='7'><b>Внимание!</b>   Срок хранения:</font>
 							- отправлений разряда Судебное - 7 дней
@@ -136,16 +157,16 @@ class Form22Form < Prawn::Document
 							За хранение регистрируемого почтового отправления с адресата
 							взимается плата в соответствии с установленными тарифами
 							согласно Правилам оказания услуг почтовой связи.",
-						 at: [0, cursor-27], inline_format: true, size: 6
+						 at: [0, cursor-31], inline_format: true, size: 6
+
 		text_box "Для получения почтового отправления, перевода необходимо
 							предъявить настоящее извещение и документ удостоверяющий
 							личность.
 							На извещении предварительно укажите сведения об этом
 							документе.",
-						 at: [232, cursor-35], inline_format: true, size: 6
+						 at: [252, cursor-39], inline_format: true, size: 6
 
-		stroke_horizontal_line 0, 500, at: 494.075-23
-		stroke_vertical_line 0, 760, at: 439
+		stroke_horizontal_line 0, 500, at: 494.075-23-(11*2.83)
 
 		render
 
