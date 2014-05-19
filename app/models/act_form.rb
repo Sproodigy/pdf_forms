@@ -52,7 +52,7 @@ class ActForm < Prawn::Document
 
     # Заголовок
 
-    image "app/assets/images/exxtra_logo_web.png", at: [430, 742], width: 110
+    #image "app/assets/images/exxtra_logo_web.png", at: [430, 742], width: 110
 
     text "Акт №#{num} от " + I18n.l(date, format: :long), style: :bold, size: 14      
 
