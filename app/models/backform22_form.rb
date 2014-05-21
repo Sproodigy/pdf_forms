@@ -53,7 +53,7 @@ class Backform22Form < Prawn::Document
 		move_down 11
 		text 'Служебные отметки:', style: :bold
 		draw_text 'Оператор', at: [300, cursor-20], style: :bold
-
+		stroke_vertical_line 0, 770, at: 460
 		render
 
 	end

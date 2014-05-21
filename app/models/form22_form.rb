@@ -105,31 +105,29 @@ class Form22Form < Prawn::Document
 		#draw_post_stamp  x: 200, y: cursor
 
 		draw_text 'ф. 22', at: [440, cursor], size: 7
-		formatted_text_box [ {text: 'Извещение №                    '}, {text: '1', styles: [:bold]}],
-											 at:[80, cursor-45]
+		formatted_text_box [{text: 'Извещение №                    '}, {text: '1', styles: [:bold]}],
+											 at:[80, cursor-38]
 		move_down 60
-		formatted_text [ {text: 'Кому:  '}, {text: 'Сорокиной Оксане Александровне', styles: [:bold]}]
-		formatted_text_box [ {text: 'Адрес: '}, {text: 'г. Новокуйбышевск, ул. Самара Лазо, д. 323, кв. 893', styles: [:bold]}],
-											 at: [0, cursor], width: 360
-		formatted_text_box [ {text: "На ваше имя\nпоступило:                    "}, {text: 'группа РПО (2 шт.)', styles: [:bold]}],
-											 at: [0, cursor-24]
-		formatted_text_box [ {text: 'Откуда: '}, {text: 'г. Самара, ул. Лейтенанта Шмидта, д. 106, корп. 109', styles: [:bold]}],
-											 at: [0, cursor-48], width: 260
-		formatted_text_box [ {text: 'Масса: '}, {text: '48 кг', styles: [:bold]}], at: [0, cursor-73]
+		formatted_text_box [{text: "\nКому:  "}, {text: 'Сорокиной Оксане Александровне', styles: [:bold]},
+												{text: "\nАдрес: "}, {text: 'Самарская обл., Новокуйбышевский р-он, г. Новокуйбышевск, ул. Сергея Лазо, д. 323, кв. 893', styles: [:bold]},
+											 	{text: "\nНа ваше имя\nпоступило:                    "}, {text: 'группа РПО (2 шт.)', styles: [:bold]},
+											 	{text: "\nОткуда: "}, {text: 'Самарская обл., Октябрьский р-он, г. Самара, ул. Лейтенанта Шмидта, д. 106, корп. 109', styles: [:bold]},
+											 	{text: "\nМасса: "}, {text: '48 кг', styles: [:bold]}],
+											 	at: [0, cursor+20], width: 260
 
 		text_box '(дата и место
-							составления)', at: [378, cursor-20], size: 6
+							составления)', at: [378, cursor-32], size: 6
 
 		formatted_text_box [ {text: 'Объявленная ценность:     '}, {text: '389.99', styles: [:bold]},
 				{text: "\nНаложенный платёж:        "}, {text: '899.32', styles: [:bold]},
-				{text: "\nПлата за доставку:             "}, {text: '899.32', styles: [:bold]},
-				{text: "\nПлата за возвр./дост.:        "}, {text: '899.32', styles: [:bold]},
-				{text: "\nТамож. пошлина:                "}, {text: '899.32', styles: [:bold]},
-				{text: "\nТамож. сбор:                       "}, {text: '899.32', styles: [:bold]} ],
-											 at: [0, cursor-89]
+				{text: "\nПлата за доставку:                    "}, {text: '-', styles: [:bold]},
+				{text: "\nПлата за возвр./дост.:        "}, {text: '8493', styles: [:bold]},
+				{text: "\nТамож. пошлина:                       "}, {text: '-', styles: [:bold]},
+				{text: "\nТамож. сбор:                              "}, {text: '-', styles: [:bold]} ],
+											 at: [0, cursor-108]
 
 
-		bounding_box([264, 585], width: 200, height: 60) do
+		bounding_box([254, 585], width: 200, height: 60) do
 			indent(12) do
 				move_down 2
 				text 'Выдача производится по адресу:'
@@ -138,10 +136,10 @@ class Form22Form < Prawn::Document
 		end
 
 		text_box 'Возможна доставка на дом.                        (услуга платная)
-							Вызов курьера по телефону:', at: [264, cursor-2], size: 5
+							Вызов курьера по телефону:', at: [254, cursor-2], size: 5
 
-		draw_text 'Извещение доставил '+ '_' * 41, at: [264, cursor-30	], size: 7
-		draw_text '(дата, подпись)', at: [390, cursor-37], size: 6
+		draw_text 'Извещение доставил '+ '_' * 35, at: [254, cursor-30	], size: 7
+		draw_text '(дата, подпись)', at: [370, cursor-37], size: 6
 
 		text_box "<font_size='7'><b>Внимание!</b>   Срок хранения:</font>
 							- отправлений разряда Судебное - 7 дней
@@ -149,17 +147,17 @@ class Form22Form < Prawn::Document
 							За хранение регистрируемого почтового отправления с адресата
 							взимается плата в соответствии с установленными тарифами
 							согласно Правилам оказания услуг почтовой связи.",
-						 at: [0, cursor-42], inline_format: true, size: 6
+						 at: [0, cursor-44], inline_format: true, size: 6
 
 		text_box "Для получения почтового отправления, перевода необходимо
 							предъявить настоящее извещение и документ удостоверяющий
 							личность.
 							На извещении предварительно укажите сведения об этом
 							документе.",
-						 at: [264, cursor-50], inline_format: true, size: 6
+						 at: [254, cursor-52], inline_format: true, size: 6
 
 		stroke_horizontal_line 0, 500, at: 494.075-23-(11*2.83)
-
+		stroke_vertical_line 0, 770, at: 460
 		render
 
 	end
