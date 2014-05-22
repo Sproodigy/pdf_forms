@@ -32,6 +32,16 @@ class Form113enForm < Prawn::Document
 		end
 	end
 
+	def print_f113en_from_mailing(mailing)
+		print_f113en(
+				receiver: mailing.company.juridical_title, barcode: mailing.num,
+				receiver_address: mailing.company.address,
+				inn: mailing.company.inn,
+				index: mailing.company.index,
+				sender: mailing.order.name,
+				sender_address: mailing.order.address)
+	end
+
 	def print_f113en(receiver:, receiver_address:, index:, inn:, sender:, sender_address:, barcode:)
 		font_families.update(
 				'DejaVuSans' => {

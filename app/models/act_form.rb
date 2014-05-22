@@ -32,9 +32,9 @@ class ActForm < Prawn::Document
     client = params[:client]
     services = params[:services]
     fulfiller_title = params[:fulfiller_title]
-    fulfiller_singer = params[:fulfiller_singer]
+    fulfiller_signer = params[:fulfiller_signer]
     client_title = params[:client_title]
-    client_singer = params[:client_singer]
+    client_signer = params[:client_signer]
 
     services_data = []
     total_sum = 0.00
@@ -106,9 +106,9 @@ class ActForm < Prawn::Document
     draw_text CLIENT, at: [280, cursor], style: :bold
 
     draw_text fulfiller_title, at: [72, cursor-25]
-    draw_text fulfiller_singer, at: [92, cursor-55]
+    draw_text fulfiller_signer, at: [92, cursor-55]
     draw_text client_title, at: [345, cursor-25]
-    draw_text client_singer, at: [380, cursor-55]
+    draw_text client_signer, at: [380, cursor-55]
 
     horizontal_line 0, 200, at: cursor-30
     horizontal_line 280, 480, at: cursor-30

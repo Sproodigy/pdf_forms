@@ -17,6 +17,15 @@ class Backform22Form < Prawn::Document
 				})
 		font 'DejaVuSans', size: 10
 
+		draw_backform22(40, 0)
+
+		render
+
+	end
+
+	def draw_backform22(x,y)
+		translate(x,y) do
+
 		text_box "<u>Заполняется получателем</u>", style: :bold, inline_format: true
 		move_down 24
 		text 'Предъявлен _____________ Серия______ №___________ выдан "_____" _____________ 20_____ г.'
@@ -54,7 +63,7 @@ class Backform22Form < Prawn::Document
 		text 'Служебные отметки:', style: :bold
 		draw_text 'Оператор', at: [300, cursor-20], style: :bold
 		stroke_vertical_line 0, 770, at: 460
-		render
+		end
 
 	end
 

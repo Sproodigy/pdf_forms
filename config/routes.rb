@@ -10,6 +10,7 @@ PdfForms::Application.routes.draw do
   match '/act' => 'forms#act'
   match '/invoice_for_payment' => 'forms#invoice_for_payment'
 	match '/form113en' => 'forms#form113en'
+	match '/form113en_mailing' => 'forms#form113en_mailing'
 	match '/backform113en' => 'forms#backform113en'
   match '/form22' => 'forms#form22'
   match '/backform22' => 'forms#backform22'

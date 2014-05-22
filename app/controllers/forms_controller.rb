@@ -59,6 +59,19 @@ class FormsController < ApplicationController
       sender: 'Иванов Иван Иванович',
       sender_address: 'ул. Лейтенанта Шмидта, д. 3, корп. 39, кв. 15 МОСКВА, МОСКОВСКАЯ ОБЛАСТЬ, РОССИЯ')
     send_data pdf, type: 'application/pdf', filename: 'form113en.pdf', disposition: 'inline'
+  end
+
+
+  Mailing = Struct.new *%i{num company order}
+  Company = Struct.new *%i{juridical_title address inn index}
+  Order = Struct.new *%i{name zip address region area city}
+
+  def form113en_mailing
+		order = Order.new('Васисуалий', 10100, 'ул. Ленина, д. 23, кв. 11', 'Москва', '', '')
+		company = Company.new('ООО "Экстра"', 'ул. Лейтенанта', '632323423424', 443110)
+		mailing = Mailing.new 443123_63_00023_9, company, order
+    pdf = Form113enForm.new.print_f113en_from_mailing(mailing)
+    send_data pdf, type: 'application/pdf', filename: 'form113en.pdf', disposition: 'inline'
 	end
 
 	def backform113en
@@ -72,9 +85,9 @@ class FormsController < ApplicationController
       client: 'ООО МНПФ "Центр Новые Технологии", ИНН/КПП 6322025466/632401001, 445046, Самарская обл., г. Тольятти, ул. Лизы Чайкиной, д. 33, кв. 16',
       services: [['Почтовая подготовка', 55, 'шт.', 85], ['Складское хранение', 5, 'м. кв.', 490]],
       fulfiller_title: 'Директор',
-      fulfiller_singer: 'Афанасьева М. В.',
+      fulfiller_signer: 'Афанасьева М. В.',
       client_title: 'Гл. бухгалтер',
-      client_singer: 'Петров С. Р.')
+      client_signer: 'Петров С. Р.')
     send_data pdf, type: 'application/pdf', filename: 'act.pdf', disposition: 'inline'
   end
 
@@ -91,7 +104,7 @@ class FormsController < ApplicationController
       bik: '042202824',
       corr_account: '30101810200000000824',  
       bank: 'ФИЛИАЛ "НИЖЕГОРОДСКИЙ" ОАО "АЛЬФА-БАНК" Г.НИЖНИЙ НОВГОРОД',
-      singer: 'Афанасьева Марина Васильевна')
+      signer: 'Афанасьева Марина Васильевна')
     send_data pdf, type: 'application/pdf', filename: 'invoice_for_payment.pdf', disposition: 'inline'
   end
 

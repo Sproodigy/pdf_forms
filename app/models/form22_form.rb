@@ -98,6 +98,17 @@ class Form22Form < Prawn::Document
 				})
 		font 'DejaVuSans', size: 10
 
+		draw_form22(40, 0)
+
+		render
+	end
+
+	def draw_form22(x, y)
+		translate(x, y) do
+
+
+		image 'app/assets/images/logo.jpg', at: [0,723], width: 80
+
 		draw_barcode '23892087343890', x: 170, y: cursor, print_rus_post: false
 
 		stroke_rectangle [359, cursor-10], 80, 80
@@ -110,7 +121,7 @@ class Form22Form < Prawn::Document
 		move_down 60
 		formatted_text_box [{text: "\nКому:  "}, {text: 'Сорокиной Оксане Александровне', styles: [:bold]},
 												{text: "\nАдрес: "}, {text: 'Самарская обл., Новокуйбышевский р-он, г. Новокуйбышевск, ул. Сергея Лазо, д. 323, кв. 893', styles: [:bold]},
-											 	{text: "\nНа ваше имя\nпоступило:                    "}, {text: 'группа РПО (2 шт.)', styles: [:bold]},
+											 	{text: "\nНа ваше имя\nпоступило:               "}, {text: 'группа РПО (2 шт.)', styles: [:bold]},
 											 	{text: "\nОткуда: "}, {text: 'Самарская обл., Октябрьский р-он, г. Самара, ул. Лейтенанта Шмидта, д. 106, корп. 109', styles: [:bold]},
 											 	{text: "\nМасса: "}, {text: '48 кг', styles: [:bold]}],
 											 	at: [0, cursor+20], width: 260
@@ -118,14 +129,26 @@ class Form22Form < Prawn::Document
 		text_box '(дата и место
 							составления)', at: [378, cursor-32], size: 6
 
-		formatted_text_box [ {text: 'Объявленная ценность:     '}, {text: '389.99', styles: [:bold]},
-				{text: "\nНаложенный платёж:        "}, {text: '899.32', styles: [:bold]},
-				{text: "\nПлата за доставку:                    "}, {text: '-', styles: [:bold]},
-				{text: "\nПлата за возвр./дост.:        "}, {text: '8493', styles: [:bold]},
-				{text: "\nТамож. пошлина:                       "}, {text: '-', styles: [:bold]},
-				{text: "\nТамож. сбор:                              "}, {text: '-', styles: [:bold]} ],
-											 at: [0, cursor-108]
-
+		bounding_box([0, cursor-110], width: 210) do
+			text 'Объявленная ценность:           '
+			move_up 12
+			text '340 р. 39 к.', style: :bold, align: :right
+			text "Наложенный платёж:        "
+			move_up 12
+			text '340 р. 39 к.', style: :bold, align: :right
+			text 'Плата за доставку:'
+			move_up 12
+			text '-', style: :bold, align: :right
+			text 'Плата за возвр./дост.:        '
+			move_up 12
+			text '300 р. 39 к.', style: :bold, align: :right
+			text 'Тамож. пошлина:'
+			move_up 12
+			text '-', style: :bold, align: :right
+			text 'Тамож. сбор:'
+			move_up 12
+			text '-', style: :bold, align: :right
+		end
 
 		bounding_box([254, 585], width: 200, height: 60) do
 			indent(12) do
@@ -158,8 +181,8 @@ class Form22Form < Prawn::Document
 
 		stroke_horizontal_line 0, 500, at: 494.075-23-(11*2.83)
 		stroke_vertical_line 0, 770, at: 460
-		render
 
+		end
 	end
 
 end

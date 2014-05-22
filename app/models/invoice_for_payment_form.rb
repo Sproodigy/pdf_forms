@@ -33,7 +33,7 @@ class Invoice_for_paymentForm < Prawn::Document
     inn = params[:inn]
     kpp = params[:kpp]
     bank = params[:bank]
-    singer = params[:singer]
+    signer = params[:signer]
     client = params[:client]
 
     line_items_data = []
@@ -135,9 +135,9 @@ class Invoice_for_paymentForm < Prawn::Document
     text "#{total_sum_string}", style: :bold
     move_down 30
 
-    text "Руководитель предприятия ____________________________________ (#{singer})"
+    text "Руководитель предприятия ____________________________________ (#{signer})"
     move_down 20
-    text "Главный бухгалтер _____________________________________________ (#{singer})"  
+    text "Главный бухгалтер _____________________________________________ (#{signer})"
 
 
     render
