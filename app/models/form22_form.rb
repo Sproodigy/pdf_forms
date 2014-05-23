@@ -85,7 +85,7 @@ class Form22Form < Prawn::Document
 		end
 	end
 
-	def to_pdf
+	def print_form22
 		font_families.update(
 				'DejaVuSans' => {
 						normal: "#{Rails.root}/app/assets/fonts/DejaVuSans.ttf",
@@ -96,7 +96,7 @@ class Form22Form < Prawn::Document
 						condensed: "#{Rails.root}/app/assets/fonts/DejaVuSansCondensed.ttf",
 						condensed_bold: "#{Rails.root}/app/assets/fonts/DejaVuSansCondensed-Bold.ttf"
 				})
-		font 'DejaVuSans', size: 10
+		font 'DejaVuSans', size: 9
 
 		draw_form22(40, 0)
 
@@ -116,53 +116,53 @@ class Form22Form < Prawn::Document
 		#draw_post_stamp  x: 200, y: cursor
 
 		draw_text 'ф. 22', at: [440, cursor], size: 7
-		formatted_text_box [{text: 'Извещение №                    '}, {text: '1', styles: [:bold]}],
-											 at:[80, cursor-38]
+		formatted_text_box [{text: 'Извещение № '}, {text: '1', styles: [:bold]}],
+											 at:[85, cursor-38]
 		move_down 60
 		formatted_text_box [{text: "\nКому:  "}, {text: 'Сорокиной Оксане Александровне', styles: [:bold]},
 												{text: "\nАдрес: "}, {text: 'Самарская обл., Новокуйбышевский р-он, г. Новокуйбышевск, ул. Сергея Лазо, д. 323, кв. 893', styles: [:bold]},
-											 	{text: "\nНа ваше имя\nпоступило:               "}, {text: 'группа РПО (2 шт.)', styles: [:bold]},
+											 	{text: "\nНа ваше имя поступило: "}, {text: 'группа РПО (2 шт.)', styles: [:bold]},
 											 	{text: "\nОткуда: "}, {text: 'Самарская обл., Октябрьский р-он, г. Самара, ул. Лейтенанта Шмидта, д. 106, корп. 109', styles: [:bold]},
 											 	{text: "\nМасса: "}, {text: '48 кг', styles: [:bold]}],
-											 	at: [0, cursor+20], width: 260
+											 	at: [0, cursor+10], width: 260
 
 		text_box '(дата и место
 							составления)', at: [378, cursor-32], size: 6
 
-		bounding_box([0, cursor-110], width: 210) do
+		bounding_box([0, cursor-105], width: 178) do
 			text 'Объявленная ценность:           '
-			move_up 12
+			move_up 10.3
 			text '340 р. 39 к.', style: :bold, align: :right
 			text "Наложенный платёж:        "
-			move_up 12
+			move_up 10.3
 			text '340 р. 39 к.', style: :bold, align: :right
 			text 'Плата за доставку:'
-			move_up 12
+			move_up 10.3
 			text '-', style: :bold, align: :right
 			text 'Плата за возвр./дост.:        '
-			move_up 12
+			move_up 10.3
 			text '300 р. 39 к.', style: :bold, align: :right
 			text 'Тамож. пошлина:'
-			move_up 12
+			move_up 10.3
 			text '-', style: :bold, align: :right
 			text 'Тамож. сбор:'
-			move_up 12
+			move_up 10.3
 			text '-', style: :bold, align: :right
 		end
 
 		bounding_box([254, 585], width: 200, height: 60) do
-			indent(12) do
+			indent(20) do
 				move_down 2
 				text 'Выдача производится по адресу:'
 			end
 		stroke_bounds
 		end
 
-		text_box 'Возможна доставка на дом.                        (услуга платная)
-							Вызов курьера по телефону:', at: [254, cursor-2], size: 5
+		text_box 'Возможна доставка на дом (услуга платная).
+							Вызов курьера по телефону:', at: [254, cursor-2], size: 6
 
-		draw_text 'Извещение доставил '+ '_' * 35, at: [254, cursor-30	], size: 7
-		draw_text '(дата, подпись)', at: [370, cursor-37], size: 6
+		draw_text 'Извещение доставил '+ '_' * 45, at: [254, cursor-30	], size: 6
+		draw_text '(дата, подпись)', at: [365, cursor-37], size: 6
 
 		text_box "<font_size='7'><b>Внимание!</b>   Срок хранения:</font>
 							- отправлений разряда Судебное - 7 дней
@@ -183,6 +183,69 @@ class Form22Form < Prawn::Document
 		stroke_vertical_line 0, 770, at: 460
 
 		end
+
+	end
+
+	def print_form22_back
+		font_families.update(
+				'DejaVuSans' => {
+						normal: "#{Rails.root}/app/assets/fonts/DejaVuSans.ttf",
+						bold: "#{Rails.root}/app/assets/fonts/DejaVuSans-Bold.ttf",
+						italic: "#{Rails.root}/app/assets/fonts/DejaVuSans-Oblique.ttf",
+						bold_italic: "#{Rails.root}/app/assets/fonts/DejaVuSans-BoldOblique.ttf",
+						extra_light: "#{Rails.root}/app/assets/fonts/DejaVuSans-ExtraLight.ttf",
+						condensed: "#{Rails.root}/app/assets/fonts/DejaVuSansCondensed.ttf",
+						condensed_bold: "#{Rails.root}/app/assets/fonts/DejaVuSansCondensed-Bold.ttf"
+				})
+		font 'DejaVuSans', size: 10
+
+		draw_form22_back(40, 0)
+
+		render
+
+	end
+
+	def draw_form22_back(x,y)
+		translate(x,y) do
+
+			text_box "Заполняется получателем", style: :bold
+			move_down 24
+			text 'Предъявлен _____________ Серия______ №___________ выдан "_____" _____________ 20_____ г.'
+			move_down 12
+			text 'Кем ' + '_' * 87
+			draw_text '(наименование учреждения, выдавшего документ)', at:[140, cursor-4], size: 7
+			move_down 12
+			text 'Зарегистрирован ' + '_' * 73
+			draw_text '(указать при получении почтовых отправлений и денежных переводов,', at:[110, cursor-4], size: 7
+			move_down 12
+			text '_' * 92
+			draw_text 'адресованных "до востребования", на а/я, по месту учёбы,', at:[107, cursor-4], size: 7
+			move_down 12
+			text '_' * 92
+			draw_text 'при несовпадении места регистрации с указанным адресом)', at:[105, cursor-4], size: 7
+			text_box 'Почтовое отправление, указанное на лицевой
+							стороне извещения, с верным весом, исправными оболочкой, печатями, пломбами, перевязью,
+							почтовый перевод получил.',
+			         at: [0, cursor-10],	style: :bold, size: 7, width: 210, leading: 5
+			draw_text '"_______" ___________________ 20 ______г.', at: [261, cursor-18]
+			draw_text '_' * 25 + '         _________', at: [261, cursor-38]
+			draw_text '(фамилия)' + ' ' * 34 + '(подпись)', at: [306, cursor-48], size: 7
+			draw_text 'по доверенности №______________', at: [261, cursor-70]
+			move_down 65
+			text "Даю своё согласие на обработку моих персональных\nданных.", style: :bold, size: 7
+			move_down 10
+			text 'Выдал (доставил) ' + '_' * 25 + ' от  "________"  __________________  20________ г.'
+			draw_text '(подпись)', at: [144, cursor-4], size: 7
+
+			line_width  2
+			stroke_horizontal_line 0, 459, at: [cursor-10]
+
+			move_down 13
+			text 'Служебные отметки:', style: :bold
+			draw_text 'Оператор', at: [300, cursor-20], style: :bold
+			stroke_vertical_line 0, 770, at: 460
+		end
+
 	end
 
 end

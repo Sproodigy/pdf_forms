@@ -109,13 +109,13 @@ class FormsController < ApplicationController
   end
 
   def form22
-	  pdf = Form22Form.new.to_pdf
+	  pdf = Form22Form.new.print_form22
 	  send_data pdf, type: 'application/pdf', filename: 'form22.pdf', disposition: 'inline'
   end
 
-  def backform22
-	  pdf = Backform22Form.new.to_pdf
-	  send_data pdf, type: 'application/pdf', filename: 'backform22.pdf', disposition: 'inline'
+  def form22_back
+	  pdf = Form22Form.new.print_form22_back
+	  send_data pdf, type: 'application/pdf', filename: 'form22_back.pdf', disposition: 'inline'
   end
  
  
