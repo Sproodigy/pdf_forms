@@ -85,7 +85,8 @@ class Form22Form < Prawn::Document
 		end
 	end
 
-	def print_form22
+	def print_form22(doc_num:, receiver:, receiver_address:, mailing_type:,
+			weight:, value:, payment:, delivery_cost:)
 		font_families.update(
 				'DejaVuSans' => {
 						normal: "#{Rails.root}/app/assets/fonts/DejaVuSans.ttf",
@@ -101,53 +102,52 @@ class Form22Form < Prawn::Document
 		draw_form22(40, 0)
 
 		render
+
 	end
 
-	def draw_form22(x, y)
+	def draw_form22(x, y, doc_num:, receiver:, receiver_address:, mailing_type:,
+			weight:, value:, payment:, delivery_cost:)
 		translate(x, y) do
 
 
 		image 'app/assets/images/logo.jpg', at: [0,723], width: 80
 
-		draw_barcode '23892087343890', x: 170, y: cursor, print_rus_post: false
+		draw_barcode '2389208734389890', x: 170, y: cursor, print_rus_post: false
 
-		stroke_rectangle [359, cursor-10], 80, 80
-
-		#draw_post_stamp  x: 200, y: cursor
+		stroke_rectangle [369, cursor-10], 80, 80
 
 		draw_text 'ф. 22', at: [440, cursor], size: 7
-		formatted_text_box [{text: 'Извещение № '}, {text: '1', styles: [:bold]}],
+		formatted_text_box [{text: 'Извещение № '}, {text: doc_num, styles: [:bold]}],
 											 at:[85, cursor-38]
 		move_down 60
-		formatted_text_box [{text: "\nКому:  "}, {text: 'Сорокиной Оксане Александровне', styles: [:bold]},
+		formatted_text_box [{text: "\nКому:  "}, {text: "#{receiver}", styles: [:bold]},
 												{text: "\nАдрес: "}, {text: 'Самарская обл., Новокуйбышевский р-он, г. Новокуйбышевск, ул. Сергея Лазо, д. 323, кв. 893', styles: [:bold]},
 											 	{text: "\nНа ваше имя поступило: "}, {text: 'группа РПО (2 шт.)', styles: [:bold]},
-											 	{text: "\nОткуда: "}, {text: 'Самарская обл., Октябрьский р-он, г. Самара, ул. Лейтенанта Шмидта, д. 106, корп. 109', styles: [:bold]},
-											 	{text: "\nМасса: "}, {text: '48 кг', styles: [:bold]}],
-											 	at: [0, cursor+10], width: 260
+											 	{text: "\nОткуда: "}, {text: 'Самарская обл., Октябрьский р-он, г. Самара, ул. Лейтенанта Шмидта, д. 106, корп. 109', styles: [:bold]}],
+											 	at: [0, cursor+20], width: 380, leading: 2
+
+		formatted_text_box [ {text: 'Масса: '}, {text: '3.389 кг', styles: [:bold]} ],
+											 at: [0, cursor-85]
 
 		text_box '(дата и место
-							составления)', at: [378, cursor-32], size: 6
+							составления)', at: [388, cursor-32], size: 6
 
-		bounding_box([0, cursor-105], width: 178) do
+		bounding_box([0, cursor-110], width: 178) do
 			text 'Объявленная ценность:           '
 			move_up 10.3
 			text '340 р. 39 к.', style: :bold, align: :right
+			move_down 2
 			text "Наложенный платёж:        "
 			move_up 10.3
 			text '340 р. 39 к.', style: :bold, align: :right
+			move_down 2
 			text 'Плата за доставку:'
 			move_up 10.3
 			text '-', style: :bold, align: :right
+			move_down 2
 			text 'Плата за возвр./дост.:        '
 			move_up 10.3
 			text '300 р. 39 к.', style: :bold, align: :right
-			text 'Тамож. пошлина:'
-			move_up 10.3
-			text '-', style: :bold, align: :right
-			text 'Тамож. сбор:'
-			move_up 10.3
-			text '-', style: :bold, align: :right
 		end
 
 		bounding_box([254, 585], width: 200, height: 60) do

@@ -130,7 +130,7 @@ class Form113enForm < Prawn::Document
 
 		formatted_text_box [{text: index.to_s, character_spacing: 5.1}],
 											 at: [473, 513], style: :bold
-		formatted_text_box [{text: "#{inn}", character_spacing: 5.1}],
+		formatted_text_box [{text: inn.to_s, character_spacing: 5.1}],
 											 at: [187, 490], style: :bold
 
 		move_down 205
