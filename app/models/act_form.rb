@@ -47,9 +47,6 @@ class ActForm < Prawn::Document
     total_sum_string = (RuPropisju.propisju_int(total_sum.floor) + ' руб. ' +
           ((total_sum-total_sum.floor)*100).floor.to_s[0..1].rjust(2, '0') + ' коп.').mb_chars.capitalize
 
-
-
-
     # Заголовок
 
     #image "app/assets/images/exxtra_logo_web.png", at: [430, 742], width: 110

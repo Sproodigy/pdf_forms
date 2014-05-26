@@ -6,7 +6,7 @@ PdfForms::Application.routes.draw do
   match '/inquiry' => 'forms#inquiry'
   match '/backsideform117' => 'forms#backsideform117'
   match '/backsideform113' => 'forms#backsideform113'
-  match '/inquirybackside' => 'forms#inquirybackside'
+  match '/inquiry_back' => 'forms#inquiry_back'
   match '/act' => 'forms#act'
   match '/invoice_for_payment' => 'forms#invoice_for_payment'
 	match '/form113en' => 'forms#form113en'

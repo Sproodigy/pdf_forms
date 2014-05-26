@@ -1,6 +1,4 @@
-# encoding: utf-8
-
-class InquirybacksideForm < Prawn::Document
+class InquiryFormBack < Prawn::Document
   def to_pdf
     font_families.update(
       "DejaVuSans" => {
@@ -14,12 +12,12 @@ class InquirybacksideForm < Prawn::Document
       })
     font "DejaVuSans", size: 8
 
-    draw_inquiry(-10, 0)
-    draw_inquiry(415,0)
+    draw_inquiry_back(-10, 0)
+    draw_inquiry_back(415,0)
     render
   end
 
-  def draw_inquiry(x, y)
+  def draw_inquiry_back(x, y)
     translate(x,y) do
 
       base_z = 540

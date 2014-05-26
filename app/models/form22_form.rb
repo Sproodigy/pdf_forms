@@ -3,6 +3,8 @@ require 'barby/barcode/code_25_interleaved'
 require 'barby/outputter/prawn_outputter'
 
 class Form22Form < Prawn::Document
+	include ActionView::Helpers::NumberHelper
+	include Documents::PostFormsFormatHelpers
 
 	POST_STAMP_SIZE = 80
 
@@ -13,14 +15,14 @@ class Form22Form < Prawn::Document
 					stroke_bounds
 
 					date = if opts[:mailing]
-									 if opts[:mailing].send_date
-										 opts[:mailing].send_date
-									 else
-										 opts[:mailing].mailing_object.created_at
-									 end
-								 else
-									 opts[:date]
-								 end
+						       if opts[:mailing].send_date
+							       opts[:mailing].send_date
+						       else
+							       opts[:mailing].mailing_object.created_at
+						       end
+						     else
+							     opts[:date]
+						     end
 					zip = opts[:mailing] ? opts[:mailing].mailing_object.company.zip : opts[:zip]
 
 					move_down 5
@@ -66,7 +68,7 @@ class Form22Form < Prawn::Document
 		barcode = Barby::Code25Interleaved.new(code)
 		barcode.include_checksum = false
 
-		barcode_string = [code.to_s[0..5] + '   ' + code.to_s[6..7] + '   ', code.to_s[8..12], '   ' + code.to_s[13]]
+		barcode_string = [code.to_s[0..5] + '   ' + code.to_s[6..7] + '   ', code.to_s[8..14], '   ' + code.to_s[15]]
 
 		if opts[:string_only]
 			formatted_text_box [{ text: barcode_string[0] }, { text: barcode_string[1], styles: [:bold] }, { text: barcode_string[2] }], at: [x+1, y-28], size: 8
@@ -85,7 +87,7 @@ class Form22Form < Prawn::Document
 		end
 	end
 
-	def print_form22(doc_num:, receiver:, receiver_address:, mailing_type:,
+	def print_form22(x:, y:, doc_num:, receiver:, receiver_address:, mailing_type:,
 			weight:, value:, payment:, delivery_cost:)
 		font_families.update(
 				'DejaVuSans' => {
@@ -99,88 +101,76 @@ class Form22Form < Prawn::Document
 				})
 		font 'DejaVuSans', size: 9
 
-		draw_form22(40, 0)
-
-		render
-
-	end
-
-	def draw_form22(x, y, doc_num:, receiver:, receiver_address:, mailing_type:,
-			weight:, value:, payment:, delivery_cost:)
 		translate(x, y) do
 
+			image 'app/assets/images/logo.jpg', at: [0,723], width: 80
 
-		image 'app/assets/images/logo.jpg', at: [0,723], width: 80
+			draw_barcode '2389208734389890', x: 170, y: cursor, print_rus_post: false
 
-		draw_barcode '2389208734389890', x: 170, y: cursor, print_rus_post: false
+			draw_post_stamp(369, cursor-10)
 
-		stroke_rectangle [369, cursor-10], 80, 80
+			draw_text 'ф. 22', at: [440, cursor], size: 7
+			formatted_text_box [{text: 'Извещение № '}, {text: doc_num.to_s, styles: [:bold]}],
+			                   at:[85, cursor-38]
+			move_down 60
+			formatted_text_box [{text: "\nКому:  "}, {text: "#{receiver}", styles: [:bold]},
+			                    {text: "\nАдрес: "}, {text: "#{receiver_address}", styles: [:bold]},
+			                    {text: "\nНа ваше имя поступило: "}, {text: "#{mailing_type}", styles: [:bold]},
+			                    {text: "\nОткуда: "}, {text: 'Самарская обл., Октябрьский р-он, г. Самара, ул. Лейтенанта Шмидта, д. 106, корп. 109', styles: [:bold]}],
+			                   at: [0, cursor+20], width: 380, leading: 2
 
-		draw_text 'ф. 22', at: [440, cursor], size: 7
-		formatted_text_box [{text: 'Извещение № '}, {text: doc_num, styles: [:bold]}],
-											 at:[85, cursor-38]
-		move_down 60
-		formatted_text_box [{text: "\nКому:  "}, {text: "#{receiver}", styles: [:bold]},
-												{text: "\nАдрес: "}, {text: 'Самарская обл., Новокуйбышевский р-он, г. Новокуйбышевск, ул. Сергея Лазо, д. 323, кв. 893', styles: [:bold]},
-											 	{text: "\nНа ваше имя поступило: "}, {text: 'группа РПО (2 шт.)', styles: [:bold]},
-											 	{text: "\nОткуда: "}, {text: 'Самарская обл., Октябрьский р-он, г. Самара, ул. Лейтенанта Шмидта, д. 106, корп. 109', styles: [:bold]}],
-											 	at: [0, cursor+20], width: 380, leading: 2
+			formatted_text_box [ {text: 'Масса: '}, {text: weight.to_s + ' кг', styles: [:bold]} ],
+			                   at: [0, cursor-85]
 
-		formatted_text_box [ {text: 'Масса: '}, {text: '3.389 кг', styles: [:bold]} ],
-											 at: [0, cursor-85]
-
-		text_box '(дата и место
+			text_box '(дата и место
 							составления)', at: [388, cursor-32], size: 6
 
-		bounding_box([0, cursor-110], width: 178) do
-			text 'Объявленная ценность:           '
-			move_up 10.3
-			text '340 р. 39 к.', style: :bold, align: :right
-			move_down 2
-			text "Наложенный платёж:        "
-			move_up 10.3
-			text '340 р. 39 к.', style: :bold, align: :right
-			move_down 2
-			text 'Плата за доставку:'
-			move_up 10.3
-			text '-', style: :bold, align: :right
-			move_down 2
-			text 'Плата за возвр./дост.:        '
-			move_up 10.3
-			text '300 р. 39 к.', style: :bold, align: :right
-		end
-
-		bounding_box([254, 585], width: 200, height: 60) do
-			indent(20) do
+			bounding_box([0, cursor-110], width: 178) do
+				text 'Объявленная ценность:           '
+				move_up 10.3
+				text "#{fc(value)} руб.", style: :bold, align: :right
 				move_down 2
-				text 'Выдача производится по адресу:'
+				text "Наложенный платёж:        "
+				move_up 10.3
+				text "#{fc(payment)} руб.", style: :bold, align: :right
+				move_down 2
+				text 'Плата за доставку:'
+				move_up 10.3
+				text '-', style: :bold, align: :right
+				move_down 2
+				text 'Плата за возвр./дост.:        '
+				move_up 10.3
+				text "#{fc(delivery_cost)} руб.", style: :bold, align: :right
 			end
-		stroke_bounds
-		end
 
-		text_box 'Возможна доставка на дом (услуга платная).
+			bounding_box([254, 585], width: 200, height: 60) do
+				indent(20) do
+					move_down 2
+					text 'Выдача производится по адресу:'
+				end
+				stroke_bounds
+			end
+
+			text_box 'Возможна доставка на дом (услуга платная).
 							Вызов курьера по телефону:', at: [254, cursor-2], size: 6
 
-		draw_text 'Извещение доставил '+ '_' * 45, at: [254, cursor-30	], size: 6
-		draw_text '(дата, подпись)', at: [365, cursor-37], size: 6
+			draw_text 'Извещение доставил '+ '_' * 45, at: [254, cursor-30	], size: 6
+			draw_text '(дата, подпись)', at: [365, cursor-37], size: 6
 
-		text_box "<font_size='7'><b>Внимание!</b>   Срок хранения:</font>
+			text_box "<font_size='7'><b>Внимание!</b>   Срок хранения:</font>
 							- отправлений разряда Судебное - 7 дней
 							- почтовых отправлений и почтовых переводов - 30 дней
 							За хранение регистрируемого почтового отправления с адресата
 							взимается плата в соответствии с установленными тарифами
 							согласно Правилам оказания услуг почтовой связи.",
-						 at: [0, cursor-44], inline_format: true, size: 6
+			         at: [0, cursor-44], inline_format: true, size: 6
 
-		text_box "Для получения почтового отправления, перевода необходимо
+			text_box "Для получения почтового отправления, перевода необходимо
 							предъявить настоящее извещение и документ удостоверяющий
 							личность.
 							На извещении предварительно укажите сведения об этом
 							документе.",
-						 at: [254, cursor-52], inline_format: true, size: 6
-
-		stroke_horizontal_line 0, 500, at: 494.075-23-(11*2.83)
-		stroke_vertical_line 0, 770, at: 460
+			         at: [254, cursor-52], inline_format: true, size: 6
 
 		end
 
@@ -199,13 +189,6 @@ class Form22Form < Prawn::Document
 				})
 		font 'DejaVuSans', size: 10
 
-		draw_form22_back(40, 0)
-
-		render
-
-	end
-
-	def draw_form22_back(x,y)
 		translate(x,y) do
 
 			text_box "Заполняется получателем", style: :bold
