@@ -1,6 +1,7 @@
 require 'barby'
 require 'barby/barcode/code_25_interleaved'
 require 'barby/outputter/prawn_outputter'
+require 'barby/barcode/data_matrix'
 
 class Form113enForm < Prawn::Document
 
@@ -42,7 +43,8 @@ class Form113enForm < Prawn::Document
 				sender_address: mailing.order.address)
 	end
 
-	def print_f113en(receiver:, receiver_address:, index:, inn:, sender:, sender_address:, barcode:)
+	def print_f113en(receiver:, receiver_address:, index:, inn:, sender:, sender_address:,
+			account:, corr_account:, bik:, barcode:)
 		font_families.update(
 				'DejaVuSans' => {
 						normal: "#{Rails.root}/app/assets/fonts/DejaVuSans.ttf",
@@ -94,32 +96,34 @@ class Form113enForm < Prawn::Document
 		# Сектор суммы наложенного платежа
 
 		fill_color 'eeeeee'
-		fill_rectangle [180, 615], 355, 20
+		fill_rectangle [180, 613], 355, 10
 		fill_color '000000'
 
 		draw_text 'ПОЧТОВЫЙ ПЕРЕВОД наложенного платежа', at: [180, 620], style: :bold
-		draw_text '99999' + '     руб.        ' + '00' + '       коп.', at: [415, 620], style: :bold
-		draw_text '_____________       ' + '   ___________', at: [405, 619], style: :bold
+		draw_text '99999' + '  руб.  ' + '00' + ' коп.',
+		          at: [380, 620], style: :bold, size: 9
+		draw_text '___________       ' + '     ____', at: [377, 620], style: :bold
 		draw_text 'Девяносто девять тысяч девятьсот девяносто девять руб.00 коп.',
-							at: [185, 608], style: :bold
+							at: [185, 605], style: :bold, size: 9
+		draw_text '(рубли прописью, копейки цифрами)', at: [300, 596], style: :italic, size: 6
 
-		draw_text '(рубли прописью, копейки цифрами)', at: [305, 590], style: :italic, size: 5
-		formatted_text_box [{text: 'Кому:    ', styles: [:bold]}, {text: "#{receiver}"}], at:[180, 584]
+		formatted_text_box [{text: 'Кому:    ', styles: [:bold]}, {text: "#{receiver}", size: 9}],
+		                   at:[180, 588], leading: 1
 		draw_text '(для юридического лица - полное или краткое наименование, для гражданина - фамилия, имя, отчество полностью)',
-							at: [202, 560], size: 5, style: :italic
-		formatted_text_box [{text: 'Куда:    ', styles: [:bold]}, {text: "#{receiver_address}"}], at:[180, 556]
+							at: [202, 563], size: 5, style: :italic
+		formatted_text_box [{text: 'Куда:    ', styles: [:bold]}, {text: "#{receiver_address}", size: 9}],
+		                   at:[180, 560], leading: 2
 
 		stroke do
-			horizontal_line 175, 540, at: 576
-			horizontal_line 175, 540, at: 566
-			horizontal_line 175, 540, at: 548
+			horizontal_line 175, 540, at: 579
+			horizontal_line 175, 540, at: 568
+			horizontal_line 175, 540, at: 551
 			horizontal_line 180, 535, at: 502
 		end
 
-		draw_text '(адрес, почтовый индекс)', at: [315, 530], style: :italic
-
 		font 'DejaVuSans', style: :bold, size: 6
 
+		draw_text '(адрес, почтовый индекс)', at: [315, 532], style: :italic
 		draw_text 'Заполняется при приёме перевода в адрес юридического лица', at: [240, 518]
 		draw_text 'Выплатить наличными деньгами' + ' ' * 61 + 'Индекс:', at: [197, 508]
 		draw_text 'ИНН:' + ' ' * 61 + 'Кор/счёт:', at: [185, 495]
@@ -128,10 +132,17 @@ class Form113enForm < Prawn::Document
 
 		font 'DejaVuSans', size: 7
 
-		formatted_text_box [{text: index.to_s, character_spacing: 5.1}],
-											 at: [473, 513], style: :bold
-		formatted_text_box [{text: inn.to_s, character_spacing: 5.1}],
-											 at: [187, 490], style: :bold
+		formatted_text_box [{text: index.to_s, character_spacing: 5.15}],
+											 at: [472.5, 512.7], style: :bold
+		formatted_text_box [{text: inn.to_s, character_spacing: 5.15}],
+											 at: [186.5, 489.7], style: :bold
+		formatted_text_box [{text: corr_account.to_s, character_spacing: 5.15}],
+		                   at: [332.3, 490], style: :bold
+		formatted_text_box [{text: account.to_s, character_spacing: 5.15}],
+		                   at: [187, 460.8], style: :bold
+		formatted_text_box [{text: bik.to_s, character_spacing: 5.15}],
+		                   at: [442.4, 460.8], style: :bold
+
 
 		move_down 205
 		table [[' ']], cell_style: {width: 10, height: 10}, position: 185
@@ -151,25 +162,25 @@ class Form113enForm < Prawn::Document
 		draw_barcode barcode, x: 275, y: 435, print_rus_post: false
 
 		formatted_text_box [{text: 'Наложенный платёж'}],
-											 at: [200, 440], width: 65, height: 45, size: 9
+											 at: [200, 440], width: 65, height: 45, size: 7
 		draw_text 'за РПО', at: [200, 400], style: :bold, size: 11
 		draw_text '_' * 30, at: [434, 415]
 		draw_text '_' * 30, at: [434, 400]
 		draw_text '(шифр и подпись)', at: [454, 390], style: :italic
 
-		# Секция отправителя перевод
+		# Секция отправителя перевода
 
 		draw_text 'Обведённое линией заполняется отправителем перевода',
 							at: [235, 375], style: :bold
 		draw_text 'От кого:' + ' ' * 51 + 'ИНН, при его наличии:', at: [180, 359], style: :bold
-		draw_text "#{sender}", at: [180, 349]
+		draw_text "#{sender}",size: 9, at: [180, 349]
 		draw_text '_' * 104, at: [174, 348]
 		draw_text '_' * 104, at: [174, 338]
 		draw_text 'Адрес отправителя:' + ' ' * 73 + 'Индекс:', at: [180, 327], style: :bold
-		formatted_text_box [{text: index.to_s, character_spacing: 5.1}],
-											 at: [478, 332], style: :bold
-		text_box "#{sender_address}",
-							at: [180, 320], height: 20, leading: 2
+		formatted_text_box [{text: index.to_s, character_spacing: 5.15}],
+											 at: [477.5, 331.5], style: :bold
+		text_box "#{sender_address}", size: 9,
+							at: [180, 322], height: 22, leading: 1
 		draw_text '_' * 104, at: [174, 314]
 		draw_text '_' * 104, at: [174, 304]
 		draw_text 'адрес места жительства (регистрации), адрес пребывания (ненужное зачеркнуть)',
@@ -178,7 +189,7 @@ class Form113enForm < Prawn::Document
 							at: [183, 282], inline_format: true
 		draw_text '(наименование документа)', at: [231, 270], size: 6, style: :italic
 		draw_text '_' * 101, at: [180, 258]
-		draw_text '(наименование учреждения)', at: [296, 250], style: :italic
+		draw_text '(наименование учреждения)', at: [305, 251], style: :italic, size: 6
 		text_box "<u>Для нерезидентов России</u>", at: [183, 242], style: :bold, inline_format: true
 		text_box '<b>Предъявлен:</b> ' + '_' * 21 + ' Серия _______ № _____________ выдан ______.______ 20______г.',
 							at: [183, 228], inline_format: true
@@ -199,6 +210,14 @@ class Form113enForm < Prawn::Document
 		draw_text 'Обведённое линией заполняется отправителем РПО',
 							at: [168, 446], rotate: 90, size: 6, style: :bold
 		draw_text 'исправления не допускаются', at: [548, 480], rotate: 90
+
+
+		#Datamatrix
+
+		datamatrix_data = receiver.to_s + index.to_s + receiver_address.to_s
+
+		datamatrix = Barby::DataMatrix.new(datamatrix_data)
+		datamatrix.annotate_pdf(self, x: 50, y: 300)
 
 		render
 

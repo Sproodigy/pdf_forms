@@ -53,11 +53,14 @@ class FormsController < ApplicationController
 
   def form113en
     pdf = Form113enForm.new.print_f113en(receiver: 'ООО "Экстра"', barcode: 32389209822998,
-      receiver_address: 'г. Самара, а/я 4001',
+      receiver_address: 'Самарская область, г. Самара, ул. Галактионовская 385, корпус 893, кв. 389',
       inn: 631614265880,
+      account: 40702810029180000336,
+      corr_account: 89389823283290239932,
+      bik: 983370328,
       index: 443110,
       sender: 'Иванов Иван Иванович',
-      sender_address: 'ул. Лейтенанта Шмидта, д. 3, корп. 39, кв. 15 МОСКВА, МОСКОВСКАЯ ОБЛАСТЬ, РОССИЯ')
+      sender_address: "ул. Лейтенанта Шмидта, д. 3, корп. 39, кв. 15\nМОСКВА, МОСКОВСКАЯ ОБЛАСТЬ, РОССИЯ")
     send_data pdf, type: 'application/pdf', filename: 'form113en.pdf', disposition: 'inline'
   end
 
