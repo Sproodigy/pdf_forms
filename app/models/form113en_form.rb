@@ -43,7 +43,7 @@ class Form113enForm < Prawn::Document
 				sender_address: mailing.order.address)
 	end
 
-	def print_f113en(receiver:, receiver_address:, index:, inn:, sender:, sender_address:,
+	def print_f113en(payment:, receiver:, receiver_address:, index:, inn:, sender:, sender_address:,
 			account:, corr_account:, bik:, barcode:)
 		font_families.update(
 				'DejaVuSans' => {
@@ -100,8 +100,7 @@ class Form113enForm < Prawn::Document
 		fill_color '000000'
 
 		draw_text 'ПОЧТОВЫЙ ПЕРЕВОД наложенного платежа', at: [180, 620], style: :bold
-		draw_text '99999' + '  руб.  ' + '00' + ' коп.',
-		          at: [380, 620], style: :bold, size: 9
+		draw_text "#{payment}", at: [380, 620], style: :bold, size: 9
 		draw_text '___________       ' + '     ____', at: [377, 620], style: :bold
 		draw_text 'Девяносто девять тысяч девятьсот девяносто девять руб.00 коп.',
 							at: [185, 605], style: :bold, size: 9
