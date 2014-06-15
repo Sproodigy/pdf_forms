@@ -139,73 +139,99 @@ class Form117Form < Prawn::Document
 		prepare_fonts
 		#translate(x,y) do
 			font "DejaVuSans", size: 9
+		stroke_vertical_line 0, 600, at: [-17]
+			#image "#{Rails.root}/app/assets/pdf/postf117.jpg", at: [0, 595], width: 420
+			image 'app/assets/images/logo_russian_post.png', width: 50,
+						at: [-24, 490]
+			image 'app/assets/images/logo_russian_post.png', width: 50,
+						at: [-13, 190]
 
-			image "#{Rails.root}/app/assets/pdf/postf117.jpg", at: [0, 595], width: 420
+			stroke_vertical_line 0, 750, at: [385]
 
-			# Stroke form bounds
-			stroke_color 'dddddd'
-			stroke_vertical_line 0, 600, at: 0
-			stroke_vertical_line 0, 600, at: 420
-			stroke_color '000000'
+			draw_barcode(barcode, x: -17, y: 540)
 
-		stroke_vertical_line 0, 750, at: [770/2]
+			draw_text "ф. #{form_num}", at: [355, 545], size: 7
 
-			draw_barcode(barcode, x: 18, y: 550)
+			formatted_text_box [{text: 'Заказ № '}, { text: order_num.to_s, styles: [:bold] }],
+												 at: [155, 545] unless order_num.nil?
 
-			draw_text "ф. #{form_num}", at: [375, 575], size: 8
+			draw_text "№_________________", at: [25, 451]
+			draw_text "(по накладной ф.16)", at: [35, 442], size: 7
 
-			formatted_text_box [{text: 'Заказ № '}, { text: order_num.to_s, styles: [:bold] }], at: [175, 580] unless order_num.nil?
+			draw_post_stamp 205, 520#, zip: ops_index, title: true unless ops_index.nil?
+			stroke_rectangle [205, 440], 80, 20
+			text_box "Календ. штемпель\nОПС места приёма",
+							 at: [210, 437], size: 7
 
-			draw_text "(по накладной ф.16)", at: [73, 468], size: 6
+			stroke do
+				line_width 2
 
-
-			draw_post_stamp 226, 549, zip: ops_index, title: true unless ops_index.nil?
+				move_to -8, 420
+				line_to 285, 420
+				line_to 285, 320
+				line_to 380, 320
+				line_to 380, 193
+				line_to -8, 193
+				line_to -8, 421
+			end
 
 
 			draw_barcode barcode, x: 285, y: 185, size: :small
 
-			bounding_box([19, 441], width: 281, height: 16) do
-				draw_text value, at: [3, 5], style: :condensed_bold unless value.nil?
-				draw_text "(сумма объявленной ценности)", at: [75, -7], size: 7
-				stroke_bounds
-			end
+			# bounding_box([19, 441], width: 281, height: 16) do
+			# 	draw_text value/100, at: [3, 5], style: :condensed_bold unless value.nil?
+			# 	draw_text "(сумма объявленной ценности)", at: [75, -7], size: 7
+			# 	stroke_bounds
+			# end
+			#
+			# bounding_box([19, 414], width: 281, height: 16) do
+			# 	draw_text payment/100, at: [3, 5], style: :condensed_bold unless  payment.nil?
+			# 	draw_text "(сумма наложенного платежа)", at: [75, -7], size: 7
+			# 	stroke_bounds
+			# end
 
-			bounding_box([19, 414], width: 281, height: 16) do
-				draw_text payment, at: [3, 5], style: :condensed_bold unless  payment.nil?
-				draw_text "(сумма наложенного платежа)", at: [75, -7], size: 7
-				stroke_bounds
-			end
+			formatted_text_box [{text: 'Кому: ', styles: [:bold]}, { text: receiver }],
+												 at: [0, 382], width: 210, height: 20
 
-			formatted_text_box [{text: 'Кому: ', styles: [:bold]}, { text: receiver }], at: [19, 382], width: 210, height: 20
+			formatted_text_box [{text: 'Адрес: ', styles: [:bold]}, { text: receiver_address }, { text: receiver_index.to_s }],
+												 at: [0, 360 ], width: 210, height: 40
 
-			formatted_text_box [{text: 'Адрес: ', styles: [:bold]}, { text: receiver_address }, { text: receiver_index.to_s }], at: [19, 360 ], width: 210, height: 40
+			formatted_text_box [{text: 'От кого: ', styles: [:bold]}, { text: sender}],
+												 at: [0, 310], width: 235, height: 10
 
-			formatted_text_box [{text: 'От кого: ', styles: [:bold]}, { text: sender}], at: [19, 310], width: 235, height: 10
+			formatted_text_box [{text: 'Адрес: ', styles: [:bold]}, { text: sender_address}, { text: sender_index.to_s}],
+												 at: [0, 295], width: 315, height: 20
 
-			formatted_text_box [{text: 'Адрес: ', styles: [:bold]}, { text: sender_address}, { text: sender_index.to_s}], at: [19, 295], width: 315, height: 20
-
-			draw_text "Запрещенных к пересылке вложений нет.", at: [19, 250], style: :bold
-
-			draw_text "С требованиями к упаковке ознакомлен _____________________________", at: [19, 240], style: :bold
-
-			draw_text "(подпись отправителя)", at: [255, 233], size: 6
+			text_box "Запрещенных к пересылке вложений нет.
+								С требованиями к упаковке ознакомлен" + '_' * 30, at: [0, 250], style: :bold
+			draw_text "(подпись отправителя)", at: [235, 224], size: 7
 
 
-			draw_text 'и с п р а в л е н и я  н е  д о п у с к а ю т с я', at: [11,225], style: :condensed_bold, size: 9, rotate: 90
+			draw_text 'и с п р а в л е н и я  н е  д о п у с к а ю т с я',
+								at: [-11, 207], style: :condensed_bold, rotate: 90
 
-			formatted_text_box [{text: 'Вес '}, { text: (weight/1000).to_s, styles: [:bold] }, {text: ' кг.'}], at: [312, 438], height: 10
+		insurance_cost.nil? ? pay = 'Плата: ' : pay = 'за вес: '
 
-			insurance_cost.nil? ? pay = 'Плата: ' : pay = 'за вес '
+		formatted_text_box [{text: 'Вес: '}, { text: (weight/1000).to_s + ' кг.', styles: [:bold] },
+											 {text: "\nПлата", styles: [:bold]},
+											 {text: "\n#{pay}"}, { text: (weight_cost/100).to_s + ' руб.', styles: [:bold] },
+											 {text: "\nза ОЦ: "}, { text: (insurance_cost/100).to_s + ' руб.', styles: [:bold]},
+											 {text: "\nВсего: "}, { text: ((weight_cost + insurance_cost)/100).to_s + ' руб.', styles: [:bold] },
+											 {text: "\n___________________"}],
+											 at: [290, 413], leading: 4 unless insurance_cost.nil?
 
-			draw_text 'Плата', style: :condensed_bold, at: [312, 415] unless insurance_cost.nil?
+			# formatted_text_box [{text: 'Вес: '}, { text: (weight/1000).to_s + ' кг.', styles: [:bold] }],
+			# 									 at: [300, 413], height: 10
+			# insurance_cost.nil? ? pay = 'Плата: ' : pay = 'за вес '
+			# draw_text 'Плата', style: :condensed_bold, at: [300, 390] unless insurance_cost.nil?
+			# formatted_text_box [{text: pay},{ text: (weight_cost/100).to_s }, {text: ' руб.'}],
+			# 									 at: [300, 391], height: 10
+			# formatted_text_box [{text: 'за о.ц.: '},{ text: (insurance_cost/100).to_s }, {text: ' руб.'}],
+			# 								 at: [300, 373], height: 10 unless insurance_cost.nil?
+			# formatted_text_box [{text: 'Всего: ', styles: [:bold]},{ text: ((weight_cost + insurance_cost)/100).to_s, styles: [:bold] }, {text: ' руб.'}],
+			# 									 at: [300, 355], height: 10 unless insurance_cost.nil?
 
-			formatted_text_box [{text: pay},{ text: (weight_cost/100).to_s }, {text: ' руб.'}], at: [312, 406], height: 10
-
-			formatted_text_box [{text: 'за о.ц. '},{ text: (insurance_cost/100).to_s }, {text: ' руб.'}], at: [312, 388], height: 10 unless insurance_cost.nil?
-
-			formatted_text_box [{text: 'Всего ', styles: [:bold]},{ text: ((weight_cost + insurance_cost)/100).to_s, styles: [:bold] }, {text: ' руб.'}], at: [312, 370], height: 10 unless insurance_cost.nil?
-
-			draw_text "(подпись оператора)", at: [325, 339], size: 6
+			draw_text "(подпись оператора)", at: [294, 324], size: 7
 
 			draw_text "Извещение о посылке № _________", at: [58,165]
 
@@ -227,12 +253,12 @@ class Form117Form < Prawn::Document
 			formatted_text_box [{text: 'Кому: ', styles: [:bold]}, { text: receiver }], at: [19, 85], width: 325, height: 40
 
 			formatted_text_box [{text: 'Адрес: ', styles: [:bold]}, { text: receiver_address }, { text: receiver_index.to_s }], at: [19, 72], width: 325, height: 40
+			stroke_rectangle [-8, 137], 383, 100
 
-			draw_text 'Обведенное жирной чертой заполняется отправителем', at: [70, 21], style: :condensed_bold
-
-			draw_text 'Извещение доставил ____________________________________________________________', at: [15,12]
-
-			draw_text "(дата и подпись)", at: [159, 5], size: 6
+			draw_text 'Обведенное жирной чертой заполняется отправителем',
+								at: [56, 26], style: :condensed_bold
+			draw_text 'Извещение доставил' + '_' * 63, at: [-8, 12]
+			draw_text "(дата и подпись)", at: [202, 4], size: 7
 
 			render
 		#end
@@ -240,16 +266,9 @@ class Form117Form < Prawn::Document
 	end
 
   def print_form117_back
-    font_families.update(
-      "DejaVuSans" => {
-        normal: "#{Rails.root}/app/assets/fonts/DejaVuSans.ttf",
-        bold: "#{Rails.root}/app/assets/fonts/DejaVuSans-Bold.ttf",
-        italic: "#{Rails.root}/app/assets/fonts/DejaVuSans-Oblique.ttf",
-        bold_italic: "#{Rails.root}/app/assets/fonts/DejaVuSans-BoldOblique.ttf",
-        extra_light: "#{Rails.root}/app/assets/fonts/DejaVuSans-ExtraLight.ttf",
-        condensed: "#{Rails.root}/app/assets/fonts/DejaVuSansCondensed.ttf",
-        condensed_bold: "#{Rails.root}/app/assets/fonts/DejaVuSansCondensed-Bold.ttf"
-      })
+
+	prepare_fonts
+
     font "DejaVuSans", size: 9
 
     base_z = 550
