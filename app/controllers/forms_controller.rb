@@ -47,7 +47,7 @@ class FormsController < ApplicationController
   Batch = Struct.new *%i{company send_date mailings}
 
   def form117
-	  order = Order.new('Васисуалий', 10100, 'ул. Ленина, д. 23, кв. 11', 'Москва', '', '', 1234)
+	  order = Order.new('Васисуалий Геннадий Викторович', 101000, 'ул. Ленина, д. 23, кв. 11', 'Москва', '', '', 1234)
 	  company = Company.new('ООО "Экстра"', 'ул. Лейтенанта', '632323423424', 443110)
 	  batch = Batch.new(company, Date.today)
 	  mailing = Mailing.new 443123_63_00023_9, company, order, Date.today, batch, 123400, 123400, 6235.00

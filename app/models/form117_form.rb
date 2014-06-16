@@ -112,10 +112,11 @@ class Form117Form < Prawn::Document
 				value: mailing.value,
 				payment: mailing.payment,
 				weight: mailing.weight,
-				weight_cost: 61540,
-				insurance_cost: 11000,
-				sender: mailing.order.name,
+				weight_cost: 615440.00,
+				insurance_cost: 510300.00,
+				sender: mailing.company.juridical_title,
 				sender_address: mailing.company.address,
+				sender_inn: mailing.company.inn,
 				sender_index: mailing.company.index
 		)
 	end
@@ -134,13 +135,13 @@ class Form117Form < Prawn::Document
 			insurance_cost:,
 			sender:,
 			sender_address:,
+			sender_inn:,
 			sender_index:)
 
 		prepare_fonts
 		#translate(x,y) do
 			font "DejaVuSans", size: 9
-		stroke_vertical_line 0, 600, at: [-17]
-			#image "#{Rails.root}/app/assets/pdf/postf117.jpg", at: [0, 595], width: 420
+
 			image 'app/assets/images/logo_russian_post.png', width: 50,
 						at: [-24, 490]
 
@@ -157,50 +158,50 @@ class Form117Form < Prawn::Document
 			draw_text "№_________________", at: [25, 451]
 			draw_text "(по накладной ф.16)", at: [35, 442], size: 7
 
-			draw_post_stamp 205, 520#, zip: ops_index, title: true unless ops_index.nil?
-			stroke_rectangle [205, 440], 80, 20
+			draw_post_stamp 201, 520#, zip: ops_index, title: true unless ops_index.nil?
+			stroke_rectangle [201, 440], 80, 20
 			text_box "Календ. штемпель\nОПС места приёма",
-							 at: [210, 437], size: 7
+							 at: [206, 437], size: 7
 
 			stroke do
 				line_width 2
 
 				move_to -8, 420
-				line_to 285, 420
-				line_to 285, 320
+				line_to 281, 420
+				line_to 281, 320
 				line_to 380, 320
 				line_to 380, 203
 				line_to -8, 203
 				line_to -8, 421
 			end
 
-			# bounding_box([19, 441], width: 281, height: 16) do
-			# 	draw_text value/100, at: [3, 5], style: :condensed_bold unless value.nil?
-			# 	draw_text "(сумма объявленной ценности)", at: [75, -7], size: 7
-			# 	stroke_bounds
-			# end
-			#
-			# bounding_box([19, 414], width: 281, height: 16) do
-			# 	draw_text payment/100, at: [3, 5], style: :condensed_bold unless  payment.nil?
-			# 	draw_text "(сумма наложенного платежа)", at: [75, -7], size: 7
-			# 	stroke_bounds
-			# end
+			bounding_box([-4, 414], width: 281, height: 16) do
+				draw_text value/100, at: [3, 5], style: :condensed_bold unless value.nil?
+				draw_text "(сумма объявленной ценности)", at: [75, -7], size: 7
+				stroke_bounds
+			end
+
+			bounding_box([-4, 387], width: 281, height: 16) do
+				draw_text payment/100, at: [3, 5], style: :condensed_bold unless  payment.nil?
+				draw_text "(сумма наложенного платежа)", at: [75, -7], size: 7
+				stroke_bounds
+			end
 
 			formatted_text_box [{text: 'Кому: ', styles: [:bold]}, { text: receiver }],
-												 at: [0, 382], width: 210, height: 20
+												 at: [-4, 355], width: 210, height: 20
 
-			formatted_text_box [{text: 'Адрес: ', styles: [:bold]}, { text: receiver_address }, { text: receiver_index.to_s }],
-												 at: [0, 360 ], width: 210, height: 40
+			formatted_text_box [{text: 'Адрес: ', styles: [:bold]}, { text: receiver_address + ', ' }, { text: receiver_index.to_s }],
+												 at: [-4, 340 ], width: 210, height: 40
 
 			formatted_text_box [{text: 'От кого: ', styles: [:bold]}, { text: sender}],
-												 at: [0, 310], width: 235, height: 10
+												 at: [-4, 310], width: 235, height: 10
 
-			formatted_text_box [{text: 'Адрес: ', styles: [:bold]}, { text: sender_address}, { text: sender_index.to_s}],
-												 at: [0, 295], width: 315, height: 20
+			formatted_text_box [{text: 'Адрес: ', styles: [:bold]}, { text: sender_address + ', '}, { text: sender_inn + ', '}, { text: sender_index.to_s}],
+												 at: [-4, 295], width: 315, height: 20
 
 			text_box "Запрещенных к пересылке вложений нет.
-								С требованиями к упаковке ознакомлен" + '_' * 30, at: [0, 250], style: :bold
-			draw_text "(подпись отправителя)", at: [235, 224], size: 7
+								С требованиями к упаковке ознакомлен" + '_' * 30, at: [-4, 260], style: :bold
+			draw_text "(подпись отправителя)", at: [235, 234], size: 7
 
 
 			draw_text 'и с п р а в л е н и я  н е  д о п у с к а ю т с я',
@@ -214,8 +215,8 @@ class Form117Form < Prawn::Document
 											 {text: "\nза ОЦ: "}, { text: (insurance_cost/100).to_s + ' руб.', styles: [:bold]},
 											 {text: "\nВсего: "}, { text: ((weight_cost + insurance_cost)/100).to_s + ' руб.', styles: [:bold] },
 											 {text: "\n___________________"}],
-											 at: [290, 413], leading: 4 unless insurance_cost.nil?
-		draw_text "(подпись оператора)", at: [294, 324], size: 7
+											 at: [285, 413], leading: 4 unless insurance_cost.nil?
+		draw_text "(подпись оператора)", at: [289, 324], size: 7
 
 			# formatted_text_box [{text: 'Вес: '}, { text: (weight/1000).to_s + ' кг.', styles: [:bold] }],
 			# 									 at: [300, 413], height: 10
@@ -230,9 +231,6 @@ class Form117Form < Prawn::Document
 
 		# Секция извещения о посылке
 
-		image 'app/assets/images/logo_russian_post.png', width: 50,
-		      at: [-13, 192]
-
 		draw_barcode barcode, x: 275, y: 190, size: :small
 
 		stroke_color 'd3d3d3'
@@ -243,12 +241,12 @@ class Form117Form < Prawn::Document
 		stroke_color '000000'
 		draw_text 'л и н и я   о т р е з а', at: [153, 195], style: :italic, size: 6
 
-			draw_text "Извещение о посылке № _______________", at: [38,165]
-			draw_text "(по накладной ф.16)", at: [160, 157], size: 6
-			formatted_text_box [{text: 'Вес:  '}, { text: (weight/1000).to_s + 'кг.',styles: [:bold] }],
-			                    at: [38, 150], width: 150, height: 10
-			draw_text "Оттиск календарного штемпеля", at: [232, 147], size: 7
-			draw_text "ОПС места приема", at: [255, 140], size: 7
+			draw_text "Извещение о посылке № _______________", at: [-8,165]
+			draw_text "(по накладной ф.16)", at: [114, 157], size: 6
+			formatted_text_box [{text: 'Вес:  '}, { text: (weight/1000).to_s + ' кг.',styles: [:bold] }],
+			                    at: [-8, 150], width: 150, height: 10
+			draw_text "Оттиск календарного штемпеля", at: [180, 147], size: 7
+			draw_text "ОПС места приема", at: [205, 140], size: 7
 
 			# mailing.decl_amount_digit = 0.0 if opts[:simple]
 			# mailing.cod_amount_digit = 0.0 if opts[:simple]
@@ -258,12 +256,9 @@ class Form117Form < Prawn::Document
 			# draw_text 'Сумма наложенного', at: [222,115]
 			# formatted_text_box [{text: 'платежа  '},{ text: fcc(mailing.cod_amount_digit.floor), styles: [:bold] }, {text: ' руб. '}, { text: ((mailing.cod_amount_digit-mailing.cod_amount_digit.floor)*100).floor.to_s[0..1].rjust(2, '0'), styles: [:bold] }, {text: '  коп. '}], at: [222, 111], width: 250, height: 10
 			stroke_rectangle [-8, 137], 383, 100
-			formatted_text_box [{text: 'Кому: ', styles: [:bold]}, { text: receiver }],
-			                   at: [19, 85], width: 325, height: 40
-
-			formatted_text_box [{text: 'Адрес: ', styles: [:bold]}, { text: receiver_address }, { text: receiver_index.to_s }],
-			                   at: [19, 72], width: 325, height: 40
-
+			formatted_text_box [{text: 'Кому: ', styles: [:bold]}, { text: receiver },
+													{text: "\nАдрес: ", styles: [:bold]}, { text: receiver_address + ', ' }, { text: receiver_index.to_s }],
+			                   at: [-4, 85], width: 325, leading: 3
 
 			draw_text 'Обведенное жирной чертой заполняется отправителем',
 								at: [56, 26], style: :condensed_bold
