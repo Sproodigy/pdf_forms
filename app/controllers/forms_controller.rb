@@ -50,7 +50,7 @@ class FormsController < ApplicationController
 	  order = Order.new('Васисуалий', 10100, 'ул. Ленина, д. 23, кв. 11', 'Москва', '', '', 1234)
 	  company = Company.new('ООО "Экстра"', 'ул. Лейтенанта', '632323423424', 443110)
 	  batch = Batch.new(company, Date.today)
-	  mailing = Mailing.new 443123_63_00023_9, company, order, Date.today, batch, 123400, 123400, 6235
+	  mailing = Mailing.new 443123_63_00023_9, company, order, Date.today, batch, 123400, 123400, 6235.00
 		pdf = Form117Form.new(page_layout: :landscape, page_size: 'A4').print_f117_from_mailing(-15, 0, mailing)
 		send_data pdf, type: 'application/pdf', filename: 'form117.pdf', disposition: 'inline'
   end

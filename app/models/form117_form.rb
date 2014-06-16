@@ -143,8 +143,7 @@ class Form117Form < Prawn::Document
 			#image "#{Rails.root}/app/assets/pdf/postf117.jpg", at: [0, 595], width: 420
 			image 'app/assets/images/logo_russian_post.png', width: 50,
 						at: [-24, 490]
-			image 'app/assets/images/logo_russian_post.png', width: 50,
-						at: [-13, 190]
+
 
 			stroke_vertical_line 0, 750, at: [385]
 
@@ -170,13 +169,10 @@ class Form117Form < Prawn::Document
 				line_to 285, 420
 				line_to 285, 320
 				line_to 380, 320
-				line_to 380, 193
-				line_to -8, 193
+				line_to 380, 203
+				line_to -8, 203
 				line_to -8, 421
 			end
-
-
-			draw_barcode barcode, x: 285, y: 185, size: :small
 
 			# bounding_box([19, 441], width: 281, height: 16) do
 			# 	draw_text value/100, at: [3, 5], style: :condensed_bold unless value.nil?
@@ -219,6 +215,7 @@ class Form117Form < Prawn::Document
 											 {text: "\nВсего: "}, { text: ((weight_cost + insurance_cost)/100).to_s + ' руб.', styles: [:bold] },
 											 {text: "\n___________________"}],
 											 at: [290, 413], leading: 4 unless insurance_cost.nil?
+		draw_text "(подпись оператора)", at: [294, 324], size: 7
 
 			# formatted_text_box [{text: 'Вес: '}, { text: (weight/1000).to_s + ' кг.', styles: [:bold] }],
 			# 									 at: [300, 413], height: 10
@@ -231,16 +228,27 @@ class Form117Form < Prawn::Document
 			# formatted_text_box [{text: 'Всего: ', styles: [:bold]},{ text: ((weight_cost + insurance_cost)/100).to_s, styles: [:bold] }, {text: ' руб.'}],
 			# 									 at: [300, 355], height: 10 unless insurance_cost.nil?
 
-			draw_text "(подпись оператора)", at: [294, 324], size: 7
+		# Секция извещения о посылке
 
-			draw_text "Извещение о посылке № _________", at: [58,165]
+		image 'app/assets/images/logo_russian_post.png', width: 50,
+		      at: [-13, 192]
 
-			draw_text "(по накладной ф.16)", at: [158, 157], size: 6
+		draw_barcode barcode, x: 275, y: 190, size: :small
 
-			formatted_text_box [{text: 'Вес     '}, { text: (weight/1000).to_s, styles: [:bold] }, {text: '     кг.'}], at: [58, 151], width: 150, height: 10
+		stroke_color 'd3d3d3'
+		stroke do
+			horizontal_line -8, 150, at: [197]
+			horizontal_line 219, 380, at: [197]
+		end
+		stroke_color '000000'
+		draw_text 'л и н и я   о т р е з а', at: [153, 195], style: :italic, size: 6
 
-			draw_text "Оттиск календарного штемпеля", at: [232, 141], size: 7
-			draw_text "ОПС места приема", at: [255, 134], size: 7
+			draw_text "Извещение о посылке № _______________", at: [38,165]
+			draw_text "(по накладной ф.16)", at: [160, 157], size: 6
+			formatted_text_box [{text: 'Вес:  '}, { text: (weight/1000).to_s + 'кг.',styles: [:bold] }],
+			                    at: [38, 150], width: 150, height: 10
+			draw_text "Оттиск календарного штемпеля", at: [232, 147], size: 7
+			draw_text "ОПС места приема", at: [255, 140], size: 7
 
 			# mailing.decl_amount_digit = 0.0 if opts[:simple]
 			# mailing.cod_amount_digit = 0.0 if opts[:simple]
@@ -249,11 +257,13 @@ class Form117Form < Prawn::Document
 			#
 			# draw_text 'Сумма наложенного', at: [222,115]
 			# formatted_text_box [{text: 'платежа  '},{ text: fcc(mailing.cod_amount_digit.floor), styles: [:bold] }, {text: ' руб. '}, { text: ((mailing.cod_amount_digit-mailing.cod_amount_digit.floor)*100).floor.to_s[0..1].rjust(2, '0'), styles: [:bold] }, {text: '  коп. '}], at: [222, 111], width: 250, height: 10
-
-			formatted_text_box [{text: 'Кому: ', styles: [:bold]}, { text: receiver }], at: [19, 85], width: 325, height: 40
-
-			formatted_text_box [{text: 'Адрес: ', styles: [:bold]}, { text: receiver_address }, { text: receiver_index.to_s }], at: [19, 72], width: 325, height: 40
 			stroke_rectangle [-8, 137], 383, 100
+			formatted_text_box [{text: 'Кому: ', styles: [:bold]}, { text: receiver }],
+			                   at: [19, 85], width: 325, height: 40
+
+			formatted_text_box [{text: 'Адрес: ', styles: [:bold]}, { text: receiver_address }, { text: receiver_index.to_s }],
+			                   at: [19, 72], width: 325, height: 40
+
 
 			draw_text 'Обведенное жирной чертой заполняется отправителем',
 								at: [56, 26], style: :condensed_bold
@@ -351,7 +361,7 @@ class Form117Form < Prawn::Document
       draw_text "(подпись адресата)",
                 :at => [219, base_z-343], :size => 7
 
-      draw_text "Выдал_______________________________________________________________________________",
+      draw_text "Выдал___________________________________________________________________",
                 :at => [-17, base_z-375]
       draw_text "л и н и я   о т р е з а", :at => [140, base_z-400],
                 :style => :italic, :size => 7
