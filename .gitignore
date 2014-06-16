@@ -32,3 +32,4 @@ rerun.txt
 pickle-email-*.html
 .idea/*
 .idea/*
+.idea/workspace.xml
