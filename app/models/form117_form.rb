@@ -132,11 +132,11 @@ class Form117Form < Prawn::Document
 			payment:,
 			weight:,
 			weight_cost:,
-			insurance_cost:,
+			insurance_cost: nil,
 			sender:,
 			sender_address:,
 			sender_inn:,
-			sender_index:)
+			sender_index: )
 
 		prepare_fonts
 		#translate(x,y) do
@@ -144,7 +144,6 @@ class Form117Form < Prawn::Document
 
 			image 'app/assets/images/logo_russian_post.png', width: 50,
 						at: [-24, 490]
-
 
 			stroke_vertical_line 0, 750, at: [385]
 
@@ -175,13 +174,15 @@ class Form117Form < Prawn::Document
 				line_to -8, 421
 			end
 
-			bounding_box([-4, 414], width: 281, height: 16) do
+			line_width 1
+
+			bounding_box([-4, 416], width: 281, height: 16) do
 				draw_text value/100, at: [3, 5], style: :condensed_bold unless value.nil?
 				draw_text "(сумма объявленной ценности)", at: [75, -7], size: 7
 				stroke_bounds
 			end
 
-			bounding_box([-4, 387], width: 281, height: 16) do
+			bounding_box([-4, 389], width: 281, height: 16) do
 				draw_text payment/100, at: [3, 5], style: :condensed_bold unless  payment.nil?
 				draw_text "(сумма наложенного платежа)", at: [75, -7], size: 7
 				stroke_bounds
@@ -215,7 +216,7 @@ class Form117Form < Prawn::Document
 											 {text: "\nза ОЦ: "}, { text: (insurance_cost/100).to_s + ' руб.', styles: [:bold]},
 											 {text: "\nВсего: "}, { text: ((weight_cost + insurance_cost)/100).to_s + ' руб.', styles: [:bold] },
 											 {text: "\n___________________"}],
-											 at: [285, 413], leading: 4 unless insurance_cost.nil?
+											 at: [285, 413], leading: 4
 		draw_text "(подпись оператора)", at: [289, 324], size: 7
 
 			# formatted_text_box [{text: 'Вес: '}, { text: (weight/1000).to_s + ' кг.', styles: [:bold] }],
@@ -270,7 +271,7 @@ class Form117Form < Prawn::Document
 
 	end
 
-  def print_form117_back
+	def print_form117_back
 
 	prepare_fonts
 
