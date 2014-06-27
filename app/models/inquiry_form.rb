@@ -19,7 +19,6 @@ class InquiryForm < Prawn::Document
 
     draw_inquiry(-5, 0)
     draw_inquiry(420,0)
-    render
   end
 
 
@@ -116,7 +115,6 @@ class InquiryForm < Prawn::Document
 
 	  draw_inquiry_back(-10, 0)
 	  draw_inquiry_back(415,0)
-	  render
   end
 
   def draw_inquiry_back(x, y)

@@ -22,23 +22,27 @@ class FormsController < ApplicationController
   end
 
   def form130
-    pdf = Form130Form.new.to_pdf index: '443218', sum: 14045.94, quantity: 33
-    send_data pdf, type: 'application/pdf', filename: 'form130.pdf', disposition: 'inline'
+    pdf = Form130Form.new
+		pdf.print_form130(index: '443218', sum: 14045.94, quantity: 33, date: Date.today)
+    send_data pdf.render, type: 'application/pdf', filename: 'form130.pdf', disposition: 'inline'
   end
 
   def prepayment
-    pdf = PrepaymentForm.new.to_pdf
-    send_data pdf, type: 'application/pdf', filename: 'prepayment.pdf', disposition: 'inline'
+    pdf = PrepaymentForm.new
+		pdf.print_prepayment
+    send_data pdf.render, type: 'application/pdf', filename: 'prepayment.pdf', disposition: 'inline'
   end
 
   def inquiry
-    pdf = InquiryForm.new.print_inquiry
-    send_data pdf, type: 'application/pdf', filename: 'inquiry.pdf', disposition: 'inline'
+    pdf = InquiryForm.new
+		pdf.print_inquiry
+    send_data pdf.render, type: 'application/pdf', filename: 'inquiry.pdf', disposition: 'inline'
   end
 
   def inquiry_back
-	  pdf = InquiryForm.new.print_inquiry_back
-	  send_data pdf, type: 'application/pdf', filename: 'inquiry_back.pdf', disposition: 'inline'
+	  pdf = InquiryForm.new
+		pdf.print_inquiry_back
+	  send_data pdf.render, type: 'application/pdf', filename: 'inquiry_back.pdf', disposition: 'inline'
   end
 
   Mailing = Struct.new *%i{num company order send_date batch value payment weight}
@@ -61,7 +65,11 @@ class FormsController < ApplicationController
   end
 
   def form113
-	  pdf = Form113Form.new(page_layout: :landscape, page_size: 'A4').print_form113
+		order = Order.new('Васисуалий Геннадий Викторович', 101000, 'ул. Ленина, д. 23, кв. 11', 'Москва', '', '', 1234)
+		company = Company.new('ООО "Экстра"', 'ул. Лейтенанта', '632323423424', 443110)
+		batch = Batch.new(company, Date.today)
+		mailing = Mailing.new 443123_63_00023_9, company, order, Date.today, batch, 123400, 123400, 6235.00
+	  pdf = Form113Form.new(page_layout: :landscape, page_size: 'A4').print_f113_from_mailing(-15, 0, mailing)
 	  send_data pdf, type: 'application/pdf', filename: 'form113.pdf', disposition: 'inline'
   end
 
@@ -97,7 +105,8 @@ class FormsController < ApplicationController
 	end
 
   def act
-    pdf = ActForm.new.to_pdf(num: 4899, date: Date.today,
+    pdf = ActForm.new
+		pdf.print_act(num: 4899, date: Date.today,
       fulfiller: 'ООО "Экстра", ИНН/КПП 6316152650/631601001, 443068, г. Самара, ул. Ново-Садовая, д. 106, корп. 109',
       client: 'ООО МНПФ "Центр Новые Технологии", ИНН/КПП 6322025466/632401001, 445046, Самарская обл., г. Тольятти, ул. Лизы Чайкиной, д. 33, кв. 16',
       services: [['Почтовая подготовка', 55, 'шт.', 85], ['Складское хранение', 5, 'м. кв.', 490]],
@@ -105,11 +114,12 @@ class FormsController < ApplicationController
       fulfiller_signer: 'Афанасьева М. В.',
       client_title: 'Гл. бухгалтер',
       client_signer: 'Петров С. Р.')
-    send_data pdf, type: 'application/pdf', filename: 'act.pdf', disposition: 'inline'
+    send_data pdf.render, type: 'application/pdf', filename: 'act.pdf', disposition: 'inline'
   end
 
   def invoice_for_payment
-    pdf = Invoice_for_paymentForm.new.to_pdf(num: 8493, date: Date.today,
+    pdf = Invoice_for_paymentForm.new
+		pdf.print_invoice_for_payment(num: 8493, date: Date.today,
       adress: '443068, г. Самара, ул. Ново-Садовая д. 106, корп. 109',
       tel: 'Тел.: 8-800-100-31-01',
       line_items: [ ['Каша "Самарский Здоровяк" №48', 'шт.', 5, 125], ['Каша "Самарский Здоровяк" №42', 'шт.', 38, 125] ],
@@ -119,10 +129,10 @@ class FormsController < ApplicationController
       kpp: '631601001',
       account: '40702810029180000336',
       bik: '042202824',
-      corr_account: '30101810200000000824',  
+      corr_account: '30101810200000000824',
       bank: 'ФИЛИАЛ "НИЖЕГОРОДСКИЙ" ОАО "АЛЬФА-БАНК" Г.НИЖНИЙ НОВГОРОД',
       signer: 'Афанасьева Марина Васильевна')
-    send_data pdf, type: 'application/pdf', filename: 'invoice_for_payment.pdf', disposition: 'inline'
+    send_data pdf.render, type: 'application/pdf', filename: 'invoice_for_payment.pdf', disposition: 'inline'
   end
 
   def form22
@@ -131,7 +141,6 @@ class FormsController < ApplicationController
 	                    receiver_address: 'Самарская обл., Новокуйбышевский р-он, г. Новокуйбышевск, ул. Сергея Лазо, д. 323, кв. 893',
 	                    mailing_type: 'группа РПО (2 шт.)', weight: 3.389,
 	                    value: 382.3, payment: 382.3, delivery_cost: 328.3)
-
 	  send_data pdf.render, type: 'application/pdf', filename: 'form22.pdf', disposition: 'inline'
   end
 

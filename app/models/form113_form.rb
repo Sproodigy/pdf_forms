@@ -64,7 +64,7 @@ class Form113Form < Prawn::Document
 		barcode = Barby::Code25Interleaved.new(code)
 		barcode.include_checksum = false
 
-		barcode_string = [code.to_s[0..5] + '   ' + code.to_s[6..7] + '   ', code.to_s[8..14], '   ' + code.to_s[15]]
+		barcode_string = [code.to_s[0..5] + '   ' + code.to_s[6..7] + '   ', code.to_s[8..12], '   ' + code.to_s[13]]
 
 		if opts[:string_only]
 			formatted_text_box [{ text: barcode_string[0] }, { text: barcode_string[1], styles: [:bold] }, { text: barcode_string[2] }], at: [x+1, y-28], size: 8
@@ -83,7 +83,26 @@ class Form113Form < Prawn::Document
 		end
 	end
 
-	def print_form113
+	def print_f113_from_mailing(x, y, mailing)
+		print_form113(x, y,
+		barcode: mailing.num,
+		order_num: mailing.order.id,
+		receiver: mailing.order.name,
+		receiver_address: mailing.order.address,
+		receiver_index: mailing.order.zip,
+		receiver_inn: mailing.company.inn,
+		value: mailing.value,
+		payment: mailing.payment,
+		weight: mailing.weight,
+		weight_cost: 615440.00,
+		insurance_cost: 510300.00,
+		sender: mailing.company.juridical_title,
+		sender_address: mailing.company.address,
+		sender_index: mailing.company.index)
+	end
+
+	def print_form113(x, y, barcode:, order_num:, receiver:, receiver_address:, receiver_inn:, receiver_index:, value:, payment:,
+	weight:, weight_cost:, insurance_cost:, sender:, sender_address:, sender_index:)
 		font_families.update(
 				"DejaVuSans" => {
 						normal: "#{Rails.root}/app/assets/fonts/DejaVuSans.ttf",
@@ -96,11 +115,78 @@ class Form113Form < Prawn::Document
 				})
 		font "DejaVuSans", size: 9
 
-		draw_barcode '44312363938932'
+		image "#{Rails.root}/app/assets/pdf/postf113.jpg", at: [0, 595], width: 420
+
+
+		draw_barcode barcode, x: 15, y: 563
+
+		draw_barcode barcode, x: 80, y: 275, size: :small
+
+		formatted_text_box [{ :text => "Заказ № " }, { :text => order_num.to_s, :styles => [:bold], :size => 10}], :at => [175, 565], :width => 450, :height => 40
+		draw_text 'ф.113', at: [375,575], size: 8
+
+		#draw_post_stamp 221, 450#, title: true
+
+		formatted_text_box [{ :text => 'обведенное жирной чертой заполняется отправителем', :styles => [:bold], size: 6 }], :at => [15, 467], :width => 100, :height => 20
+
+		#draw_text "ПОЧТОВЫЙ ПЕРЕВОД наложенного платежа на #{fcc(payment/100)} руб. #{((payment-payment.floor)*100).floor.to_s[0..1].rjust(2, '0')} коп.", at: [23, 437], style: :condensed_bold, size: 10
+
+
+		bounding_box([21, 433], width: 375, height: 15) do
+			draw_text payment/100, style: :condensed_bold, :at => [2,5]
+			stroke_bounds
+		end
+
+		draw_text '(рубли прописью, копейки цифрами)', at: [135,412], size: 6
+
+		draw_text 'исправления не допускаются', at: [12,316], style: :bold, size: 8, rotate: 90
+
+		formatted_text_box [{text: "Кому: ", :styles => [:bold]},{ :text => receiver.to_s}], :at => [21, 405], :width => 375, :height => 10
+
+		formatted_text_box [{text: "Адрес: ", :styles => [:bold]},{ :text => receiver_address.to_s}], :at => [21, 385], :width => 375, :height => 30
+
+		draw_text "ИНН: #{receiver_inn.to_s}", at: [21,357], size: 8
+
+		formatted_text_box [{ :text => receiver_index.to_s }], :at => [21, 353], size: 8, :width => 255, :height => 40
+
+		draw_text "(шифр и подпись)", at: [325, 310], size: 6
+
+		#formatted_text_box [{ :text => Time.now.strftime("%d.%m.%Y"), :size => 9}], :at => [457, 217], :width => 75, :height => 10
+
+		draw_text "Высылается наложенный платеж", at: [12, 278], size: 9, style: :condensed_bold
+
+		draw_text "Дата _______________________", at: [17, 195]
+
+		formatted_text_box [{text: 'адресован ', :styles => [:bold]}, { :text => sender_address }], :at => [17, 185], :width => 170, :height => 50
+
+		formatted_text_box [{text: 'на имя ', :styles => [:bold]}, { :text => sender }], :at => [17, 135], :width => 170, :height => 30
+
+		draw_text "Отправление выдал", at: [17, 57]
+
+		draw_text "(должность, подпись)", at: [23, 35], size: 6
+
+		draw_text "ИЗВЕЩЕНИЕ", at: [285, 225], size: 10, style: :bold
+
+		formatted_text_box [{ :text => 'о почтовом переводе наложенного платежа №', :styles => [:bold], size: 8 }], :at => [250, 191], :width => 150, :height => 20
+
+		# formatted_text_box [
+		# 											 {text: 'На ', :styles => [:bold]},{ :text => fcc(mailing.cod_amount_digit), :styles => [:bold] },
+		# 											 {text: ' руб. ', :styles => [:bold]},
+		# 											 {text: ((mailing.cod_amount_digit-mailing.cod_amount_digit.floor)*100).floor.to_s[0..1].rjust(2, '0'), :styles => [:bold]},
+		# 											 {text: ' коп.', :styles => [:bold]}
+		# 									 ], :at => [225, 155], :width => 300, :height => 10
+
+		formatted_text_box [{text: 'Кому: ', :styles => [:bold]},{ :text => receiver.to_s}], :at => [215, 135], :width => 300, :height => 20
+
+		formatted_text_box [{text: 'Адрес: ', :styles => [:bold]},{ :text => receiver_address.to_s}], :at => [215, 110], :width => 200, :height => 160
+
+		draw_text "Оплата производится по адресу", at: [212, 50], size: 8
 
 		render
 
 	end
+
+
 
   def print_form113_back
     font_families.update(

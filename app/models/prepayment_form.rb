@@ -1,9 +1,7 @@
-# encoding: utf-8
-
 class PrepaymentForm < Prawn::Document
   include ActionView::Helpers::NumberHelper
 
-  def to_pdf
+  def print_prepayment
     font_families.update(
       "DejaVuSans" => {
         normal: "#{Rails.root}/app/assets/fonts/DejaVuSans.ttf",
@@ -23,7 +21,7 @@ class PrepaymentForm < Prawn::Document
     12.times do |a|
     3.times do |b|    
            
-    self.line_width = 1
+    		line_width 1
 
         stroke do
             vertical_line 735, 495, :at =>270
@@ -60,7 +58,7 @@ class PrepaymentForm < Prawn::Document
         base_d = 665
         draw_text 'Гл. бухгалтер                            Бухгалтер', at: [0, base_d - (80 * b)], style: :bold
 
-        self.line_width = 2
+        line_width 2
         base_e = 659
         stroke_horizontal_line 0, 265, :at => base_e - (80 * b)
 
@@ -88,11 +86,11 @@ class PrepaymentForm < Prawn::Document
         base_d = 400
         draw_text 'Гл. бухгалтер                            Бухгалтер', at: [0, base_d - (80 * b)], style: :bold
 
-        self.line_width = 2
+        line_width 2
         base_e = 394
         stroke_horizontal_line 0, 265, :at => base_e - (80 * b)
 
-        self.line_width = 1
+        line_width 1
 
         base_x = 200
         draw_text "______________________20      г. На _________________руб.______коп.", at: [0, base_x - (80.2 * b)]
@@ -115,13 +113,13 @@ class PrepaymentForm < Prawn::Document
         base_d = 135
         draw_text 'Гл. бухгалтер                            Бухгалтер', at: [0, base_d - (80 * b)], style: :bold
 
-        self.line_width = 2
+        line_width 2
         base_e = 129
         stroke_horizontal_line 0, 265, :at => base_e - (80 * b)
 
 # Правая часть
 
-        self.line_width = 1
+        line_width  1
 
         base_x = 730
         draw_text "______________________20      г. На _________________руб.______коп.", at: [275, base_x - (80.2 * b)]
@@ -144,12 +142,12 @@ class PrepaymentForm < Prawn::Document
         base_d = 665
         draw_text 'Гл. бухгалтер                            Бухгалтер', at: [275, base_d - (80 * b)], style: :bold
 
-        self.line_width = 2
+        line_width 2
         base_e = 659
         stroke_horizontal_line 275, 540, :at => base_e - (80 * b)
 
 
-        self.line_width = 1
+        line_width  1
 
         base_x = 465
         draw_text "______________________20      г. На _________________руб.______коп.", at: [275, base_x - (80.2 * b)]
@@ -172,11 +170,11 @@ class PrepaymentForm < Prawn::Document
         base_d = 400
         draw_text 'Гл. бухгалтер                            Бухгалтер', at: [275, base_d - (80 * b)], style: :bold
 
-        self.line_width = 2
+        line_width 2
         base_e = 394
         stroke_horizontal_line 275, 540, :at => base_e - (80 * b)
 
-        self.line_width = 1
+        line_width 1
 
         base_x = 200
         draw_text "______________________20      г. На _________________руб.______коп.", at: [275, base_x - (80.2 * b)]
@@ -199,7 +197,7 @@ class PrepaymentForm < Prawn::Document
         base_d = 135
         draw_text 'Гл. бухгалтер                            Бухгалтер', at: [275, base_d - (80 * b)], style: :bold
 
-        self.line_width = 2
+        line_width 2
         base_e = 129
         stroke_horizontal_line 275, 540, :at => base_e - (80 * b)
 

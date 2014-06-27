@@ -113,9 +113,9 @@ class Form22Form < Prawn::Document
 			formatted_text_box [{text: 'Извещение № '}, {text: doc_num.to_s, styles: [:bold]}],
 			                   at:[85, cursor-38]
 			move_down 60
-			formatted_text_box [{text: "\nКому:  "}, {text: "#{receiver}", styles: [:bold]},
-			                    {text: "\nАдрес: "}, {text: "#{receiver_address}", styles: [:bold]},
-			                    {text: "\nНа ваше имя поступило: "}, {text: "#{mailing_type}", styles: [:bold]},
+			formatted_text_box [{text: "\nКому:  "}, {text: receiver, styles: [:bold]},
+			                    {text: "\nАдрес: "}, {text: receiver_address, styles: [:bold]},
+			                    {text: "\nНа ваше имя поступило: "}, {text: mailing_type, styles: [:bold]},
 			                    {text: "\nОткуда: "}, {text: 'Самарская обл., Октябрьский р-он, г. Самара, ул. Лейтенанта Шмидта, д. 106, корп. 109', styles: [:bold]}],
 			                   at: [0, cursor+20], width: 380, leading: 2
 
