@@ -3,8 +3,13 @@ require 'barby/barcode/code_25_interleaved'
 require 'barby/outputter/prawn_outputter'
 
 class Form113Form < Prawn::Document
+	include ActionView::Helpers::NumberHelper
 
 	POST_STAMP_SIZE = 80
+
+	def fc(num)
+		number_with_precision(num, precision: 0, delimiter: ' ')
+	end
 
 	def draw_post_stamp(x, y, opts = {})
 		translate(x, y) do
@@ -113,10 +118,7 @@ class Form113Form < Prawn::Document
 				})
 		font "DejaVuSans", size: 9
 
-		#image "#{Rails.root}/app/assets/pdf/postf113.jpg", at: [0, 595], width: 420
-
 		stroke_vertical_line 0, 750, at: [385]
-		text '-' * 120, valign: :center
 
 		# Секция с календарным штемпелем
 
@@ -124,6 +126,12 @@ class Form113Form < Prawn::Document
 					at: [-24, 500]
 
 		draw_barcode barcode, x: -17, y: 540
+		draw_text "№_________________", at: [25, 489]
+		draw_text "(по накладной ф.16)", at: [35, 480], size: 7
+		draw_text "№_________________", at: [25, 466]
+		draw_text "(по реестру ф.10)", at: [40, 457], size: 7
+
+		text_box "П\nР\nИ\nЕ\nМ", at: [125, 510], size: 10, style: :bold
 
 		formatted_text_box [{ :text => "Заказ № " }, { :text => order_num.to_s, :styles => [:bold]}],
 											 :at => [155, 545] unless order_num.nil?
@@ -134,7 +142,7 @@ class Form113Form < Prawn::Document
 		text_box "обведенное жирной чертой\nзаполняется отправителем", style: :bold, size: 6,
 											 at: [-17, 447]
 
-		# Секция почтового перевода наложенного платежа
+		# Секция получателя платежа
 
 		stroke do
 			line_width 2
@@ -143,26 +151,28 @@ class Form113Form < Prawn::Document
 			line_to 380, 431
 			line_to 380, 310
 			line_to 280, 310
-			line_to 280, 272
-			line_to -7, 272
+			line_to 280, 261
+			line_to -7, 261
 			line_to -7, 432
 		end
 
 		draw_text 'исправления не допускаются', at: [-11, 300], style: :condensed_bold, size: 7, rotate: 90
 
-		draw_text 'ПОЧТОВЫЙ ПЕРЕВОД наложенного платежа на 38983 руб. 89 коп.', at: [-2, 420], size: 10, style: :condensed_bold
+		draw_text "ПОЧТОВЫЙ ПЕРЕВОД наложенного платежа на #{fc(payment)} руб. #{(payment-payment.floor).floor.to_s[0..1].rjust(2, '0')} коп.",
+			at: [-2, 420], style: :condensed_bold, size: 10
 
-		#draw_text "ПОЧТОВЫЙ ПЕРЕВОД наложенного платежа на #{fcc(payment/100)} руб. #{((payment-payment.floor)*100).floor.to_s[0..1].rjust(2, '0')} коп.",
-		# at: [23, 437], style: :condensed_bold, size: 10
+		total_sum_string = (RuPropisju.propisju_int(payment.floor) + ' руб. ' +
+				(payment-payment.floor).floor.to_s[0..1].rjust(2, '0') + ' коп.').mb_chars.capitalize
 
-		bounding_box([-3, 414], width: 375, height: 15) do
-			draw_text payment/100, style: :condensed_bold, :at => [2,5]
+		bounding_box([-3, 414], width: 379, height: 15) do
+			draw_text total_sum_string, style: :condensed_bold, :at => [2,5]
 			stroke_bounds
 		end
 
 		draw_text '(рубли прописью, копейки цифрами)', at: [117, 392], size: 7
-		formatted_text_box [{text: "Кому: ", styles: [:bold]}, {text: receiver * 10},
-												{text: "\n\nАдрес: ", styles: [:bold]}, {text:receiver_address * 7}], at: [-2, 387], width: 375
+		formatted_text_box [{text: "Кому: ", styles: [:bold]}, {text: receiver},
+												{text: "\n\nАдрес: ", styles: [:bold]}, {text:receiver_index.to_s +  ', Федеральный клиент ООО "Экстра"'}],
+											 at: [-2, 387], width: 375
 		formatted_text_box [{text: "ИНН: ", styles: [:bold]}, {text: "#{receiver_inn.to_s}"},
 												{text: "\n#{receiver_index}, " .to_s + 'Федеральный клиент ООО "Экстра", код 6194'}],
 											 at: [-2, 317], width: 300
@@ -170,74 +180,91 @@ class Form113Form < Prawn::Document
 		draw_text '_' * 21, at:[284, 279]
 		draw_text "(шифр и подпись)", at: [300, 271], size: 7
 
-		# Секция "Извещение"
+		line_width 1
+		stroke_color 50, 50, 50, 0
+		stroke_horizontal_line -17, 130, :at => 554-300
+		stroke_horizontal_line 210, 380, at: 254
+		stroke_vertical_line 247, 154, :at => 190
+		stroke_vertical_line 74, -26, :at => 190
+		stroke_color 50, 50, 50, 100
+		draw_text "л и н и я   о т р е з а", :at => [132, 251],
+							:style => :italic, :size => 7
+		draw_text "л и н и я   о т р е з а", :at => [190, 77],
+							:style => :italic, :size => 7, :rotate => 90
 
-		draw_barcode barcode, x: 80, y: 240, size: :small
+		# Секция отправителя платежа
 
-		draw_text "Высылается наложенный платеж", at: [-10, 247], style: :bold
+		draw_barcode barcode, x: 80, y: 233, size: :small
+
+		draw_text "Высылается наложенный платеж", at: [-10, 240], style: :bold
 
 		stroke do
 			line_width 2
 
-			move_to -7, 242
-			line_to 73, 242
-			line_to 73, 206
-			line_to 185, 206
-			line_to 185, 65
-			line_to 128, 65
-			line_to 128, 45
-			line_to -7, 45
-			line_to -7, 243
+			move_to -7, 235
+			line_to 73, 235
+			line_to 73, 199
+			line_to 182, 199
+			line_to 182, 58
+			line_to 126, 58
+			line_to 126, 38
+			line_to -7, 38
+			line_to -7, 236
 		end
 
-		formatted_text_box [{text: 'За: ', styles: [:bold]}, {text: 'посылку, письмо, бандероль'}], at: [-2, 237], width: 70
-		draw_text 'Подан', at: [-2, 190], style: :bold
+		formatted_text_box [{text: 'За: ', styles: [:bold]}, {text: 'посылку, письмо, бандероль'}], at: [-2, 230], width: 70
+		draw_text 'Подан', at: [-2, 183], style: :bold
 		formatted_text_box [{ :text => Time.now.strftime("%d.%m.%Y"), :size => 9}],
-											 :at => [60, 176]
+											 :at => [60, 169]
 		formatted_text_box [{text: 'Дата: ', styles: [:bold]}, {text: '_' * 26},
 												{text: "\n\nАдресован: ", :styles => [:bold]}, {:text => sender_address},
 												{text: "\n\nНа имя: ", :styles => [:bold]}, {:text => sender}],
-											 :at => [-2, 175], :width => 170
+											 :at => [-2, 168], :width => 178
 
 		font_size 6
 		line_width 1
-		stroke_rectangle [139, 60], 35, 35
-		bounding_box([124, 23], width: 70) do
-			text '(оттиск календ. шт.'
-			indent(13) do
-				text 'ОПС места'
-			end
-			indent(8) do
-				text 'вручения РПО)'
-			end
-		end
+		stroke_rectangle [130, 54], 50, 50
+
+		draw_text '(оттиск календ. шт.', at: [124, -2]
+		draw_text 'ОПС места', at: [138, -9]
+		draw_text 'вручения РПО)', at: [132, -16]
 		font_size 9
 
-		draw_text "Отправление выдал", at: [-2, 35]
-		draw_text '_' * 24, at: [-2, 20]
-		draw_text "(должность, подпись)", at: [11, 12], size: 7
+		draw_text "Отправление выдал:", at: [-2, 28], style: :bold
+		draw_text '_' * 24, at: [-2, 8]
+		draw_text "(должность, подпись)", at: [11, 0], size: 7
 
-		draw_text "ИЗВЕЩЕНИЕ", at: [285, 225], size: 10, style: :bold
+		# Секция извещения
 
-		formatted_text_box [{ :text => 'о почтовом переводе наложенного платежа №', :styles => [:bold], size: 8 }], :at => [250, 191], :width => 150, :height => 20
+		draw_text "ИЗВЕЩЕНИЕ", at: [275, 210], size: 10, style: :bold
 
-		# formatted_text_box [
-		# 											 {text: 'На ', :styles => [:bold]},{ :text => fcc(mailing.cod_amount_digit), :styles => [:bold] },
-		# 											 {text: ' руб. ', :styles => [:bold]},
-		# 											 {text: ((mailing.cod_amount_digit-mailing.cod_amount_digit.floor)*100).floor.to_s[0..1].rjust(2, '0'), :styles => [:bold]},
-		# 											 {text: ' коп.', :styles => [:bold]}
-		# 									 ], :at => [225, 155], :width => 300, :height => 10
+		image 'app/assets/images/logo_russian_post.png', width: 50,
+					at: [191, 208]
 
-		formatted_text_box [{text: 'Кому: ', :styles => [:bold]},{ :text => receiver.to_s}], :at => [215, 135], :width => 300, :height => 20
+		draw_text '№' + '_' * 30, at: [237, 193]
+		draw_text '(по реестру ф. 11)', at: [278, 185], size: 7
+		formatted_text_box [{ :text => 'о почтовом переводе наложенного платежа №________', :styles => [:bold], size: 8 }],
+			:at => [232, 174], :width => 150, :height => 20
+		draw_text '(по ф. 5)', at: [350, 150], size: 7
 
-		formatted_text_box [{text: 'Адрес: ', :styles => [:bold]},{ :text => receiver_address.to_s}], :at => [215, 110], :width => 200, :height => 160
+		line_width 2
+		bounding_box([196, 145], width: 185, height: 100) do
+			draw_text "#{fc(payment)} руб. #{(payment-payment.floor).floor.to_s[0..1].rjust(2, '0')} коп.",
+								at: [37, 88], style: :bold
+			formatted_text_box [{text: 'Кому: ', :styles => [:bold]}, {:text => receiver.to_s},
+													{text: "\n\nАдрес: ", :styles => [:bold]},{:text => receiver_index.to_s},
+													{text: ', Федеральный клиент ООО "Экстра"'}],
+												 :at => [5, 75], :width => 180
+			stroke_bounds
+		end
 
-		draw_text "Оплата производится по адресу", at: [212, 50], size: 8
+		draw_text 'Оплата производится по адресу:', style: :bold, at: [205, 30]
+		draw_text '_' * 38, at: [205, 15]
+		draw_text '_' * 14 + 'с' + '_' * 10 + 'до' + '_' * 10, at: [205, -2]
 
 		render
 
 	end
-
 
 
   def print_form113_back
@@ -272,7 +299,7 @@ class Form113Form < Prawn::Document
     
     bounding_box([-17, base_z-123], :width => 397, :height => 65) do
 
-      self.line_width = 2
+      line_width 2
       move_down 10
       indent(10) do      
         text "Сумма"
@@ -332,7 +359,7 @@ class Form113Form < Prawn::Document
                 :at => [-17, base_z-320], :size => 6 
 
     stroke do
-      self.line_width = 2
+      line_width 2
       move_to -17, base_z-325
 
       line_to 177, base_z-325

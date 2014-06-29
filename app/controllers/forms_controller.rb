@@ -52,7 +52,7 @@ class FormsController < ApplicationController
 
   def form117
 	  order = Order.new('Васисуалий Геннадий Викторович', 101000, 'ул. Ленина, д. 23, кв. 11', 'Москва', '', '', 1234)
-	  company = Company.new('ООО "Экстра"', 'ул. Лейтенанта', '632323423424', 443110)
+	  company = Company.new('ООО "Экстра"', 'ул. Ново-Садовая 106, корп. 109', '632323423424', 443110)
 	  batch = Batch.new(company, Date.today)
 	  mailing = Mailing.new 443123_63_00023_9, company, order, Date.today, batch, 123400, 123400, 6235.00
 		pdf = Form117Form.new(page_layout: :landscape, page_size: 'A4').print_f117_from_mailing(-15, 0, mailing)
@@ -66,9 +66,9 @@ class FormsController < ApplicationController
 
   def form113
 		order = Order.new('Васисуалий Геннадий Викторович', 101000, 'ул. Ленина, д. 23, кв. 11', 'Москва', '', '', 1234)
-		company = Company.new('ООО "Экстра"', 'ул. Лейтенанта', '632323423424', 443110)
+		company = Company.new('ООО "Экстра"', 'ул. Ново-Садовая 106, корп. 109', '632323423424', 443110)
 		batch = Batch.new(company, Date.today)
-		mailing = Mailing.new 443123_63_00023_9, company, order, Date.today, batch, 123400, 123400, 6235.00
+		mailing = Mailing.new 443123_63_00023_9, company, order, Date.today, batch, 1234, 1234, 6235.00
 	  pdf = Form113Form.new(page_layout: :landscape, page_size: 'A4').print_f113_from_mailing(-15, 0, mailing)
 	  send_data pdf, type: 'application/pdf', filename: 'form113.pdf', disposition: 'inline'
   end
@@ -93,7 +93,7 @@ class FormsController < ApplicationController
 
   def form113en_mailing
 		order = Order.new('Васисуалий', 10100, 'ул. Ленина, д. 23, кв. 11', 'Москва', '', '')
-		company = Company.new('ООО "Экстра"', 'ул. Лейтенанта', '632323423424', 443110)
+		company = Company.new('ООО "Экстра"', 'ул. Ново-Садовая 106, корп. 109', '632323423424', 443110)
 		mailing = Mailing.new 443123_63_00023_9, company, order
     pdf = Form113enForm.new.print_f113en_from_mailing(mailing)
     send_data pdf, type: 'application/pdf', filename: 'form113en.pdf', disposition: 'inline'

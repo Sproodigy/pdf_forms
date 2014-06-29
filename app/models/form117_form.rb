@@ -158,6 +158,8 @@ class Form117Form < Prawn::Document
 
 			draw_text "№_________________", at: [25, 451]
 			draw_text "(по накладной ф.16)", at: [35, 442], size: 7
+		text_box "П\nР\nИ\nЕ\nМ", at: [125, 510], size: 10, style: :bold
+
 
 			draw_post_stamp 201, 520, title: true
 			stroke_rectangle [201, 440], 80, 20
