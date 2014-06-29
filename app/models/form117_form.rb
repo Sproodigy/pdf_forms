@@ -142,6 +142,8 @@ class Form117Form < Prawn::Document
 		#translate(x,y) do
 			font "DejaVuSans", size: 9
 
+			#Секция с календарным штемпелем
+
 			image 'app/assets/images/logo_russian_post.png', width: 50,
 						at: [-24, 490]
 
@@ -157,10 +159,8 @@ class Form117Form < Prawn::Document
 			draw_text "№_________________", at: [25, 451]
 			draw_text "(по накладной ф.16)", at: [35, 442], size: 7
 
-			draw_post_stamp 201, 520#, zip: ops_index, title: true unless ops_index.nil?
+			draw_post_stamp 201, 520, title: true
 			stroke_rectangle [201, 440], 80, 20
-			text_box "Календ. штемпель\nОПС места приёма",
-							 at: [206, 437], size: 7
 
 			stroke do
 				line_width 2

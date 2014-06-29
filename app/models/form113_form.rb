@@ -4,6 +4,8 @@ require 'barby/outputter/prawn_outputter'
 
 class Form113Form < Prawn::Document
 
+	POST_STAMP_SIZE = 80
+
 	def draw_post_stamp(x, y, opts = {})
 		translate(x, y) do
 			float do
@@ -85,24 +87,20 @@ class Form113Form < Prawn::Document
 
 	def print_f113_from_mailing(x, y, mailing)
 		print_form113(x, y,
-		barcode: mailing.num,
-		order_num: mailing.order.id,
-		receiver: mailing.order.name,
-		receiver_address: mailing.order.address,
-		receiver_index: mailing.order.zip,
-		receiver_inn: mailing.company.inn,
-		value: mailing.value,
-		payment: mailing.payment,
-		weight: mailing.weight,
-		weight_cost: 615440.00,
-		insurance_cost: 510300.00,
-		sender: mailing.company.juridical_title,
-		sender_address: mailing.company.address,
-		sender_index: mailing.company.index)
+									barcode: mailing.num,
+									order_num: mailing.order.id,
+									receiver: mailing.company.juridical_title,
+									receiver_address: mailing.company.address,
+									receiver_index: mailing.company.index,
+									receiver_inn: mailing.company.inn,
+									payment: mailing.payment,
+									sender: mailing.order.name,
+									sender_address:mailing.order.address ,
+									sender_index: mailing.order.zip)
 	end
 
-	def print_form113(x, y, barcode:, order_num:, receiver:, receiver_address:, receiver_inn:, receiver_index:, value:, payment:,
-	weight:, weight_cost:, insurance_cost:, sender:, sender_address:, sender_index:)
+	def print_form113(x, y, form_num: 113, barcode:, order_num:, receiver:, receiver_address:, receiver_inn:, receiver_index:, payment:,
+										sender:, sender_address:, sender_index:)
 		font_families.update(
 				"DejaVuSans" => {
 						normal: "#{Rails.root}/app/assets/fonts/DejaVuSans.ttf",
@@ -115,51 +113,89 @@ class Form113Form < Prawn::Document
 				})
 		font "DejaVuSans", size: 9
 
-		image "#{Rails.root}/app/assets/pdf/postf113.jpg", at: [0, 595], width: 420
+		#image "#{Rails.root}/app/assets/pdf/postf113.jpg", at: [0, 595], width: 420
 
+		stroke_vertical_line 0, 750, at: [385]
+		text '-' * 120, valign: :center
 
-		draw_barcode barcode, x: 15, y: 563
+		# Секция с календарным штемпелем
 
-		draw_barcode barcode, x: 80, y: 275, size: :small
+		image 'app/assets/images/logo_russian_post.png', width: 50,
+					at: [-24, 500]
 
-		formatted_text_box [{ :text => "Заказ № " }, { :text => order_num.to_s, :styles => [:bold], :size => 10}], :at => [175, 565], :width => 450, :height => 40
-		draw_text 'ф.113', at: [375,575], size: 8
+		draw_barcode barcode, x: -17, y: 540
 
-		#draw_post_stamp 221, 450#, title: true
+		formatted_text_box [{ :text => "Заказ № " }, { :text => order_num.to_s, :styles => [:bold]}],
+											 :at => [155, 545] unless order_num.nil?
+		draw_text "ф. #{form_num}", at: [355,545], size: 7
 
-		formatted_text_box [{ :text => 'обведенное жирной чертой заполняется отправителем', :styles => [:bold], size: 6 }], :at => [15, 467], :width => 100, :height => 20
+		draw_post_stamp 300, 531, title: true
 
-		#draw_text "ПОЧТОВЫЙ ПЕРЕВОД наложенного платежа на #{fcc(payment/100)} руб. #{((payment-payment.floor)*100).floor.to_s[0..1].rjust(2, '0')} коп.", at: [23, 437], style: :condensed_bold, size: 10
+		text_box "обведенное жирной чертой\nзаполняется отправителем", style: :bold, size: 6,
+											 at: [-17, 447]
 
+		# Секция почтового перевода наложенного платежа
 
-		bounding_box([21, 433], width: 375, height: 15) do
+		stroke do
+			line_width 2
+
+			move_to -7, 431
+			line_to 380, 431
+			line_to 380, 310
+			line_to 280, 310
+			line_to 280, 272
+			line_to -7, 272
+			line_to -7, 432
+		end
+
+		draw_text 'исправления не допускаются', at: [-11, 300], style: :condensed_bold, size: 7, rotate: 90
+
+		draw_text 'ПОЧТОВЫЙ ПЕРЕВОД наложенного платежа на 38983 руб. 89 коп.', at: [-2, 420], size: 10, style: :condensed_bold
+
+		#draw_text "ПОЧТОВЫЙ ПЕРЕВОД наложенного платежа на #{fcc(payment/100)} руб. #{((payment-payment.floor)*100).floor.to_s[0..1].rjust(2, '0')} коп.",
+		# at: [23, 437], style: :condensed_bold, size: 10
+
+		bounding_box([-3, 414], width: 375, height: 15) do
 			draw_text payment/100, style: :condensed_bold, :at => [2,5]
 			stroke_bounds
 		end
 
-		draw_text '(рубли прописью, копейки цифрами)', at: [135,412], size: 6
+		draw_text '(рубли прописью, копейки цифрами)', at: [117, 392], size: 7
+		formatted_text_box [{text: "Кому: ", styles: [:bold]}, {text: receiver * 10},
+												{text: "\n\nАдрес: ", styles: [:bold]}, {text:receiver_address * 7}], at: [-2, 387], width: 375
+		formatted_text_box [{text: "ИНН: ", styles: [:bold]}, {text: "#{receiver_inn.to_s}"},
+												{text: "\n#{receiver_index}, " .to_s + 'Федеральный клиент ООО "Экстра", код 6194'}],
+											 at: [-2, 317], width: 300
+		draw_text '_' * 21, at:[284, 295]
+		draw_text '_' * 21, at:[284, 279]
+		draw_text "(шифр и подпись)", at: [300, 271], size: 7
 
-		draw_text 'исправления не допускаются', at: [12,316], style: :bold, size: 8, rotate: 90
-
-		formatted_text_box [{text: "Кому: ", :styles => [:bold]},{ :text => receiver.to_s}], :at => [21, 405], :width => 375, :height => 10
-
-		formatted_text_box [{text: "Адрес: ", :styles => [:bold]},{ :text => receiver_address.to_s}], :at => [21, 385], :width => 375, :height => 30
-
-		draw_text "ИНН: #{receiver_inn.to_s}", at: [21,357], size: 8
-
-		formatted_text_box [{ :text => receiver_index.to_s }], :at => [21, 353], size: 8, :width => 255, :height => 40
-
-		draw_text "(шифр и подпись)", at: [325, 310], size: 6
+		# Секция "Извещение"
 
 		#formatted_text_box [{ :text => Time.now.strftime("%d.%m.%Y"), :size => 9}], :at => [457, 217], :width => 75, :height => 10
+		draw_barcode barcode, x: 80, y: 240, size: :small
 
-		draw_text "Высылается наложенный платеж", at: [12, 278], size: 9, style: :condensed_bold
+		draw_text "Высылается наложенный платеж", at: [-10, 245], style: :bold
 
-		draw_text "Дата _______________________", at: [17, 195]
+		stroke do
+			line_width 2
 
-		formatted_text_box [{text: 'адресован ', :styles => [:bold]}, { :text => sender_address }], :at => [17, 185], :width => 170, :height => 50
+			move_to -7, 431
+			line_to 380, 431
+			line_to 380, 310
+			line_to 280, 310
+			line_to 280, 272
+			line_to -7, 272
 
-		formatted_text_box [{text: 'на имя ', :styles => [:bold]}, { :text => sender }], :at => [17, 135], :width => 170, :height => 30
+		end
+
+		formatted_text_box [{text: 'За: ', styles: [:bold]}, {text: 'посылку, письмо, бандероль'}], at: [-2, 237], width: 70
+
+		draw_text "Дата _______________________", at: [-2, 195]
+
+		formatted_text_box [{text: 'адресован ', :styles => [:bold]}, { :text => sender_address }], :at => [-2, 185], :width => 170, :height => 50
+
+		formatted_text_box [{text: 'на имя ', :styles => [:bold]}, { :text => sender }], :at => [-2, 135], :width => 170, :height => 30
 
 		draw_text "Отправление выдал", at: [17, 57]
 
