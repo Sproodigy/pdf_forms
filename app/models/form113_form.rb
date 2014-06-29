@@ -172,34 +172,50 @@ class Form113Form < Prawn::Document
 
 		# Секция "Извещение"
 
-		#formatted_text_box [{ :text => Time.now.strftime("%d.%m.%Y"), :size => 9}], :at => [457, 217], :width => 75, :height => 10
 		draw_barcode barcode, x: 80, y: 240, size: :small
 
-		draw_text "Высылается наложенный платеж", at: [-10, 245], style: :bold
+		draw_text "Высылается наложенный платеж", at: [-10, 247], style: :bold
 
 		stroke do
 			line_width 2
 
-			move_to -7, 431
-			line_to 380, 431
-			line_to 380, 310
-			line_to 280, 310
-			line_to 280, 272
-			line_to -7, 272
-
+			move_to -7, 242
+			line_to 73, 242
+			line_to 73, 206
+			line_to 185, 206
+			line_to 185, 65
+			line_to 128, 65
+			line_to 128, 45
+			line_to -7, 45
+			line_to -7, 243
 		end
 
 		formatted_text_box [{text: 'За: ', styles: [:bold]}, {text: 'посылку, письмо, бандероль'}], at: [-2, 237], width: 70
+		draw_text 'Подан', at: [-2, 190], style: :bold
+		formatted_text_box [{ :text => Time.now.strftime("%d.%m.%Y"), :size => 9}],
+											 :at => [60, 176]
+		formatted_text_box [{text: 'Дата: ', styles: [:bold]}, {text: '_' * 26},
+												{text: "\n\nАдресован: ", :styles => [:bold]}, {:text => sender_address},
+												{text: "\n\nНа имя: ", :styles => [:bold]}, {:text => sender}],
+											 :at => [-2, 175], :width => 170
 
-		draw_text "Дата _______________________", at: [-2, 195]
+		font_size 6
+		line_width 1
+		stroke_rectangle [139, 60], 35, 35
+		bounding_box([124, 23], width: 70) do
+			text '(оттиск календ. шт.'
+			indent(13) do
+				text 'ОПС места'
+			end
+			indent(8) do
+				text 'вручения РПО)'
+			end
+		end
+		font_size 9
 
-		formatted_text_box [{text: 'адресован ', :styles => [:bold]}, { :text => sender_address }], :at => [-2, 185], :width => 170, :height => 50
-
-		formatted_text_box [{text: 'на имя ', :styles => [:bold]}, { :text => sender }], :at => [-2, 135], :width => 170, :height => 30
-
-		draw_text "Отправление выдал", at: [17, 57]
-
-		draw_text "(должность, подпись)", at: [23, 35], size: 6
+		draw_text "Отправление выдал", at: [-2, 35]
+		draw_text '_' * 24, at: [-2, 20]
+		draw_text "(должность, подпись)", at: [11, 12], size: 7
 
 		draw_text "ИЗВЕЩЕНИЕ", at: [285, 225], size: 10, style: :bold
 
