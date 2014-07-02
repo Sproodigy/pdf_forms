@@ -1,10 +1,8 @@
-# encoding: utf-8
-
 class Form130Form < Prawn::Document
   include ActionView::Helpers::NumberHelper
 
 
-  def to_pdf(opts = {})
+  def print_form130(index:, sum:, quantity:, date:)
     font_families.update(
       "DejaVuSans" => {
         normal: "#{Rails.root}/app/assets/fonts/DejaVuSans.ttf",
@@ -22,7 +20,7 @@ class Form130Form < Prawn::Document
     move_down 7
     text 'Самара-00'
     move_down 3
-    text opts[:index], style: :bold
+    text index, style: :bold
     move_down 3
     text 'Самара-123'
     move_down 7
@@ -43,12 +41,12 @@ class Form130Form < Prawn::Document
     text 'Оператор:' + ' ' * 60 + 'Oper'
     move_down 5
 
-    report_date = opts[:date].present? ? opts[:date] : Date.today
+    report_date = date.present? ? date : Date.today
     text 'Отчётный период:' + ' ' * 46 + "#{report_date.strftime('%d.%m.%Y')}"
     move_down 15
 
-    sum = number_to_currency(opts[:sum])
-    q = opts[:quantity]
+    sum = number_to_currency(sum)
+    q = quantity
 
     data = [ ["Код", "Название", "Сумма", "Кол-во"],
               ["1", "Остаток на начало дня", "0,00 р.", "0"],
@@ -65,6 +63,7 @@ class Form130Form < Prawn::Document
               ["4", "Расход", "0,00 р.", "0"],
               ["5", "Остаток на конец дня", "0,00 р.", "0"]
             ]
+
     table(data, :column_widths => [55, 315, 120, 50], 
          cell_style: { inline_format: true }) do |t|
       t.cells.border_width = 1
@@ -81,7 +80,6 @@ class Form130Form < Prawn::Document
       t.row(12).style size: 13
       t.row(13).style size: 13
 
-
       t.column(2).style align: :right
       t.column(3).style align: :right
       t.column(4).style align: :right
@@ -96,18 +94,16 @@ class Form130Form < Prawn::Document
     end
 
     move_down 25
-    text 'Заполнил:______________________________ / __________________________________________'
+    text 'Заполнил: ' + '_' * 30 + '/ ' + '_' * 42
     draw_text '(ответственное лицо)', at: [70, cursor-7]
     draw_text 'Ф. И. О.', at: [300, cursor-7]
 
     move_down 50
 
     repeat(:all) do
-      draw_text "ID: #{opts[:index]}.#{Time.now.strftime('%y%m%d.%H%M%S.%2N')}", :at => bounds.bottom_left
+      draw_text "ID: #{index}.#{Time.now.strftime('%y%m%d.%H%M%S.%2N')}", at: bounds.bottom_left
       draw_text "Лист 1 Всего листов 1", at: [bounds.right-150, 0]
-    end 
-
-    render
+    end
 
   end
 

@@ -9,7 +9,8 @@ class ActForm < Prawn::Document
     number_with_precision(num, precision: 2, delimiter: ' ')
   end
 
-  def to_pdf(params = {})
+  def print_act(num:,	date:,	fulfiller:, client:, services:, fulfiller_title:,
+		fulfiller_signer:,	client_title:, client_signer:)
 
 
     font_families.update(
@@ -23,18 +24,6 @@ class ActForm < Prawn::Document
         condensed_bold: "#{Rails.root}/app/assets/fonts/DejaVuSansCondensed-Bold.ttf"
       })
     font "DejaVuSans", size: 9
-
-
-    # Параметры акта
-    num = params[:num]
-    date = params[:date]
-    fulfiller = params[:fulfiller]
-    client = params[:client]
-    services = params[:services]
-    fulfiller_title = params[:fulfiller_title]
-    fulfiller_signer = params[:fulfiller_signer]
-    client_title = params[:client_title]
-    client_signer = params[:client_signer]
 
     services_data = []
     total_sum = 0.00
@@ -68,6 +57,7 @@ class ActForm < Prawn::Document
 
 
     # Основная таблица
+
     data = [ ["№", "Услуга", "Кол-во", "Ед.", "Цена", "Сумма"] ] + services_data
     table(data, :column_widths => [20, 223, 50, 36, 100, 110],
                 cell_style: { inline_format: true }) do |t|
@@ -123,11 +113,6 @@ class ActForm < Prawn::Document
     font_size 12
     draw_text "М. П.", at: [85, cursor-86]
     draw_text "М. П.", at: [365, cursor-86]
-    
-
-
-
-    render
 
   end
 

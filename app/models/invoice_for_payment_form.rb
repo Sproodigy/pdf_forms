@@ -1,5 +1,3 @@
-# encoding: utf-8
-
 class Invoice_for_paymentForm < Prawn::Document
   include ActionView::Helpers::NumberHelper
 
@@ -7,7 +5,8 @@ class Invoice_for_paymentForm < Prawn::Document
     number_with_precision(num, precision: 2, delimiter: ' ')
   end
 
-  def to_pdf(params = {})
+  def print_invoice_for_payment(num:, date:, line_items:, adress:, tel:, receiver:, account:, bik:,
+																corr_account:, inn:, kpp:, bank:, signer:, client:)
     font_families.update(
       "DejaVuSans" => {
         normal: "#{Rails.root}/app/assets/fonts/DejaVuSans.ttf",
@@ -19,22 +18,6 @@ class Invoice_for_paymentForm < Prawn::Document
         condensed_bold: "#{Rails.root}/app/assets/fonts/DejaVuSansCondensed-Bold.ttf"
       })
     font "DejaVuSans", size: 9
-
-    #Параметры счёта
-    num = params[:num]
-    date = params[:date]
-    line_items = params[:line_items]
-    adress = params[:adress]
-    tel = params[:tel]
-    receiver = params[:receiver]
-    account = params[:account]
-    bik = params[:bik]
-    corr_account =params[:corr_account]
-    inn = params[:inn]
-    kpp = params[:kpp]
-    bank = params[:bank]
-    signer = params[:signer]
-    client = params[:client]
 
     line_items_data = []
     total_sum = 0.00
@@ -49,13 +32,13 @@ class Invoice_for_paymentForm < Prawn::Document
 
     # Заголовок
 
-    image "app/assets/images/exxtra_logo_web.png", at: [380, 720], width: 150
+    #image "app/assets/images/exxtra_logo_web.png", at: [380, 720], width: 150
 
-    text "#{receiver}", style: :bold
+    text receiver, style: :bold
     move_down 10
-    text "#{adress}", style: :bold
+    text adress, style: :bold
     move_down 10
-    text "#{tel}", style: :bold
+    text tel, style: :bold
     move_down 20
     text 'Образец заполнения платёжного поручения', align: :center, style: :bold
     move_down 10
@@ -67,13 +50,13 @@ class Invoice_for_paymentForm < Prawn::Document
        {content: ''}, {content: ''}],
       [{content:"Получатель", colspan: 2},
        {content: 'Сч. №', rowspan: 2, valign: :bottom},
-       {content: "#{check_account_length(account)}", rowspan: 2, width: 165, valign: :bottom}],
-      [{content: "#{receiver}", colspan: 2,width: 310, valign: :bottom}],
+       {content: check_account_length(account), rowspan: 2, width: 165, valign: :bottom}],
+      [{content: receiver, colspan: 2,width: 310, valign: :bottom}],
       [{content: "Банк получателя", colspan: 2},
-       {content:'БИК', width: 40}, {content: "#{check_bik_length(bik)}", width: 165}],
-      [{content: "#{bank}",width: 310, valign: :bottom, colspan: 2}, 
+       {content:'БИК', width: 40}, {content: check_bik_length(bik), width: 165}],
+      [{content: bank, width: 310, valign: :bottom, colspan: 2},
        {content:'Сч. №', valign: :bottom},   
-       {content: "#{check_corr_account_length(corr_account)}", width: 165, valign: :bottom}]  
+       {content: check_corr_account_length(corr_account), width: 165, valign: :bottom}]
     ], cell_style: { inline_format: true }) do
       row(0).column(2).borders = [:top, :right]
       row(1).column(2).borders = [:bottom, :left]
@@ -88,13 +71,10 @@ class Invoice_for_paymentForm < Prawn::Document
     end
     move_down 20
 
-      
-
     text "Счёт №#{num} от " + I18n.l(date, format: :long), align: :center, style: :bold, size: 14
     move_down 20
 
-    formatted_text [{text:'Покупатель: '}, {text: "#{client}",
-      styles: [:bold]} ]
+    formatted_text [{text:'Покупатель: '}, {text: client, styles: [:bold]} ]
     move_down 20
 
     # Основная таблица
@@ -132,7 +112,7 @@ class Invoice_for_paymentForm < Prawn::Document
 
     text "Всего наименований #{line_items.size}, на сумму #{fc(total_sum)}"
     move_down 5
-    text "#{total_sum_string}", style: :bold
+    text total_sum_string, style: :bold
     move_down 30
 
     text "Руководитель предприятия ____________________________________ (#{signer})"

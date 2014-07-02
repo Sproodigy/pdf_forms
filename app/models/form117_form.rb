@@ -142,6 +142,8 @@ class Form117Form < Prawn::Document
 		#translate(x,y) do
 			font "DejaVuSans", size: 9
 
+			#Секция с календарным штемпелем
+
 			image 'app/assets/images/logo_russian_post.png', width: 50,
 						at: [-24, 490]
 
@@ -156,11 +158,11 @@ class Form117Form < Prawn::Document
 
 			draw_text "№_________________", at: [25, 451]
 			draw_text "(по накладной ф.16)", at: [35, 442], size: 7
+		text_box "П\nР\nИ\nЕ\nМ", at: [125, 510], size: 10, style: :bold
 
-			draw_post_stamp 201, 520#, zip: ops_index, title: true unless ops_index.nil?
+
+			draw_post_stamp 201, 520, title: true
 			stroke_rectangle [201, 440], 80, 20
-			text_box "Календ. штемпель\nОПС места приёма",
-							 at: [206, 437], size: 7
 
 			stroke do
 				line_width 2
@@ -208,27 +210,18 @@ class Form117Form < Prawn::Document
 			draw_text 'и с п р а в л е н и я  н е  д о п у с к а ю т с я',
 								at: [-11, 207], style: :condensed_bold, rotate: 90
 
-		insurance_cost.nil? ? pay = 'Плата: ' : pay = 'за вес: '
-
-		formatted_text_box [{text: 'Вес: '}, { text: (weight/1000).to_s + ' кг.', styles: [:bold] },
-											 {text: "\nПлата", styles: [:bold]},
-											 {text: "\n#{pay}"}, { text: (weight_cost/100).to_s + ' руб.', styles: [:bold] },
-											 {text: "\nза ОЦ: "}, { text: (insurance_cost/100).to_s + ' руб.', styles: [:bold]},
-											 {text: "\nВсего: "}, { text: ((weight_cost + insurance_cost)/100).to_s + ' руб.', styles: [:bold] },
-											 {text: "\n___________________"}],
-											 at: [285, 413], leading: 4
-		draw_text "(подпись оператора)", at: [289, 324], size: 7
-
-			# formatted_text_box [{text: 'Вес: '}, { text: (weight/1000).to_s + ' кг.', styles: [:bold] }],
-			# 									 at: [300, 413], height: 10
-			# insurance_cost.nil? ? pay = 'Плата: ' : pay = 'за вес '
-			# draw_text 'Плата', style: :condensed_bold, at: [300, 390] unless insurance_cost.nil?
-			# formatted_text_box [{text: pay},{ text: (weight_cost/100).to_s }, {text: ' руб.'}],
-			# 									 at: [300, 391], height: 10
-			# formatted_text_box [{text: 'за о.ц.: '},{ text: (insurance_cost/100).to_s }, {text: ' руб.'}],
-			# 								 at: [300, 373], height: 10 unless insurance_cost.nil?
-			# formatted_text_box [{text: 'Всего: ', styles: [:bold]},{ text: ((weight_cost + insurance_cost)/100).to_s, styles: [:bold] }, {text: ' руб.'}],
-			# 									 at: [300, 355], height: 10 unless insurance_cost.nil?
+			formatted_text_box [{text: 'Вес: '}, { text: (weight/1000).to_s + ' кг.', styles: [:bold] }],
+			 									 at: [285, 413]
+			insurance_cost.nil? ? pay = 'Плата: ' : pay = 'за вес: '
+			draw_text 'Плата', style: :bold, at: [285, 391] unless insurance_cost.nil?
+			formatted_text_box [{text: pay},{ text: (weight_cost/100).to_s + ' руб.', styles: [:bold]}],
+			 									 at: [285, 384]
+			formatted_text_box [{text: 'за ОЦ: '},{ text: (insurance_cost/100).to_s + ' руб.', styles: [:bold]}],
+												 at: [285, 369], height: 10 unless insurance_cost.nil?
+			formatted_text_box [{text: 'Всего: '},{ text: ((weight_cost + insurance_cost)/100).to_s + ' руб.', styles: [:bold]}],
+												 at: [285, 354], height: 10 unless insurance_cost.nil?
+			draw_text '_' * 19, at: [285, 333]
+			draw_text "(подпись оператора)", at: [289, 324], size: 7
 
 		# Секция извещения о посылке
 
