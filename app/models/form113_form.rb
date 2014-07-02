@@ -150,8 +150,7 @@ class Form113Form < Prawn::Document
 
 		draw_text 'исправления не допускаются', at: [-11, 300], style: :condensed_bold, size: 7, rotate: 90
 
-		draw_text "ПОЧТОВЫЙ ПЕРЕВОД наложенного платежа на #{fc(payment)} руб. #{(payment-payment.floor).floor.to_s[0..1].rjust(2, '0')} коп.",
-			at: [-2, 420], style: :condensed_bold, size: 10
+		draw_text "ПОЧТОВЫЙ ПЕРЕВОД наложенного платежа на #{fc(payment)} руб. #{(payment-payment.floor).floor.to_s[0..1].rjust(2, '0')} коп.", at: [-2, 420], style: :condensed_bold, size: 10
 
 		total_sum_string = (RuPropisju.propisju_int(payment.floor) + ' руб. ' +
 				(payment-payment.floor).floor.to_s[0..1].rjust(2, '0') + ' коп.').mb_chars.capitalize
@@ -260,7 +259,7 @@ class Form113Form < Prawn::Document
 						condensed_bold: "#{Rails.root}/app/assets/fonts/DejaVuSansCondensed-Bold.ttf"
 				})
 		font "DejaVuSans", size: 9
-		base_z = 554
+
 		text_box "Вторичное извещение выписано _________________
                 Плата за доставку _______________руб.______коп.
                 Подлежит оплате ___________________________",
@@ -293,7 +292,7 @@ class Form113Form < Prawn::Document
 		self.line_width = 1
 		stroke_color 50, 50, 50, 10
 		6.times do |a|
-			stroke_horizontal_line 30, 370, at: base_z-128-(3 * a)
+			stroke_horizontal_line 30, 370, at: 426-(3 * a)
 		end
 
 		stroke_color 50, 50, 50, 100
@@ -326,8 +325,6 @@ class Form113Form < Prawn::Document
 		draw_text "л и н и я   о т р е з а", at: [190, 77],
 							style: :italic, size: 7, rotate: 90
 
-
-
 		draw_text "Для получения денег заполните извещение и предъя- ",
 							at: [-12, 241], size: 6
 		draw_text "вите паспорт или документ, удостоверяющий личность",
@@ -337,7 +334,7 @@ class Form113Form < Prawn::Document
 		stroke_polygon [-17,229], [177, 229], [177, 25], [51, 24], [51, 48], [-17, 48], [-17, 230]
 		stroke_rectangle [203, 239], 177, 260
 
-		self.line_width = 1
+		line_width  1
 		stroke_rectangle [-8, 44], 50, 50
 
 		draw_text "Заполняется адресатом", at: [-10, 219],
@@ -351,35 +348,35 @@ class Form113Form < Prawn::Document
 						 width: 185, leading: 7
 
 		draw_text "(наименование учреждения выдавшего документ)",
-							at: [-14, base_z-418], size: 7
+							at: [-14, 136], size: 7
 
 		text_box 'Для переводов, адресованных "до востребования",
                на а\я, по месту работы (учёбы), при несовпадении
                прописки или регистрации с указанным адресом,
                укажите адрес и дату прописки или регистрации',
-						 at: [-5, base_z-422], size: 6, indent_paragrahs: 50
+						 at: [-5, 132], size: 6, indent_paragrahs: 50
 
-		stroke_horizontal_line -13, 170, at: base_z-471
-		stroke_horizontal_line -13, 170, at: base_z-491
+		stroke_horizontal_line -13, 170, at: 83
+		stroke_horizontal_line -13, 170, at: 63
 
-		draw_text "Адресат________________", at: [55, base_z-517]
-		draw_text "(подпись)", at: [110, base_z-525], size: 7
+		draw_text "Адресат________________", at: [55, 37]
+		draw_text "(подпись)", at: [110, 29], size: 7
 
-		image "app/assets/images/logo_russian_post.png", at: [207, base_z-319], width: 50
+		image "app/assets/images/logo_russian_post.png", at: [207, 235], width: 50
 
-		draw_text "ТАЛОН", at: [292, base_z-335], size: 11
-		draw_text "к почтовому переводу", at: [257, base_z-350], style: :bold
-		draw_text "наложенного платежа", at: [257, base_z-360], style: :bold
+		draw_text "ТАЛОН", at: [292, 219], size: 11
+		draw_text "к почтовому переводу", at: [257, 204], style: :bold
+		draw_text "наложенного платежа", at: [257, 194], style: :bold
 		draw_text "На __________________руб.______коп.",
-							at: [207, base_z-400], style: :bold
-		draw_text "От кого", at: [207, base_z-440], style: :bold
-		draw_text "Адрес отправителя", at: [207, base_z-490], style: :bold
+							at: [207, 154], style: :bold
+		draw_text "От кого", at: [207, 114], style: :bold
+		draw_text "Адрес отправителя", at: [207, 64], style: :bold
 
-		draw_text "Оплатил ___________________", at: [50, base_z-560]
-		draw_text "(дата, подпись)", at: [115, base_z-568], size: 6
-		draw_text "(оттиск календ. шт.", at: [-15, base_z-565], size: 6
-		draw_text "ОПС места", at: [-2, base_z-572], size: 6
-		draw_text "вручения РПО)", at: [-8, base_z-579], size: 6
+		draw_text "Оплатил ___________________", at: [50, -6]
+		draw_text "(дата, подпись)", at: [115, -14], size: 6
+		draw_text "(оттиск календ. шт.", at: [-15, -11], size: 6
+		draw_text "ОПС места", at: [-2, -18], size: 6
+		draw_text "вручения РПО)", at: [-8, -25], size: 6
 
 		render
 
