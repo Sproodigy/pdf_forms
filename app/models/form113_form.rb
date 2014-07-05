@@ -244,13 +244,14 @@ class Form113Form < Prawn::Document
 		draw_text '_' * 14 + 'с' + '_' * 10 + 'до' + '_' * 10, at: [205, -2]
 
 		render
+		@sender_index = sender_index
 
 	end
 
 
 	def print_form113_back
 		font_families.update(
-				"DejaVuSans" => {
+				'DejaVuSans' => {
 						normal: "#{Rails.root}/app/assets/fonts/DejaVuSans.ttf",
 						bold: "#{Rails.root}/app/assets/fonts/DejaVuSans-Bold.ttf",
 						italic: "#{Rails.root}/app/assets/fonts/DejaVuSans-Oblique.ttf",
@@ -261,9 +262,9 @@ class Form113Form < Prawn::Document
 				})
 		font "DejaVuSans", size: 9
 		base_z = 554
-		text_box "Вторичное извещение выписано _________________
+		text_box 'Вторичное извещение выписано _________________
                 Плата за доставку _______________руб.______коп.
-                Подлежит оплате ___________________________",
+                Подлежит оплате ___________________________',
 						 at: [-17, 554], height: 100, width: 145, leading: 7
 
 		text_box "О\nП\nЛ\nА\nТ\nА", at: [120, 535], leading: 1
@@ -321,9 +322,9 @@ class Form113Form < Prawn::Document
 		stroke_vertical_line 247, 154, at: 190
 		stroke_vertical_line 74, -26, at: 190
 		stroke_color 50, 50, 50, 100
-		draw_text "л и н и я   о т р е з а", at: [132, 251],
+		draw_text 'л и н и я   о т р е з а', at: [132, 251],
 							style: :italic, size: 7
-		draw_text "л и н и я   о т р е з а", at: [190, 77],
+		draw_text 'л и н и я   о т р е з а', at: [190, 77],
 							style: :italic, size: 7, rotate: 90
 
 
