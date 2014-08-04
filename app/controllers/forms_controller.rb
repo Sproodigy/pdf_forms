@@ -135,18 +135,24 @@ class FormsController < ApplicationController
     send_data pdf.render, type: 'application/pdf', filename: 'invoice_for_payment.pdf', disposition: 'inline'
   end
 
-  def form22
-	  pdf = Form22Form.new
-	  pdf.print_form22(x: 0, y: 0, doc_num: 1, receiver: 'Сорокиной Оксане Александровне',
-	                    receiver_address: 'Самарская обл., Новокуйбышевский р-он, г. Новокуйбышевск, ул. Сергея Лазо, д. 323, кв. 893',
-	                    mailing_type: 'группа РПО (2 шт.)', weight: 3.389,
-	                    value: 382.3, payment: 382.3, delivery_cost: 328.3)
-	  send_data pdf.render, type: 'application/pdf', filename: 'form22.pdf', disposition: 'inline'
+  def search
+	  pdf = SearchForm.new
+	  pdf.print_search
+	  send_data pdf.render, type: 'application/pdf', filename: 'search.pdf', disposition: 'inline'
   end
 
   def form22_back
 	  pdf = Form22Form.new.print_form22_back
 	  send_data pdf, type: 'application/pdf', filename: 'form22_back.pdf', disposition: 'inline'
+  end
+
+  def form22
+	  pdf = Form22Form.new
+	  pdf.print_form22(x: 0, y: 0, doc_num: 1, receiver: 'Сорокиной Оксане Александровне',
+	                   receiver_address: 'Самарская обл., Новокуйбышевский р-он, г. Новокуйбышевск, ул. Сергея Лазо, д. 323, кв. 893',
+	                   mailing_type: 'группа РПО (2 шт.)', weight: 3.389,
+	                   value: 382.3, payment: 382.3, delivery_cost: 328.3)
+	  send_data pdf.render, type: 'application/pdf', filename: 'form22.pdf', disposition: 'inline'
   end
  
  

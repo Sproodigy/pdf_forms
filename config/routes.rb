@@ -16,6 +16,7 @@ PdfForms::Application.routes.draw do
 	match '/backform113en' => 'forms#backform113en'
   match '/form22' => 'forms#form22'
   match '/form22_back' => 'forms#form22_back'
+  match '/search' => 'forms#search'
   
   # The priority is based upon order of creation:
   # first created -> highest priority.
