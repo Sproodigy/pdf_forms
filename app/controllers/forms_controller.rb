@@ -137,7 +137,7 @@ class FormsController < ApplicationController
 
   def search
 	  pdf = SearchForm.new
-	  pdf.print_search
+	  pdf.print_search(sender:'', sender_address: '', receiver:'', receiver_address: '', tel: 89348990211, value: 5389, payment: 5389, date: Date.today.strftime('%d.%m.%Y'), mailings_code: 44312364892300, weight: 4932, packaging: 'Гофротара', put: 'Пищевые добавки')
 	  send_data pdf.render, type: 'application/pdf', filename: 'search.pdf', disposition: 'inline'
   end
 
