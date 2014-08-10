@@ -173,7 +173,7 @@ class Form113Form < Prawn::Document
 
 		line_width 1
 		stroke_color 50, 50, 50, 0
-		stroke_horizontal_line -17, 130, at: 554-300
+		stroke_horizontal_line -17, 130, at: 254
 		stroke_horizontal_line 210, 380, at: 254
 		stroke_vertical_line 247, 154, at: 190
 		stroke_vertical_line 74, -26, at: 190
@@ -243,14 +243,13 @@ class Form113Form < Prawn::Document
 		draw_text '_' * 14 + 'с' + '_' * 10 + 'до' + '_' * 10, at: [205, -2]
 
 		render
-		@sender_index = sender_index
 
 	end
 
 
 	def print_form113_back
 		font_families.update(
-				'DejaVuSans' => {
+				"DejaVuSans" => {
 						normal: "#{Rails.root}/app/assets/fonts/DejaVuSans.ttf",
 						bold: "#{Rails.root}/app/assets/fonts/DejaVuSans-Bold.ttf",
 						italic: "#{Rails.root}/app/assets/fonts/DejaVuSans-Oblique.ttf",
@@ -260,13 +259,11 @@ class Form113Form < Prawn::Document
 						condensed_bold: "#{Rails.root}/app/assets/fonts/DejaVuSansCondensed-Bold.ttf"
 				})
 		font "DejaVuSans", size: 9
-<<<<<<< HEAD
-		base_z = 554
+
 		text_box 'Вторичное извещение выписано _________________
-=======
+
 
 		text_box "Вторичное извещение выписано _________________
->>>>>>> 135b4897e8d55d58e9dfd9c144807478172967bf
                 Плата за доставку _______________руб.______коп.
                 Подлежит оплате ___________________________',
 						 at: [-17, 554], height: 100, width: 145, leading: 7
