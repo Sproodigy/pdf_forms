@@ -135,18 +135,42 @@ class FormsController < ApplicationController
     send_data pdf.render, type: 'application/pdf', filename: 'invoice_for_payment.pdf', disposition: 'inline'
   end
 
-  def form22
-	  pdf = Form22Form.new
-	  pdf.print_form22(x: 0, y: 0, doc_num: 1, receiver: 'Сорокиной Оксане Александровне',
-	                    receiver_address: 'Самарская обл., Новокуйбышевский р-он, г. Новокуйбышевск, ул. Сергея Лазо, д. 323, кв. 893',
-	                    mailing_type: 'группа РПО (2 шт.)', weight: 3.389,
-	                    value: 382.3, payment: 382.3, delivery_cost: 328.3)
-	  send_data pdf.render, type: 'application/pdf', filename: 'form22.pdf', disposition: 'inline'
+  def search
+	  pdf = SearchForm.new
+	  pdf.print_search(sender:'Версилов Станислав Игоревич',
+	                   mail_type: 'Посылка',
+	                   mail_ctg: 'Ценная',
+	                   sender_address: 'ул. Ново-Садовая 106, корп. 109, г. Самара, Самарская область, Россия, Тел: 8-937-233-83-32',
+	                   receiver: 'Абдурахманов Герхан Закиреевич',
+	                   receiver_address: 'г. Истанбул, Истанбульский р-он, Республика Казахстан, ул. Ходжы Насреддина 231, корп. 48, кв. 133, Тел: 8-233-329-23-38',
+	                   value: 53489,
+	                   payment: 53489,
+	                   date: Date.today,
+	                   barcode: 44312364892300,
+	                   weight: 4932,
+	                   packaging: 'Гофротара',
+	                   content: 'Пищевые добавки')
+	  send_data pdf.render, type: 'application/pdf', filename: 'search.pdf', disposition: 'inline'
   end
 
   def form22_back
 	  pdf = Form22Form.new.print_form22_back
 	  send_data pdf, type: 'application/pdf', filename: 'form22_back.pdf', disposition: 'inline'
+  end
+
+  def form22
+	  pdf = Form22Form.new
+	  pdf.print_form22(x: 0, y: 0, doc_num: 1, receiver: 'Сорокиной Оксане Александровне',
+	                   receiver_address: 'Самарская обл., Новокуйбышевский р-он, г. Новокуйбышевск, ул. Сергея Лазо, д. 323, кв. 893',
+	                   mailing_type: 'группа РПО (2 шт.)', weight: 3.389,
+	                   value: 382.3, payment: 382.3, delivery_cost: 328.3)
+	  send_data pdf.render, type: 'application/pdf', filename: 'form22.pdf', disposition: 'inline'
+  end
+
+  def form112ep
+	  pdf = Form112epForm.new
+	  pdf.print_form112ep(sender:'', sender_address: '', receiver:'', receiver_address: '', tel: 89348990211, value: 5389, payment: 5389, date: Date.today.strftime('%d.%m.%Y'), mailings_code: 44312364892300, weight: 4932, packaging: 'Гофротара', put: 'Пищевые добавки')
+	  send_data pdf.render, type: 'application/pdf', filename: 'form112ep.pdf', disposition: 'inline'
   end
  
  

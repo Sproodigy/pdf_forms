@@ -43,8 +43,7 @@ class Form113enForm < Prawn::Document
 				sender_address: mailing.order.address)
 	end
 
-	def print_f113en(payment:, receiver:, receiver_address:, index:, inn:, sender:, sender_address:,
-			account:, corr_account:, bik:, barcode:)
+	def print_f113en(payment:, receiver:, receiver_address:, index:, inn:, sender:, sender_address:, account:, corr_account:, bik:, barcode:)
 		font_families.update(
 				'DejaVuSans' => {
 						normal: "#{Rails.root}/app/assets/fonts/DejaVuSans.ttf",
@@ -59,7 +58,7 @@ class Form113enForm < Prawn::Document
 
 		# Деление формы на сектора
 
-		self.line_width = 2
+		line_width  2
 		stroke do
 			rectangle [175, 630], 365, 184
 			rectangle [175, 370], 365, 184
@@ -67,7 +66,7 @@ class Form113enForm < Prawn::Document
 			horizontal_line 180, 535, at: 245
 		end
 
-		self.line_width =1
+		line_width 1
 		stroke do
 			rectangle [0, 750], 550, 570
 			rectangle [180, 525], 355, 74
