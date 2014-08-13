@@ -37,6 +37,7 @@ class Form112epForm < Prawn::Document
 		line_width 2
 		stroke do
 			rectangle [3, 580], 529, 247
+			rectangle [9, 290], 520, 198
 
 			move_to  3, 329
 			line_to 532, 329
@@ -109,7 +110,24 @@ class Form112epForm < Prawn::Document
 		# 		stroke_bounds
 		# 	end
 
+		draw_text 'Адрес регистрации отправителя:', at: [9, 318]
+		stroke_horizontal_line 9, 528, at: 315
+		move_cursor_to 315
+		create_table(6, 468)
+		text_box '(юр.лицо - адрес местонахождения по месту государственной регистрации, физ.лицо - адрес места жительства/регистрации, заполняется при несовпадении с адресом отправителя, а также до востребования или на а/я)',
+		         at: [0, 313], size: 5, width: 460, align: :right
+		draw_text '(индекс)', at: [487, 300], size: 5
+		stroke_horizontal_line 9, 528, at: 295
 
+		draw_text 'не заполняется при приёме перевода от физического лица с расчётом наличными денежными стредствами',
+		          at: [12, 283], size: 6
+		stroke_horizontal_line 9, 361, at: 280
+		stroke_vertical_line 280, 290, at: 361
+
+		formatted_text_box [{text: "ИНН:" + ' ' * 68 + 'Кор/счёт:', styles: [:bold]}],
+		                   at: [12, 276]
+
+		
 
 		stroke do
 			horizontal_line 7, 530, at: 54
