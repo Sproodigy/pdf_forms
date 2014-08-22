@@ -9,12 +9,27 @@ class Form112epForm < Prawn::Document
 		draw_text legend, at: [x, y-5], size: 5
 	end
 
-	def create_table(columns, x)
-		table [[' '] * columns], cell_style: {padding: [-1, 2, 0, 2], width: 10, height: 10, borders: [:bottom, :left, :right]}, position: x
+	def draw_chekbox(x, y, width, height, legend, sms_ctg= false)
+		stroke_rectangle [x, y], width, height
+
+		line_width 2
+		stroke do
+			move_to x+1, y-5
+			line_to x+5, y-8
+			line_to x+9, y
+		end if sms_ctg
+		line_width 1
+
+		draw_text legend, at: [x+12, y-8.8]
 	end
 
-	def print_form112ep(sender:, receiver:, sender_address:, receiver_address:, tel:, value:, payment:,
-	                    date:, mailings_code:, weight:, packaging:, put:)
+	def create_table(columns, x)
+		data = [[' '] * columns]
+		table(data, cell_style: {padding: [-1, 2, 0, 2], width: 10, height: 10, borders: [:bottom, :left, :right]}, position: x)
+	end
+
+	def print_form112ep(sender:, sender_address:, sender_tel:, sender_index:, bank:, inn:, account:, corr_account:, bik:, receiver_index:, receiver:, receiver_address:, receiver_tel:, payment:,
+	                    date:, sms_ctg:)
 
 		font_families.update(
 				"DejaVuSans" => {
@@ -27,6 +42,9 @@ class Form112epForm < Prawn::Document
 						condensed_bold: "#{Rails.root}/app/assets/fonts/DejaVuSansCondensed-Bold.ttf"
 				})
 		font "DejaVuSans", size: 9
+
+		payment_propisyu = (RuPropisju.propisju_int(payment.floor) + ' руб. ' +
+				((payment-payment.floor)*100).floor.to_s[0..1].rjust(2, '0') + ' коп.').mb_chars.capitalize
 
 		# Изображения
 
@@ -43,7 +61,6 @@ class Form112epForm < Prawn::Document
 		stroke do
 			rectangle [3, 600], 532, 255
 			polygon [3, 340], [535, 340], [535, 50], [450, 50], [450, 0], [3, 0], [3, 340]
-			#stroke_polygon [172, cursor-7], [525, cursor-7], [525, cursor-37], [12, cursor-37], [12, cursor-7], [16, cursor-7]
 		end
 		line_width 1
 
@@ -70,6 +87,16 @@ class Form112epForm < Prawn::Document
 		end
 		undash
 
+
+		# formatted_text_box [{text: inn.to_s, character_spacing: 5.15}],
+		#                    at: [186.5, 489.7], style: :bold
+		# formatted_text_box [{text: corr_account.to_s, character_spacing: 5.15}],
+		#                    at: [332.3, 490], style: :bold
+		# formatted_text_box [{text: account.to_s, character_spacing: 5.15}],
+		#                    at: [187, 460.8], style: :bold
+		# formatted_text_box [{text: bik.to_s, character_spacing: 5.15}],
+		#                    at: [442.4, 460.8], style: :bold
+
 		# Сектор контроля
 
 		move_cursor_to 665
@@ -93,38 +120,53 @@ class Form112epForm < Prawn::Document
 		move_cursor_to 588
 
 		draw_text 'ПОЧТОВЫЙ ПЕРЕВОД', at: [9, cursor], style: :condensed_bold
-		draw_text 'на 38993 руб  00 коп', at: [9, cursor-11]
+		draw_text "на #{payment} руб  00 коп", at: [9, cursor-11]
 
 		fill_color 'dddddd'
-		fill_rectangle [130, cursor+7], 398, 18
-		fill_and_stroke_rectangle [9, cursor-17], 102, 28
+		fill_and_stroke_rectangle [9, cursor-19], 102, 28
 		fill_color '000000'
+
+		bounding_box([130, cursor+6.5], width: 398, height: 18) do
+			fill_color 'dddddd'
+			fill_rectangle [0, cursor], 398, 18
+			fill_color '000000'
+			text payment_propisyu,
+			     align: :center, valign: :center, style: :condensed_bold
+		end
+
+		draw_text '(рубли прописью, копейки цифрами)', at: [275, cursor-6], size: 6
 
 		fill_color 'ffffff'
-		fill_and_stroke_rectangle [15, cursor-22], 18, 18
+		fill_and_stroke_rectangle [15, cursor-13], 18, 18
 		fill_color '000000'
-		text_box "наложенный\nплатёж", at: [38, cursor-21]
+		text_box "наложенный\nплатёж", at: [38, cursor-12]
 
-		bounding_box([114, cursor-17], width: 119, height: 28) do
-			stroke do
-				rectangle [2, 26], 10, 10
-				rectangle [2, 12], 10, 10
-				horizontal_line 0, 119, at: 14
-			end
-			draw_text 'с доставкой на дом', at: [14, 17]
-			draw_text 'с уведомлением', at: [14, 3]
+		line_width 2
+		stroke do
+			move_to 15, cursor-21
+			line_to 24, cursor-29
+			line_to 32, cursor-13
+		end if payment > 0
+		line_width 1
+
+		bounding_box([114, cursor-8], width: 119, height: 28) do
+			stroke_horizontal_line 0, 119, at: 14
+			draw_chekbox(2, 26, 10, 10,'с доставкой на дом', sms_ctg == 'delivery_at_door')
+			draw_chekbox(2, 12, 10, 10,'с уведомлением', sms_ctg == 'at_notice')
 			stroke_bounds
 		end
-		move_down 5
+		move_down 4
 
-		formatted_text_box [{text: 'Кому: ', styles: [:bold]}, {text: 'Мингазалиев Абдурахман Гиззатуллович оглы'}],
+		formatted_text_box [{text: 'Кому: ', styles: [:bold]}, {text: receiver}],
 		                   at: [9, cursor]
 		stroke_hand_writing_line(43, 528, cursor-10, 50, '(для юр. лица - полное или краткое наименование, для физ. лица - Фамилия, Имя, а также Отчество (если иное не вытекает из закона или национального обычая) полностью)')
-		formatted_text_box [{text: 'Куда: ', styles: [:bold]}, {text: 'Республика Казахстан, Брахманский район, село Брахмачарьевское, ул. Сулеймановская 321, кв. 329'}],
+		formatted_text_box [{text: 'Куда: ', styles: [:bold]}, {text: receiver_address + ', ' + receiver_tel.to_s}],
 		                   at: [9, cursor-19], leading: 6
 		stroke_hand_writing_line(43, 528.5, cursor-29, 250, '(полный адрес получателя)')
 		move_down 29
 		create_table(6, 468)
+		formatted_text_box [{text: receiver_index.to_s, character_spacing: 4.45}],
+		                   at: [470, cursor+8], style: :bold, size: 8
 		draw_text '(индекс)', at: [487, cursor-5], size: 5
 		stroke_hand_writing_line(9, 528.5, cursor-8, 250, '')
 
@@ -144,34 +186,44 @@ class Form112epForm < Prawn::Document
 			draw_text 'заполняется при приёме перевода на расчётный счёт', at:[2, 48.2], size: 6
 
 			formatted_text_box [{text: "ИНН:" + ' ' * 65 + 'Кор/счёт:', styles: [:bold]},
-			                    {text: "\nНаименование банка: Поволжский филиал 'Альфа-Банк' в Самаре", styles: [:bold]},
+			                    {text: "\nНаименование банка: ", styles: [:bold]}, {text: bank},
 			                    {text: "\nРас/счёт:" + ' ' * 98 + 'БИК:', styles: [:bold]}],
 			                   at: [2, cursor-13], leading: 3
 			move_down 12
 			create_table(12, 35)
+			formatted_text_box [{text: inn.to_s, character_spacing: 4.45}],
+			                   at: [37, cursor+8], style: :bold, size: 8
 			move_up 10
 			create_table(20, 316)
+			formatted_text_box [{text: corr_account.to_s, character_spacing: 4.45}],
+			                   at: [318, cursor+8], style: :bold, size: 8
 			move_down 20
 			create_table(20, 59)
+			formatted_text_box [{text: account.to_s, character_spacing: 4.45}],
+			                   at: [61, cursor+8], style: :bold, size: 8
 			move_up 10
 			create_table(9, 426)
+			formatted_text_box [{text: bik.to_s, character_spacing: 4.45}],
+			                   at: [428, cursor+8], style: :bold, size: 8
 
 			stroke_bounds
 		end
 
-		formatted_text_box [{text: 'От кого: ', styles: [:bold]}, {text: 'ООО Экстра'}], at: [9, cursor-3]
+		formatted_text_box [{text: 'От кого: ', styles: [:bold]}, {text: sender}], at: [9, cursor-3]
 		stroke_hand_writing_line(59, 528, cursor-13, 60, '(для юр. лица - полное или краткое наименование, для физ. лица - Фамилия, Имя, а также Отчество (если иное не вытекает из закона или национального обычая) полностью)')
-		formatted_text_box [{text: 'Адрес отправителя: ', styles: [:bold]}, {text: 'Россия, Самарская область, г. Самара, ул. Ново-Садовая 106, корпус 109, тел: 8-937-383-32-32'}],
+		formatted_text_box [{text: 'Адрес отправителя: ', styles: [:bold]}, {text: sender_address + ', ' + sender_tel.to_s}],
 		                   at: [9, cursor-23], leading: 6
 		stroke_hand_writing_line(128, 528.5, cursor-33, 205, '(юр. лицо - фактический почтовый адрес, физ. лицо - адрес места нахождения пребывания)')
-		move_down 34
+		move_down 33
 		create_table(6, 468)
+		formatted_text_box [{text: sender_index.to_s, character_spacing: 4.45}],
+		                   at: [470, cursor+8], style: :bold, size: 8
 		stroke_hand_writing_line(9, 528.5, cursor-8, 205, '')
 		draw_text '(индекс)', at: [487, cursor-5], size: 5
 
 		# Сектор отправителя перевода
 
-		move_cursor_to 329
+		move_cursor_to 327
 
 		draw_text 'Адрес регистрации отправителя:', at: [9, cursor], style: :condensed_bold
 		stroke_horizontal_line 9, 528, at: cursor-3
@@ -186,7 +238,7 @@ class Form112epForm < Prawn::Document
 		fill_and_stroke_rectangle [9, cursor-13], 352, 9
 		fill_color '000000'
 
-		rectangle [9, cursor-13], 520, 217
+		rectangle [9, cursor-13], 520, 212
 
 		draw_text 'не заполняется при приёме перевода от физического лица с расчётом наличными денежными стредствами',
 		          at: [12, cursor-19.3], size: 6
@@ -229,15 +281,16 @@ class Form112epForm < Prawn::Document
 		draw_text '(наименование учреждения, выдавшего документ)' + ' ' * 80 + '(код подразделения, если имеется)',
 		          at: [85, cursor-54], size: 5
 
-		draw_text 'Гражданство: ________________________ дата рождения ________________ ИНН: ',
+		draw_text 'Гражданство: _________________________ дата рождения ___________________ ИНН: ',
 		          at: [12, cursor-65], style: :condensed_bold
+		draw_text '(при его наличии)', at: [365, cursor-72], size: 5
 		move_down 57
-		create_table(12, 387)
+		create_table(12, 405)
 		stroke do
 			move_to 172, cursor-7
 			line_to 526, cursor-7
-			line_to 526, cursor-37
-			line_to 12, cursor-37
+			line_to 526, cursor-31
+			line_to 12, cursor-31
 			line_to 12, cursor-7
 			line_to 18, cursor-7
 		end
@@ -247,34 +300,37 @@ class Form112epForm < Prawn::Document
 		bounding_box([-12, cursor-12], width: 80) do
 			text "Миграционная\nкарта: ", align: :right, style: :condensed_bold
 		end
-		draw_text 'Серия __________ № ______________', at: [70, cursor+3], style: :condensed_bold
+		draw_text 'Серия ____________ № ____________________', at: [70, cursor+3], style: :condensed_bold
+
+		bounding_box([210, cursor+17], width: 140) do
+			text "Дата\nвыдачи: ______________________", style: :condensed_bold
+		end
+
+		bounding_box([318, cursor+17], width: 230) do
+			text "Срок\nпребывания с ______________________ по ______________________", style: :condensed_bold
+		end
 		font_size 9
-
-
-		move_down 23
-		draw_text 'ФИО: ' + '_' * 96, at: [12, cursor]
-		move_down 7
-		draw_text '(Фамилия, Имя, а также отчество (если иное не вытекает из закона или национального обычая) полностью представителя юридичесого лица)', at: [90, cursor], size: 5
 		move_down 10
-		draw_text 'Адрес регистрации: ' + '_' * 80, at: [12, cursor]
-		move_down 7
-		draw_text '(адрес места жительства/регистрации представителя юридического лица)', at: [220, cursor], size: 5
 
+		formatted_text_box [{text: 'ФИО: ', styles: [:bold]}, {text: '_' * 107}], at: [12, cursor]
+		draw_text '(Фамилия, Имя, а также отчество (если иное не вытекает из закона или национального обычая) полностью представителя юридичесого лица)', at: [90, cursor-13], size: 5
+		formatted_text_box [{text: 'Адрес регистрации: ', styles: [:bold]}, {text: '_' * 90}], at: [12, cursor-19]
+		draw_text '(адрес места жительства/регистрации представителя юридического лица)', at: [220, cursor-33], size: 5
 
 		stroke do
 			horizontal_line 7, 530, at: 54
 			rectangle [351, 50], 94, 46
-			rectangle [451, 88], 11, 11
-			rectangle [497, 88], 11, 11
 		end
 
+		draw_chekbox(451, 85, 10, 10, 'Да')
+		draw_chekbox(498, 85, 10, 10, 'Нет')
 		draw_text 'Подпись:', at: [394, 57], style: :condensed_bold
-		draw_text 'Да          ' + 'Нет', at: [464, 77]
+
 
 		text_box 'Являетесь ли Вы должностным лицом публичных международных организаций или лицом, замещающим (занимающим) гос. должности РФ, должности членов Совета директоров Центрального банка РФ, должности федеральной гос. службы, назначение на которые и освобождение от которых осуществляется Президентом РФ или Правительством РФ, должности в Центральном банке РФ, гос. компаниях и иных организациях, созданных РФ на основании Федеральных законов, включенных в перечни должностей, определяемые Президентом РФ? (на основании федерального закона №231-ФЗ от 18 декабря 2006 г.)',
 		         at: [9, 85], width: 380, size: 5
 
-		text_box "В целях осуществления данного почтового перевода подтверждаю свое согласие:\n- на обработку как автоматизированным, так и неавтоматизированным способом указанных на бланке персональных данных; (Закон №152-ФЗ от 14 июля 2006 г.)\n- на передачу информации о номере почтового перевода, о событии (о поступлении почтового перевода в ОПС выплаты, о перечислении почтового перевода на счет получателя, о дате и месте совершения события).\nТакже подтверждаю своё соглвсие на передачу номера почтового перевода и событий третьему лицу в целях передачи SMS-сообщений по сетям связи.", at: [9, 49], width: 230, size: 5
+		text_box "В целях осуществления данного почтового перевода подтверждаю свое согласие:\n- на обработку как автоматизированным, так и неавтоматизированным способом указанных на бланке персональных данных; (Закон №152-ФЗ от 14 июля 2006 г.)\n- на передачу информации о номере почтового перевода, о событии (о поступлении почтового перевода в ОПС выплаты, о перечислении почтового перевода на счет получателя, о дате и месте совершения события).\nТакже подтверждаю своё соглвсие на передачу номера почтового перевода и событий третьему лицу в целях передачи SMS-сообщений по сетям связи.", at: [9, 51], width: 230, size: 5
 
 		text_box "Подпись\nотправителя:", at: [277, 23], style: :condensed_bold
 
