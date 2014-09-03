@@ -182,9 +182,12 @@ class FormsController < ApplicationController
 	                      receiver: 'Мингазалиев Абдурахман Гиззатуллович оглы',
 	                      receiver_address: 'Республика Казахстан, Брахманский район, село Брахмачарьевское, ул. Сулеймановская 321, кв. 329',
 	                      receiver_tel: 88934389309,
-	                      payment: 4890,
+	                      payment: 4534,
+	                      mail_payment: 8997,
 	                      date: Date.today,
-	                      sms_ctg: 'delivery_at_door')
+	                      mail_ctg: 'payment',
+	                      sms_ctg_1: 'delivery at door',
+	                      sms_ctg_2: 'at notice')
 	  send_data pdf.render, type: 'application/pdf', filename: 'form112ep.pdf', disposition: 'inline'
   end
  

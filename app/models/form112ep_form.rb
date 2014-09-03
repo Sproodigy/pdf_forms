@@ -9,7 +9,7 @@ class Form112epForm < Prawn::Document
 		draw_text legend, at: [x, y-5], size: 5
 	end
 
-	def draw_chekbox(x, y, width, height, legend, sms_ctg= false)
+	def draw_chekbox(x, y, width, height, legend, sms_ctg_1 = false, sms_ctg_2 = false)
 		stroke_rectangle [x, y], width, height
 
 		line_width 2
@@ -17,7 +17,7 @@ class Form112epForm < Prawn::Document
 			move_to x+1, y-5
 			line_to x+5, y-8
 			line_to x+9, y
-		end if sms_ctg
+		end if sms_ctg_1 or sms_ctg_2
 		line_width 1
 
 		draw_text legend, at: [x+12, y-8.8]
@@ -28,8 +28,7 @@ class Form112epForm < Prawn::Document
 		table(data, cell_style: {padding: [-1, 2, 0, 2], width: 10, height: 10, borders: [:bottom, :left, :right]}, position: x)
 	end
 
-	def print_form112ep(sender:, sender_address:, sender_tel:, sender_index:, bank:, inn:, account:, corr_account:, bik:, receiver_index:, receiver:, receiver_address:, receiver_tel:, payment:,
-	                    date:, sms_ctg:)
+	def print_form112ep(sender:, sender_address:, sender_tel:, sender_index:, bank:, inn:, account:, corr_account:, bik:, receiver_index:, receiver:, receiver_address:, receiver_tel:, payment:, mail_payment:, date:, mail_ctg:, sms_ctg_1:, sms_ctg_2:)
 
 		font_families.update(
 				"DejaVuSans" => {
@@ -45,6 +44,9 @@ class Form112epForm < Prawn::Document
 
 		payment_propisyu = (RuPropisju.propisju_int(payment.floor) + ' руб. ' +
 				((payment-payment.floor)*100).floor.to_s[0..1].rjust(2, '0') + ' коп.').mb_chars.capitalize
+
+		mail_payment_propisyu = (RuPropisju.propisju_int(mail_payment.floor) + ' руб. ' +
+				((mail_payment-mail_payment.floor)*100).floor.to_s[0..1].rjust(2, '0') + ' коп.').mb_chars.capitalize
 
 		# Изображения
 
@@ -87,16 +89,6 @@ class Form112epForm < Prawn::Document
 		end
 		undash
 
-
-		# formatted_text_box [{text: inn.to_s, character_spacing: 5.15}],
-		#                    at: [186.5, 489.7], style: :bold
-		# formatted_text_box [{text: corr_account.to_s, character_spacing: 5.15}],
-		#                    at: [332.3, 490], style: :bold
-		# formatted_text_box [{text: account.to_s, character_spacing: 5.15}],
-		#                    at: [187, 460.8], style: :bold
-		# formatted_text_box [{text: bik.to_s, character_spacing: 5.15}],
-		#                    at: [442.4, 460.8], style: :bold
-
 		# Сектор контроля
 
 		move_cursor_to 665
@@ -120,7 +112,11 @@ class Form112epForm < Prawn::Document
 		move_cursor_to 588
 
 		draw_text 'ПОЧТОВЫЙ ПЕРЕВОД', at: [9, cursor], style: :condensed_bold
-		draw_text "на #{payment} руб  00 коп", at: [9, cursor-11]
+		if mail_ctg == 'payment'
+			draw_text "на #{payment} руб  00 коп", at: [9, cursor-11]
+		else
+			draw_text "на #{mail_payment} руб  00 коп", at: [9, cursor-11]
+		end
 
 		fill_color 'dddddd'
 		fill_and_stroke_rectangle [9, cursor-19], 102, 28
@@ -130,10 +126,12 @@ class Form112epForm < Prawn::Document
 			fill_color 'dddddd'
 			fill_rectangle [0, cursor], 398, 18
 			fill_color '000000'
-			text payment_propisyu,
-			     align: :center, valign: :center, style: :condensed_bold
+			if mail_ctg == 'payment'
+				text payment_propisyu, align: :center, valign: :center, style: :condensed_bold
+			else
+				text mail_payment_propisyu, align: :center, valign: :center, style: :condensed_bold
+			end
 		end
-
 		draw_text '(рубли прописью, копейки цифрами)', at: [275, cursor-6], size: 6
 
 		fill_color 'ffffff'
@@ -143,30 +141,45 @@ class Form112epForm < Prawn::Document
 
 		line_width 2
 		stroke do
-			move_to 15, cursor-21
+			move_to 16, cursor-21
 			line_to 24, cursor-29
 			line_to 32, cursor-13
-		end if payment > 0
+		end if mail_ctg == 'payment'
 		line_width 1
 
 		bounding_box([114, cursor-8], width: 119, height: 28) do
 			stroke_horizontal_line 0, 119, at: 14
-			draw_chekbox(2, 26, 10, 10,'с доставкой на дом', sms_ctg == 'delivery_at_door')
-			draw_chekbox(2, 12, 10, 10,'с уведомлением', sms_ctg == 'at_notice')
+			draw_chekbox(2, 26, 10, 10,'с доставкой на дом', sms_ctg_1 == 'delivery at door', sms_ctg_2 == '')
+			draw_chekbox(2, 12, 10, 10,'с уведомлением', sms_ctg_2 == 'at notice', sms_ctg_1 == '')
 			stroke_bounds
 		end
 		move_down 4
 
-		formatted_text_box [{text: 'Кому: ', styles: [:bold]}, {text: receiver}],
+		if mail_ctg == 'payment'
+			formatted_text_box [{text: 'Кому: ', styles: [:bold]}, {text: receiver}],
 		                   at: [9, cursor]
+			formatted_text_box [{text: 'Куда: ', styles: [:bold]}, {text: receiver_address + ', ' + receiver_tel.to_s}],
+			                   at: [9, cursor-19], leading: 6
+		else
+			formatted_text_box [{text: 'Кому: ', styles: [:bold]}, {text: sender}],
+			                   at: [9, cursor]
+			formatted_text_box [{text: 'Куда: ', styles: [:bold]}, {text: sender_address + ', ' + sender_tel.to_s}],
+			                   at: [9, cursor-19], leading: 6
+		end
 		stroke_hand_writing_line(43, 528, cursor-10, 50, '(для юр. лица - полное или краткое наименование, для физ. лица - Фамилия, Имя, а также Отчество (если иное не вытекает из закона или национального обычая) полностью)')
-		formatted_text_box [{text: 'Куда: ', styles: [:bold]}, {text: receiver_address + ', ' + receiver_tel.to_s}],
-		                   at: [9, cursor-19], leading: 6
+
 		stroke_hand_writing_line(43, 528.5, cursor-29, 250, '(полный адрес получателя)')
 		move_down 29
 		create_table(6, 468)
-		formatted_text_box [{text: receiver_index.to_s, character_spacing: 4.45}],
-		                   at: [470, cursor+8], style: :bold, size: 8
+		if mail_ctg == 'payment'
+			formatted_text_box [{text: receiver_index.to_s, character_spacing: 4.45}],
+			                   at: [470, cursor+8], style: :bold, size: 8
+		else
+			formatted_text_box [{text: sender_index.to_s, character_spacing: 4.45}],
+			                   at: [470, cursor+8], style: :bold, size: 8
+
+		end
+
 		draw_text '(индекс)', at: [487, cursor-5], size: 5
 		stroke_hand_writing_line(9, 528.5, cursor-8, 250, '')
 
@@ -209,15 +222,28 @@ class Form112epForm < Prawn::Document
 			stroke_bounds
 		end
 
-		formatted_text_box [{text: 'От кого: ', styles: [:bold]}, {text: sender}], at: [9, cursor-3]
+		if mail_ctg == 'payment'
+			formatted_text_box [{text: 'От кого: ', styles: [:bold]}, {text: sender}], at: [9, cursor-3]
+			formatted_text_box [{text: 'Адрес отправителя: ', styles: [:bold]}, {text: sender_address + ', ' + sender_tel.to_s}],
+			                   at: [9, cursor-23], leading: 6
+		else
+			formatted_text_box [{text: 'От кого: ', styles: [:bold]}, {text: receiver}], at: [9, cursor-3]
+			formatted_text_box [{text: 'Адрес отправителя: ', styles: [:bold]}, {text: receiver_address + ', ' + receiver_tel.to_s}],
+			                   at: [9, cursor-23], leading: 6
+		end
 		stroke_hand_writing_line(59, 528, cursor-13, 60, '(для юр. лица - полное или краткое наименование, для физ. лица - Фамилия, Имя, а также Отчество (если иное не вытекает из закона или национального обычая) полностью)')
-		formatted_text_box [{text: 'Адрес отправителя: ', styles: [:bold]}, {text: sender_address + ', ' + sender_tel.to_s}],
-		                   at: [9, cursor-23], leading: 6
+
 		stroke_hand_writing_line(128, 528.5, cursor-33, 205, '(юр. лицо - фактический почтовый адрес, физ. лицо - адрес места нахождения пребывания)')
 		move_down 33
 		create_table(6, 468)
-		formatted_text_box [{text: sender_index.to_s, character_spacing: 4.45}],
-		                   at: [470, cursor+8], style: :bold, size: 8
+		if mail_ctg == 'payment'
+			formatted_text_box [{text: sender_index.to_s, character_spacing: 4.45}],
+			                   at: [470, cursor+8], style: :bold, size: 8
+		else
+			formatted_text_box [{text: receiver_index.to_s, character_spacing: 4.45}],
+			                   at: [470, cursor+8], style: :bold, size: 8
+		end
+
 		stroke_hand_writing_line(9, 528.5, cursor-8, 205, '')
 		draw_text '(индекс)', at: [487, cursor-5], size: 5
 
