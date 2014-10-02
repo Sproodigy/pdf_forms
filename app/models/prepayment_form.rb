@@ -39,7 +39,7 @@ class PrepaymentForm < Prawn::Document
         draw_text 'сумма прописью', at: [110, base_z - (80 * b)], size: 6
 
         base_y = 717
-        stroke_color 50, 50, 50, 10
+        stroke_color 'dddddd'
         stroke do
             horizontal_line 0, 265, :at => base_y - (2 * a)
             horizontal_line 0, 265, :at => base_y - 80 - (2 * a)
@@ -47,9 +47,9 @@ class PrepaymentForm < Prawn::Document
         end
 
         
-        bounding_box([0, base_y - 1], :width => 265, :height => 100) do
-            text "Один миллион восемьсот двадцать восемь тыс. девятьсот шестьдесят восемь руб. 99 коп.", :size => 10, style: :italic, :color => "FFFF00"
-        end 
+        # bounding_box([0, base_y - 1], :width => 265, :height => 100) do
+        #   text "Один миллион восемьсот двадцать восемь тыс. девятьсот шестьдесят восемь руб. 99 коп.", :size => 10, style: :italic, :color => "FFFF00"
+        # end
 
         base_c = 680
         stroke_color 50, 50, 50, 100
@@ -72,7 +72,7 @@ class PrepaymentForm < Prawn::Document
         draw_text 'сумма прописью', at: [110, base_z - (80 * b)], size: 6
 
         base_y = 452
-        stroke_color 50, 50, 50, 10
+        stroke_color 'dddddd'
         stroke do
             horizontal_line 0, 265, :at => base_y - (2 * a)
             horizontal_line 0, 265, :at => base_y - 80 - (2 * a)
@@ -99,7 +99,7 @@ class PrepaymentForm < Prawn::Document
         draw_text 'сумма прописью', at: [110, base_z - (80 * b)], size: 6
 
         base_y = 187
-        stroke_color 50, 50, 50, 10
+        stroke_color 'dddddd'
         stroke do
             horizontal_line 0, 265, :at => base_y - (2 * a)
             horizontal_line 0, 265, :at => base_y - 80 - (2 * a)
@@ -128,7 +128,7 @@ class PrepaymentForm < Prawn::Document
         draw_text 'сумма прописью', at: [385, base_z - (80 * b)], size: 6
 
         base_y = 717
-        stroke_color 50, 50, 50, 10
+        stroke_color 'dddddd'
         stroke do
             horizontal_line 275, 540, :at => base_y - (2 * a)
             horizontal_line 275, 540, :at => base_y - 80 - (2 * a)
@@ -156,7 +156,7 @@ class PrepaymentForm < Prawn::Document
         draw_text 'сумма прописью', at: [385, base_z - (80 * b)], size: 6
 
         base_y = 452
-        stroke_color 50, 50, 50, 10
+        stroke_color 'dddddd'
         stroke do
             horizontal_line 275, 540, :at => base_y - (2 * a)
             horizontal_line 275, 540, :at => base_y - 80 - (2 * a)
@@ -183,7 +183,7 @@ class PrepaymentForm < Prawn::Document
         draw_text 'сумма прописью', at: [385, base_z - (80 * b)], size: 6
 
         base_y = 187
-        stroke_color 50, 50, 50, 10
+        stroke_color 'dddddd'
         stroke do
             horizontal_line 275, 540, :at => base_y - (2 * a)
             horizontal_line 275, 540, :at => base_y - 80 - (2 * a)
