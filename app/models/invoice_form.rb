@@ -50,7 +50,7 @@ class InvoiceForm < Prawn::Document
       total_cost += li.quantity*li.price
     end
 
-    table(data, :column_widths => [30, 310, 50, 70, 80], 
+    table(data, :column_widths => [30, 310, 50, 70, 80],
          cell_style: { inline_format: true }) do |t|
       t.cells.border_width = 1
       t.column(2).style align: :right

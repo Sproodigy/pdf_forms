@@ -5,8 +5,8 @@ class Invoice_for_paymentForm < Prawn::Document
     number_with_precision(num, precision: 2, delimiter: ' ')
   end
 
-  def print_invoice_for_payment(num:, date:, line_items:, adress:, tel:, receiver:, account:, bik:,
-																corr_account:, inn:, kpp:, bank:, signer:, client:)
+  def print_invoice_for_payment(num:, date:, line_items:, address:, tel:, receiver:, account:, bik:,
+																corr_account:, inn:, kpp:, bank:, signer:, contract:, client:)
     font_families.update(
       "DejaVuSans" => {
         normal: "#{Rails.root}/app/assets/fonts/DejaVuSans.ttf",
@@ -19,6 +19,7 @@ class Invoice_for_paymentForm < Prawn::Document
       })
     font "DejaVuSans", size: 9
 
+
     line_items_data = []
     total_sum = 0.00
     line_items.each_with_index do |service, index|
@@ -30,34 +31,60 @@ class Invoice_for_paymentForm < Prawn::Document
     total_sum_string = (RuPropisju.propisju_int(total_sum.floor) + ' руб. ' +
           ((total_sum-total_sum.floor)*100).floor.to_s[0..1].rjust(2, '0') + ' коп.').mb_chars.capitalize
 
-    # Заголовок
 
-    #image "app/assets/images/exxtra_logo_web.png", at: [380, 720], width: 150
+    if client.is_a?(String)
 
-    text receiver, style: :bold
-    move_down 10
-    text adress, style: :bold
-    move_down 10
-    text tel, style: :bold
-    move_down 20
-    text 'Образец заполнения платёжного поручения', align: :center, style: :bold
-    move_down 10
+      # Заголовок
+
+      #image "app/assets/images/exxtra_logo_web.png", at: [380, 720], width: 150
+
+      text receiver, style: :bold
+      move_down 10
+      text address, style: :bold
+      move_down 10
+      text tel, style: :bold
+      move_down 20
+      text 'Образец заполнения платёжного поручения', align: :center, style: :bold
+      move_down 10
+
+    elsif client.is_a?(Hash)
+
+      formatted_text [ {text: 'ДОГОВОР–СЧЁТ № ' + client[:num] + ' от ' + I18n.l(date, format: :long) } ],
+                     style: :bold, align: :center
+      move_down 5
+
+      formatted_text  [ {text: '"ПОСТАВЩИК"' + ': ', styles: [:bold]}, {text: receiver + ', ИНН ' + inn},
+                        {text: ' в лице директора ' + signer + ', действующего на основании Устава, и'} ]
+      move_down 5
+
+      formatted_text  [ {text: '"ПОКУПАТЕЛЬ"' + ': ', styles: [:bold]}, {text: client[:name] + ', '  +
+          'в лице директора ' + client[:signer] + ', действующего на основании Устава/доверенности № ' + client [:proxy] +
+          ', с другой стороны, заключили настоящий Договор о нижеследующем:'} ]
+      move_down 5
+
+      text contract, size: 7, :width => 550
+      move_down 5
+
+    else
+      raise 'Wrong client value'
+    end
 
     # Таблица для реквизитов
+
     table( [
-      [{content: "ИНН #{check_inn_length(inn)}", width: 165, inline_format: true},
-       {content: "КПП #{check_kpp_length(kpp)}", width: 165},
-       {content: ''}, {content: ''}],
-      [{content:"Получатель", colspan: 2},
-       {content: 'Сч. №', rowspan: 2, valign: :bottom},
-       {content: check_account_length(account), rowspan: 2, width: 165, valign: :bottom}],
-      [{content: receiver, colspan: 2,width: 310, valign: :bottom}],
-      [{content: "Банк получателя", colspan: 2},
-       {content:'БИК', width: 40}, {content: check_bik_length(bik), width: 165}],
-      [{content: bank, width: 310, valign: :bottom, colspan: 2},
-       {content:'Сч. №', valign: :bottom},   
-       {content: check_corr_account_length(corr_account), width: 165, valign: :bottom}]
-    ], cell_style: { inline_format: true }) do
+               [{content: "ИНН #{check_inn_length(inn)}", width: 165, inline_format: true},
+                {content: "КПП #{check_kpp_length(kpp)}", width: 165},
+                {content: ''}, {content: ''}],
+               [{content:"Получатель", colspan: 2},
+                {content: 'Сч. №', rowspan: 2, valign: :bottom},
+                {content: check_account_length(account), rowspan: 2, width: 165, valign: :bottom}],
+               [{content: receiver, colspan: 2,width: 310, valign: :bottom}],
+               [{content: "Банк получателя", colspan: 2},
+                {content:'БИК', width: 40}, {content: check_bik_length(bik), width: 165}],
+               [{content: bank, width: 310, valign: :bottom, colspan: 2},
+                {content:'Сч. №', valign: :bottom},
+                {content: check_corr_account_length(corr_account), width: 165, valign: :bottom}]
+           ], cell_style: { inline_format: true }) do
       row(0).column(2).borders = [:top, :right]
       row(1).column(2).borders = [:bottom, :left]
       row(0).column(3).borders = [:top, :right]
@@ -71,11 +98,13 @@ class Invoice_for_paymentForm < Prawn::Document
     end
     move_down 20
 
-    text "Счёт №#{num} от " + I18n.l(date, format: :long), align: :center, style: :bold, size: 14
-    move_down 20
+    if client.is_a?(String)
+      text "Счёт №#{num} от " + I18n.l(date, format: :long), align: :center, style: :bold, size: 14
+    else
 
-    formatted_text [{text:'Покупатель: '}, {text: client, styles: [:bold]} ]
-    move_down 20
+    end
+
+    move_down 15
 
     # Основная таблица
 
@@ -91,35 +120,52 @@ class Invoice_for_paymentForm < Prawn::Document
         page.row(-1).border_bottom_width = 2
         page.column(0).border_left_width = 2
         page.column(-1).border_right_width = 2
-       end 
+      end
     end
 
-    text_box "Итого:\nБез налога (НДС):\nВсего к оплате:", 
-      at: [355, cursor-7], width: 100, leading: 10, align: :right, style: :bold
+    text_box "Итого:\nБез налога (НДС):\nВсего к оплате:",
+             at: [355, cursor-7], width: 100, leading: 10, align: :right, style: :bold
 
     # Дополнительная таблица
 
     table ([ ["#{fc(total_sum)}"], ['---'], ["#{fc(total_sum)}"] ]),
-      position: :right, column_widths: [80], cell_style: {font_style: :bold, align: :right} do |t|
+          position: :right, column_widths: [80], cell_style: {font_style: :bold, align: :right} do |t|
       t.before_rendering_page do |page|
         page.row(-1).border_bottom_width = 2
         page.column(0).border_left_width = 2
         page.column(-1).border_right_width = 2
-      end 
-    end 
+      end
+    end
 
-    move_down 20
+    text_box "Всего наименований #{line_items.size}, на сумму #{fc(total_sum)}\n" + total_sum_string, style: :bold,
+             at: [0, cursor-10]
 
-    text "Всего наименований #{line_items.size}, на сумму #{fc(total_sum)}"
-    move_down 5
-    text total_sum_string, style: :bold
-    move_down 30
+    if client.is_a?(String)
 
-    text "Руководитель предприятия ____________________________________ (#{signer})"
-    move_down 20
-    text "Главный бухгалтер _____________________________________________ (#{signer})"
+      move_down 40
+      text "Руководитель предприятия ____________________________________ (#{signer})"
+      move_down 20
+      text "Главный бухгалтер _____________________________________________ (#{signer})"
 
+    elsif client.is_a?(Hash)
 
+      move_down 40
+
+      cell_1 = make_cell(:content => "'ПОСТАВЩИК':\n #{receiver}, ИНН  #{inn}, КПП  #{kpp}\n #{tel}\n\n #{address}\n
+                               р/с #{account}, БИК  #{bik}\n #{bank}\n к/с #{corr_account}\n
+                               Директор ____________  #{signer}\n Гл. бухгалтер ____________  #{signer}\n\n
+                               #{I18n.l(date, format: :long)}                                                              М.П.")
+
+      cell_2 = make_cell(:content =>"'ПОКУПАТЕЛЬ':\n #{client[:name]}, ИНН #{client[:inn]}, КПП #{client[:kpp]}\n #{client[:tel]}\n
+                               #{client[:address]}\n\n р/с #{client[:account]}, БИК #{client[:bik]}\n #{client[:bank]}\n к/с #{client[:corr_account]}\n\n
+                               Директор ____________ #{client[:signer]}\n Гл. бухгалтер ____________  #{client[:signer]}\n\n
+                                   #{I18n.l(date, format: :long)}                                                          М.П.")
+
+        table([ [cell_1, cell_2] ], :column_widths => 270) do
+          cells.borders = []
+        end
+
+      end
     render
 
   end

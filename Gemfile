@@ -8,6 +8,7 @@ gem 'rails', '3.2.13'
 gem 'sqlite3'
 
 gem 'prawn', git: 'git://github.com/prawnpdf/prawn', branch: 'master'
+gem 'prawn-table', git: 'git://github.com/prawnpdf/prawn-table', branch: 'master'
 gem 'ru_propisju'
 gem 'barby', '~> 0.5.1'
 gem 'semacode-ruby19'
@@ -20,9 +21,10 @@ group :assets do
   gem 'coffee-rails', '~> 3.2.1'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
-  gem 'therubyracer', :platforms => :ruby
+  #gem 'therubyracer', :platforms => :ruby
 
   gem 'uglifier', '>= 1.0.3'
+
 end
 
 gem 'jquery-rails'

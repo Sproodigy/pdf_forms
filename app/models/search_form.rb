@@ -16,7 +16,8 @@ def initialize
 		text_box label, at: [x+21, y], valign: :center, height: 20
 	end
 
-	def print_search(sender:, receiver:, sender_address:, receiver_address:, mail_type:, mail_ctg:, value:, payment:, date:, barcode:, weight:, packaging:, content:)
+	def print_search(sender:, receiver:, sender_address:, receiver_address:, mail_type:,
+									 mail_ctg:, value:, payment:, date:, barcode:, weight:, packaging:, content:)
 
 		font_families.update(
 				"DejaVuSans" => {
