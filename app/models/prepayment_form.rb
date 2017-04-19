@@ -15,18 +15,12 @@ class PrepaymentForm < Prawn::Document
     font "DejaVuSans", size: 8
 
 # разметка страницы
-    stroke_horizontal_line 0, 540, :at => 755
+    stroke_horizontal_line 0, 540, at:  755
 
     stroke do
-       vertical_line 735, 495, :at =>270
-       vertical_line 475, 235, :at =>270
-       vertical_line 210, -30, :at =>270
-    end
-
-    3.times do |b|
-      base_f = 745
-      draw_text 'ПОСТУПЛЕНИЯ АВАНСОВ ПО РАСЧЁТАМ ЗА УСЛУГИ СВЯЗИ',
-      at: [130, base_f - (265 * b)], style: :bold
+       vertical_line 735, 495, at: 270
+       vertical_line 475, 235, at: 270
+       vertical_line 210, -30, at: 270
     end
 
 # определение сегмента
@@ -44,7 +38,7 @@ class PrepaymentForm < Prawn::Document
         move_down 1
         12.times do |a|
           stroke_color 'dddddd'
-          stroke_horizontal_line 0, 265, :at => cursor - (2 * a)
+          stroke_horizontal_line 0, 265, at:  cursor - (2 * a)
         end
 
         stroke_color '000000'
@@ -61,7 +55,10 @@ class PrepaymentForm < Prawn::Document
 
 # определение блока сегментов
     def print_segments_block(x_1, y_1)
-      bounding_box([x_1, y_1], width: 400) do
+
+      bounding_box([x_1, y_1], width: 540) do
+        text_box 'ПОСТУПЛЕНИЯ АВАНСОВ ПО РАСЧЁТАМ ЗА УСЛУГИ СВЯЗИ',
+        at: [0, cursor+753], align: :center, style: :bold
           3.times do |c|
           2.times do |d|
             base_x = -10
@@ -69,6 +66,7 @@ class PrepaymentForm < Prawn::Document
             print_segment(base_x + (295 * d), base_y - (85 * c))
           end
           end
+
       end
     end
 
