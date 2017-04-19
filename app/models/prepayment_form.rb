@@ -14,200 +14,72 @@ class PrepaymentForm < Prawn::Document
       })
     font "DejaVuSans", size: 8
 
+# разметка страницы
     stroke_horizontal_line 0, 540, :at => 755
 
-# Левая часть
-
-    12.times do |a|
-    3.times do |b|    
-           
-    		line_width 1
-
-        stroke do
-            vertical_line 735, 495, :at =>270
-            vertical_line 475, 235, :at =>270
-            vertical_line 210, -30, :at =>270
-        end    
-
-        base_f = 745
-        draw_text 'ПОСТУПЛЕНИЯ АВАНСОВ ПО РАСЧЁТАМ ЗА УСЛУГИ СВЯЗИ', at: [130, base_f - (265 * b)], style: :bold
-
-        base_x = 730
-        draw_text "______________________20      г. На _________________руб.______коп.", at: [0, base_x - (80.2 * b)]
-        
-        base_z = 720
-        draw_text 'сумма прописью', at: [110, base_z - (80 * b)], size: 6
-
-        base_y = 717
-        stroke_color 'dddddd'
-        stroke do
-            horizontal_line 0, 265, :at => base_y - (2 * a)
-            horizontal_line 0, 265, :at => base_y - 80 - (2 * a)
-            horizontal_line 0, 265, :at => base_y - 160 - (2 * a)
-        end
-
-        
-        # bounding_box([0, base_y - 1], :width => 265, :height => 100) do
-        #   text "Один миллион восемьсот двадцать восемь тыс. девятьсот шестьдесят восемь руб. 99 коп.", :size => 10, style: :italic, :color => "FFFF00"
-        # end
-
-        base_c = 680
-        stroke_color 50, 50, 50, 100
-        draw_text 'м. п.          Дата_________________________№___________поручение', at: [0, base_c - (80 * b)]
-
-        base_d = 665
-        draw_text 'Гл. бухгалтер                            Бухгалтер', at: [0, base_d - (80 * b)], style: :bold
-
-        line_width 2
-        base_e = 659
-        stroke_horizontal_line 0, 265, :at => base_e - (80 * b)
-
-
-        self.line_width = 1
-
-        base_x = 465
-        draw_text "______________________20      г. На _________________руб.______коп.", at: [0, base_x - (80.2 * b)]
-    
-        base_z = 455
-        draw_text 'сумма прописью', at: [110, base_z - (80 * b)], size: 6
-
-        base_y = 452
-        stroke_color 'dddddd'
-        stroke do
-            horizontal_line 0, 265, :at => base_y - (2 * a)
-            horizontal_line 0, 265, :at => base_y - 80 - (2 * a)
-            horizontal_line 0, 265, :at => base_y - 160 - (2 * a)
-        end
-
-        base_c = 415
-        stroke_color 50, 50, 50, 100
-        draw_text 'м. п.          Дата_________________________№___________поручение', at: [0, base_c - (80 * b)]
-
-        base_d = 400
-        draw_text 'Гл. бухгалтер                            Бухгалтер', at: [0, base_d - (80 * b)], style: :bold
-
-        line_width 2
-        base_e = 394
-        stroke_horizontal_line 0, 265, :at => base_e - (80 * b)
-
-        line_width 1
-
-        base_x = 200
-        draw_text "______________________20      г. На _________________руб.______коп.", at: [0, base_x - (80.2 * b)]
-    
-        base_z = 190
-        draw_text 'сумма прописью', at: [110, base_z - (80 * b)], size: 6
-
-        base_y = 187
-        stroke_color 'dddddd'
-        stroke do
-            horizontal_line 0, 265, :at => base_y - (2 * a)
-            horizontal_line 0, 265, :at => base_y - 80 - (2 * a)
-            horizontal_line 0, 265, :at => base_y - 160 - (2 * a)
-        end
-
-        base_c = 150
-        stroke_color 50, 50, 50, 100
-        draw_text 'м. п.          Дата_________________________№___________поручение', at: [0, base_c - (80 * b)]
-
-        base_d = 135
-        draw_text 'Гл. бухгалтер                            Бухгалтер', at: [0, base_d - (80 * b)], style: :bold
-
-        line_width 2
-        base_e = 129
-        stroke_horizontal_line 0, 265, :at => base_e - (80 * b)
-
-# Правая часть
-
-        line_width  1
-
-        base_x = 730
-        draw_text "______________________20      г. На _________________руб.______коп.", at: [275, base_x - (80.2 * b)]
-        
-        base_z = 720
-        draw_text 'сумма прописью', at: [385, base_z - (80 * b)], size: 6
-
-        base_y = 717
-        stroke_color 'dddddd'
-        stroke do
-            horizontal_line 275, 540, :at => base_y - (2 * a)
-            horizontal_line 275, 540, :at => base_y - 80 - (2 * a)
-            horizontal_line 275, 540, :at => base_y - 160 - (2 * a)
-        end    
-
-        base_c = 680
-        stroke_color 50, 50, 50, 100
-        draw_text 'м. п.          Дата_________________________№___________поручение', at: [275, base_c - (80 * b)]
-
-        base_d = 665
-        draw_text 'Гл. бухгалтер                            Бухгалтер', at: [275, base_d - (80 * b)], style: :bold
-
-        line_width 2
-        base_e = 659
-        stroke_horizontal_line 275, 540, :at => base_e - (80 * b)
-
-
-        line_width  1
-
-        base_x = 465
-        draw_text "______________________20      г. На _________________руб.______коп.", at: [275, base_x - (80.2 * b)]
-    
-        base_z = 455
-        draw_text 'сумма прописью', at: [385, base_z - (80 * b)], size: 6
-
-        base_y = 452
-        stroke_color 'dddddd'
-        stroke do
-            horizontal_line 275, 540, :at => base_y - (2 * a)
-            horizontal_line 275, 540, :at => base_y - 80 - (2 * a)
-            horizontal_line 275, 540, :at => base_y - 160 - (2 * a)
-        end
-
-        base_c = 415
-        stroke_color 50, 50, 50, 100
-        draw_text 'м. п.          Дата_________________________№___________поручение', at: [275, base_c - (80 * b)]
-
-        base_d = 400
-        draw_text 'Гл. бухгалтер                            Бухгалтер', at: [275, base_d - (80 * b)], style: :bold
-
-        line_width 2
-        base_e = 394
-        stroke_horizontal_line 275, 540, :at => base_e - (80 * b)
-
-        line_width 1
-
-        base_x = 200
-        draw_text "______________________20      г. На _________________руб.______коп.", at: [275, base_x - (80.2 * b)]
-    
-        base_z = 190
-        draw_text 'сумма прописью', at: [385, base_z - (80 * b)], size: 6
-
-        base_y = 187
-        stroke_color 'dddddd'
-        stroke do
-            horizontal_line 275, 540, :at => base_y - (2 * a)
-            horizontal_line 275, 540, :at => base_y - 80 - (2 * a)
-            horizontal_line 275, 540, :at => base_y - 160 - (2 * a)
-        end
-
-        base_c = 150
-        stroke_color 50, 50, 50, 100
-        draw_text 'м. п.          Дата_________________________№___________поручение', at: [275, base_c - (80 * b)]
-
-        base_d = 135
-        draw_text 'Гл. бухгалтер                            Бухгалтер', at: [275, base_d - (80 * b)], style: :bold
-
-        line_width 2
-        base_e = 129
-        stroke_horizontal_line 275, 540, :at => base_e - (80 * b)
-
+    stroke do
+       vertical_line 735, 495, :at =>270
+       vertical_line 475, 235, :at =>270
+       vertical_line 210, -30, :at =>270
     end
 
-    end    
-    
+    3.times do |b|
+      base_f = 745
+      draw_text 'ПОСТУПЛЕНИЯ АВАНСОВ ПО РАСЧЁТАМ ЗА УСЛУГИ СВЯЗИ',
+      at: [130, base_f - (265 * b)], style: :bold
+    end
 
-    render
+# определение сегмента
+    def print_segment(x, y)
 
-  end  
+      line_width 1
 
-end  
+      bounding_box([x, y], width: 280, height: 90) do
+
+        text '______________________20       г. На _________________руб.______коп.'
+
+        move_down 3
+        text 'сумма прописью', size: 6, align: :center
+
+        move_down 1
+        12.times do |a|
+          stroke_color 'dddddd'
+          stroke_horizontal_line 0, 265, :at => cursor - (2 * a)
+        end
+
+        stroke_color '000000'
+        move_down 30
+        text 'м. п.          Дата_________________________№___________поручение'
+
+        move_down 5
+        text 'Гл. бухгалтер                            Бухгалтер', style: :bold
+
+        line_width 2
+        stroke_horizontal_line 0, 265, at: cursor-2
+      end
+    end
+
+# определение блока сегментов
+    def print_segments_block(x_1, y_1)
+      bounding_box([x_1, y_1], width: 400) do
+          3.times do |c|
+          2.times do |d|
+            base_x = -10
+            base_y = 740
+            print_segment(base_x + (295 * d), base_y - (85 * c))
+          end
+          end
+      end
+    end
+
+# печать блока сегментов
+    3.times do |e|
+      base_x = 0
+      base_y = 0
+      print_segments_block(base_x, base_y - (265 * e))
+    end
+
+      render
+
+  end
+end
