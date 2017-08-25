@@ -23,7 +23,7 @@ class PrepaymentForm < Prawn::Document
        vertical_line 210, -30, at: 270
     end
 
-# определение сегмента
+# печать сегмента
     def print_segment(x, y)
 
       line_width 1
@@ -66,7 +66,6 @@ class PrepaymentForm < Prawn::Document
             print_segment(base_x + (295 * d), base_y - (85 * c))
           end
           end
-
       end
     end
 
@@ -77,7 +76,7 @@ class PrepaymentForm < Prawn::Document
       print_segments_block(base_x, base_y - (265 * e))
     end
 
-      render
+    render
 
   end
 end

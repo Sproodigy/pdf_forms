@@ -215,6 +215,10 @@ class FormsController < ApplicationController
 	                      sms_ctg_2: 'at notice')
 	  send_data pdf.render, type: 'application/pdf', filename: 'form112ep.pdf', disposition: 'inline'
   end
- 
- end
 
+  def form_ems
+	  pdf = FormEMS.new.print_form_ems
+	  send_data pdf, type: 'application/pdf', filename: 'form_ems.pdf', disposition: 'inline'
+  end
+
+ end
