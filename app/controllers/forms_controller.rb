@@ -221,4 +221,9 @@ class FormsController < ApplicationController
 	  send_data pdf, type: 'application/pdf', filename: 'form_ems.pdf', disposition: 'inline'
   end
 
+  def form_table
+    pdf = FormTable.new.print_form_table
+    send_data pdf, type: 'application/pdf', filename: 'form_table.pdf', disposition: 'inline'
+  end
+
  end
